@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this report, please cite it as below."
+title: "Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC"
+type: report
+authors:
+  - family-names: Bang
+    given-names: Dongkeol
+    affiliation: "WACE Inc."
+    email: bangdk@wace.me
+institution:
+  name: "WACE Inc."
+date-released: "2026-XX-XX"
+version: "1.0"
+identifiers:
+  - type: other
+    value: "WACE TR-2026-01"
+    description: "WACE Technical Report number"
+keywords:
+  - PLC
+  - command gate
+  - behavioral equivalence
+  - pre-registration
+  - negative result
+  - industrial control systems
+license: CC-BY-4.0
+url: "https://github.com/waceinc/tech-reports"
