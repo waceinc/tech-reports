@@ -4,7 +4,7 @@ Technical reports published by WACE Inc. (주식회사 웨이스), Hwaseong, Rep
 
 | Report | Title | Files | Status |
 | --- | --- | --- | --- |
-| **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) | Draft v1 — not yet released |
+| **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) | **v1.0 — released 2026-09-21** |
 
 ## TR-2026-01 in one paragraph
 
