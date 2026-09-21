@@ -1,0 +1,16 @@
+{
+  "upload_type": "publication",
+  "publication_type": "report",
+  "title": "Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC",
+  "creators": [
+    { "name": "Bang, Dongkeol", "affiliation": "WACE Inc." }
+  ],
+  "description": "WACE Technical Report TR-2026-01 (defensive publication, released 2026-09-21). A pre-registered five-arm comparison of PLC command gates on a simulated PLC: adding a behavioral-equivalence check did not reduce hazardous false passes (23 of 280 in both arms); four of eight person-exposure false passes were motor-start commands issued after an interlock had been removed, a class that observation-based freshness checks cannot see. A static program-signature check must precede any behavioral check; on protocols without a program signature (Modbus) the gate cannot see this class of change. Results are from a simulated PLC on one machine; no physical PLC comparison is included. The report publishes its run ledger, denominators and excluded rows, and states its known limitations.",
+  "license": "CC-BY-4.0",
+  "keywords": ["PLC", "command gate", "behavioral equivalence", "pre-registration", "negative result", "industrial control systems", "manufacturing AI"],
+  "related_identifiers": [
+    { "identifier": "https://github.com/waceinc/tech-reports", "relation": "isSupplementTo", "scheme": "url" }
+  ],
+  "access_right": "open",
+  "language": "eng"
+}
