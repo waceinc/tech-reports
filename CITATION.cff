@@ -9,13 +9,13 @@ authors:
     email: bangdk@wace.me
 institution:
   name: "WACE Inc."
-date-released: "2026-09-21"
-version: "1.0"
-doi: 10.5281/zenodo.22868614
+date-released: "2026-09-22"
+version: "1.1"
+doi: 10.5281/zenodo.22868613
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22868614"
-    description: "Version DOI (Zenodo)"
+    description: "Version DOI of v1.0 (Zenodo) — superseded by v1.1; see ERRATA.md"
   - type: doi
     value: "10.5281/zenodo.22868613"
     description: "Concept DOI (all versions, Zenodo)"

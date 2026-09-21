@@ -3,14 +3,30 @@
   "publication_type": "report",
   "title": "Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC",
   "creators": [
-    { "name": "Bang, Dongkeol", "affiliation": "WACE Inc." }
+    {
+      "name": "Bang, Dongkeol",
+      "affiliation": "WACE Inc."
+    }
   ],
-  "description": "WACE Technical Report TR-2026-01 (defensive publication, released 2026-09-21). A pre-registered five-arm comparison of PLC command gates on a simulated PLC: adding a behavioral-equivalence check did not reduce hazardous false passes (23 of 280 in both arms); four of eight person-exposure false passes were motor-start commands issued after an interlock had been removed, a class that observation-based freshness checks cannot see. A static program-signature check must precede any behavioral check; on protocols without a program signature (Modbus) the gate cannot see this class of change. Results are from a simulated PLC on one machine; no physical PLC comparison is included. The report publishes its run ledger, denominators and excluded rows, and states its known limitations.",
+  "description": "WACE Technical Report TR-2026-01, version 1.1 (revised 2026-09-22; v1.0 released 2026-09-21). Defensive publication. A pre-registered five-arm comparison of PLC command gates on a simulated PLC: adding a behavioral-equivalence check did not change what the gate lets through (23 of 280 hazardous false passes in both arms before a design revision; 19 of 278 in both arms, identical on every verdict count, after it). The four person-exposure false passes that remain are writes made while a timer preset had been changed in the plant program only — a dormant program difference that no observation-based check sees; a static program-signature check must precede any behavioral check, and on protocols without a program signature (Modbus) the gate cannot see this class of change. v1.1 corrects two factual errors of v1.0: four false passes that v1.0 attributed to a removed interlock were commands issued while the PLC was halted (now refused by a scan-counter heartbeat), and v1.0's prediction that the other four would close by rewriting two rules was wrong. See ERRATA.md. Results are from a simulated PLC on one machine; no physical PLC comparison is included. The report publishes its run ledger, denominators and excluded rows, and states its known limitations.",
   "license": "CC-BY-4.0",
-  "keywords": ["PLC", "command gate", "behavioral equivalence", "pre-registration", "negative result", "industrial control systems", "manufacturing AI"],
+  "keywords": [
+    "PLC",
+    "command gate",
+    "behavioral equivalence",
+    "pre-registration",
+    "negative result",
+    "industrial control systems",
+    "manufacturing AI"
+  ],
   "related_identifiers": [
-    { "identifier": "https://github.com/waceinc/tech-reports", "relation": "isSupplementTo", "scheme": "url" }
+    {
+      "identifier": "https://github.com/waceinc/tech-reports",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
   ],
   "access_right": "open",
-  "language": "eng"
+  "language": "eng",
+  "version": "1.1"
 }
