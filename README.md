@@ -1,10 +1,12 @@
 # WACE Technical Reports
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22868613.svg)](https://doi.org/10.5281/zenodo.22868613)
+
 Technical reports published by WACE Inc. (주식회사 웨이스), Hwaseong, Republic of Korea — maker of VEXPLOR, a manufacturing AI operating system.
 
 | Report | Title | Files | Status |
 | --- | --- | --- | --- |
-| **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) | **v1.0 — released 2026-09-21** |
+| **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) · [DOI 10.5281/zenodo.22868614](https://doi.org/10.5281/zenodo.22868614) | **v1.0 — released 2026-09-21** (archived on Zenodo; concept DOI [10.5281/zenodo.22868613](https://doi.org/10.5281/zenodo.22868613) resolves to the latest version) |
 
 ## TR-2026-01 in one paragraph
 
@@ -18,7 +20,9 @@ A command gate that pre-executes supervisory writes on a replica of the PLC prog
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). A DOI will be attached at release.
+See [CITATION.cff](CITATION.cff).
+
+> Bang, D. (2026). *Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC.* WACE Technical Report TR-2026-01. Zenodo. https://doi.org/10.5281/zenodo.22868614
 
 ## License
 

@@ -11,7 +11,14 @@ institution:
   name: "WACE Inc."
 date-released: "2026-09-21"
 version: "1.0"
+doi: 10.5281/zenodo.22868614
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22868614"
+    description: "Version DOI (Zenodo)"
+  - type: doi
+    value: "10.5281/zenodo.22868613"
+    description: "Concept DOI (all versions, Zenodo)"
   - type: other
     value: "WACE TR-2026-01"
     description: "WACE Technical Report number"
