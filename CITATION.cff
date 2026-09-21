@@ -14,6 +14,9 @@ version: "1.1"
 doi: 10.5281/zenodo.22868613
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.22884024"
+    description: "Version DOI of v1.1 (Zenodo, 2026-09-22)"
+  - type: doi
     value: "10.5281/zenodo.22868614"
     description: "Version DOI of v1.0 (Zenodo) — superseded by v1.1; see ERRATA.md"
   - type: doi
