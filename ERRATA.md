@@ -1,5 +1,11 @@
 # Errata — WACE TR-2026-01
 
+## v1.1 → v1.2 (revised 2026-09-22)
+
+| # | Kind | Where in v1.1 | v1.1 said | Correct |
+| --- | --- | --- | --- | --- |
+| E5 | Overstatement (present since v1.0) | Abstract · README (v1.0 and v1.1) · Section 6 (v1.1) | "thirteen official attempts with all commits and records published"; the v1.0 errors were detectable "because the row labels and the pre-registered predictions were public"; the numbers "are reproducible from the result files named in it" | The run ledger (Table 2) lists every attempt with its commit and outcome. The result files, the row labels and the pre-registration are held by the company and were not public when v1.0, v1.1 or v1.2 was released, so readers cannot yet recompute the numbers. Releasing them is a separate decision. The v1.0 errors were found by the company's own re-check against those records. No number changes. |
+
 ## v1.0 (released 2026-09-21) → v1.1 (revised 2026-09-22)
 
 v1.0 remains available under its own version DOI; the concept DOI [10.5281/zenodo.22868613](https://doi.org/10.5281/zenodo.22868613) resolves to the latest version. The corrections below are also printed at the end of the report.

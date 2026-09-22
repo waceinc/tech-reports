@@ -10,12 +10,12 @@ authors:
 institution:
   name: "WACE Inc."
 date-released: "2026-09-22"
-version: "1.1"
+version: "1.2"
 doi: 10.5281/zenodo.22868613
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22884024"
-    description: "Version DOI of v1.1 (Zenodo, 2026-09-22)"
+    description: "Version DOI of v1.1 (Zenodo, 2026-09-22) — superseded by v1.2; see ERRATA.md"
   - type: doi
     value: "10.5281/zenodo.22868614"
     description: "Version DOI of v1.0 (Zenodo) — superseded by v1.1; see ERRATA.md"
