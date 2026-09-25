@@ -1,5 +1,11 @@
 # Errata — WACE TR-2026-01
 
+## v1.2 → v1.3 (revised 2026-09-25)
+
+| # | Kind | Where in v1.2 | v1.2 said | Correct |
+| --- | --- | --- | --- | --- |
+| E6 | Author's name (romanisation) | Title block · README · CITATION.cff · Zenodo metadata (v1.0–v1.2) | "Dongkeol Bang" (citation "Bang, D.") | "Dong Gul Bang", the spelling in the author's passport (citation "Bang, D. G."). Same person. No other text, table or number changes. |
+
 ## v1.1 → v1.2 (revised 2026-09-22)
 
 | # | Kind | Where in v1.1 | v1.1 said | Correct |

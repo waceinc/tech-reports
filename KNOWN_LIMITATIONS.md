@@ -1,4 +1,4 @@
-# Known limitations of the gate described in TR-2026-01 (as of run 13, commit 8327000 — report v1.2)
+# Known limitations of the gate described in TR-2026-01 (as of run 13, commit 8327000 — report v1.3)
 
 These are the limitations the report itself states. They are listed here so that the repository carries the same "known limitations" text as the report. The v1.0 version of this file (run 6) contained a factual error in item 1; see [ERRATA.md](ERRATA.md).
 
