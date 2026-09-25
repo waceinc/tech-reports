@@ -6,7 +6,7 @@ Technical reports published by WACE Inc. (주식회사 웨이스), Hwaseong, Rep
 
 | Report | Title | Files | Status |
 | --- | --- | --- | --- |
-| **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) · [Errata](ERRATA.md) · [concept DOI 10.5281/zenodo.22868613](https://doi.org/10.5281/zenodo.22868613) | **v1.3 — revised 2026-09-25** (the author's name is now given in its passport spelling, Dong Gul Bang; no other change; see [ERRATA.md](ERRATA.md) E6); its version DOI is recorded here once Zenodo mints it. v1.2 (corrects an overstatement, present since v1.0, about what is public; E5) remains archived under [10.5281/zenodo.22884852](https://doi.org/10.5281/zenodo.22884852). v1.1 (corrects two factual errors of v1.0) remains archived under [10.5281/zenodo.22884024](https://doi.org/10.5281/zenodo.22884024). v1.0 (2026-09-21) remains archived under [10.5281/zenodo.22868614](https://doi.org/10.5281/zenodo.22868614); the concept DOI resolves to the latest version |
+| **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) · [Errata](ERRATA.md) · [concept DOI 10.5281/zenodo.22868613](https://doi.org/10.5281/zenodo.22868613) | **v1.3 — revised 2026-09-25** (the author's name is now given in its passport spelling, Dong Gul Bang; no other change; see [ERRATA.md](ERRATA.md) E6); version DOI [10.5281/zenodo.22959765](https://doi.org/10.5281/zenodo.22959765). v1.2 (corrects an overstatement, present since v1.0, about what is public; E5) remains archived under [10.5281/zenodo.22884852](https://doi.org/10.5281/zenodo.22884852). v1.1 (corrects two factual errors of v1.0) remains archived under [10.5281/zenodo.22884024](https://doi.org/10.5281/zenodo.22884024). v1.0 (2026-09-21) remains archived under [10.5281/zenodo.22868614](https://doi.org/10.5281/zenodo.22868614); the concept DOI resolves to the latest version |
 
 ## TR-2026-01 in one paragraph
 
@@ -37,7 +37,7 @@ A command gate that pre-executes supervisory writes on a replica of the PLC prog
 
 See [CITATION.cff](CITATION.cff).
 
-> Bang, D. G. (2026). *Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC* (Version 1.3). WACE Technical Report TR-2026-01. Zenodo. https://doi.org/10.5281/zenodo.22868613 (all versions; resolves to the latest)
+> Bang, D. G. (2026). *Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC* (Version 1.3). WACE Technical Report TR-2026-01. Zenodo. https://doi.org/10.5281/zenodo.22959765 (version 1.3; all versions: https://doi.org/10.5281/zenodo.22868613)
 
 ## License
 
