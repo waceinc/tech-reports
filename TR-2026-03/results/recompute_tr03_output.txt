@@ -1,0 +1,17 @@
+[PASS] A1 ledger in the archive equals runs/ledger.jsonl
+[PASS] A2 ledger rows and distinct numbers — 3718
+[PASS] A3 runs per cell — {"cell-a": [4, 50], "cell-b": [22, 1716], "cell-b-pack": [12, 1914]}
+[PASS] A4 baseline repetitions with identical trace hashes — 19/19
+[PASS] A5 runs with non-zero exit = result file run problems — [3275, 3276, 3277, 3278, 3279, 3280]
+[PASS] A6 trace hash, status, adapter and ladder SHA-256 agree in every completed run — 3712/3712
+[PASS] A7 child-process check [PASS] in every run — 3718/3718
+[PASS] B1 cell-A trace hashes recomputed from the released traces — 54/54
+[PASS] C1 separate check script output equals the recorded output — 17 lines
+[PASS] D1 cell-A variant run levels from the released traces — 50/50
+[PASS] E1 cell-A blocked-scan counts for input-tag conditions — 10/10 (input tags 5 of 25 cell-A variants; 20 internal-bit conditions need the private engine)
+[PASS] F1 re-aggregation, set full — all tables equal
+      set full: stages {'1': 25, '2': 244, '3': 47, '4a': 165, '4b': 18, '보류': 1} · P1 [틀림] 11.68 %p · P2 [틀림] 7.91 %
+[PASS] F1 re-aggregation, set no045 — all tables equal
+      set no045: stages {'1': 25, '2': 244, '3': 47, '4a': 165, '4b': 18, '보류': 1} · P1 [틀림] 11.68 %p · P2 [틀림] 7.91 %
+[PASS] G1 main stage-4 split (v2) reproduced byte for byte — {"1": 25, "2": 244, "3": 47, "4a": 107, "4b": 76, "보류": 1}
+all checks passed

@@ -1,0 +1,7 @@
+{
+ "prefixes": [
+  {"placeholder": "<repos>", "replaces": "one local absolute directory prefix (repository folder)"},
+  {"placeholder": "<work>", "replaces": "one local absolute directory prefix (working folder)"},
+  {"placeholder": "<tmp>", "replaces": "one local absolute directory prefix (temporary folder)"}
+ ]
+}

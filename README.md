@@ -8,6 +8,7 @@ Technical reports published by WACE Inc. (주식회사 웨이스), Hwaseong, Rep
 | --- | --- | --- | --- |
 | **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) · [Errata](ERRATA.md) · [concept DOI 10.5281/zenodo.22868613](https://doi.org/10.5281/zenodo.22868613) | **v1.3 — revised 2026-09-25** (the author's name is now given in its passport spelling, Dong Gul Bang; no other change; see [ERRATA.md](ERRATA.md) E6); version DOI [10.5281/zenodo.22959765](https://doi.org/10.5281/zenodo.22959765). v1.2 (corrects an overstatement, present since v1.0, about what is public; E5) remains archived under [10.5281/zenodo.22884852](https://doi.org/10.5281/zenodo.22884852). v1.1 (corrects two factual errors of v1.0) remains archived under [10.5281/zenodo.22884024](https://doi.org/10.5281/zenodo.22884024). v1.0 (2026-09-21) remains archived under [10.5281/zenodo.22868614](https://doi.org/10.5281/zenodo.22868614); the concept DOI resolves to the latest version |
 | **TR-2026-02** | Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison | [PDF](TR-2026-02.pdf) · [Markdown](TR-2026-02.md) · [release bundle](TR-2026-02/) ([MANIFEST](TR-2026-02/MANIFEST.md)) · [concept DOI 10.5281/zenodo.23055399](https://doi.org/10.5281/zenodo.23055399) | **v1.0 — released 2026-09-30** (pre-registration SHA-256 committed before the runs in [PREREGISTRATIONS.md](PREREGISTRATIONS.md), commit `b743b0f`); version DOI [10.5281/zenodo.23055451](https://doi.org/10.5281/zenodo.23055451) (report PDF and release bundle). An earlier Zenodo version of v1.0, holding the report PDF only because the release bundle was not attached, remains archived under [10.5281/zenodo.23055400](https://doi.org/10.5281/zenodo.23055400); the concept DOI resolves to the latest version |
+| **TR-2026-03** | A Fixed Scenario Set Revealed 183 of 500 Single-Condition Interlock Removals in Three Simulated PLC Cells, and Most Removals It Missed Were Exercised but Left the Applied Outputs Unchanged: A Pre-Registered What-If in Which Both Predictions Were Wrong | [PDF](TR-2026-03.pdf) · [Markdown](TR-2026-03.md) · [release bundle](TR-2026-03/) ([MANIFEST](TR-2026-03/MANIFEST.md)) | **v1.0 — released 2026-10-01** (pre-registration SHA-256 committed before the runs in [PREREGISTRATIONS.md](PREREGISTRATIONS.md), commit `b743b0f`) |
 
 ## TR-2026-01 in one paragraph
 
@@ -24,6 +25,10 @@ A command gate that pre-executes supervisory writes on a replica of the PLC prog
 
 When a PLC scans faster than the plant model it is connected to (here 10 ms scans against a 50 ms plant tick), the connection must decide what input the PLC sees at each scan inside one tick. In a pre-registered comparison on one simulated cell (a shuttle conveyor, three self-authored ladders, 816 official runs, every combination run twice with identical trace hashes, 0 invalid), sampling inputs only at tick boundaries changed no test-bench verdict compared with restoring the in-tick input history (false alarm 0/1, missed negatives 0/2), and every applied output change came exactly one tick later at the input phases that occurred. It did miss short stop and emergency-stop pulses that restoration caught: a 15 ms pulse was missed in 7 of 10 phases under boundary sampling and in 0 of 10 under restoration. All four pre-registered predictions held. The result files, run records, ladders, the runner's input-restoration and verdict code and the analysis scripts are released in [TR-2026-02/](TR-2026-02/), so readers can recompute the test-bench verdicts and check the report's numbers against the released files without the private simulators; runs cannot be re-executed. Results are from a simulated PLC and a simulated plant model; no physical comparison is included.
 
+## TR-2026-03 in one paragraph
+
+A PLC ladder that passes a test scenario set can still lack an interlock the set never exercises. On three simulated cells with self-authored correct ladders, we removed one series interlock condition at a time (500 variants: all 25 of one cell and stratified samples of the other two, out of 1,316 target conditions) and ran each variant through a fixed scenario set (3,680 variant runs, 38 baseline runs, every baseline pair with identical trace hashes). 183 removals were revealed — 107 through a different hazard event in the plant model or a different number of defective parts at the good exit, and 76 through the test-bench verdict only (165 and 18 under the interpretation fixed before the results, which counts every event and every part's final outcome; the pre-registration's wording was made the main split after the results, in response to review). Of the 316 not revealed, 25 were never exercised by the scenarios, 244 were exercised but left the applied outputs unchanged, and 47 changed the outputs without changing the compared outcome or the verdict; one variant could not be classified because all its runs ended in a plant-model error. Both pre-registered predictions were wrong: the recovery and pack-handshake groups went unrevealed 11.68 percentage points more often than the safety group (predicted: at least 20), and 7.91 % of the unrevealed removals were unexercised (predicted: at least half). The bundle [TR-2026-03/](TR-2026-03/) holds the run records of all 3,718 runs (tick traces for one cell only; the other two cells' traces total 69.6 GB and are not released), the result files, the analysis code and scripts that rebuild all 500 variant ladders and recompute the checks that the released files allow. Results are from a simulated PLC and a simulated plant model; no physical comparison is included.
+
 ## What TR-2026-01 is and is not
 
 - It is a **defensive publication** of an experiment and its evaluation discipline. It is not peer-reviewed.
@@ -35,6 +40,12 @@ When a PLC scans faster than the plant model it is connected to (here 10 ms scan
 - It is a pre-registered comparison of two ways of connecting a simulated PLC to a simulated plant model. It is not peer-reviewed; the reviews were done by AI agents that did not read each other's output, not by human reviewers.
 - It does **not** claim results for physical PLCs or plants, for other scan-to-tick ratios, or for any commercial product. Limitations are listed in Section 7 of the report.
 - The release bundle [TR-2026-02/](TR-2026-02/) holds the pre-registration, the public versions of the ladders, the run records, the result files, the runner's input-restoration and verdict code and every script used; [MANIFEST.md](TR-2026-02/MANIFEST.md) lists each file with its SHA-256 and licence. The PLC simulator engine and the plant-model program are not released.
+
+## What TR-2026-03 is and is not
+
+- It is a pre-registered what-if on self-authored ladders in three simulated cells. It is not peer-reviewed; the reviews were done by AI agents that did not read each other's output, not by human reviewers.
+- It does **not** claim that a removal not revealed here is safe or unsafe on real equipment, that the scenario sets suffice for commissioning, or anything about hand-written plant ladders or commercial products. Limitations are listed in Section 7 of the report.
+- The release bundle [TR-2026-03/](TR-2026-03/) holds the pre-registration, the public correct ladders, the variant list, the run records (traces for cell A only), the result files, the runner's input-restoration and verdict code and every script used; [MANIFEST.md](TR-2026-03/MANIFEST.md) lists each file with its SHA-256 and licence and states what was left out and why. The PLC simulator engine and the plant-model program are not released.
 
 ## How these reports are published
 
@@ -55,6 +66,10 @@ TR-2026-02:
 
 > Bang, D. G. (2026). *Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison* (Version 1.0). WACE Technical Report TR-2026-02. WACE Inc. Zenodo. https://doi.org/10.5281/zenodo.23055451 (version 1.0; all versions: https://doi.org/10.5281/zenodo.23055399)
 
+TR-2026-03:
+
+> Bang, D. G. (2026). *A Fixed Scenario Set Revealed 183 of 500 Single-Condition Interlock Removals in Three Simulated PLC Cells, and Most Removals It Missed Were Exercised but Left the Applied Outputs Unchanged: A Pre-Registered What-If in Which Both Predictions Were Wrong* (Version 1.0). WACE Technical Report TR-2026-03. WACE Inc. https://github.com/waceinc/tech-reports
+
 ## License
 
 TR-2026-01: report text and figures under Creative Commons Attribution 4.0 International (CC BY 4.0) — see [LICENSE](LICENSE). (Licence fixed by the CEO on 2026-09-21.)
@@ -63,9 +78,9 @@ From TR-2026-02 on, each file is licensed by type:
 
 | Files | Licence |
 | --- | --- |
-| Code — every `.py` file (scripts, runner thin layer, adapter, ladder conversion script) | MIT — [LICENSES/MIT.txt](LICENSES/MIT.txt), Copyright (c) 2026 WACE Inc. (주식회사 웨이스) |
-| Report text, tables, figures (charts), result files, run records, ladder JSON files, judgement criteria, pre-registrations | CC BY 4.0 — [LICENSES/CC-BY-4.0.txt](LICENSES/CC-BY-4.0.txt) |
-| WACE wordmark (`TR-2026-02/figures/wace-wordmark-white.svg`) | Trademark of WACE Inc.; not licensed |
+| Code — every `.py` and `.mjs` file (scripts, runner thin layer, adapter, ladder conversion and variant scripts) | MIT — [LICENSES/MIT.txt](LICENSES/MIT.txt), Copyright (c) 2026 WACE Inc. (주식회사 웨이스) |
+| Report text, tables, figures (charts), result files, run records, ladder and variant JSON files, judgement criteria, pre-registrations | CC BY 4.0 — [LICENSES/CC-BY-4.0.txt](LICENSES/CC-BY-4.0.txt) |
+| WACE wordmark (`TR-2026-02/figures/wace-wordmark-white.svg`, `TR-2026-03/figures/wace-wordmark-white.svg`) | Trademark of WACE Inc.; not licensed |
 
 Files whose hashes are fixed carry no licence notice inside; this table and each bundle's `MANIFEST.md` declare their licence. (Licences fixed by the CEO on 2026-09-30.)
 
