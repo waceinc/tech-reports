@@ -7,7 +7,7 @@ Technical reports published by WACE Inc. (주식회사 웨이스), Hwaseong, Rep
 | Report | Title | Files | Status |
 | --- | --- | --- | --- |
 | **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) · [Errata](ERRATA.md) · [concept DOI 10.5281/zenodo.22868613](https://doi.org/10.5281/zenodo.22868613) | **v1.3 — revised 2026-09-25** (the author's name is now given in its passport spelling, Dong Gul Bang; no other change; see [ERRATA.md](ERRATA.md) E6); version DOI [10.5281/zenodo.22959765](https://doi.org/10.5281/zenodo.22959765). v1.2 (corrects an overstatement, present since v1.0, about what is public; E5) remains archived under [10.5281/zenodo.22884852](https://doi.org/10.5281/zenodo.22884852). v1.1 (corrects two factual errors of v1.0) remains archived under [10.5281/zenodo.22884024](https://doi.org/10.5281/zenodo.22884024). v1.0 (2026-09-21) remains archived under [10.5281/zenodo.22868614](https://doi.org/10.5281/zenodo.22868614); the concept DOI resolves to the latest version |
-| **TR-2026-02** | Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison | [PDF](TR-2026-02.pdf) · [Markdown](TR-2026-02.md) · [release bundle](TR-2026-02/) ([MANIFEST](TR-2026-02/MANIFEST.md)) | **v1.0 — released 2026-09-30** (pre-registration SHA-256 committed before the runs in [PREREGISTRATIONS.md](PREREGISTRATIONS.md), commit `b743b0f`) |
+| **TR-2026-02** | Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison | [PDF](TR-2026-02.pdf) · [Markdown](TR-2026-02.md) · [release bundle](TR-2026-02/) ([MANIFEST](TR-2026-02/MANIFEST.md)) | **v1.0 — released 2026-09-30** (pre-registration SHA-256 committed before the runs in [PREREGISTRATIONS.md](PREREGISTRATIONS.md), commit `b743b0f`); concept DOI [10.5281/zenodo.23055399](https://doi.org/10.5281/zenodo.23055399), version DOI [10.5281/zenodo.23055451](https://doi.org/10.5281/zenodo.23055451) (report PDF and release bundle). An earlier Zenodo version, [10.5281/zenodo.23055400](https://doi.org/10.5281/zenodo.23055400), holds the report PDF only; the release bundle was not attached to it |
 
 ## TR-2026-01 in one paragraph
 
@@ -53,7 +53,7 @@ TR-2026-01: see [CITATION.cff](CITATION.cff).
 
 TR-2026-02:
 
-> Bang, D. G. (2026). *Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison* (Version 1.0). WACE Technical Report TR-2026-02. WACE Inc. https://github.com/waceinc/tech-reports
+> Bang, D. G. (2026). *Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison* (Version 1.0). WACE Technical Report TR-2026-02. WACE Inc. Zenodo. https://doi.org/10.5281/zenodo.23055451 (version 1.0; all versions: https://doi.org/10.5281/zenodo.23055399)
 
 ## License
 
