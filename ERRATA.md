@@ -26,3 +26,15 @@ v1.0 remains available under its own version DOI; the concept DOI [10.5281/zenod
 **Unchanged:** the main finding. Adding the behavioral-equivalence check did not change what the gate lets through — 23 of 280 in both arms in run 6 (v1.0), and 19 of 278 in both arms, identical on every verdict count, in run 13 (v1.1) (p95 latency differs narrowly: 55.3 vs 55.0 ms).
 
 **Qualified:** v1.0's statement that the check "adds cost" (undecidable verdicts under mismatch 5.7% → 7.0%). The whole of that rise was four verdicts on four commands issued to a halted PLC; in run 13 the heartbeat refuses those first and the check has no measurable effect.
+
+# Errata — WACE TR-2026-02
+
+## v1.0 (released 2026-09-30) → v1.1 (revised 2026-10-01)
+
+v1.0 remains available under its version DOI [10.5281/zenodo.23055451](https://doi.org/10.5281/zenodo.23055451); the concept DOI [10.5281/zenodo.23055399](https://doi.org/10.5281/zenodo.23055399) resolves to the latest version.
+
+| # | Kind | Where in v1.0 | v1.0 said | Correct | Basis |
+| --- | --- | --- | --- | --- | --- |
+| E1 | Factual error | Section 8, item 2 | "The company withdrew the trade-secret designation on 2026-09-20 and confirmed the removal of the remaining markings on 2026-09-29" | The trade-secret designation was withdrawn on 2026-09-20. On 2026-09-29 the company decided that all confidentiality markings in the PLC-engine repository are to be removed; that clean-up had not been done when v1.0 was released. The marker line remains in the run versions of the ladders because the PLC-engine parser requires it. | The company's work record of 2026-09-29 (not public): the CEO ordered the markings removed and confirmed the designation lifted; the clean-up of the repository was left as a development request. Found by the company's fact check of TR-2026-03 on 2026-10-01. |
+
+**Unchanged:** every other sentence, every number, table and figure, and every file of the release bundle `TR-2026-02/`.
