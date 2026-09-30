@@ -1,0 +1,234 @@
+{
+ "fig1": {
+  "boundary": {
+   "applied_changes_in_window": [
+    [
+     28,
+     "A.Mot.fwd",
+     false
+    ],
+    [
+     33,
+     "A.Mot.rev",
+     true
+    ]
+   ],
+   "first_scan_fwd_off_ms": 1400,
+   "first_scan_seeing_edge_ms": 1310,
+   "plant_edges_ms": [
+    [
+     1282,
+     true
+    ],
+    [
+     2022,
+     false
+    ]
+   ]
+  },
+  "history": {
+   "applied_changes_in_window": [
+    [
+     27,
+     "A.Mot.fwd",
+     false
+    ],
+    [
+     32,
+     "A.Mot.rev",
+     true
+    ]
+   ],
+   "first_scan_fwd_off_ms": 1330,
+   "first_scan_seeing_edge_ms": 1240,
+   "plant_edges_ms": [
+    [
+     1232,
+     true
+    ],
+    [
+     1972,
+     false
+    ]
+   ]
+  },
+  "runs": {
+   "boundary": 3,
+   "history": 1
+  },
+  "window_ms": [
+   1100,
+   2100
+  ]
+ },
+ "fig2": {
+  "changes": [
+   {
+    "boundary_tick": 8,
+    "diff": 1,
+    "history_tick": 7,
+    "index": 1,
+    "tag": "A.Mot.fwd",
+    "value": true
+   },
+   {
+    "boundary_tick": 28,
+    "diff": 1,
+    "history_tick": 27,
+    "index": 2,
+    "tag": "A.Mot.fwd",
+    "value": false
+   },
+   {
+    "boundary_tick": 33,
+    "diff": 1,
+    "history_tick": 32,
+    "index": 3,
+    "tag": "A.Mot.rev",
+    "value": true
+   },
+   {
+    "boundary_tick": 72,
+    "diff": 1,
+    "history_tick": 71,
+    "index": 4,
+    "tag": "A.Mot.rev",
+    "value": false
+   },
+   {
+    "boundary_tick": 77,
+    "diff": 1,
+    "history_tick": 76,
+    "index": 5,
+    "tag": "A.Mot.fwd",
+    "value": true
+   },
+   {
+    "boundary_tick": 116,
+    "diff": 1,
+    "history_tick": 115,
+    "index": 6,
+    "tag": "A.Mot.fwd",
+    "value": false
+   },
+   {
+    "boundary_tick": 121,
+    "diff": 1,
+    "history_tick": 120,
+    "index": 7,
+    "tag": "A.Mot.rev",
+    "value": true
+   },
+   {
+    "boundary_tick": 160,
+    "diff": 1,
+    "history_tick": 159,
+    "index": 8,
+    "tag": "A.Mot.rev",
+    "value": false
+   },
+   {
+    "boundary_tick": 165,
+    "diff": 1,
+    "history_tick": 164,
+    "index": 9,
+    "tag": "A.Mot.fwd",
+    "value": true
+   },
+   {
+    "boundary_tick": 204,
+    "diff": 1,
+    "history_tick": 203,
+    "index": 10,
+    "tag": "A.Mot.fwd",
+    "value": false
+   },
+   {
+    "boundary_tick": 209,
+    "diff": 1,
+    "history_tick": 208,
+    "index": 11,
+    "tag": "A.Mot.rev",
+    "value": true
+   },
+   {
+    "boundary_tick": 248,
+    "diff": 1,
+    "history_tick": 247,
+    "index": 12,
+    "tag": "A.Mot.rev",
+    "value": false
+   }
+  ],
+  "runs": [
+   1,
+   3
+  ]
+ },
+ "fig3": {
+  "A.PB.estop_nc": {
+   "boundary": [
+    1,
+    3,
+    5,
+    7,
+    9
+   ],
+   "history": [
+    5,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "A.PB.stop_nc": {
+   "boundary": [
+    1,
+    3,
+    5,
+    7,
+    9
+   ],
+   "history": [
+    5,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  "A.Sen.left": {
+   "boundary": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "history": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "A.Sen.right": {
+   "boundary": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "history": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ }
+}

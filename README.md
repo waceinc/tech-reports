@@ -7,6 +7,7 @@ Technical reports published by WACE Inc. (주식회사 웨이스), Hwaseong, Rep
 | Report | Title | Files | Status |
 | --- | --- | --- | --- |
 | **TR-2026-01** | Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC | [PDF](TR-2026-01.pdf) · [Markdown](TR-2026-01.md) · [Errata](ERRATA.md) · [concept DOI 10.5281/zenodo.22868613](https://doi.org/10.5281/zenodo.22868613) | **v1.3 — revised 2026-09-25** (the author's name is now given in its passport spelling, Dong Gul Bang; no other change; see [ERRATA.md](ERRATA.md) E6); version DOI [10.5281/zenodo.22959765](https://doi.org/10.5281/zenodo.22959765). v1.2 (corrects an overstatement, present since v1.0, about what is public; E5) remains archived under [10.5281/zenodo.22884852](https://doi.org/10.5281/zenodo.22884852). v1.1 (corrects two factual errors of v1.0) remains archived under [10.5281/zenodo.22884024](https://doi.org/10.5281/zenodo.22884024). v1.0 (2026-09-21) remains archived under [10.5281/zenodo.22868614](https://doi.org/10.5281/zenodo.22868614); the concept DOI resolves to the latest version |
+| **TR-2026-02** | Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison | [PDF](TR-2026-02.pdf) · [Markdown](TR-2026-02.md) · [release bundle](TR-2026-02/) ([MANIFEST](TR-2026-02/MANIFEST.md)) | **v1.0 — released 2026-09-30** (pre-registration SHA-256 committed before the runs in [PREREGISTRATIONS.md](PREREGISTRATIONS.md), commit `b743b0f`) |
 
 ## TR-2026-01 in one paragraph
 
@@ -18,11 +19,22 @@ A command gate that pre-executes supervisory writes on a replica of the PLC prog
 >
 > **Correction (v1.1, 2026-09-22).** v1.0 said four person-exposure false passes were motor-start commands issued after an interlock had been removed. They were commands issued while the PLC was halted; a scan-counter heartbeat now refuses all such commands. v1.0 also predicted that the other four would close by rewriting two rules; they did not. Full list: [ERRATA.md](ERRATA.md).
 
-## What this report is and is not
+
+## TR-2026-02 in one paragraph
+
+When a PLC scans faster than the plant model it is connected to (here 10 ms scans against a 50 ms plant tick), the connection must decide what input the PLC sees at each scan inside one tick. In a pre-registered comparison on one simulated cell (a shuttle conveyor, three self-authored ladders, 816 official runs, every combination run twice with identical trace hashes, 0 invalid), sampling inputs only at tick boundaries changed no test-bench verdict compared with restoring the in-tick input history (false alarm 0/1, missed negatives 0/2), and every applied output change came exactly one tick later at the input phases that occurred. It did miss short stop and emergency-stop pulses that restoration caught: a 15 ms pulse was missed in 7 of 10 phases under boundary sampling and in 0 of 10 under restoration. All four pre-registered predictions held. The result files, run records, ladders, the runner's input-restoration and verdict code and the analysis scripts are released in [TR-2026-02/](TR-2026-02/), so readers can recompute the test-bench verdicts and check the report's numbers against the released files without the private simulators; runs cannot be re-executed. Results are from a simulated PLC and a simulated plant model; no physical comparison is included.
+
+## What TR-2026-01 is and is not
 
 - It is a **defensive publication** of an experiment and its evaluation discipline. It is not peer-reviewed.
 - It does **not** claim field validation, exclusivity, or that the gate makes a plant safe. Known limitations are listed in [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) and in Section 8 of the report.
 - The gate's source code and raw result files are **not** part of this repository. Release of the code is a separate decision; the numbers in the report are computed from the result files named in it (v1.1: run 13, commit `8327000`, results committed at `b56177d`; v1.0: run 6, commit `3e7351b`, adopted at `65528cc`). Those result files, the row labels and the pre-registration are not public, so readers cannot yet recompute the numbers; releasing them is a separate decision.
+
+## What TR-2026-02 is and is not
+
+- It is a pre-registered comparison of two ways of connecting a simulated PLC to a simulated plant model. It is not peer-reviewed; the reviews were done by AI agents that did not read each other's output, not by human reviewers.
+- It does **not** claim results for physical PLCs or plants, for other scan-to-tick ratios, or for any commercial product. Limitations are listed in Section 7 of the report.
+- The release bundle [TR-2026-02/](TR-2026-02/) holds the pre-registration, the public versions of the ladders, the run records, the result files, the runner's input-restoration and verdict code and every script used; [MANIFEST.md](TR-2026-02/MANIFEST.md) lists each file with its SHA-256 and licence. The PLC simulator engine and the plant-model program are not released.
 
 ## How these reports are published
 
@@ -35,13 +47,29 @@ A command gate that pre-executes supervisory writes on a replica of the PLC prog
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff).
+TR-2026-01: see [CITATION.cff](CITATION.cff).
 
 > Bang, D. G. (2026). *Behavioral Equivalence Cannot See Dormant Logic: A Pre-Registered Negative Result from a Five-Arm Comparison of PLC Command Gates on a Simulated PLC* (Version 1.3). WACE Technical Report TR-2026-01. Zenodo. https://doi.org/10.5281/zenodo.22959765 (version 1.3; all versions: https://doi.org/10.5281/zenodo.22868613)
 
+TR-2026-02:
+
+> Bang, D. G. (2026). *Tick-Boundary Input Sampling Changed No Test-Bench Verdict in One Simulated Cell but Missed Short Stop Pulses That In-Tick History Restoration Caught: A Pre-Registered Comparison* (Version 1.0). WACE Technical Report TR-2026-02. WACE Inc. https://github.com/waceinc/tech-reports
+
 ## License
 
-Report text and figures: Creative Commons Attribution 4.0 International (CC BY 4.0) — see [LICENSE](LICENSE). (Licence fixed by the CEO on 2026-09-21.)
+TR-2026-01: report text and figures under Creative Commons Attribution 4.0 International (CC BY 4.0) — see [LICENSE](LICENSE). (Licence fixed by the CEO on 2026-09-21.)
+
+From TR-2026-02 on, each file is licensed by type:
+
+| Files | Licence |
+| --- | --- |
+| Code — every `.py` file (scripts, runner thin layer, adapter, ladder conversion script) | MIT — [LICENSES/MIT.txt](LICENSES/MIT.txt), Copyright (c) 2026 WACE Inc. (주식회사 웨이스) |
+| Report text, tables, figures (charts), result files, run records, ladder JSON files, judgement criteria, pre-registrations | CC BY 4.0 — [LICENSES/CC-BY-4.0.txt](LICENSES/CC-BY-4.0.txt) |
+| WACE wordmark (`TR-2026-02/figures/wace-wordmark-white.svg`) | Trademark of WACE Inc.; not licensed |
+
+Files whose hashes are fixed carry no licence notice inside; this table and each bundle's `MANIFEST.md` declare their licence. (Licences fixed by the CEO on 2026-09-30.)
+
+This release does not grant any licence under patents of WACE Inc., including Korean patents No. 10-2904772 and No. 10-3003470 and pending applications.
 
 ## Contact
 

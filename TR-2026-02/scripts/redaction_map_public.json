@@ -1,0 +1,8 @@
+{
+ "prefixes": [
+  {
+   "placeholder": "<repos>/",
+   "replaces": "one local absolute directory prefix"
+  }
+ ]
+}

@@ -1,0 +1,1102 @@
+{
+  "format": "plc-sim-program",
+  "schemaVersion": 1,
+  "name": "cell-a-late-reverse",
+  "description": "S2-4 3j. 10ms 정주기 전제: DINT 스캔계수×10ms; HSC는 UDINT 차분, 정지·감속 중 누적. bridge/generate_3j.py 생성 정본. 실물 대조 0.",
+  "engine": {
+    "periodUs": 10000,
+    "logicalDtUs": 10000
+  },
+  "semanticProfile": "iec-default",
+  "tags": [
+    {
+      "symbol": "A.PB.start",
+      "address": "%IX0.0",
+      "type": "BOOL",
+      "comment": "기동 버튼 (누름=1)"
+    },
+    {
+      "symbol": "A.PB.stop_nc",
+      "address": "%IX0.1",
+      "type": "BOOL",
+      "comment": "정지 버튼 NC (평상=1, 누름=0)"
+    },
+    {
+      "symbol": "A.PB.estop_nc",
+      "address": "%IX0.2",
+      "type": "BOOL",
+      "comment": "비상정지 NC (평상=1)"
+    },
+    {
+      "symbol": "A.Sen.left",
+      "address": "%IX0.3",
+      "type": "BOOL",
+      "comment": "왼쪽 끝 포토센서"
+    },
+    {
+      "symbol": "A.Sen.right",
+      "address": "%IX0.4",
+      "type": "BOOL",
+      "comment": "오른쪽 끝 포토센서"
+    },
+    {
+      "symbol": "A.Mot.fwd",
+      "address": "%QX0.0",
+      "type": "BOOL",
+      "comment": "오른쪽(정방향) 구동"
+    },
+    {
+      "symbol": "A.Mot.rev",
+      "address": "%QX0.1",
+      "type": "BOOL",
+      "comment": "왼쪽(역방향) 구동"
+    },
+    {
+      "symbol": "D_왼쪽안정스캔",
+      "address": "%MD1000",
+      "type": "DINT",
+      "comment": "왼쪽안정스캔 — 입력 필터"
+    },
+    {
+      "symbol": "M_왼쪽원시전회",
+      "address": "%MX0.0",
+      "type": "BOOL",
+      "comment": "왼쪽원시전회 — 입력 필터"
+    },
+    {
+      "symbol": "M_왼쪽확정",
+      "address": "%MX0.1",
+      "type": "BOOL",
+      "comment": "왼쪽확정 — 입력 필터"
+    },
+    {
+      "symbol": "D_오른쪽안정스캔",
+      "address": "%MD1008",
+      "type": "DINT",
+      "comment": "오른쪽안정스캔 — 입력 필터"
+    },
+    {
+      "symbol": "M_오른쪽원시전회",
+      "address": "%MX0.2",
+      "type": "BOOL",
+      "comment": "오른쪽원시전회 — 입력 필터"
+    },
+    {
+      "symbol": "M_오른쪽확정",
+      "address": "%MX0.3",
+      "type": "BOOL",
+      "comment": "오른쪽확정 — 입력 필터"
+    },
+    {
+      "symbol": "M_기동전회",
+      "address": "%MX0.4",
+      "type": "BOOL",
+      "comment": "기동전회 — 안전"
+    },
+    {
+      "symbol": "M_기동상승",
+      "address": "%MX0.5",
+      "type": "BOOL",
+      "comment": "기동상승 — 안전"
+    },
+    {
+      "symbol": "M_비상기억",
+      "address": "%MX0.6",
+      "type": "BOOL",
+      "comment": "비상기억 — 안전"
+    },
+    {
+      "symbol": "M_비상확인",
+      "address": "%MX0.7",
+      "type": "BOOL",
+      "comment": "비상확인 — 안전"
+    },
+    {
+      "symbol": "M_운전",
+      "address": "%MX1.0",
+      "type": "BOOL",
+      "comment": "운전 — 밀기 순서"
+    },
+    {
+      "symbol": "D_반전대기",
+      "address": "%MD1016",
+      "type": "DINT",
+      "comment": "반전대기 — 밀기 순서"
+    },
+    {
+      "symbol": "M_왕복계산허가",
+      "address": "%MX1.1",
+      "type": "BOOL",
+      "comment": "왕복계산허가 — 밀기 순서"
+    },
+    {
+      "symbol": "M_후진",
+      "address": "%MX1.2",
+      "type": "BOOL",
+      "comment": "후진 — 밀기 순서"
+    },
+    {
+      "symbol": "M_후진전환",
+      "address": "%MX1.3",
+      "type": "BOOL",
+      "comment": "후진전환 — 밀기 순서"
+    },
+    {
+      "symbol": "M_전진전환",
+      "address": "%MX1.4",
+      "type": "BOOL",
+      "comment": "전진전환 — 밀기 순서"
+    },
+    {
+      "symbol": "D_왕복횟수",
+      "address": "%MD1024",
+      "type": "DINT",
+      "comment": "왕복횟수 — 밀기 순서"
+    },
+    {
+      "symbol": "D_지연반전",
+      "address": "%MD1032",
+      "type": "DINT",
+      "comment": "지연반전 — 밀기 순서"
+    },
+    {
+      "symbol": "M_지연전회",
+      "address": "%MX1.5",
+      "type": "BOOL",
+      "comment": "지연전회 — 밀기 순서"
+    },
+    {
+      "symbol": "M_지연반전완료",
+      "address": "%MX1.6",
+      "type": "BOOL",
+      "comment": "지연반전완료 — 밀기 순서"
+    }
+  ],
+  "fbInstances": [],
+  "rungs": [
+    {
+      "id": "e5cf7aba-652e-5c71-b26f-b2bddac3a635",
+      "comment": "[입력 필터] 묶음 머리 | A 공장 50 ms마다 PLC 10 ms 5스캔. 양 끝 센서 100 ms 연속 확정.",
+      "grid": [
+        [
+          {
+            "k": "hwire"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "ba8fba70-ddbd-5398-b37d-c57ec5a75592",
+      "comment": "[입력 필터] D_왼쪽안정스캔 ← 0",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.Sen.left",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_왼쪽원시전회",
+            "mode": "NC"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "box",
+            "fb": "MOVE",
+            "inputs": {
+              "IN": "DINT#0"
+            },
+            "outputs": {
+              "OUT": "D_왼쪽안정스캔"
+            }
+          }
+        ],
+        [
+          {
+            "k": "contact",
+            "tag": "A.Sen.left",
+            "mode": "NC"
+          },
+          {
+            "k": "contact",
+            "tag": "M_왼쪽원시전회",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "empty"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "8aeec097-63c7-5112-9dc4-acf5f8779341",
+      "comment": "[입력 필터] D_왼쪽안정스캔 = D_왼쪽안정스캔 ADD 1",
+      "grid": [
+        [
+          {
+            "k": "box",
+            "fb": "LT",
+            "inputs": {
+              "IN1": "D_왼쪽안정스캔",
+              "IN2": "DINT#10"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "box",
+            "fb": "ADD",
+            "inputs": {
+              "IN1": "D_왼쪽안정스캔",
+              "IN2": "DINT#1"
+            },
+            "outputs": {
+              "OUT": "D_왼쪽안정스캔"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "aa4a621c-90c3-53fb-9a17-57a3b7625ef8",
+      "comment": "[입력 필터] 왼쪽확정",
+      "grid": [
+        [
+          {
+            "k": "box",
+            "fb": "GE",
+            "inputs": {
+              "IN1": "D_왼쪽안정스캔",
+              "IN2": "DINT#10"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "contact",
+            "tag": "A.Sen.left",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "coil",
+            "tag": "M_왼쪽확정",
+            "mode": "OUT"
+          }
+        ],
+        [
+          {
+            "k": "box",
+            "fb": "LT",
+            "inputs": {
+              "IN1": "D_왼쪽안정스캔",
+              "IN2": "DINT#10"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "contact",
+            "tag": "M_왼쪽확정",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "empty"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "975d8d3e-4c69-5b19-b6d7-120e4849c3ac",
+      "comment": "[입력 필터] 왼쪽원시전회",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.Sen.left",
+            "mode": "NO"
+          },
+          {
+            "k": "coil",
+            "tag": "M_왼쪽원시전회",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "b092d619-df13-5dbb-ac46-09416d854d3a",
+      "comment": "[입력 필터] D_오른쪽안정스캔 ← 0",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.Sen.right",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_오른쪽원시전회",
+            "mode": "NC"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "box",
+            "fb": "MOVE",
+            "inputs": {
+              "IN": "DINT#0"
+            },
+            "outputs": {
+              "OUT": "D_오른쪽안정스캔"
+            }
+          }
+        ],
+        [
+          {
+            "k": "contact",
+            "tag": "A.Sen.right",
+            "mode": "NC"
+          },
+          {
+            "k": "contact",
+            "tag": "M_오른쪽원시전회",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "empty"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "25f4dfb5-4504-5c19-bf74-bab3eec3910d",
+      "comment": "[입력 필터] D_오른쪽안정스캔 = D_오른쪽안정스캔 ADD 1",
+      "grid": [
+        [
+          {
+            "k": "box",
+            "fb": "LT",
+            "inputs": {
+              "IN1": "D_오른쪽안정스캔",
+              "IN2": "DINT#10"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "box",
+            "fb": "ADD",
+            "inputs": {
+              "IN1": "D_오른쪽안정스캔",
+              "IN2": "DINT#1"
+            },
+            "outputs": {
+              "OUT": "D_오른쪽안정스캔"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "7f45cb0a-ff7a-5d76-a4c0-e97b87cf2c7e",
+      "comment": "[입력 필터] 오른쪽확정",
+      "grid": [
+        [
+          {
+            "k": "box",
+            "fb": "GE",
+            "inputs": {
+              "IN1": "D_오른쪽안정스캔",
+              "IN2": "DINT#10"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "contact",
+            "tag": "A.Sen.right",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "coil",
+            "tag": "M_오른쪽확정",
+            "mode": "OUT"
+          }
+        ],
+        [
+          {
+            "k": "box",
+            "fb": "LT",
+            "inputs": {
+              "IN1": "D_오른쪽안정스캔",
+              "IN2": "DINT#10"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "contact",
+            "tag": "M_오른쪽확정",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "empty"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "6109a9cc-3987-5d1b-a262-14218b52dd4d",
+      "comment": "[입력 필터] 오른쪽원시전회",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.Sen.right",
+            "mode": "NO"
+          },
+          {
+            "k": "coil",
+            "tag": "M_오른쪽원시전회",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "bb220a3b-be3e-54ca-88fb-f0ab2ab075bc",
+      "comment": "[안전] 묶음 머리 | 비상정지 기억. 첫 기동은 래치 해제, 다음 별도 기동으로 운전.",
+      "grid": [
+        [
+          {
+            "k": "hwire"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "594a39ea-922b-51dc-8c62-86857ba5e448",
+      "comment": "[안전] 기동상승",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.PB.start",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_기동전회",
+            "mode": "NC"
+          },
+          {
+            "k": "coil",
+            "tag": "M_기동상승",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "e0b0cc63-8a2a-522d-83b9-5e30efbd956b",
+      "comment": "[안전] 비상확인",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_기동상승",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_비상기억",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "A.PB.estop_nc",
+            "mode": "NO"
+          },
+          {
+            "k": "coil",
+            "tag": "M_비상확인",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "ae97506f-b309-5320-94f9-a8aa437da9ea",
+      "comment": "[안전] 비상기억",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.PB.estop_nc",
+            "mode": "NC"
+          },
+          {
+            "k": "hwire"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "coil",
+            "tag": "M_비상기억",
+            "mode": "OUT"
+          }
+        ],
+        [
+          {
+            "k": "contact",
+            "tag": "M_비상기억",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_비상확인",
+            "mode": "NC"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "empty"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cf2af5ad-dd01-5b28-a154-8c961a370ed2",
+      "comment": "[밀기 순서] 묶음 머리 | 3왕복. 방향 전환 전 250 ms 정지, 센서 누름 유지로 중복 계수하지 않음.",
+      "grid": [
+        [
+          {
+            "k": "hwire"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "795b380f-683d-5f26-81d7-e58c7bcf6805",
+      "comment": "[밀기 순서] 왕복계산허가",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_운전",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "EQ",
+            "inputs": {
+              "IN1": "D_반전대기",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "coil",
+            "tag": "M_왕복계산허가",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "5fefc0c9-1ddf-598c-b8ab-b9973d6952ba",
+      "comment": "[밀기 순서] D_반전대기 = D_반전대기 ADD -1",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_운전",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "GT",
+            "inputs": {
+              "IN1": "D_반전대기",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "box",
+            "fb": "ADD",
+            "inputs": {
+              "IN1": "D_반전대기",
+              "IN2": "DINT#-1"
+            },
+            "outputs": {
+              "OUT": "D_반전대기"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "c72fd5d8-5b34-5d6b-8020-9d03836e76c1",
+      "comment": "[밀기 순서] 후진전환",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_왕복계산허가",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_후진",
+            "mode": "NC"
+          },
+          {
+            "k": "contact",
+            "tag": "M_오른쪽확정",
+            "mode": "NO"
+          },
+          {
+            "k": "coil",
+            "tag": "M_후진전환",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "fac879de-94b4-523c-9e1c-ee7b01fa72e6",
+      "comment": "[밀기 순서] 전진전환",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_왕복계산허가",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_후진",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_왼쪽확정",
+            "mode": "NO"
+          },
+          {
+            "k": "coil",
+            "tag": "M_전진전환",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "7ac798f4-19c8-5b8e-a124-edff15e13045",
+      "comment": "[밀기 순서] D_왕복횟수 = D_왕복횟수 ADD 1",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_전진전환",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "ADD",
+            "inputs": {
+              "IN1": "D_왕복횟수",
+              "IN2": "DINT#1"
+            },
+            "outputs": {
+              "OUT": "D_왕복횟수"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "ca4dc643-ca23-5d4f-a652-588e797bfe97",
+      "comment": "[밀기 순서] D_지연반전 ← 150",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_후진전환",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "EQ",
+            "inputs": {
+              "IN1": "D_지연반전",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "box",
+            "fb": "MOVE",
+            "inputs": {
+              "IN": "DINT#150"
+            },
+            "outputs": {
+              "OUT": "D_지연반전"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "3ba3c71a-1457-5fab-bd0b-ba45b6647aed",
+      "comment": "[밀기 순서] D_지연반전 = D_지연반전 ADD -1",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_운전",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "GT",
+            "inputs": {
+              "IN1": "D_지연반전",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "box",
+            "fb": "ADD",
+            "inputs": {
+              "IN1": "D_지연반전",
+              "IN2": "DINT#-1"
+            },
+            "outputs": {
+              "OUT": "D_지연반전"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "28a32515-7992-5fb0-9906-4610cee88618",
+      "comment": "[밀기 순서] 지연반전완료",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_지연전회",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "EQ",
+            "inputs": {
+              "IN1": "D_지연반전",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "coil",
+            "tag": "M_지연반전완료",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "86ce7032-816a-50f4-8737-e9056a57ae70",
+      "comment": "[밀기 순서] 지연전회",
+      "grid": [
+        [
+          {
+            "k": "box",
+            "fb": "GT",
+            "inputs": {
+              "IN1": "D_지연반전",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "coil",
+            "tag": "M_지연전회",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "25d2ae8d-1ac4-536c-a682-9f6594910332",
+      "comment": "[밀기 순서] 후진",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_전진전환",
+            "mode": "NC"
+          },
+          {
+            "k": "contact",
+            "tag": "M_후진",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "coil",
+            "tag": "M_후진",
+            "mode": "OUT"
+          }
+        ],
+        [
+          {
+            "k": "contact",
+            "tag": "M_전진전환",
+            "mode": "NC"
+          },
+          {
+            "k": "contact",
+            "tag": "M_지연반전완료",
+            "mode": "NO"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "empty"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "cb14dc99-537d-5e07-8f1a-a77ac27f03b7",
+      "comment": "[밀기 순서] D_반전대기 ← 25",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_전진전환",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "MOVE",
+            "inputs": {
+              "IN": "DINT#25"
+            },
+            "outputs": {
+              "OUT": "D_반전대기"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "6dfb84db-80fd-5fc4-ad9c-33a7b5184ed6",
+      "comment": "[출력] 묶음 머리 | 운전 자기유지 단일 코일. 정지·비상정지·3왕복 완료는 같은 스캔 차단.",
+      "grid": [
+        [
+          {
+            "k": "hwire"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "d9bb3800-89c5-5caf-80bf-d0ea77cc04eb",
+      "comment": "[출력] 운전",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.PB.estop_nc",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "A.PB.stop_nc",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_비상기억",
+            "mode": "NC"
+          },
+          {
+            "k": "box",
+            "fb": "LT",
+            "inputs": {
+              "IN1": "D_왕복횟수",
+              "IN2": "DINT#3"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "contact",
+            "tag": "M_운전",
+            "mode": "NO"
+          },
+          {
+            "k": "hwire"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "coil",
+            "tag": "M_운전",
+            "mode": "OUT"
+          }
+        ],
+        [
+          {
+            "k": "contact",
+            "tag": "A.PB.estop_nc",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "A.PB.stop_nc",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_비상기억",
+            "mode": "NC"
+          },
+          {
+            "k": "box",
+            "fb": "LT",
+            "inputs": {
+              "IN1": "D_왕복횟수",
+              "IN2": "DINT#3"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "contact",
+            "tag": "M_기동상승",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_비상확인",
+            "mode": "NC"
+          },
+          {
+            "k": "vwire"
+          },
+          {
+            "k": "empty"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "981856d9-44df-5c15-8f44-ab9916f1c060",
+      "comment": "[출력] A.Mot.fwd",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_운전",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_후진",
+            "mode": "NC"
+          },
+          {
+            "k": "box",
+            "fb": "EQ",
+            "inputs": {
+              "IN1": "D_반전대기",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "coil",
+            "tag": "A.Mot.fwd",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "723c11f2-de5c-5d63-97e8-edf04114a7af",
+      "comment": "[출력] A.Mot.rev",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "M_운전",
+            "mode": "NO"
+          },
+          {
+            "k": "contact",
+            "tag": "M_후진",
+            "mode": "NO"
+          },
+          {
+            "k": "box",
+            "fb": "EQ",
+            "inputs": {
+              "IN1": "D_반전대기",
+              "IN2": "DINT#0"
+            },
+            "outputs": {}
+          },
+          {
+            "k": "coil",
+            "tag": "A.Mot.rev",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "6001648e-0cde-5112-af3a-90be6eb8efa0",
+      "comment": "[출력] 기동전회",
+      "grid": [
+        [
+          {
+            "k": "contact",
+            "tag": "A.PB.start",
+            "mode": "NO"
+          },
+          {
+            "k": "coil",
+            "tag": "M_기동전회",
+            "mode": "OUT"
+          }
+        ]
+      ]
+    }
+  ]
+}
