@@ -1,0 +1,16 @@
+T07-G3-r1 [PASS] [FAIL] [FAIL]
+13:59:54 ('T07-G3-r1', '[PASS]', '[FAIL]', '[FAIL]', '3/30')
+T10-G3-r1 [FAIL] [FAIL] [NOT_RUN]
+13:59:58 ('T10-G3-r1', '[FAIL]', '[FAIL]', '[NOT_RUN]', '4/30')
+T16-G3-r1 [FAIL] [FAIL] [NOT_RUN]
+14:00:04 ('T16-G3-r1', '[FAIL]', '[FAIL]', '[NOT_RUN]', '2/30')
+
+결과
+  ('T07-G3-r1', '[PASS]', '[FAIL]', '[FAIL]', '3/30')
+  ('T08-G3-r1', 'compile FAIL', 'ScenarioConfigError: program file <sens>/work/T08-G3-r1/assembled.ldprog.json: duplicate symbol "Seman')
+  ('T10-G3-r1', '[FAIL]', '[FAIL]', '[NOT_RUN]', '4/30')
+  ('T12-G3-r1', 'compile FAIL', 'ScenarioConfigError: program file <sens>/work/T12-G3-r1/assembled.ldprog.json: duplicate symbol "Seman')
+  ('T13-G3-r1', 'compile FAIL', 'ScenarioConfigError: program file <sens>/work/T13-G3-r1/assembled.ldprog.json: rungs.457.grid.0.1.tag:')
+  ('T14-G3-r1', 'compile FAIL', 'ScenarioConfigError: program <sens>/work/T14-G3-r1/assembled.ldprog.json: compile failed with 5 error(')
+  ('T15-G3-r1', 'compile FAIL', 'ScenarioConfigError: program file <sens>/work/T15-G3-r1/assembled.ldprog.json: rungs.514.id: Invalid u')
+  ('T16-G3-r1', '[FAIL]', '[FAIL]', '[NOT_RUN]', '2/30')

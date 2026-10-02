@@ -1,0 +1,158 @@
+{
+ "cell": "cell-a",
+ "defaults": {"A.PB.start": false, "A.PB.stop_nc": true, "A.PB.estop_nc": true, "A.Sen.left": false, "A.Sen.right": false},
+ "tests": [
+  {
+   "id": "A-T01",
+   "purpose": "기동 전에는 두 구동 출력이 꺼져 있고, 기동 상승 스캔부터 정방향 구동만 켜진다.",
+   "requirements": ["A-02", "A-05", "A-11"],
+   "scans": 100,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": false, "from": 1, "to": 9},
+    {"tag": "A.Mot.fwd", "value": true, "from": 10, "to": 100},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 100}
+   ]
+  },
+  {
+   "id": "A-T02",
+   "purpose": "정지 버튼과 기동 버튼이 같은 스캔에 들어오면 정지가 이겨 구동 출력이 켜지지 않는다.",
+   "requirements": ["A-05"],
+   "scans": 100,
+   "steps": [{"at": 10, "set": {"A.PB.start": true, "A.PB.stop_nc": false}}, {"at": 20, "set": {"A.PB.start": false, "A.PB.stop_nc": true}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": false, "from": 1, "to": 100},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 100}
+   ]
+  },
+  {
+   "id": "A-T03",
+   "purpose": "운전 중 정지를 누르면 같은 스캔에 구동이 꺼지고, 정지를 풀어도 다시 켜지지 않는다.",
+   "requirements": ["A-05"],
+   "scans": 150,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}}, {"at": 50, "set": {"A.PB.stop_nc": false}}, {"at": 60, "set": {"A.PB.stop_nc": true}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": true, "from": 10, "to": 49},
+    {"tag": "A.Mot.fwd", "value": false, "from": 50, "to": 150},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 150}
+   ]
+  },
+  {
+   "id": "A-T04",
+   "purpose": "운전 중 비상정지를 누르면 같은 스캔에 구동이 꺼지고, 비상정지를 풀어도 다시 켜지지 않는다.",
+   "requirements": ["A-03", "A-05"],
+   "scans": 200,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}}, {"at": 50, "set": {"A.PB.estop_nc": false}}, {"at": 60, "set": {"A.PB.estop_nc": true}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": true, "from": 10, "to": 49},
+    {"tag": "A.Mot.fwd", "value": false, "from": 50, "to": 200},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 200}
+   ]
+  },
+  {
+   "id": "A-T05",
+   "purpose": "비상정지를 눌렀다 푼 뒤 첫 기동 상승은 비상 확인일 뿐 운전을 시작하지 않는다.",
+   "requirements": ["A-03", "A-04"],
+   "scans": 120,
+   "steps": [{"at": 5, "set": {"A.PB.estop_nc": false}}, {"at": 10, "set": {"A.PB.estop_nc": true}}, {"at": 30, "set": {"A.PB.start": true}}, {"at": 35, "set": {"A.PB.start": false}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": false, "from": 1, "to": 120},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 120}
+   ]
+  },
+  {
+   "id": "A-T06",
+   "purpose": "비상 확인 뒤 새 기동 상승이 들어온 스캔부터 정방향 운전이 시작된다.",
+   "requirements": ["A-04", "A-05"],
+   "scans": 150,
+   "steps": [{"at": 5, "set": {"A.PB.estop_nc": false}}, {"at": 10, "set": {"A.PB.estop_nc": true}}, {"at": 30, "set": {"A.PB.start": true}}, {"at": 35, "set": {"A.PB.start": false}}, {"at": 60, "set": {"A.PB.start": true}}, {"at": 65, "set": {"A.PB.start": false}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": false, "from": 1, "to": 59},
+    {"tag": "A.Mot.fwd", "value": true, "from": 60, "to": 150},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 150}
+   ]
+  },
+  {
+   "id": "A-T07",
+   "purpose": "오른쪽 센서가 9 스캔만 켜졌다 꺼지면 확정되지 않아 방향 전환이 일어나지 않는다.",
+   "requirements": ["A-01", "A-08"],
+   "scans": 200,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}}, {"at": 50, "set": {"A.Sen.right": true}}, {"at": 59, "set": {"A.Sen.right": false}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": true, "from": 10, "to": 200},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 200}
+   ]
+  },
+  {
+   "id": "A-T08",
+   "purpose": "오른쪽 도착이 10 번째 스캔에 확정되면 두 구동을 25 스캔 끈 뒤 역방향 구동을 켠다.",
+   "requirements": ["A-01", "A-08", "A-11"],
+   "scans": 200,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}}, {"at": 50, "set": {"A.Sen.right": true}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": true, "from": 10, "to": 58},
+    {"tag": "A.Mot.fwd", "value": false, "from": 59, "to": 200},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 83},
+    {"tag": "A.Mot.rev", "value": true, "from": 84, "to": 200}
+   ]
+  },
+  {
+   "id": "A-T09",
+   "purpose": "역방향 중 왼쪽 도착이 확정되면 두 구동을 25 스캔 끈 뒤 정방향 구동을 켠다.",
+   "requirements": ["A-09", "A-11"],
+   "scans": 220,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}}, {"at": 50, "set": {"A.Sen.right": true}}, {"at": 100, "set": {"A.Sen.right": false}}, {"at": 120, "set": {"A.Sen.left": true}}],
+   "expect": [
+    {"tag": "A.Mot.rev", "value": true, "from": 84, "to": 128},
+    {"tag": "A.Mot.rev", "value": false, "from": 129, "to": 220},
+    {"tag": "A.Mot.fwd", "value": false, "from": 59, "to": 153},
+    {"tag": "A.Mot.fwd", "value": true, "from": 154, "to": 220}
+   ]
+  },
+  {
+   "id": "A-T10",
+   "purpose": "세 번째 왼쪽 도착이 확정된 스캔에 운전이 끝나고, 이후 기동 버튼을 눌러도 구동이 켜지지 않는다.",
+   "requirements": ["A-09", "A-13"],
+   "scans": 700,
+   "steps": [
+    {"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}},
+    {"at": 50, "set": {"A.Sen.right": true}}, {"at": 100, "set": {"A.Sen.right": false}},
+    {"at": 120, "set": {"A.Sen.left": true}}, {"at": 170, "set": {"A.Sen.left": false}},
+    {"at": 200, "set": {"A.Sen.right": true}}, {"at": 250, "set": {"A.Sen.right": false}},
+    {"at": 270, "set": {"A.Sen.left": true}}, {"at": 320, "set": {"A.Sen.left": false}},
+    {"at": 350, "set": {"A.Sen.right": true}}, {"at": 400, "set": {"A.Sen.right": false}},
+    {"at": 420, "set": {"A.Sen.left": true}},
+    {"at": 500, "set": {"A.PB.start": true}}, {"at": 505, "set": {"A.PB.start": false}}
+   ],
+   "expect": [
+    {"tag": "A.Mot.rev", "value": true, "from": 384, "to": 428},
+    {"tag": "A.Mot.rev", "value": false, "from": 429, "to": 700},
+    {"tag": "A.Mot.fwd", "value": false, "from": 429, "to": 700}
+   ]
+  },
+  {
+   "id": "A-T11",
+   "purpose": "휴지 중 정지로 운전이 꺼지면 휴지 계수가 멈췄다가, 재기동 뒤 남은 휴지만큼 지나서 역방향 구동이 켜진다.",
+   "requirements": ["A-07", "A-10", "A-12"],
+   "scans": 200,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 15, "set": {"A.PB.start": false}}, {"at": 50, "set": {"A.Sen.right": true}}, {"at": 70, "set": {"A.PB.stop_nc": false}}, {"at": 80, "set": {"A.PB.stop_nc": true}}, {"at": 100, "set": {"A.PB.start": true}}, {"at": 105, "set": {"A.PB.start": false}}],
+   "expect": [
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 113},
+    {"tag": "A.Mot.rev", "value": true, "from": 114, "to": 200},
+    {"tag": "A.Mot.fwd", "value": false, "from": 59, "to": 200}
+   ]
+  },
+  {
+   "id": "A-T12",
+   "purpose": "기동 버튼을 계속 누른 채 정지를 눌렀다 풀면 새 기동 상승이 없어 운전이 다시 켜지지 않는다.",
+   "requirements": ["A-02", "A-05"],
+   "scans": 200,
+   "steps": [{"at": 10, "set": {"A.PB.start": true}}, {"at": 50, "set": {"A.PB.stop_nc": false}}, {"at": 60, "set": {"A.PB.stop_nc": true}}],
+   "expect": [
+    {"tag": "A.Mot.fwd", "value": true, "from": 10, "to": 49},
+    {"tag": "A.Mot.fwd", "value": false, "from": 50, "to": 200},
+    {"tag": "A.Mot.rev", "value": false, "from": 1, "to": 200}
+   ]
+  }
+ ]
+}

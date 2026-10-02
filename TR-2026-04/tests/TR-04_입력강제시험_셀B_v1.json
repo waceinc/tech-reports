@@ -1,0 +1,2501 @@
+{
+ "cell": "cell-b",
+ "defaults": {
+  "B.PB.stop_nc": true,
+  "B.PB.estop_nc": true,
+  "B.Safety.curtain": false,
+  "B.Psh.ret": true,
+  "B.Psh.brake": true,
+  "B.Air.pressureOk": true,
+  "B.Inspection.ready": true,
+  "B.Pack.ready": true,
+  "B.Conv.overload": false,
+  "B.Conv.count": 0
+ },
+ "tests": [
+  {
+   "id": "B-T01",
+   "purpose": "첫 스캔 증가량은 0 이고 이후 증가량은 UDINT 감김 차분이므로, 큰 초기 계수값과 감김(4294967290 -> 500, 증가량 506)에서 고장 29 가 나지 않는다.",
+   "requirements": [
+    "B-05"
+   ],
+   "scans": 100,
+   "initial": {
+    "B.Conv.count": 4294967290
+   },
+   "steps": [
+    {
+     "at": 30,
+     "set": {
+      "B.Conv.count": 500
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 100
+    },
+    {
+     "tag": "B.Lamp.red",
+     "value": false,
+     "from": 1,
+     "to": 100
+    }
+   ]
+  },
+  {
+   "id": "B-T02",
+   "purpose": "정지 모드에서도 한 스캔 증가량이 1000 을 넘으면(1001) 그 스캔에 고장 29 로 잠긴다.",
+   "requirements": [
+    "B-05",
+    "B-11"
+   ],
+   "scans": 150,
+   "steps": [
+    {
+     "at": 50,
+     "set": {
+      "B.Conv.count": 1001
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 49
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 29,
+     "from": 50,
+     "to": 150
+    },
+    {
+     "tag": "B.Lamp.red",
+     "value": true,
+     "from": 50,
+     "to": 150
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 4,
+     "from": 50,
+     "to": 150
+    }
+   ]
+  },
+  {
+   "id": "B-T03",
+   "purpose": "펄스 없는 스캔 수가 20 미만인 19 번 스캔의 기동 상승은 거부되어 기동 예고가 시작되지 않고 잠기지도 않는다.",
+   "requirements": [
+    "B-07",
+    "B-08"
+   ],
+   "scans": 400,
+   "steps": [
+    {
+     "at": 19,
+     "set": {
+      "B.PB.start": true
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.runState",
+     "value": 0,
+     "from": 1,
+     "to": 400
+    },
+    {
+     "tag": "B.Buzzer",
+     "value": false,
+     "from": 1,
+     "to": 400
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 400
+    }
+   ]
+  },
+  {
+   "id": "B-T04",
+   "purpose": "20 번 스캔 기동 상승으로 기동 예고(부저)가 시작되고 예고 계수가 300 을 넘는 320 번 스캔에 운전으로 바뀐다.",
+   "requirements": [
+    "B-08",
+    "B-10"
+   ],
+   "scans": 360,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.runState",
+     "value": 0,
+     "from": 1,
+     "to": 19
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 1,
+     "from": 20,
+     "to": 319
+    },
+    {
+     "tag": "B.Buzzer",
+     "value": true,
+     "from": 20,
+     "to": 319
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": false,
+     "from": 1,
+     "to": 319
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 2,
+     "from": 320,
+     "to": 360
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": true,
+     "from": 320,
+     "to": 360
+    },
+    {
+     "tag": "B.Buzzer",
+     "value": false,
+     "from": 320,
+     "to": 360
+    }
+   ]
+  },
+  {
+   "id": "B-T05",
+   "purpose": "B.Pack.ready = 0 이면 기동 거부 사유가 있어 기동 상승을 받지 않고, 잠그지도 않는다.",
+   "requirements": [
+    "B-07",
+    "B-08"
+   ],
+   "scans": 200,
+   "initial": {
+    "B.Pack.ready": false
+   },
+   "steps": [
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": true
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.runState",
+     "value": 0,
+     "from": 1,
+     "to": 200
+    },
+    {
+     "tag": "B.Buzzer",
+     "value": false,
+     "from": 1,
+     "to": 200
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 200
+    }
+   ]
+  },
+  {
+   "id": "B-T06",
+   "purpose": "기동 예고 중 공급압이 떨어지면 같은 스캔에 운전 모드가 정지로 돌아가고 잠기지 않는다.",
+   "requirements": [
+    "B-09"
+   ],
+   "scans": 200,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 100,
+     "set": {
+      "B.Air.pressureOk": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.runState",
+     "value": 1,
+     "from": 20,
+     "to": 99
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 0,
+     "from": 100,
+     "to": 200
+    },
+    {
+     "tag": "B.Buzzer",
+     "value": false,
+     "from": 100,
+     "to": 200
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 200
+    }
+   ]
+  },
+  {
+   "id": "B-T07",
+   "purpose": "기동 예고 중 커튼 차단으로 안전 허가를 잃으면 정지로 돌아갈 뿐 고장 18 로 잠그지 않고, 커튼 복귀 뒤에도 기동 상승 없이는 다시 예고하지 않는다.",
+   "requirements": [
+    "B-09",
+    "B-13"
+   ],
+   "scans": 250,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 100,
+     "set": {
+      "B.Safety.curtain": true
+     }
+    },
+    {
+     "at": 150,
+     "set": {
+      "B.Safety.curtain": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.runState",
+     "value": 1,
+     "from": 20,
+     "to": 99
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 0,
+     "from": 100,
+     "to": 250
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 250
+    },
+    {
+     "tag": "B.Lamp.red",
+     "value": false,
+     "from": 1,
+     "to": 250
+    }
+   ]
+  },
+  {
+   "id": "B-T08",
+   "purpose": "운전 중 비상정지(NC 끊김)가 들어오면 그 스캔에 고장 18 로 잠기고 벨트 구동 출력이 꺼진다.",
+   "requirements": [
+    "B-13",
+    "B-14"
+   ],
+   "scans": 500,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.PB.estop_nc": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 399
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": true,
+     "from": 330,
+     "to": 399
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 18,
+     "from": 400,
+     "to": 500
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": false,
+     "from": 400,
+     "to": 500
+    },
+    {
+     "tag": "B.Psh.sol",
+     "value": false,
+     "from": 400,
+     "to": 500
+    },
+    {
+     "tag": "B.Lamp.red",
+     "value": true,
+     "from": 400,
+     "to": 500
+    }
+   ]
+  },
+  {
+   "id": "B-T09",
+   "purpose": "구동 이력 뒤 해제 요구가 이어지는데 B.Psh.brake 가 1 로 남으면 해제 계수가 4 를 넘는 325 번 스캔에 고장 23 이 발생한다.",
+   "requirements": [
+    "B-15",
+    "B-16",
+    "B-17"
+   ],
+   "scans": 400,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 324
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 23,
+     "from": 325,
+     "to": 400
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": false,
+     "from": 325,
+     "to": 400
+    }
+   ]
+  },
+  {
+   "id": "B-T10",
+   "purpose": "운전 시작(320) 뒤 고속계수가 변하지 않으면 펄스 없는 스캔 수가 50 을 넘는 371 번 스캔에 고장 25 가 발생한다.",
+   "requirements": [
+    "B-10",
+    "B-23"
+   ],
+   "scans": 420,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 370
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 25,
+     "from": 371,
+     "to": 420
+    }
+   ]
+  },
+  {
+   "id": "B-T11",
+   "purpose": "운전 중 같은 스캔에 벨트 과부하와 공급압 저하가 함께 오면 사전 점검 순서에 따라 고장 24 가 첫 원인이다.",
+   "requirements": [
+    "B-11",
+    "B-20",
+    "B-21"
+   ],
+   "scans": 500,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Conv.overload": true,
+      "B.Air.pressureOk": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 399
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 24,
+     "from": 400,
+     "to": 500
+    }
+   ]
+  },
+  {
+   "id": "B-T12",
+   "purpose": "운전 중 도착 센서가 400 번 스캔부터 계속 켜지면 필터 확정(401) 뒤 점유 계수가 29 를 넘는 430 번 스캔에 고장 22 가 발생한다.",
+   "requirements": [
+    "B-03",
+    "B-26"
+   ],
+   "scans": 480,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 429
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 22,
+     "from": 430,
+     "to": 480
+    }
+   ]
+  },
+  {
+   "id": "B-T13",
+   "purpose": "도착 센서 원값이 한 스캔(415)만 꺼졌다 켜지면 필터 값은 1 을 유지해 새 도착(고장 9)으로 보지 않고 점유가 이어져 430 번 스캔에 고장 22 가 된다.",
+   "requirements": [
+    "B-03"
+   ],
+   "scans": 480,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 415,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 416,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 429
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 22,
+     "from": 430,
+     "to": 480
+    }
+   ]
+  },
+  {
+   "id": "B-T14",
+   "purpose": "두 상자의 도착 필터 상승 간격이 61 스캔(401 -> 462)이면 두 번째 상승 스캔에 고장 9 가 발생한다.",
+   "requirements": [
+    "B-27",
+    "B-33"
+   ],
+   "scans": 520,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 405,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 461,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 466,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 461
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 9,
+     "from": 462,
+     "to": 520
+    }
+   ]
+  },
+  {
+   "id": "B-T15",
+   "purpose": "불량 상자의 밀기 판정값이 2784 에 닿는 422 번 스캔에 전진 지시가 나가고, 후진단이 계속 1 이면 행정 경과 12 인 434 번 스캔에 고장 15 로 잠겨 전진 지시가 꺼진다.",
+   "requirements": [
+    "B-28",
+    "B-34",
+    "B-37",
+    "B-39",
+    "B-44"
+   ],
+   "scans": 480,
+   "steps": [
+    {
+     "at": 20,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 321,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 395,
+     "set": {
+      "B.Sen.isBad": true
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 405,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Sen.isBad": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.Psh.sol",
+     "value": false,
+     "from": 1,
+     "to": 421
+    },
+    {
+     "tag": "B.Psh.sol",
+     "value": true,
+     "from": 422,
+     "to": 433
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 1,
+     "to": 433
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 15,
+     "from": 434,
+     "to": 480
+    },
+    {
+     "tag": "B.Psh.sol",
+     "value": false,
+     "from": 434,
+     "to": 480
+    }
+   ]
+  },
+  {
+   "id": "B-T16",
+   "purpose": "불량 밀기 후진 중에 다음 상자가 등록되고 후진 완료 없이 감시 경과가 33 스캔이 되면 고장 26 으로 잠긴다.",
+   "requirements": [
+    "B-45",
+    "B-47",
+    "B-48"
+   ],
+   "scans": 600,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 398,
+     "set": {
+      "B.Sen.isBad": true
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Sen.isBad": false
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 430,
+     "set": {
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 437,
+     "set": {
+      "B.Psh.ext": true
+     }
+    },
+    {
+     "at": 463,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 473,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 330,
+     "to": 496
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 26,
+     "from": 497,
+     "to": 600
+    }
+   ]
+  },
+  {
+   "id": "B-T17",
+   "purpose": "감시 등록 뒤 33 스캔 안에 후진 완료가 오면 감시가 무효가 되어 고장 26 이 나지 않는다.",
+   "requirements": [
+    "B-46",
+    "B-48"
+   ],
+   "scans": 600,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 398,
+     "set": {
+      "B.Sen.isBad": true
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Sen.isBad": false
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 430,
+     "set": {
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 437,
+     "set": {
+      "B.Psh.ext": true
+     }
+    },
+    {
+     "at": 463,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Psh.ext": false,
+      "B.Psh.ret": true
+     }
+    },
+    {
+     "at": 473,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 330,
+     "to": 600
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 2,
+     "from": 330,
+     "to": 600
+    }
+   ]
+  },
+  {
+   "id": "B-T18",
+   "purpose": "전진 중 등록된 감시에서 전진 완료 순간 예측 여유(밀기 시작 - 감시 도착 + 2 x 전진 소요)가 33 을 넘으면 그 스캔에 고장 26 이 난다.",
+   "requirements": [
+    "B-45",
+    "B-47",
+    "B-48"
+   ],
+   "scans": 560,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 398,
+     "set": {
+      "B.Sen.isBad": true
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Sen.isBad": false
+     }
+    },
+    {
+     "at": 426,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 446,
+     "set": {
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 463,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 473,
+     "set": {
+      "B.Psh.ext": true,
+      "B.Sen.atStopper": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 330,
+     "to": 472
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 26,
+     "from": 473,
+     "to": 560
+    }
+   ]
+  },
+  {
+   "id": "B-T19",
+   "purpose": "양품 상자가 등록 위치에서 2380~3220 펄스 안에 양품 센서에 닿으면 양품 수가 1 늘고 잠기지 않는다.",
+   "requirements": [
+    "B-49",
+    "B-87"
+   ],
+   "scans": 700,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 629,
+     "set": {
+      "B.Sen.out": true
+     }
+    },
+    {
+     "at": 639,
+     "set": {
+      "B.Sen.out": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.goodCount",
+     "value": 0,
+     "from": 330,
+     "to": 629
+    },
+    {
+     "tag": "B.HMI.goodCount",
+     "value": 1,
+     "from": 630,
+     "to": 700
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 330,
+     "to": 700
+    }
+   ]
+  },
+  {
+   "id": "B-T20",
+   "purpose": "양품 등록 뒤 양품 센서가 오지 않아 경과가 3220 펄스를 넘으면 고장 13(양품 도착 누락)으로 잠긴다.",
+   "requirements": [
+    "B-49"
+   ],
+   "scans": 760,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 330,
+     "to": 669
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 13,
+     "from": 670,
+     "to": 760
+    }
+   ]
+  },
+  {
+   "id": "B-T21",
+   "purpose": "불량 상자가 밀려 나간 뒤 등록 시각에서 165~235 스캔 안에 슈트 센서가 오르면 불량 수가 1 늘고 잠기지 않는다.",
+   "requirements": [
+    "B-50",
+    "B-87"
+   ],
+   "scans": 700,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 398,
+     "set": {
+      "B.Sen.isBad": true
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Sen.isBad": false
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 430,
+     "set": {
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 437,
+     "set": {
+      "B.Psh.ext": true
+     }
+    },
+    {
+     "at": 445,
+     "set": {
+      "B.Psh.ext": false,
+      "B.Psh.ret": true
+     }
+    },
+    {
+     "at": 600,
+     "set": {
+      "B.Sen.chute": true
+     }
+    },
+    {
+     "at": 610,
+     "set": {
+      "B.Sen.chute": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.badCount",
+     "value": 0,
+     "from": 330,
+     "to": 600
+    },
+    {
+     "tag": "B.HMI.badCount",
+     "value": 1,
+     "from": 601,
+     "to": 700
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 330,
+     "to": 700
+    }
+   ]
+  },
+  {
+   "id": "B-T22",
+   "purpose": "원점 복귀 후진 중 커튼이 차단되면 그 스캔부터 후진 출력이 꺼지고, 커튼이 풀려도 복귀 상태가 잠김이라 원점 버튼을 계속 눌러도 다시 켜지지 않는다.",
+   "requirements": [
+    "B-56",
+    "B-78",
+    "B-85"
+   ],
+   "scans": 600,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 401,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Inspection.ready": true,
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 455,
+     "set": {
+      "B.PB.reset": false
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Recovery.quarantine": true
+     }
+    },
+    {
+     "at": 475,
+     "set": {
+      "B.Recovery.quarantine": false
+     }
+    },
+    {
+     "at": 500,
+     "set": {
+      "B.Recovery.home": true
+     }
+    },
+    {
+     "at": 502,
+     "set": {
+      "B.Psh.brake": false
+     }
+    },
+    {
+     "at": 520,
+     "set": {
+      "B.Safety.curtain": true
+     }
+    },
+    {
+     "at": 522,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 530,
+     "set": {
+      "B.Safety.curtain": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.Recovery.retract",
+     "value": true,
+     "from": 500,
+     "to": 519
+    },
+    {
+     "tag": "B.Recovery.retract",
+     "value": false,
+     "from": 520,
+     "to": 600
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 1,
+     "from": 520,
+     "to": 600
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 6,
+     "from": 520,
+     "to": 600
+    }
+   ]
+  },
+  {
+   "id": "B-T23",
+   "purpose": "운전 중 정지 버튼을 누르면 사이클 정지로 바뀌어 투입 보류가 켜지고, 시작 위치에서 5000 펄스 이동 뒤 대기열이 비어 있으면 정지로 끝난다.",
+   "requirements": [
+    "B-51",
+    "B-52",
+    "B-80",
+    "B-86"
+   ],
+   "scans": 900,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.PB.stop_nc": false
+     }
+    },
+    {
+     "at": 405,
+     "set": {
+      "B.PB.stop_nc": true
+     }
+    },
+    {
+     "at": 819,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 820,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.runState",
+     "value": 2,
+     "from": 330,
+     "to": 399
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 3,
+     "from": 400,
+     "to": 816
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 0,
+     "from": 817,
+     "to": 900
+    },
+    {
+     "tag": "B.Feed.hold",
+     "value": false,
+     "from": 330,
+     "to": 399
+    },
+    {
+     "tag": "B.Feed.hold",
+     "value": true,
+     "from": 400,
+     "to": 900
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 330,
+     "to": 900
+    }
+   ]
+  },
+  {
+   "id": "B-T24",
+   "purpose": "잠김 뒤 리셋은 누를 때가 아니라 뗄 때 수락되어 복귀 단계가 1 에서 2 로, 운전 상태가 4 에서 5 로 바뀐다.",
+   "requirements": [
+    "B-54",
+    "B-85",
+    "B-86"
+   ],
+   "scans": 520,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 401,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Inspection.ready": true
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 455,
+     "set": {
+      "B.PB.reset": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 1,
+     "from": 400,
+     "to": 454
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 2,
+     "from": 455,
+     "to": 520
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 4,
+     "from": 400,
+     "to": 454
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 5,
+     "from": 455,
+     "to": 520
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 6,
+     "from": 400,
+     "to": 520
+    }
+   ]
+  },
+  {
+   "id": "B-T25",
+   "purpose": "배치 격리 수락 때 재검 수에 양품 확인 대기 수와 잠김 뒤 보류 수가 더해지고, 격리 중 새 도착은 재검 수를 1 늘린다.",
+   "requirements": [
+    "B-55",
+    "B-70",
+    "B-71",
+    "B-72",
+    "B-87"
+   ],
+   "scans": 650,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 451,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 452,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 460,
+     "set": {
+      "B.Inspection.ready": true
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 480,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    },
+    {
+     "at": 500,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 505,
+     "set": {
+      "B.PB.reset": false
+     }
+    },
+    {
+     "at": 520,
+     "set": {
+      "B.Recovery.quarantine": true
+     }
+    },
+    {
+     "at": 525,
+     "set": {
+      "B.Recovery.quarantine": false
+     }
+    },
+    {
+     "at": 560,
+     "set": {
+      "B.Sen.atStopper": true
+     }
+    },
+    {
+     "at": 570,
+     "set": {
+      "B.Sen.atStopper": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.reinspectCount",
+     "value": 0,
+     "from": 330,
+     "to": 519
+    },
+    {
+     "tag": "B.HMI.reinspectCount",
+     "value": 2,
+     "from": 520,
+     "to": 560
+    },
+    {
+     "tag": "B.HMI.reinspectCount",
+     "value": 3,
+     "from": 561,
+     "to": 650
+    }
+   ]
+  },
+  {
+   "id": "B-T26",
+   "purpose": "격리 대기에서 원점 버튼을 누르는 동안 후진단 도달 전까지만 복귀 후진 출력이 켜지고, 후진단에 닿으면 꺼지며 배출 준비(단계 5)로 간다.",
+   "requirements": [
+    "B-56",
+    "B-59",
+    "B-61",
+    "B-78",
+    "B-85"
+   ],
+   "scans": 600,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 401,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Inspection.ready": true,
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 455,
+     "set": {
+      "B.PB.reset": false
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Recovery.quarantine": true
+     }
+    },
+    {
+     "at": 475,
+     "set": {
+      "B.Recovery.quarantine": false
+     }
+    },
+    {
+     "at": 500,
+     "set": {
+      "B.Recovery.home": true
+     }
+    },
+    {
+     "at": 502,
+     "set": {
+      "B.Psh.brake": false
+     }
+    },
+    {
+     "at": 550,
+     "set": {
+      "B.Psh.ret": true
+     }
+    },
+    {
+     "at": 552,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 560,
+     "set": {
+      "B.Recovery.home": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.Recovery.retract",
+     "value": false,
+     "from": 471,
+     "to": 499
+    },
+    {
+     "tag": "B.Recovery.retract",
+     "value": true,
+     "from": 500,
+     "to": 549
+    },
+    {
+     "tag": "B.Recovery.retract",
+     "value": false,
+     "from": 550,
+     "to": 600
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 4,
+     "from": 500,
+     "to": 549
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 5,
+     "from": 550,
+     "to": 600
+    }
+   ]
+  },
+  {
+   "id": "B-T27",
+   "purpose": "원점 버튼과 마무리 버튼을 동시에 누르면 두 복귀 요구가 모두 없어져 복귀 후진·마무리 전진 출력이 켜지지 않는다.",
+   "requirements": [
+    "B-58",
+    "B-59",
+    "B-78"
+   ],
+   "scans": 560,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 401,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Inspection.ready": true,
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 455,
+     "set": {
+      "B.PB.reset": false
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Recovery.quarantine": true
+     }
+    },
+    {
+     "at": 475,
+     "set": {
+      "B.Recovery.quarantine": false
+     }
+    },
+    {
+     "at": 500,
+     "set": {
+      "B.Recovery.home": true,
+      "B.Recovery.finish": true
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.Recovery.retract",
+     "value": false,
+     "from": 500,
+     "to": 560
+    },
+    {
+     "tag": "B.Recovery.finishPush",
+     "value": false,
+     "from": 500,
+     "to": 560
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 4,
+     "from": 500,
+     "to": 560
+    }
+   ]
+  },
+  {
+   "id": "B-T28",
+   "purpose": "원점 후진 요구가 200 스캔을 넘게 이어지면 수동 복귀 시간 초과로 그 스캔부터 후진 출력이 꺼지고 복귀 단계가 1 로 돌아가며 첫 원인 코드는 그대로다.",
+   "requirements": [
+    "B-62",
+    "B-78"
+   ],
+   "scans": 760,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 401,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Inspection.ready": true,
+      "B.Psh.ret": false
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 455,
+     "set": {
+      "B.PB.reset": false
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Recovery.quarantine": true
+     }
+    },
+    {
+     "at": 475,
+     "set": {
+      "B.Recovery.quarantine": false
+     }
+    },
+    {
+     "at": 500,
+     "set": {
+      "B.Recovery.home": true
+     }
+    },
+    {
+     "at": 502,
+     "set": {
+      "B.Psh.brake": false
+     }
+    },
+    {
+     "at": 702,
+     "set": {
+      "B.Psh.brake": true
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.Recovery.retract",
+     "value": true,
+     "from": 500,
+     "to": 699
+    },
+    {
+     "tag": "B.Recovery.retract",
+     "value": false,
+     "from": 700,
+     "to": 760
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 1,
+     "from": 700,
+     "to": 760
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 6,
+     "from": 700,
+     "to": 760
+    }
+   ]
+  },
+  {
+   "id": "B-T29",
+   "purpose": "배출 준비에서 기동을 누르면 300 스캔 넘게 부저만 울리고 벨트는 멈춰 있다가, 예고가 끝난 스캔부터 부저가 꺼지고 벨트가 돈다(배출 중).",
+   "requirements": [
+    "B-63",
+    "B-64",
+    "B-75",
+    "B-79",
+    "B-85"
+   ],
+   "scans": 900,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 401,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Inspection.ready": true
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 455,
+     "set": {
+      "B.PB.reset": false
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Recovery.quarantine": true
+     }
+    },
+    {
+     "at": 475,
+     "set": {
+      "B.Recovery.quarantine": false
+     }
+    },
+    {
+     "at": 480,
+     "set": {
+      "B.Recovery.home": true
+     }
+    },
+    {
+     "at": 485,
+     "set": {
+      "B.Recovery.home": false
+     }
+    },
+    {
+     "at": 500,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 505,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 802,
+     "set": {
+      "B.Psh.brake": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.Buzzer",
+     "value": false,
+     "from": 480,
+     "to": 499
+    },
+    {
+     "tag": "B.Buzzer",
+     "value": true,
+     "from": 500,
+     "to": 799
+    },
+    {
+     "tag": "B.Buzzer",
+     "value": false,
+     "from": 800,
+     "to": 900
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": false,
+     "from": 480,
+     "to": 799
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": true,
+     "from": 800,
+     "to": 900
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 6,
+     "from": 500,
+     "to": 799
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 7,
+     "from": 800,
+     "to": 900
+    }
+   ]
+  },
+  {
+   "id": "B-T30",
+   "purpose": "배출 계수 1700 이상·비움 계수 300 이상인 배출 중에 추적 초기화 버튼을 누르면 잠김이 풀려 고장 코드 0, 복귀 단계 8, 운전 상태 정지가 된다.",
+   "requirements": [
+    "B-66",
+    "B-67",
+    "B-69",
+    "B-83",
+    "B-84",
+    "B-85"
+   ],
+   "scans": 2700,
+   "steps": [
+    {
+     "at": 25,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 30,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 326,
+     "set": {
+      "B.Psh.brake": false
+     },
+     "ramp": {
+      "B.Conv.count": 12
+     }
+    },
+    {
+     "at": 400,
+     "set": {
+      "B.Inspection.ready": false
+     }
+    },
+    {
+     "at": 401,
+     "ramp": {
+      "B.Conv.count": 0
+     }
+    },
+    {
+     "at": 402,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 410,
+     "set": {
+      "B.Inspection.ready": true
+     }
+    },
+    {
+     "at": 450,
+     "set": {
+      "B.PB.reset": true
+     }
+    },
+    {
+     "at": 455,
+     "set": {
+      "B.PB.reset": false
+     }
+    },
+    {
+     "at": 470,
+     "set": {
+      "B.Recovery.quarantine": true
+     }
+    },
+    {
+     "at": 475,
+     "set": {
+      "B.Recovery.quarantine": false
+     }
+    },
+    {
+     "at": 480,
+     "set": {
+      "B.Recovery.home": true
+     }
+    },
+    {
+     "at": 485,
+     "set": {
+      "B.Recovery.home": false
+     }
+    },
+    {
+     "at": 500,
+     "set": {
+      "B.PB.start": true
+     }
+    },
+    {
+     "at": 505,
+     "set": {
+      "B.PB.start": false
+     }
+    },
+    {
+     "at": 802,
+     "set": {
+      "B.Psh.brake": false
+     }
+    },
+    {
+     "at": 2600,
+     "set": {
+      "B.Recovery.clear": true
+     }
+    },
+    {
+     "at": 2602,
+     "set": {
+      "B.Psh.brake": true
+     }
+    },
+    {
+     "at": 2605,
+     "set": {
+      "B.Recovery.clear": false
+     }
+    }
+   ],
+   "expect": [
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 6,
+     "from": 2500,
+     "to": 2599
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 7,
+     "from": 2500,
+     "to": 2599
+    },
+    {
+     "tag": "B.HMI.faultCode",
+     "value": 0,
+     "from": 2600,
+     "to": 2700
+    },
+    {
+     "tag": "B.HMI.recoveryStep",
+     "value": 8,
+     "from": 2600,
+     "to": 2700
+    },
+    {
+     "tag": "B.HMI.runState",
+     "value": 0,
+     "from": 2600,
+     "to": 2700
+    },
+    {
+     "tag": "B.Conv.run",
+     "value": false,
+     "from": 2600,
+     "to": 2700
+    }
+   ]
+  }
+ ]
+}

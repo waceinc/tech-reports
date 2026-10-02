@@ -1,0 +1,357 @@
+{
+ "cell": "cell-b-pack",
+ "defaults": {
+  "P.Safety.permit": true,
+  "P.R0.ready": true,
+  "P.R0.home": true,
+  "P.R1.ready": true,
+  "P.R1.home": true,
+  "P.C0.present": true,
+  "P.C1.present": true,
+  "P.Tote.present": true
+ },
+ "tests": [
+  {
+   "id": "P-T01",
+   "purpose": "P.Safety.permit 이 한 번도 ON 이 되지 않으면 로봇 요청 조건이 갖춰져도 요청·구동 허가·투입 허가가 모두 꺼져 있다.",
+   "requirements": ["P-34", "P-20", "P-23", "P-24"],
+   "scans": 200,
+   "initial": {"P.Safety.permit": false, "P.R0.arrival": true, "P.R0.available": 4},
+   "steps": [],
+   "expect": [
+    {"tag": "P.R0.request", "value": false, "from": 1, "to": 200},
+    {"tag": "P.Safety.enable", "value": false, "from": 1, "to": 200},
+    {"tag": "P.Feed.ready", "value": false, "from": 1, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T02",
+   "purpose": "포장 안전 정지 뒤 permit 이 돌아오고 리셋만 누르면 구동 허가가 켜지지 않고 장치 리셋 펄스도 나오지 않는다.",
+   "requirements": ["P-35", "P-37", "P-40"],
+   "scans": 200,
+   "steps": [
+    {"at": 20, "set": {"P.Safety.permit": false}},
+    {"at": 40, "set": {"P.Safety.permit": true}},
+    {"at": 60, "set": {"P.PB.reset": true}},
+    {"at": 65, "set": {"P.PB.reset": false}}
+   ],
+   "expect": [
+    {"tag": "P.Safety.enable", "value": true, "from": 1, "to": 19},
+    {"tag": "P.Safety.enable", "value": false, "from": 20, "to": 200},
+    {"tag": "P.R0.reset", "value": false, "from": 1, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T03",
+   "purpose": "포장 안전 정지 뒤 리셋 뗌에 이어 기동 상승이 오면 그 스캔부터 구동 허가가 다시 켜진다.",
+   "requirements": ["P-36", "P-23"],
+   "scans": 200,
+   "steps": [
+    {"at": 20, "set": {"P.Safety.permit": false}},
+    {"at": 40, "set": {"P.Safety.permit": true}},
+    {"at": 60, "set": {"P.PB.reset": true}},
+    {"at": 65, "set": {"P.PB.reset": false}},
+    {"at": 100, "set": {"P.PB.start": true}},
+    {"at": 110, "set": {"P.PB.start": false}}
+   ],
+   "expect": [
+    {"tag": "P.Safety.enable", "value": false, "from": 20, "to": 99},
+    {"tag": "P.Safety.enable", "value": true, "from": 100, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T04",
+   "purpose": "포장 안전 정지 복귀에서 장치 리셋 펄스는 리셋 스캔이 아니라 재기동 스캔에 1 스캔만 나온다.",
+   "requirements": ["P-39", "P-40"],
+   "scans": 200,
+   "steps": [
+    {"at": 20, "set": {"P.Safety.permit": false}},
+    {"at": 40, "set": {"P.Safety.permit": true}},
+    {"at": 60, "set": {"P.PB.reset": true}},
+    {"at": 65, "set": {"P.PB.reset": false}},
+    {"at": 100, "set": {"P.PB.start": true}},
+    {"at": 110, "set": {"P.PB.start": false}}
+   ],
+   "expect": [
+    {"tag": "P.R0.reset", "value": false, "from": 1, "to": 99},
+    {"tag": "P.R0.reset", "value": true, "from": 100, "to": 100},
+    {"tag": "P.R0.reset", "value": false, "from": 101, "to": 200},
+    {"tag": "P.Tote.reset", "value": false, "from": 1, "to": 99},
+    {"tag": "P.Tote.reset", "value": true, "from": 100, "to": 100},
+    {"tag": "P.Tote.reset", "value": false, "from": 101, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T05",
+   "purpose": "로봇 2 fault 입력이 켜지면 그 스캔부터 고장 코드 115·장치 번호 2 가 나오고 원인이 꺼져도 유지된다.",
+   "requirements": ["P-27", "P-41", "P-42", "P-43"],
+   "scans": 200,
+   "steps": [
+    {"at": 10, "set": {"P.R1.fault": true}},
+    {"at": 20, "set": {"P.R1.fault": false}}
+   ],
+   "expect": [
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 1, "to": 9},
+    {"tag": "P.HMI.faultCode", "value": 115, "from": 10, "to": 200},
+    {"tag": "P.HMI.faultDevice", "value": 0, "from": 1, "to": 9},
+    {"tag": "P.HMI.faultDevice", "value": 2, "from": 10, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T06",
+   "purpose": "토트 교환기 고장이 기억된 뒤 로봇 1 fault 가 들어와도 첫 원인 코드 145·장치 번호 5 가 바뀌지 않는다.",
+   "requirements": ["P-29", "P-42"],
+   "scans": 200,
+   "steps": [
+    {"at": 10, "set": {"P.Tote.fault": true}},
+    {"at": 15, "set": {"P.Tote.fault": false}},
+    {"at": 30, "set": {"P.R0.fault": true}},
+    {"at": 35, "set": {"P.R0.fault": false}}
+   ],
+   "expect": [
+    {"tag": "P.HMI.faultCode", "value": 145, "from": 10, "to": 200},
+    {"tag": "P.HMI.faultDevice", "value": 5, "from": 10, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T07",
+   "purpose": "장치 원인이 해소된 뒤 포장 리셋 뗌 스캔에 고장 코드·장치 번호가 0 이 되고 구동 허가가 다시 켜진다.",
+   "requirements": ["P-32", "P-33", "P-43", "P-23"],
+   "scans": 200,
+   "steps": [
+    {"at": 10, "set": {"P.R0.fault": true}},
+    {"at": 30, "set": {"P.R0.fault": false}},
+    {"at": 50, "set": {"P.PB.reset": true}},
+    {"at": 55, "set": {"P.PB.reset": false}}
+   ],
+   "expect": [
+    {"tag": "P.HMI.faultCode", "value": 105, "from": 10, "to": 54},
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 55, "to": 200},
+    {"tag": "P.HMI.faultDevice", "value": 0, "from": 55, "to": 200},
+    {"tag": "P.Safety.enable", "value": false, "from": 10, "to": 54},
+    {"tag": "P.Safety.enable", "value": true, "from": 55, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T08",
+   "purpose": "장치 fault 입력이 켜진 채로 리셋을 떼면 고장이 풀리지 않고 구동 허가·투입 허가·불량 배출이 계속 꺼져 있다.",
+   "requirements": ["P-32", "P-31"],
+   "scans": 200,
+   "steps": [
+    {"at": 10, "set": {"P.R0.fault": true}},
+    {"at": 50, "set": {"P.PB.reset": true}},
+    {"at": 55, "set": {"P.PB.reset": false}}
+   ],
+   "expect": [
+    {"tag": "P.HMI.faultCode", "value": 105, "from": 10, "to": 200},
+    {"tag": "P.Safety.enable", "value": false, "from": 10, "to": 200},
+    {"tag": "P.Feed.ready", "value": false, "from": 10, "to": 200},
+    {"tag": "P.Reject.gate", "value": true, "from": 1, "to": 9},
+    {"tag": "P.Reject.gate", "value": false, "from": 10, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T09",
+   "purpose": "로봇 1 정상 핸드셰이크에서 request 는 요청 시작부터 busy 상승 전까지, ack 는 done 상승부터 done 하강 전까지만 켜진다.",
+   "requirements": ["P-03", "P-04", "P-05", "P-06", "P-07", "P-10", "P-20", "P-22"],
+   "scans": 200,
+   "steps": [
+    {"at": 10, "set": {"P.R0.arrival": true, "P.R0.available": 4}},
+    {"at": 20, "set": {"P.R0.busy": true}},
+    {"at": 40, "set": {"P.R0.picked": true}},
+    {"at": 60, "set": {"P.R0.done": true}},
+    {"at": 70, "set": {"P.R0.done": false, "P.R0.busy": false, "P.R0.picked": false, "P.R0.arrival": false, "P.R0.available": 0}}
+   ],
+   "expect": [
+    {"tag": "P.R0.request", "value": false, "from": 1, "to": 9},
+    {"tag": "P.R0.request", "value": true, "from": 10, "to": 19},
+    {"tag": "P.R0.request", "value": false, "from": 20, "to": 200},
+    {"tag": "P.R0.ack", "value": false, "from": 1, "to": 59},
+    {"tag": "P.R0.ack", "value": true, "from": 60, "to": 69},
+    {"tag": "P.R0.ack", "value": false, "from": 70, "to": 200},
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 1, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T10",
+   "purpose": "도착 수 2·배치 완료·케이스 점유 6 으로 요청하면 레시피가 집기 수 2·컵쌍 3·적재 행 1 로 잡히고 작업 뒤 점유 수가 바뀌어도 유지된다.",
+   "requirements": ["P-10", "P-11", "P-12", "P-13", "P-14"],
+   "scans": 200,
+   "initial": {"P.C0.count": 6, "P.Batch.complete": true},
+   "steps": [
+    {"at": 10, "set": {"P.R0.arrival": true, "P.R0.available": 2}},
+    {"at": 20, "set": {"P.R0.busy": true}},
+    {"at": 40, "set": {"P.R0.picked": true}},
+    {"at": 60, "set": {"P.R0.done": true}},
+    {"at": 70, "set": {"P.R0.done": false, "P.R0.busy": false, "P.R0.picked": false, "P.R0.arrival": false, "P.R0.available": 0}},
+    {"at": 80, "set": {"P.C0.count": 0}}
+   ],
+   "expect": [
+    {"tag": "P.R0.request_count", "value": 0, "from": 1, "to": 9},
+    {"tag": "P.R0.request_count", "value": 2, "from": 10, "to": 200},
+    {"tag": "P.R0.mask", "value": 0, "from": 1, "to": 9},
+    {"tag": "P.R0.mask", "value": 3, "from": 10, "to": 200},
+    {"tag": "P.R0.row", "value": 0, "from": 1, "to": 9},
+    {"tag": "P.R0.row", "value": 1, "from": 10, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T11",
+   "purpose": "케이스 1 이 만재이면 로봇 1 은 요청 조건이 갖춰져도 요청하지 않고 케이스 교환기 1 만 교체 요청을 낸다.",
+   "requirements": ["P-15", "P-16"],
+   "scans": 100,
+   "initial": {"P.C0.full": true, "P.R0.arrival": true, "P.R0.available": 4},
+   "steps": [],
+   "expect": [
+    {"tag": "P.R0.request", "value": false, "from": 1, "to": 100},
+    {"tag": "P.C0.request", "value": true, "from": 1, "to": 50}
+   ]
+  },
+  {
+   "id": "P-T12",
+   "purpose": "토트 교환 요청 뒤 busy 상승이 없으면 단계 경과 50 을 넘는 스캔에 고장 141·장치 번호 5 가 되고 그 스캔에 request 가 꺼진다.",
+   "requirements": ["P-17", "P-18", "P-04", "P-28", "P-31", "P-42"],
+   "scans": 150,
+   "steps": [
+    {"at": 10, "set": {"P.Tote.full": true, "P.Tote.settled": true}}
+   ],
+   "expect": [
+    {"tag": "P.Tote.request", "value": false, "from": 1, "to": 9},
+    {"tag": "P.Tote.request", "value": true, "from": 10, "to": 60},
+    {"tag": "P.Tote.request", "value": false, "from": 61, "to": 150},
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 1, "to": 60},
+    {"tag": "P.HMI.faultCode", "value": 141, "from": 61, "to": 150},
+    {"tag": "P.HMI.faultDevice", "value": 5, "from": 61, "to": 150}
+   ]
+  },
+  {
+   "id": "P-T13",
+   "purpose": "로봇 1 이 집기 대기 단계에서 picked 없이 done 이 먼저 와도 완료로 치지 않고 단계 경과 100 을 넘는 스캔에 고장 102 가 된다.",
+   "requirements": ["P-09", "P-05"],
+   "scans": 200,
+   "steps": [
+    {"at": 10, "set": {"P.R0.arrival": true, "P.R0.available": 4}},
+    {"at": 20, "set": {"P.R0.busy": true}},
+    {"at": 30, "set": {"P.R0.done": true}}
+   ],
+   "expect": [
+    {"tag": "P.R0.ack", "value": false, "from": 1, "to": 200},
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 1, "to": 120},
+    {"tag": "P.HMI.faultCode", "value": 102, "from": 121, "to": 200}
+   ]
+  },
+  {
+   "id": "P-T14",
+   "purpose": "케이스 교환기 1 이 확인 단계에서 done 을 내리지 않으면 경과 50 을 넘는 스캔에 고장 124 가 되고, ack 는 그 스캔까지 켜진 뒤 다음 스캔에 꺼진다.",
+   "requirements": ["P-07", "P-22", "P-30", "P-42"],
+   "scans": 150,
+   "steps": [
+    {"at": 10, "set": {"P.C0.full": true}},
+    {"at": 20, "set": {"P.C0.busy": true}},
+    {"at": 30, "set": {"P.C0.picked": true}},
+    {"at": 40, "set": {"P.C0.done": true}}
+   ],
+   "expect": [
+    {"tag": "P.C0.ack", "value": false, "from": 1, "to": 39},
+    {"tag": "P.C0.ack", "value": true, "from": 40, "to": 91},
+    {"tag": "P.C0.ack", "value": false, "from": 92, "to": 150},
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 1, "to": 90},
+    {"tag": "P.HMI.faultCode", "value": 124, "from": 91, "to": 150},
+    {"tag": "P.HMI.faultDevice", "value": 3, "from": 91, "to": 150}
+   ]
+  },
+  {
+   "id": "P-T15",
+   "purpose": "로봇 1 이 busy 상승 뒤 done 을 내지 않으면 작업 스캔이 630 을 넘는 스캔에 작업 시간 초과 고장 103 이 된다.",
+   "requirements": ["P-08"],
+   "scans": 700,
+   "steps": [
+    {"at": 10, "set": {"P.R0.arrival": true, "P.R0.available": 4}},
+    {"at": 20, "set": {"P.R0.busy": true}},
+    {"at": 30, "set": {"P.R0.picked": true}}
+   ],
+   "expect": [
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 1, "to": 649},
+    {"tag": "P.HMI.faultCode", "value": 103, "from": 650, "to": 700}
+   ]
+  },
+  {
+   "id": "P-T16",
+   "purpose": "요청 단계의 로봇 1 은 격리 중 request 가 꺼지지만 단계 경과는 계속 세어 busy 응답 없음 고장 101 이 나고, 그 전까지 구동 허가는 켜져 있다.",
+   "requirements": ["P-21", "P-23", "P-04"],
+   "scans": 100,
+   "steps": [
+    {"at": 10, "set": {"P.R0.arrival": true, "P.R0.available": 4}},
+    {"at": 20, "set": {"P.Quarantine": true}}
+   ],
+   "expect": [
+    {"tag": "P.R0.request", "value": true, "from": 10, "to": 19},
+    {"tag": "P.R0.request", "value": false, "from": 20, "to": 100},
+    {"tag": "P.Safety.enable", "value": true, "from": 1, "to": 60},
+    {"tag": "P.HMI.faultCode", "value": 0, "from": 1, "to": 60},
+    {"tag": "P.HMI.faultCode", "value": 101, "from": 61, "to": 100}
+   ]
+  },
+  {
+   "id": "P-T17",
+   "purpose": "토트 점유 수가 4 이면 불량 배출이 꺼져 있고 3 으로 내려가면 켜진다.",
+   "requirements": ["P-19"],
+   "scans": 100,
+   "initial": {"P.Tote.count": 4},
+   "steps": [
+    {"at": 50, "set": {"P.Tote.count": 3}}
+   ],
+   "expect": [
+    {"tag": "P.Reject.gate", "value": false, "from": 1, "to": 49},
+    {"tag": "P.Reject.gate", "value": true, "from": 50, "to": 100}
+   ]
+  },
+  {
+   "id": "P-T18",
+   "purpose": "분류 쪽이 정지 상태여도 투입 허가는 켜지고, 토트가 제자리에 없으면 꺼졌다가 토트 교환기 busy 가 켜지면 다시 켜진다.",
+   "requirements": ["P-24", "PB-03"],
+   "scans": 80,
+   "steps": [
+    {"at": 20, "set": {"P.Tote.present": false}},
+    {"at": 40, "set": {"P.Tote.busy": true}}
+   ],
+   "expect": [
+    {"tag": "P.Feed.ready", "value": true, "from": 1, "to": 19},
+    {"tag": "P.Feed.ready", "value": false, "from": 20, "to": 39},
+    {"tag": "P.Feed.ready", "value": true, "from": 40, "to": 80}
+   ]
+  },
+  {
+   "id": "P-T19",
+   "purpose": "잔량 하한 입력이 켜져 있으면 잔량 램프가 포장 허가와 상관없이 셀 공용 스캔 계수 기준 50 스캔 반주기로 점멸한다.",
+   "requirements": ["P-26", "PB-06"],
+   "scans": 200,
+   "initial": {"P.Safety.permit": false, "P.C1.stockLow": true},
+   "steps": [],
+   "expect": [
+    {"tag": "P.Lamp.stock", "value": true, "from": 1, "to": 49},
+    {"tag": "P.Lamp.stock", "value": false, "from": 50, "to": 99},
+    {"tag": "P.Lamp.stock", "value": true, "from": 100, "to": 149},
+    {"tag": "P.Lamp.stock", "value": false, "from": 150, "to": 199}
+   ]
+  },
+  {
+   "id": "P-T20",
+   "purpose": "포장 안전 정지는 분류 쪽 리셋·기동 버튼(B.PB.reset·B.PB.start)으로 풀리지 않는다.",
+   "requirements": ["PB-04", "P-35"],
+   "scans": 200,
+   "steps": [
+    {"at": 20, "set": {"P.Safety.permit": false}},
+    {"at": 40, "set": {"P.Safety.permit": true}},
+    {"at": 60, "set": {"B.PB.reset": true}},
+    {"at": 65, "set": {"B.PB.reset": false}},
+    {"at": 100, "set": {"B.PB.start": true}},
+    {"at": 110, "set": {"B.PB.start": false}}
+   ],
+   "expect": [
+    {"tag": "P.Safety.enable", "value": false, "from": 20, "to": 200},
+    {"tag": "P.Feed.ready", "value": false, "from": 20, "to": 200}
+   ]
+  }
+ ]
+}

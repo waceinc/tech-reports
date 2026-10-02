@@ -1,0 +1,491 @@
+path	bytes	sha256	why
+work/T01-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T01-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T01-G1-r1/assembled.ldprog.json	18890	9a5545694e6cdaca5a166017846266477f9af10b34c1a0207cdb5b1d8f2d621c	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T01-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T01-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T01-G1-r2/assembled.ldprog.json	22423	da359dcdb19767539440cb9c34252e3c5a840c90f3082a9ebb127ca8e92ad359	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T01-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T01-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T01-G1-r3/assembled.ldprog.json	29195	3225f1a5ad39aa7bd70a1bbf3623c2e82ee9740d81b21cd6b5346f606c625658	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T01-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T01-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T01-G2-r1/assembled.ldprog.json	20012	027b6e0c763e4e40dba761154d9d1027fb3ead26533ec5ff76ed72bb389d85fd	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T01-G2-r1/generator.log	24846	30d9f5016e5708851e987cfef9fff2e038beec7a2cc28379485c56e86a744895	private: contains appendix text
+work/T01-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T01-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T01-G2-r2/assembled.ldprog.json	20961	e1964129fc49f5c9f8f5bfa006d59e95bcdacdacb4c385d43d031675abf76512	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T01-G2-r2/generator.log	26037	6bc0f4e77ad09aeef2e3fa3814e70ae041ca3aaa46905cdc27b85e65cceacb98	private: contains appendix text
+work/T01-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T01-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T01-G2-r3/assembled.ldprog.json	21113	65c0f5dbfcdf5009a410a0f333bac2308133fb77c88f1166ba68b8c4bb39d815	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T01-G2-r3/generator.log	25896	6b59451dd79dcf9ea54cf56369d13e62f6d386b3916f278de5020aef441eb2c1	private: contains appendix text
+work/T01-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T01-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T01-G3-r1/assembled.ldprog.json	27691	a9f768bc1b386bbbfc88bc5a858d98578faf0608ab5cd63dea3eebdd3bdd09dd	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T02-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T02-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T02-G1-r1/assembled.ldprog.json	22313	2c9a99193631f8be13026099d26aefa9a376d341ef512f67b039bca145782b15	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T02-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T02-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T02-G1-r2/assembled.ldprog.json	22048	0de6bd708abed0836bfef0b4bd4ef5f0afc510771fc1deaf1cf5e753fffeb5fa	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T02-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T02-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T02-G1-r3/assembled.ldprog.json	22338	90418b2ea8607945b825f4a1c5cc6a658db4ebaabf9561425795ad558cee8a12	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T02-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T02-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T02-G2-r1/assembled.ldprog.json	22336	447edd2f5c21b3ca430d84bd6898420437e7da43a0f67521246f8f69e45b51a7	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T02-G2-r1/generator.log	34884	9fe62bdac378d9ac23f28d6825faf226b7538ac984cb1039bc87c6c1c37dd36e	private: contains appendix text
+work/T02-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T02-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T02-G2-r2/assembled.ldprog.json	22228	d24dad03178b3185231f2a89949a4e63a64cc794659cdc1e3825e1930acec589	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T02-G2-r2/generator.log	35918	d2db2e93e7209fb21390d9dfa8e766fe5d957233db5064256a9467b2a15ad16b	private: contains appendix text
+work/T02-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T02-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T02-G2-r3/assembled.ldprog.json	22241	ad8ec5b981afdb3d247b513eb3ce7b9b563841f90b6a1833be5d50fc4b36afcf	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T02-G2-r3/generator.log	35510	e0b7b1128388a776ad85e8451518d1d6539677f138ec792c63ef65bbbf6e9542	private: contains appendix text
+work/T02-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T02-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T02-G3-r1/assembled.ldprog.json	27464	b92c9512268ee2235a366f8a899ad939709d7513a1a201181de5a9b7cf5b2bbe	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T03-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T03-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T03-G1-r1/assembled.ldprog.json	22195	6f6ffa23eefa593b17c99ca92dcd4517bba6a6c3957c94919066e9d8086ba031	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T03-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T03-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T03-G1-r2/assembled.ldprog.json	22214	0536c6e04d83f87b5f9ef0d3c63e704f1919e69bc185d044caaeade17cca1391	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T03-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T03-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T03-G1-r3/assembled.ldprog.json	22203	f67257eac3f6a632a52743f135c9abcadb10eb40fb7fbb7bb0f5a85bbaa5d8ba	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T03-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T03-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T03-G2-r1/assembled.ldprog.json	21939	50a98313ca4d5eb04055eca9ddf6fd8bea368697da6f1d0b6b72115c76abc3d2	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T03-G2-r1/generator.log	39256	8a006bf923673df4eba5d00e069f7b0c34626d7c7e42a9bd1074c8e37e60c47c	private: contains appendix text
+work/T03-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T03-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T03-G2-r2/assembled.ldprog.json	21993	2e14f75cca65089e1a7869886cae76ed3791f01670a62ce19e0c29a670985249	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T03-G2-r2/generator.log	39261	690dbed5a2f478ac8ffa4e960c24afab8a5783cd8eb792c649b7c90f44cd44cc	private: contains appendix text
+work/T03-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T03-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T03-G2-r3/assembled.ldprog.json	21927	853c7c7d5a79054e620390b05932ad3c48a27ff3a7429fef4d1d34e331361ced	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T03-G2-r3/generator.log	38960	a27fcac85e6a65a9e481424a9b5b05078b0b032e12a0dfca488641755cbe37b3	private: contains appendix text
+work/T03-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T03-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T03-G3-r1/assembled.ldprog.json	22511	18728b57df46f2c73b0b3547f030a7b7c92400e182b9821bf08520520c9b0e45	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T04-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T04-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T04-G1-r1/assembled.ldprog.json	21792	24502a2eb32fa0a429fc975a3ee81b22d4bcf18b1c1ea79237edf07a0c18f8d0	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T04-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T04-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T04-G1-r2/assembled.ldprog.json	21745	73510639031c375d682621d38efe5ac402a05338dfb2a4477dbe3dfa74ad5c9c	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T04-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T04-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T04-G1-r3/assembled.ldprog.json	22053	b2f6beb788d2d5ad7b100e00801f189cf8544ade61621e135eb67925a48a23ce	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T04-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T04-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T04-G2-r1/assembled.ldprog.json	22048	e570d380edd91301d1e3c6bafc8b53e4dc8517823551121e418b0e46f2081f85	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T04-G2-r1/generator.log	37957	618399dc9c176ad3c5ccce76541823ec78e62e37551d7f1dd56556a5bd0af4af	private: contains appendix text
+work/T04-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T04-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T04-G2-r2/assembled.ldprog.json	21954	35ca98f8144c3bd308979e6aa264e2c84ca749613ed79ace905d03e80231e918	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T04-G2-r2/generator.log	36428	121bbcba78bb1b955315a09469f92a5fd88521c84aa7f484cd886b82dc42d158	private: contains appendix text
+work/T04-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T04-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T04-G2-r3/assembled.ldprog.json	22354	46b81695c042b5f8a9800032a8d520f9b61ce509d1715cf993b1c14fed0f05c8	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T04-G2-r3/generator.log	37698	837c58e1143d80a96043d0a705a04ebc6daa908c0e97a15e1353eb36a07f0187	private: contains appendix text
+work/T04-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T04-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T04-G3-r1/assembled.ldprog.json	22708	da1a7c6f4090f00841dd3cab92a3d1fadfb32835b4dedd83f440173c4d99a11c	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T05-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T05-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T05-G1-r1/assembled.ldprog.json	21830	2df095a61fa2ffaff15bfcf8cc29b881bf505fad1ceee0446b61d2265f5e097a	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T05-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T05-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T05-G1-r2/assembled.ldprog.json	22188	112d4fb75a38195b5c7dbb2c35fe927cde12c4be52addb4f7df59818fa1da130	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T05-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T05-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T05-G1-r3/assembled.ldprog.json	22195	fc4696f2490c66f0dbdc2a06c52a9ce6c66406f55acdf32098b0c6ff881b9270	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T05-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T05-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T05-G2-r1/assembled.ldprog.json	22251	d216f52658a4e2724dcd93783086ac5025ca9b7522a0151cff09de5d436dcc4d	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T05-G2-r1/generator.log	37872	ee4b5865d7cf3439f1aad3cbd9c66eacb31f4ee542c282f74bfb5e826c3b3fe4	private: contains appendix text
+work/T05-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T05-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T05-G2-r2/assembled.ldprog.json	21788	e7492e65af34b769aef8c2af08c042dbab08b9cb41f37497aa56a1afc649aed7	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T05-G2-r2/generator.log	38300	41c5b9502f531859315c5a210f109007473db736fe3fb318935f9a0b41c10964	private: contains appendix text
+work/T05-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T05-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T05-G2-r3/assembled.ldprog.json	21886	0a8d3e3de1e68e6abfbef363e1a1722f14bd562b00fd79b068c7c840dd2dbafb	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T05-G2-r3/generator.log	39606	776ceec801629b7d9a0388974f8ae690210bfea74e9634cc02b2635ba8de81c7	private: contains appendix text
+work/T05-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T05-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T05-G3-r1/assembled.ldprog.json	21048	45372ba2f0a5ede0de8bf8265b63215e45d02b63e7b4aa766ad9df90e24cd22c	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T06-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T06-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T06-G1-r1/assembled.ldprog.json	263094	620f2d83a2cbc2173d4e1c5938e7a71774375af1090480dbb5224ce67087e5cd	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T06-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T06-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T06-G1-r2/assembled.ldprog.json	277063	ba7b29c1ee5c186166758d27e81d96aa9caed8f8213e7223d82b7d51fc24adc7	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T06-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T06-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T06-G1-r3/assembled.ldprog.json	230316	d4722a08dc57cb3362cad9a41a820eb4f34a4efcb83bd7f4975d98370391f8c8	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T06-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T06-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T06-G2-r1/assembled.ldprog.json	347478	891bd5fe6a9e82112150628b35ab1aaa71019998b4c2b878e15145867f3bf62d	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T06-G2-r1/generator.log	116639	22eb350e49589c00d77384d8729741ccaa123fd2d72e271da6ac75a6a1dbf619	private: contains appendix text
+work/T06-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T06-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T06-G2-r2/assembled.ldprog.json	294445	bf889cddb19370a8b58ff548021034b2429500db143659580572c908cadf7128	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T06-G2-r2/generator.log	118669	4318c09806efb0fae106e98870aa8391c4047368ee2534a69434605db3876114	private: contains appendix text
+work/T06-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T06-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T06-G2-r3/assembled.ldprog.json	418141	11c6aef06f7f8a5970cf6d545028dfc34f91213280cbcf4a811cc91a7f00e16e	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T06-G2-r3/generator.log	124103	c1d06f367f15b9501d254dbc20abaf13ea8a26a281e269238ab8624a847616f3	private: contains appendix text
+work/T06-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T06-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T06-G3-r1/assembled.ldprog.json	27013	57019090aba1cdc192268635da36475b372648d0ff207fd55a97ecd8ac96bf21	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T07-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T07-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T07-G1-r1/assembled.ldprog.json	440462	b6b754e3b0961d56252079094ea844f42add4baa561973d76b4bf76a9dfcdc4a	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T07-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T07-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T07-G1-r2/assembled.ldprog.json	441436	26fe642c4bfec3de78c008c1bc4facdc8159a981fda579b9cfb927798eaf33b4	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T07-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T07-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T07-G1-r3/assembled.ldprog.json	441160	db1edef7f9610260a5b01fa154bc07ed44077b7724f6de9aa4af2a164e98d1da	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T07-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T07-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T07-G2-r1/assembled.ldprog.json	441745	a1c88dd92f57f31ce72beec772265e7f8993ea72ce691d54b2db842dd98d6eae	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T07-G2-r1/generator.log	177734	3bd41ae7ac0446202a6113651363f8d69d8d09cbad2f320c97247c6dc9bd4a00	private: contains appendix text
+work/T07-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T07-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T07-G2-r2/assembled.ldprog.json	441331	d3eb12b93777699e35089ef14426a547f38d4773c5b544483f2a878ca5518bfd	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T07-G2-r2/generator.log	562503	2f695e42fdbb9f45cf4870341e7481dd4dc5274334df8bf560e755d759b1be7f	private: contains appendix text
+work/T07-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T07-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T07-G2-r3/assembled.ldprog.json	441391	8ec69c2fd2db5d03913cfbb2752a0f8de7afa186fad3113143dfa9b35247dfb7	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T07-G2-r3/generator.log	476718	2eafa632151e19f215ec986252abe5bfcda71f479105ff8e17c01939fe6cdfcb	private: contains appendix text
+work/T07-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T07-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T08-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T08-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T08-G1-r1/assembled.ldprog.json	438302	c6317de6db60e0a49e614b8c80b8e5c82c904e73ae04cd1127258ba02020ca99	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T08-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T08-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T08-G1-r2/assembled.ldprog.json	440213	5d716fad7990d4c34b7cdc196abfd4b3950017eb6bb99056dabbd9cf2656bba5	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T08-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T08-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T08-G1-r3/assembled.ldprog.json	440637	e459402302856afbfcd348599cb72b1fff8d0737dee722e9e10de154dbe44020	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T08-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T08-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T08-G2-r1/assembled.ldprog.json	439043	1cbf24285de3ffc799428d680a1f0728d0eadeae98c6ce7a77b266dd69532658	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T08-G2-r1/generator.log	498982	a3606c4dc8ee6ef5df63b6704d9f8d5ac008b52ec893e7462441d0f529fbfc47	private: contains appendix text
+work/T08-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T08-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T08-G2-r2/assembled.ldprog.json	439612	f213eef138d8d2f0eeef08622f18b1fa9c1c6fc2a6a3b5425045bde4fb7760f8	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T08-G2-r2/generator.log	504404	e3e34178bd446d95b468b22827098d4febc91232d1d0c5818fe6bb60069907c7	private: contains appendix text
+work/T08-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T08-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T08-G2-r3/assembled.ldprog.json	439792	9052924c9207c298feff83181d5db94b90e5e1c90022bc0e21dca47dc6144b86	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T08-G2-r3/generator.log	475012	5421516f8b909999c9da7d9ffdd2caec8ae048d56946ec8f9483649da95458d2	private: contains appendix text
+work/T08-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T08-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T09-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T09-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T09-G1-r1/assembled.ldprog.json	441516	7f616c7d0549b4c3805005c3341e3a842bfae8515a0651a5773d8e38d85619d9	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T09-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T09-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T09-G1-r2/assembled.ldprog.json	441565	a9eb6f5c45b706874e5cb014b66d53752a8623631aff4dfa933ff6c0f1ff41ef	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T09-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T09-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T09-G1-r3/assembled.ldprog.json	441622	89d5f2d01af1a51f374529d76ec3dbed31d4d72977b6a5c004487bb319a9e2fb	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T09-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T09-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T09-G2-r1/assembled.ldprog.json	441042	9af0018e2e7aa5108889d30309594f3cb8b0ea6f0d3bb0e58c0c4079458e93ce	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T09-G2-r1/generator.log	609207	ecffad8e7dba024d3a030d7789df072414f32cc2fd5b65eaf385494901d31532	private: contains appendix text
+work/T09-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T09-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T09-G2-r2/assembled.ldprog.json	440138	7bc0c887a733104ce94337111abfd50e7b63f3ea141c31f4822c6791054942e0	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T09-G2-r2/generator.log	592563	3fb35fbcdf19f5460a415f1e3f3f8bf432c6394cd6dec8a2936e9155fb359df8	private: contains appendix text
+work/T09-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T09-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T09-G2-r3/assembled.ldprog.json	440925	23d7db27539dee1736b3cae2f2bd71cfa5d7c1e3074c8ee76fa76013d3692932	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T09-G2-r3/generator.log	176372	b2b7d51366b69b238c5a20b47d4887372bbff7aa1b0f58c9e74931aeec690e67	private: contains appendix text
+work/T09-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T09-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T10-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T10-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T10-G1-r1/assembled.ldprog.json	434933	8c4069aee6f1c52da6dc9481dc6e4e32a621c3ffbd315f3a5dbb61a3c99ae0a4	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T10-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T10-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T10-G1-r2/assembled.ldprog.json	433594	80a3228c75b97ef8134aa03669075d8c70782dfe12a20ea4509511775e034f51	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T10-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T10-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T10-G1-r3/assembled.ldprog.json	433695	980869a04b4c28cf762bb007fadd9802cbe97d96a26051e96f8d2a005857c301	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T10-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T10-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T10-G2-r1/assembled.ldprog.json	435376	5b88a7c84275145cae5b89df1545d3b1f38aaa18eb8ae656d865067aee1ad231	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T10-G2-r1/generator.log	517508	f1e19497f2189001c61be67ebefc526145cd63586be00c22e7c47c7ad25db917	private: contains appendix text
+work/T10-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T10-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T10-G2-r2/assembled.ldprog.json	439236	5e92126ce4df9b02a63be0290bec4ac8197f1954f7ed50f6fd1b0b5059d70054	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T10-G2-r2/generator.log	521360	cb1e9df8ba6243718f431d5d3204ca1d1fb25f7dcf3fd5ebcffe6335f4bc23e7	private: contains appendix text
+work/T10-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T10-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T10-G2-r3/assembled.ldprog.json	439799	a8cefa183828c553106d42d3e8b0c8b0dac66eecbd6a3054a5df2aeb6359b400	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T10-G2-r3/generator.log	511305	47c195d19f21e1cb638317d89f665aa64de5c1bd38ecf5740f951071f0003dbe	private: contains appendix text
+work/T10-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T10-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T11-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T11-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T11-G1-r1/assembled.ldprog.json	437665	441eeac8f2a6f1838543a50394ca22c3d270f2679f36753f4cb6a585cfd52f33	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T11-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T11-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T11-G1-r2/assembled.ldprog.json	439125	27d4345f5faa5a65e4689ead6192447aed90e5bb567796385c5f4c78734fb735	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T11-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T11-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T11-G1-r3/assembled.ldprog.json	439230	b6e0aa93c6854100ddc689aa2bd366afc7ea8902f0707d4b2ec5d63dff7e9823	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T11-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T11-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T11-G2-r1/assembled.ldprog.json	437773	85f0ca82e73846aad7d2ac1d3f4c0c3504e600e4d93c1f48df0fb26068491499	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T11-G2-r1/generator.log	152623	2c07bfe11744a6b882eb18159e44972ed1760f87c3605ba3a26617ba72fa5ded	private: contains appendix text
+work/T11-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T11-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T11-G2-r2/assembled.ldprog.json	439708	c95536d93577f032f015d465dd803884819a81e2e451a57387ccacf3274f9057	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T11-G2-r2/generator.log	209929	c727316cda569bb519b5382fb9d11632598b694e401440a24b8e9d83b79e82ff	private: contains appendix text
+work/T11-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T11-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T11-G2-r3/assembled.ldprog.json	433371	f28812e2fcd9c4bffd23211a374d72082e667c76daabbf05ff37e50ff1d807e5	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T11-G2-r3/generator.log	194391	2185bb0f95675d1c44b3eecf442193af2e96228202f8b10c822ac89900a052a7	private: contains appendix text
+work/T11-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T11-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T12-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T12-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T12-G1-r1/assembled.ldprog.json	438260	c5564d15454722f70d5e11bfb1eabb9562a6a1b32f522aeb89686b0bf792f9a0	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T12-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T12-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T12-G1-r2/assembled.ldprog.json	438707	2bd4a1e9e494f56a112d8bd4b96a09080bcbd9197dd26506275775b358d3c641	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T12-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T12-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T12-G1-r3/assembled.ldprog.json	437989	de4714abb0e69bc9817c5c372a07ba086f54d801d3427b7d3297d118a03c71e3	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T12-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T12-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T12-G2-r1/assembled.ldprog.json	440524	b3cde838e24b95aad3aa5050a712466563d20694fe5f0523e33d3bad87ac9020	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T12-G2-r1/generator.log	273362	614b91a94683c4db4ed71538156e6b9d6dd4974109fa5facb844a24ac7d4ae7d	private: contains appendix text
+work/T12-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T12-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T12-G2-r2/assembled.ldprog.json	439781	6ef789d7896ebbbe8ace5521811e9895b240c5aebdc2d0d4307029c9a986bae6	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T12-G2-r2/generator.log	281105	15688175f606f7bf1949a1cb21c52e9952102251f6ef10680367359a572d50c0	private: contains appendix text
+work/T12-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T12-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T12-G2-r3/assembled.ldprog.json	438792	68bd2f5d84094ba75a97310833fb1c41ff9b244cb10a804238dc12529741a1f9	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T12-G2-r3/generator.log	253538	53e94b04d5ba42167caed783d44832645a042a7a5fed0f83b78efbb8cdc46e39	private: contains appendix text
+work/T12-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T12-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T13-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T13-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T13-G1-r1/assembled.ldprog.json	441602	5104d72ff7e784c89ee7d50b54dc8c59b2cd01799b3a8a3556843e05737231c3	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T13-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T13-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T13-G1-r2/assembled.ldprog.json	441360	a1ab8a7b9047f99dffd822df60b660febe5b47b2f3d3fd292f8674d4b0d8c048	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T13-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T13-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T13-G1-r3/assembled.ldprog.json	441695	12c6d2eaa8dcecf8551e090569f8767d435c476809ace51bf4d047502c687b72	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T13-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T13-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T13-G2-r1/assembled.ldprog.json	440783	e0dd28dc9d8df4a0c866a2ef28c3cfb31b59782ab20b0d60ec4fcdc69a2d5963	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T13-G2-r1/generator.log	311531	924ef65005fe25c70ae621420269bf1b058de36cdf34f58dcb9a53c06739a61d	private: contains appendix text
+work/T13-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T13-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T13-G2-r2/assembled.ldprog.json	438933	97a8e8b0e70d7a81d1c6ddc390ffc5011c6e9c412e228df67fc3dd6976bdc47e	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T13-G2-r2/generator.log	180771	145ff8fca735e1d954938566c2c5e66715da7ba18e3143e37f80e077b7095640	private: contains appendix text
+work/T13-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T13-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T13-G2-r3/assembled.ldprog.json	440281	42b5204d98677f7c9e1b33823bc9f4ba252058d1f68646b6e33beceb77097112	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T13-G2-r3/generator.log	228840	4d5e1d41d1b6be8ba574e6ae1157ded4843e8334401908cdb90ecbb251c63b08	private: contains appendix text
+work/T13-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T13-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T14-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T14-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T14-G1-r1/assembled.ldprog.json	441700	a231f89c40e85af7f1df2f0f59673bc4b8cd7ec70add1643850459c7396e36cb	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T14-G1-r2/.claude-tmp/claude-501/cache-break-state-b0825e0f-0051-45d9-877b-7aa17a83cbe4.json	4596	8ced79bb84c73abf42c8c9a825034fdd86f28293a43e24c0fa60e4791a90c347	tool state of the generator CLI (not a record of the study)
+work/T14-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T14-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T14-G1-r2/assembled.ldprog.json	441465	dd52689c98df9dfe01ea004cc94cd8496ef7e932f13e574212c2f8f105071150	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T14-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T14-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T14-G1-r3/assembled.ldprog.json	441356	67e2a87f232c860aacfd58b3b5391b61606a2d06fb2b7647621357f327276824	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T14-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T14-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T14-G2-r1/assembled.ldprog.json	441613	f50adeb373e1d49c9148055da65dc872614f42d92389b7c8002b7d334db9a275	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T14-G2-r1/generator.log	219356	6e301b984c8a182d3a523e04fa8405725ea470884e0818c8184370225459c4c3	private: contains appendix text
+work/T14-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T14-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T14-G2-r2/assembled.ldprog.json	441215	eb9399eb892f96781ea9a8f2293d9ad6f3fc2c3577c8f05da2432bce07220543	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T14-G2-r2/generator.log	173713	c8bb98e7c8b02431c3edbe861d0edfa754bcd2da9169fb7171f4a266b0b73688	private: contains appendix text
+work/T14-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T14-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T14-G2-r3/assembled.ldprog.json	441391	0389b895a1be48e9a3b4f81ac2bab8e51be9fac0b5a04fe4cdc0a621cf1a2f07	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T14-G2-r3/generator.log	516432	5f82780ea88de7e914cb7ca05787ac5782957a7e2c1ee4cec7e6f4826cbb62ed	private: contains appendix text
+work/T14-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T14-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T15-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T15-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T15-G1-r1/assembled.ldprog.json	440724	d492601264940eec0cbd253fb9c12970d2e484ca62559338dc8b542d44583eb8	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T15-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T15-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T15-G1-r2/assembled.ldprog.json	442822	5d4f2ea1923dff58debfaf1e2ef01c39acc1d88d2c1bb020724e82a121b551c7	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T15-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T15-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T15-G1-r3/assembled.ldprog.json	441289	a2e24ec18b6f9fc175917c65cfbe27373828a37d651718322edfda07fb3cf43b	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T15-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T15-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T15-G2-r1/assembled.ldprog.json	442427	51898b600c7571e3fd88a95b804e3044a1e3d6db3c80ccf4c1cfa759ee57b971	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T15-G2-r1/generator.log	223525	4b554a8a3ad02fcff2bfcdd3f2bbcf8d3d81216bc9416547ca8155b9f9fe3914	private: contains appendix text
+work/T15-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T15-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T15-G2-r2/assembled.ldprog.json	441694	81a2e2005ee41c9f9ca2fa74f44f612cf40e91a4997482d84a7d6f33a06da135	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T15-G2-r2/generator.log	262174	5792c96641bd62ba53c7c064e7aeceac734d8d17eba015010cecf0b6ca3f086b	private: contains appendix text
+work/T15-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T15-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T15-G2-r3/assembled.ldprog.json	442146	83f0ee06545f9a4acd589f8c0682403fc2707473b6b7bd26f6d194c55083b220	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T15-G2-r3/generator.log	232985	5d48cf9d44637049f5ac7a1d47f2a313b95578f68bca93117684d8d33deb790d	private: contains appendix text
+work/T15-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T15-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T16-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T16-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T16-G1-r1/assembled.ldprog.json	439004	c218b52b3c66ed19a0b11a64cf1927d7a0895b2907ef34a6adac18db0bfb0a0b	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T16-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T16-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T16-G1-r2/assembled.ldprog.json	439493	fdfe38676433c7fb8d13c349545825fadb61a8b80c4ae6cfbfdaa8fb3990c187	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T16-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T16-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T16-G1-r3/assembled.ldprog.json	438113	9edfdc3339d3aaaa2f4e951f98fced70c7122c7820e5612e491c4c4334f82a35	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T16-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T16-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T16-G2-r1/assembled.ldprog.json	441469	8df133c933efeef092fdb420c6af0d547b3306f23847a2b04ee28c23b1c33a5c	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T16-G2-r1/generator.log	132345	fab624003bca850769958008c5006063273dbc10ef998344793f67d358e95f27	private: contains appendix text
+work/T16-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T16-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T16-G2-r2/assembled.ldprog.json	439785	369096e4e42887412fe269a955f4ac5c895768cb12305e4e6cd6461f1a7dbee7	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T16-G2-r2/generator.log	239484	6b89902d056b0154a12d271f3cbea94f7fa4b38ef428813dd36df4d81ae2b176	private: contains appendix text
+work/T16-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T16-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T16-G2-r3/assembled.ldprog.json	441222	7014cff6f8610ff2bb33e6b55643c9685758484c4eec6324d32f908fb60aa83a	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T16-G2-r3/generator.log	148406	cee586303b48ecb2fce981f7b8aa50e695fdb4097d99f144dde62f89037f4083	private: contains appendix text
+work/T16-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T16-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T17-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T17-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T17-G1-r1/assembled.ldprog.json	404595	99c4fd221ed6b05b73fdbbd4c3d6d4ddc7aac5eb0a16fc4f3b64a34fd33fb63e	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T17-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T17-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T17-G1-r2/assembled.ldprog.json	404748	0893d6b513e1510a22ef90b4b67828e02c821f7f44b838c5096c1a8fc9588834	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T17-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T17-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T17-G1-r3/assembled.ldprog.json	401361	6423da160c842b90c3daad0056a2b1b36b71f9d770898cb010aa88440e83186b	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T17-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T17-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T17-G2-r1/assembled.ldprog.json	475967	decf4ae98f596675f27a050295e8418a0446b06c24975b3f2f9dd63b17ca7436	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T17-G2-r1/generator.log	438694	e9e295dafd77fefb84f8bfea22bf1456d74826df369333f4f9db32718f25238e	private: contains appendix text
+work/T17-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T17-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T17-G2-r2/assembled.ldprog.json	443919	699ea341fbf194260231dce5c799f09c434ffc6db61e3da87536214f11db5075	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T17-G2-r2/generator.log	241532	0b85a125b028d94bbf096d37ad8a52ec6f90b6bf0a1c31b15bc0e49557143205	private: contains appendix text
+work/T17-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T17-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T17-G2-r3/assembled.ldprog.json	560579	7da0d9e9e89eb88fe468c3880427aaf80600050b4a213743163fa46b78e993e8	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T17-G2-r3/generator.log	212924	2925d0fbbf2d78f9146c2f35f85101ad974dc54e97eae05df4d2f99530273646	private: contains appendix text
+work/T17-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T17-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T18-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T18-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T18-G1-r1/assembled.ldprog.json	689337	8a2465b415fb16f6ce12ccfb33ca756b9a100e879e99a6c3e48375fedfff55e2	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T18-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T18-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T18-G1-r2/assembled.ldprog.json	686762	91b6f5f78aa7c05321894a2e0fb3260f818d5dd48f5b041668e8dc411d2c4af9	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T18-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T18-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T18-G1-r3/assembled.ldprog.json	686200	1d9fd2b758ca54593ab43fd156970fe102d9d483f30a8edd62ba8f5f79e118f3	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T18-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T18-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T18-G2-r1/assembled.ldprog.json	686310	f862145824d1a304a05f9831b92bb2bbb60cd6b16d261e84ee86c55a8c492e59	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T18-G2-r1/generator.log	359421	521e34718ed919eb93f70adc0bb210d922c12d713049b124b02b1efab76519b6	private: contains appendix text
+work/T18-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T18-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T18-G2-r2/assembled.ldprog.json	692739	59d5dc3c332a08a995a053d6239aea245d5f85cd86ba95f6397b413f949ce284	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T18-G2-r2/generator.log	339837	f613b7d434db5d653a21eaf621c2d7f17a7c2304f163270517d1113c1abd90da	private: contains appendix text
+work/T18-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T18-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T18-G2-r3/assembled.ldprog.json	689344	f19658c0575e31cc63b40b57b46016e9b567729b70e287f73620defc92621ac7	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T18-G2-r3/generator.log	672845	3745cd1069f935a2830cb049c4210861cdd90d8b531da986dbb87562fc9e3ccc	private: contains appendix text
+work/T18-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T18-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T19-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T19-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T19-G1-r1/assembled.ldprog.json	604676	f7f32cbca2f5ea651ad2d24478a563f5720d52c8bf1298d9c7cbc4319d0b7367	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T19-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T19-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T19-G1-r2/assembled.ldprog.json	632485	e55c2d8675e241d36a56db58242b8997b648476409c141f71b482853b6e37a62	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T19-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T19-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T19-G1-r3/assembled.ldprog.json	629668	cb9ef1aad3bbad5b09d230ddbb7304272e9b6ea7c5eeccb1e1fcea55914af0e3	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T19-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T19-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T19-G2-r1/assembled.ldprog.json	655985	117874ec34451c62b391940ec6f87a0aea462075658f873ad3bb81e2bae4a874	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T19-G2-r1/generator.log	318224	e6f0498eb7704772bfc5ca69518a915c5793149c1b2b3e7debfc4c57a938067d	private: contains appendix text
+work/T19-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T19-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T19-G2-r2/assembled.ldprog.json	662979	c541c00f28c744c70f91cc9c0a69e7aebd55fc2c717db0e39a579900c9b1248e	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T19-G2-r2/generator.log	279131	35ebf234e55bd8890744be0e98b09ed1f77467994835edcdb515a7d829098c37	private: contains appendix text
+work/T19-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T19-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T19-G2-r3/assembled.ldprog.json	644135	b11079c51d43c0908e999a40eb247de4dfe5a8571cd03ea9e6cc207d54d7786c	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T19-G2-r3/generator.log	242409	9ca7c65b92c669d45ccd244426f5feda68fb17a9158fbd9d08a7e941a1270724	private: contains appendix text
+work/T19-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T19-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T20-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T20-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T20-G1-r1/assembled.ldprog.json	690699	c0144ec3445be1fe9d7ba618896b4c58c5a055c4426d33df66b94fc284462662	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T20-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T20-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T20-G1-r2/assembled.ldprog.json	697945	52f99b7fe898a14df5bab9512f6464d47c61dace3b0c3066abcf86bb00594405	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T20-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T20-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T20-G1-r3/assembled.ldprog.json	697927	a6ec724e6fd256582c2f286fe42d5e7d7c7e2ec34d2ebc482caaaf5a695d70c9	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T20-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T20-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T20-G2-r1/assembled.ldprog.json	697122	3b51ffd1a0f4cb54d7b3371f4b971fc9033478cde25f4406d9791fe7af499333	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T20-G2-r1/generator.log	242492	fe0d4421761562324e2d5fd00c4534236832dbadc01d2025a671aa2b2bf9aa12	private: contains appendix text
+work/T20-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T20-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T20-G2-r2/assembled.ldprog.json	697904	6f129bc531f54a53e258a1398c289be4f02549536b6f8249717bca1fd89ecf0a	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T20-G2-r2/generator.log	293449	bc847d65e720ee4a8f10d659f67af62a5afb2331e3241fb78da8e8c82fd79640	private: contains appendix text
+work/T20-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T20-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T20-G2-r3/assembled.ldprog.json	698350	f6c8d957bb1fd9e761f1e9191f2374d3a1aa3e92f6d7eb4fe803c336e034afbb	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T20-G2-r3/generator.log	257917	012112af2ad197fcf663f0f3df93c77ece8fbc37460f60604469e5a3041d8a38	private: contains appendix text
+work/T20-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T20-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T21-G1-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T21-G1-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T21-G1-r1/assembled.ldprog.json	696833	162f8a9af042d80b480ac72778953066d3b243d4e67aeee3d5c3c2fe3ce7e052	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T21-G1-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T21-G1-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T21-G1-r2/assembled.ldprog.json	696378	94fc0e3b4eb83896485471a105afe21f8f2a5d21bd2c6c817fe584dfe1db4304	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T21-G1-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T21-G1-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T21-G1-r3/assembled.ldprog.json	696689	a201b142ac1918b01268ea20ec7ae4f3fa068997d2ecc18c42b68f175f262e85	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T21-G2-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T21-G2-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T21-G2-r1/assembled.ldprog.json	696795	273901849c490a435f6955491907585d9ac6e6ccb2acc56b12032cf865324c0d	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T21-G2-r1/generator.log	185795	3bf21eb0feee425444e73939c615fcd2de546e287c40860bffe1aaf07373fa46	private: contains appendix text
+work/T21-G2-r2/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T21-G2-r2/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T21-G2-r2/assembled.ldprog.json	696490	eb3ef651c1bb665ecabcacf85082a63c11748f7b12e101a32724ca17b00e978d	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T21-G2-r2/generator.log	207650	1709cfab885b44b17f236be0e8c04f3cfa6ea5556bee0f05c7e16c26993e65c3	private: contains appendix text
+work/T21-G2-r3/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T21-G2-r3/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)
+work/T21-G2-r3/assembled.ldprog.json	696847	c55d8e6e5eea322a60b2b50691292c429e126505c720a16baec6dc746ef0058d	holds the engine marker; judged ladder, public version in ladders/ archive
+work/T21-G2-r3/generator.log	248106	9e775c7454e5835aa67d9fcdf2aafeeda0794176db26452d08eb47734ed34004	private: contains appendix text
+work/T21-G3-r1/.tr04-probe-in.done	2	73cb3858a687a8494ca3323053016282f3dad39d42cf62ca4e79dda2aac7d9ac	isolation self-check probe file (content: run marker only)
+work/T21-G3-r1/appendix.md	5115	cabe4dacc3673122abe722359b781a4874e8fcfa17ca20b8d97b6d1d539eb512	private: the appendix (released by SHA-256 only)

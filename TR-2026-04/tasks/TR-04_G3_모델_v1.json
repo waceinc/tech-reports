@@ -1,0 +1,22 @@
+{
+ "generator": "G3 local open-weight model",
+ "model": "Qwen3-Coder-Next (80B total, 3B active, mixture of experts, 262,144 token native context, non-thinking)",
+ "publisher_repository": "Qwen/Qwen3-Coder-Next-GGUF on Hugging Face",
+ "repository_commit": "b82fb7382639d97b38fa7672e526c760c2fb358e",
+ "license": "Apache-2.0 (commercial use, modification and redistribution allowed; model card license field and LICENSE link checked 2026-09-30)",
+ "quantization": "Q6_K",
+ "files": [
+  {"path": "Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00001-of-00004.gguf", "bytes": 20245400480, "sha256": "96f5a82248f330b16f96b8764890807394a2c9ff15dd929739e84406a82f1c08"},
+  {"path": "Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00002-of-00004.gguf", "bytes": 20249793440, "sha256": "8aba362152a27d594b72de6116229a1cbacf10016ab032fcbeeabf3e496cf50e"},
+  {"path": "Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00003-of-00004.gguf", "bytes": 20119727648, "sha256": "3533e483d4a8f0c71d596b1a7f9b84a653c9034bdd04a7665d5cede7fcab48f6"},
+  {"path": "Qwen3-Coder-Next-Q6_K/Qwen3-Coder-Next-Q6_K-00004-of-00004.gguf", "bytes": 4913543232, "sha256": "cd44084ec6bb816667821ec2ceba024a10910c01f7d53b6c4b7fdb4c868f8c1d"}
+ ],
+ "total_bytes": 65528464800,
+ "sha256_source": "Hugging Face LFS object ids for the commit above (content sha256); the downloaded files must match before the first G3 generation",
+ "runtime": {"server": "llama.cpp llama-server 0.4.1 build 10964 commit b29c606e2 (architecture qwen3next supported in this build)",
+             "context": 262144, "parallel": 1, "host": "127.0.0.1"},
+ "sampling": {"temperature": 0.7, "seeds": [1, 2, 3], "top_p": 0.8, "top_k": 20, "repeat_penalty": 1.05, "max_tokens": 131072,
+              "determinism_control": {"temperature": 0, "seed": 1, "outside_sample": true}},
+ "machine": "Apple M4 Max, 128 GB memory, free disk 528 GB at selection time",
+ "cost": "free download, local inference — no spending"
+}

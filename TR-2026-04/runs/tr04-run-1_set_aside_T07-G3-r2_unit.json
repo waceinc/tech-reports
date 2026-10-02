@@ -1,0 +1,22 @@
+{
+ "unit": "T07-G3-r2",
+ "task": "T07",
+ "generator": "G3",
+ "rep": 2,
+ "g3_temp": 0.7,
+ "g3_seed": 2,
+ "attempts": [
+  {
+   "attempt": 0,
+   "rc": 0,
+   "seconds": 1494.8,
+   "prompt_sha256": "f574f91dda2c5a6030fada50a200a5a9edff9fa307cdd629489e73cb51af700e",
+   "compile_ok": true,
+   "error": null
+  }
+ ],
+ "repairs_used": 0,
+ "compile_ok": true,
+ "output_sha256": "e762b6611426f3ced1a5f4a8305d5e88891bac7a20217645bfe563f63b26c874",
+ "finished": "2026-10-02T06:34:30"
+}

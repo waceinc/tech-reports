@@ -1,0 +1,9 @@
+{
+ "version": 1,
+ "rules": [
+  {"id": "F1", "rule": "An input (%I) tag is written by a coil or a box output."},
+  {"id": "F2", "rule": "A %I or %Q address is declared that is not in the specification I/O table."},
+  {"id": "F3", "rule": "A rung that is not a header (only horizontal wires or empty cells) has no coil and no box that writes an output pin."},
+  {"id": "F4", "rule": "A physical output (%Q) tag is driven by SET or RESET coils (outputs must be decided by an OUT coil every scan)."}
+ ]
+}
