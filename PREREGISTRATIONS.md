@@ -10,8 +10,9 @@ The documents themselves are published together with the report and its result f
 | TR-2026-03 | Interlock-removal what-if: which removed interlock conditions show up in a scenario set and which do not (simulated cells, correct ladders with one condition shorted at a time) | `TR-2026-03_사전등록_v0.3.md` | `603635d205233477e6d3d987b639ac363a16edb34805aec150c974aac91d1c1c` | 2026-09-30 |
 | TR-2026-04 | Verification methods compared: how often LLM-written PLC ladders that pass static checks and input-forcing tests still fail when connected to a simulated plant (simulated cells, tasks written from requirement specs) | `TR-2026-04_사전등록_v0.4.md` | `668b0a2bf36f89e41be0a7d740a36b73f37d22f12fbffcb65c97e657ad254b01` | 2026-09-30 |
 | TR-2026-04 (amendment 1) | Same study. Amendment 1, fixed before any generation: the generator sandbox now also blocks the sibling task folders, one of which held another task's correct rung block; two code files changed | `TR-2026-04_사전등록_개정1_2026-10-01.md` | `5d94d4ef5bbbf3f84e38d8cca998081badbdf7d3a23c8d91dff555e7ba70d85c` | 2026-10-01 |
+| TR-2026-06 | End-joint mismatch in numerically planned linear robot moves: how often the planned end joint values differ from the taught ones, how often a tool-tip-only check lets them play back, and whether changing the inverse-kinematics initial guess removes them (simulated robot arms, 12 models x 60 linear moves) | `TR-2026-06_사전등록_v1.0.md` | `09622072fe062a00f2d1b07d2fbc5ada6aeb868d03848419671c5a5064c33b90` | 2026-10-06 |
 
 Notes
 
 - The documents are written in Korean; the hash is over the exact bytes of the UTF-8 file.
-- All experiments run on a simulated PLC connected to a simulated plant. No physical PLC comparison is included.
+- TR-2026-02 to TR-2026-04 run on a simulated PLC connected to a simulated plant; no physical PLC comparison is included. TR-2026-06 runs on simulated robot-arm models; no physical robot or controller comparison is included.
