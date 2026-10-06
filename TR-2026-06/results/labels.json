@@ -1,0 +1,12966 @@
+{
+ "labels": [
+  {
+   "k": 0,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "A",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "B",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "C",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "D",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "E",
+   "start": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "F",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "-",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "G",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 1,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 2,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 7,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 8,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 13,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 14,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 19,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 20,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 25,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 26,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 31,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 32,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 37,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 38,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 43,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 44,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 49,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 50,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 55,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 56,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "H",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "H",
+   "start": {
+    "elbow": "?",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "I",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "J",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "K",
+   "start": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "+",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 0,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 1,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 2,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 3,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 4,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 5,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 6,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 7,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 8,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 9,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 10,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 11,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 12,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 13,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 14,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 15,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 16,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 17,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 18,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 19,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 20,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 21,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 22,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 23,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 24,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 25,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 26,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 27,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 28,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 29,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 30,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 31,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 32,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 33,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 34,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 35,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 36,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 37,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 38,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 39,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 40,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 41,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 42,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 43,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 44,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 45,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 46,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 47,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 48,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 49,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 50,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 51,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 52,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 53,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 54,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 55,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "-"
+   }
+  },
+  {
+   "k": 56,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 57,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 58,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  },
+  {
+   "k": 59,
+   "model": "L",
+   "start": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   },
+   "target": {
+    "elbow": "+",
+    "shoulder": "-",
+    "turn4": 0,
+    "turn6": 0,
+    "wrist": "+"
+   }
+  }
+ ],
+ "method": "Joint axes z_i (unit) and origins p_i in the robot base from kinematics::forwardLinks (the planner's chain). Wrist centre pw = foot on the J4 axis of the common perpendicular between the J4 and J5 axes (does not move with q4, q5, q6; equals p5 when the axes meet; p5 if the axes are parallel). wrist = sign(z5 . (z4 x z6)), '?' if |z4 x z6| < sin(1 deg). elbow = sign(z2 . ((p3-p2) x (pw-p3))), '?' if |z2 . ((p3-p2) x (pw-p3))| / (|p3-p2| |pw-p3|) < sin(1 deg). shoulder = sign(d . f) with d = component of (pw-p1) perpendicular to z1 and f = unit(z2 x z1), '?' if |d . f| < 1 mm or |z2 x z1| < 0.1. turn4 = floor((q4+180)/360), turn6 = floor((q6+180)/360).",
+ "schema": "tr06-labels/v1"
+}

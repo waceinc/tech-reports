@@ -1,0 +1,592 @@
+{
+ "5.1": {
+  "C0": {
+   "V_allowed": {
+    "cross": 25,
+    "noncross": 430
+   },
+   "converged": 682,
+   "mismatch": {
+    "cross": 213,
+    "noncross": 38
+   },
+   "n": {
+    "cross": 240,
+    "noncross": 480
+   }
+  },
+  "C1": {
+   "V_allowed": {
+    "cross": 25,
+    "noncross": 429
+   },
+   "converged": 669,
+   "mismatch": {
+    "cross": 0,
+    "noncross": 0
+   },
+   "n": {
+    "cross": 240,
+    "noncross": 480
+   }
+  },
+  "C2": {
+   "V_allowed": {
+    "cross": 1,
+    "noncross": 383
+   },
+   "converged": 607,
+   "mismatch": {
+    "cross": 235,
+    "noncross": 79
+   },
+   "n": {
+    "cross": 240,
+    "noncross": 480
+   }
+  },
+  "C2z": {
+   "V_allowed": {
+    "cross": 16,
+    "noncross": 225
+   },
+   "converged": 575,
+   "mismatch": {
+    "cross": 78,
+    "noncross": 210
+   },
+   "n": {
+    "cross": 240,
+    "noncross": 480
+   }
+  },
+  "C3": {
+   "V_allowed": {
+    "cross": 25,
+    "noncross": 430
+   },
+   "converged": 687,
+   "mismatch": {
+    "cross": 0,
+    "noncross": 0
+   },
+   "n": {
+    "cross": 240,
+    "noncross": 480
+   }
+  }
+ },
+ "5.1_crossing_blocked": {
+  "C0": {
+   "blocked": 215,
+   "with_ik_failure": 11,
+   "with_joint_speed": 153
+  },
+  "C1": {
+   "blocked": 215,
+   "with_ik_failure": 30,
+   "with_joint_speed": 215
+  },
+  "C3": {
+   "blocked": 215,
+   "with_ik_failure": 12,
+   "with_joint_speed": 215
+  }
+ },
+ "5.1_same_allowed": {
+  "by_model": {
+   "D": 9,
+   "H": 16
+  },
+  "same": true
+ },
+ "5.2_types_public": {
+  "b": 196,
+  "c": 19,
+  "d": 3,
+  "e": 25,
+  "x": 8
+ },
+ "5.3_T_block_reasons": {
+  "joint_speed": 153,
+  "not_converged": 25,
+  "not_converged_outside_end_pose": 18,
+  "not_converged_with_joint_speed": 25
+ },
+ "5.4_group_agreement": {
+  "A": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "B": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "C": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "D": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "E": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "F": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "G": {
+   "any_label_undetermined": 12,
+   "cross_wrist_differ": 16,
+   "noncross_wrist_equal": 32
+  },
+  "H": {
+   "any_label_undetermined": 12,
+   "cross_wrist_equal": 16,
+   "noncross_wrist_differ": 16,
+   "noncross_wrist_equal": 16
+  },
+  "I": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "J": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "K": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  },
+  "L": {
+   "cross_wrist_differ": 20,
+   "noncross_wrist_equal": 40
+  }
+ },
+ "5.5_per_model_C0": {
+  "A": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    3,
+    20
+   ],
+   "noncross": [
+    0,
+    40
+   ],
+   "types": {
+    "b": 20
+   }
+  },
+  "B": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    4,
+    21
+   ],
+   "noncross": [
+    1,
+    40
+   ],
+   "types": {
+    "b": 18,
+    "e": 3
+   }
+  },
+  "C": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    0,
+    20
+   ],
+   "noncross": [
+    0,
+    40
+   ],
+   "types": {
+    "b": 20
+   }
+  },
+  "D": {
+   "cross": [
+    11,
+    20
+   ],
+   "miss": [
+    11,
+    15
+   ],
+   "noncross": [
+    4,
+    40
+   ],
+   "types": {
+    "b": 6,
+    "c": 1,
+    "d": 3,
+    "e": 2,
+    "x": 3
+   }
+  },
+  "E": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    4,
+    20
+   ],
+   "noncross": [
+    0,
+    40
+   ],
+   "types": {
+    "b": 20
+   }
+  },
+  "F": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    4,
+    20
+   ],
+   "noncross": [
+    0,
+    40
+   ],
+   "types": {
+    "b": 19,
+    "e": 1
+   }
+  },
+  "G": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    11,
+    31
+   ],
+   "noncross": [
+    11,
+    40
+   ],
+   "types": {
+    "b": 10,
+    "c": 14,
+    "e": 2,
+    "x": 5
+   }
+  },
+  "H": {
+   "cross": [
+    2,
+    20
+   ],
+   "miss": [
+    0,
+    22
+   ],
+   "noncross": [
+    20,
+    40
+   ],
+   "types": {
+    "b": 7,
+    "e": 15
+   }
+  },
+  "I": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    9,
+    20
+   ],
+   "noncross": [
+    0,
+    40
+   ],
+   "types": {
+    "b": 20
+   }
+  },
+  "J": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    6,
+    20
+   ],
+   "noncross": [
+    0,
+    40
+   ],
+   "types": {
+    "b": 20
+   }
+  },
+  "K": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    9,
+    22
+   ],
+   "noncross": [
+    2,
+    40
+   ],
+   "types": {
+    "b": 17,
+    "c": 4,
+    "e": 1
+   }
+  },
+  "L": {
+   "cross": [
+    20,
+    20
+   ],
+   "miss": [
+    12,
+    20
+   ],
+   "noncross": [
+    0,
+    40
+   ],
+   "types": {
+    "b": 19,
+    "e": 1
+   }
+  }
+ },
+ "E2": {
+  "C0": {
+   "budget": 24,
+   "by_model": {
+    "B": 3,
+    "D": 2,
+    "F": 1,
+    "G": 2,
+    "H": 21,
+    "K": 4,
+    "L": 5
+   },
+   "limit": 16,
+   "moves": 38,
+   "unreachable": 0
+  },
+  "C1": {
+   "budget": 27,
+   "by_model": {
+    "B": 7,
+    "C": 4,
+    "D": 3,
+    "E": 4,
+    "F": 7,
+    "G": 4,
+    "H": 12,
+    "K": 5,
+    "L": 5
+   },
+   "limit": 27,
+   "moves": 51,
+   "unreachable": 0
+  },
+  "C2": {
+   "budget": 105,
+   "by_model": {
+    "B": 3,
+    "D": 19,
+    "F": 1,
+    "G": 8,
+    "H": 59,
+    "I": 3,
+    "K": 13,
+    "L": 7
+   },
+   "limit": 33,
+   "moves": 113,
+   "unreachable": 0
+  },
+  "C2z": {
+   "budget": 123,
+   "by_model": {
+    "B": 15,
+    "C": 10,
+    "D": 29,
+    "E": 3,
+    "F": 14,
+    "G": 3,
+    "H": 17,
+    "J": 1,
+    "K": 33,
+    "L": 20
+   },
+   "limit": 64,
+   "moves": 145,
+   "unreachable": 0
+  },
+  "C3": {
+   "budget": 32,
+   "by_model": {
+    "B": 3,
+    "D": 2,
+    "G": 5,
+    "H": 14,
+    "K": 4,
+    "L": 5
+   },
+   "limit": 3,
+   "moves": 33,
+   "unreachable": 0
+  }
+ },
+ "E4_half_speed": {
+  "mismatch": 257,
+  "miss": 156,
+  "n": 720
+ },
+ "E5": {
+  "C0": {
+   "cross": {
+    "allow/allow/allow": 16,
+    "allow/allow/block": 9,
+    "block/allow/block": 62,
+    "block/block/block": 153
+   },
+   "noncross": {
+    "allow/allow/allow": 421,
+    "allow/allow/block": 9,
+    "block/allow/allow": 2,
+    "block/allow/block": 9,
+    "block/block/block": 39
+   }
+  },
+  "C1": {
+   "cross": {
+    "allow/allow/allow": 16,
+    "allow/allow/block": 9,
+    "block/block/block": 215
+   },
+   "noncross": {
+    "allow/allow/allow": 420,
+    "allow/allow/block": 9,
+    "block/block/block": 51
+   }
+  },
+  "C2": {
+   "cross": {
+    "allow/allow/allow": 1,
+    "block/allow/block": 52,
+    "block/block/block": 187
+   },
+   "noncross": {
+    "allow/allow/allow": 377,
+    "allow/allow/block": 6,
+    "block/allow/allow": 2,
+    "block/allow/block": 6,
+    "block/block/block": 89
+   }
+  },
+  "C2z": {
+   "cross": {
+    "allow/allow/allow": 16,
+    "block/allow/block": 6,
+    "block/block/block": 218
+   },
+   "noncross": {
+    "allow/allow/allow": 225,
+    "block/block/block": 255
+   }
+  },
+  "C3": {
+   "cross": {
+    "allow/allow/allow": 16,
+    "allow/allow/block": 9,
+    "block/block/block": 215
+   },
+   "noncross": {
+    "allow/allow/allow": 421,
+    "allow/allow/block": 9,
+    "block/block/block": 50
+   }
+  }
+ },
+ "E5_C0_misses_vcfg_allowed": [
+  [
+   "D",
+   32,
+   "d"
+  ],
+  [
+   "D",
+   38,
+   "d"
+  ]
+ ],
+ "E5_C0_vcfg_only_blocks": {
+  "n": 18,
+  "undetermined": 7
+ },
+ "E6": {
+  "C0": {
+   "median_speed_ratio": 1.3,
+   "model_A_max_step_deg": [
+    0.8315266024724792,
+    9.060090295847814
+   ],
+   "s_0.1_to_0.9": 225,
+   "s_gt_0.9": 8,
+   "s_lt_0.1": 7
+  },
+  "C1": {
+   "median_speed_ratio": 120.0,
+   "model_A_max_step_deg": [
+    179.92816325151054,
+    180.00007625827712
+   ],
+   "s_0.1_to_0.9": 26,
+   "s_gt_0.9": 0,
+   "s_lt_0.1": 214
+  },
+  "C3": {
+   "median_speed_ratio": 119.47,
+   "model_A_max_step_deg": [
+    176.94828624742496,
+    179.4454133485827
+   ],
+   "s_0.1_to_0.9": 234,
+   "s_gt_0.9": 2,
+   "s_lt_0.1": 4
+  }
+ },
+ "P7a_exceptions_by_model": {
+  "D": 9
+ }
+}

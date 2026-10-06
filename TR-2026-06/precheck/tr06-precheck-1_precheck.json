@@ -1,0 +1,71 @@
+{
+    "c0_bit_identical": true,
+    "inputs": {
+        "negative": {
+            "start_deg": [
+                0,
+                -35,
+                55,
+                0,
+                35,
+                0
+            ],
+            "target_deg": [
+                0,
+                -35,
+                55,
+                0,
+                35,
+                90
+            ]
+        },
+        "positive_turn": {
+            "start_deg": [
+                0,
+                -35,
+                55,
+                0,
+                35,
+                0
+            ],
+            "target_deg": [
+                0,
+                -35,
+                55,
+                0,
+                35,
+                270
+            ]
+        },
+        "positive_wrist": {
+            "start_deg": [
+                0,
+                -35,
+                55,
+                0,
+                30,
+                0
+            ],
+            "target_deg": [
+                0,
+                -35,
+                55,
+                10,
+                -30,
+                0
+            ]
+        }
+    },
+    "negative": {
+        "expect": "none",
+        "got": "none"
+    },
+    "positive_turn": {
+        "expect": "a",
+        "got": "a"
+    },
+    "positive_wrist": {
+        "expect": "b",
+        "got": "b"
+    }
+}

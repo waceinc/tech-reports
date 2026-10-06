@@ -1,0 +1,22 @@
+{
+ "compiler": "Clang 21.1.8 (https://github.com/conda-forge/clangdev-feedstock 334cf9a5e6c0331e9f261eaf01fc3568724fcce9)",
+ "dev": false,
+ "finished_utc": "2026-10-05T23:50:03.536Z",
+ "first_plan_utc": "2026-10-05T23:47:58.749Z",
+ "inputs_sha256": "43da27bf7d0e63d51fedc9341e5555206550f62f73d723f53c832606e0874f8a",
+ "labels_written_utc": "2026-10-05T23:47:58.742Z",
+ "limits_ok_e1": true,
+ "limits_ok_inputs": true,
+ "original_sha256": {
+  "e1.jsonl": "fa9bcb0bd49be896527421936a0e5b126754000f4d4519a36bcf4922aa3f4245",
+  "labels.json": "2b33a2a1595009f3a320bf732b22b1ea361ad1c03ad79cc07dd69f948c0b07ce",
+  "precheck.json": "de2cf270c19183cc3a183b94ab0954f210d81e2e4ac227f331c34909f1bdc79a",
+  "results.jsonl": "cb8e015ea85bc4a56a503b676bb4eff539b7a1e530b6efca5faee7e278dde478",
+  "summary.json": "b002d3816e133444ac19205a0bc100b110f83983e43dae9bfbf80a21ee94fb23"
+ },
+ "product_commit": "e2dc7a7846a59952fb6c76d63b89137bef5129ab",
+ "run_id": "tr06-official-1",
+ "runner_commit": "d1c49717ca73ddfed985a7e767b163c743cbfd4b",
+ "schema": "tr06-run/v1",
+ "started_utc": "2026-10-05T23:47:58.737Z"
+}
