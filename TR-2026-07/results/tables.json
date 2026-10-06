@@ -1,0 +1,920 @@
+{
+ "checks": {
+  "allPlannedRunsPresent": true,
+  "canonicalIdentical": true,
+  "deterministic": true,
+  "invalidAtMost2": true
+ },
+ "denominatorBelow20": false,
+ "describe": {
+  "charge": {
+   "completed": {
+    "max": 16.0,
+    "median": 14.0,
+    "min": 13.0,
+    "n": 20
+   },
+   "completedIn60s": {
+    "max": 6.0,
+    "median": 4.0,
+    "min": 3.0,
+    "n": 20
+   },
+   "emptyPerTransfer": {
+    "max": 16.707948753412474,
+    "median": 15.232888813368533,
+    "min": 13.651320367348445,
+    "n": 20
+   },
+   "emptyTravelMeters": {
+    "max": 235.01516473317812,
+    "median": 220.45836879113313,
+    "min": 187.1030715125899,
+    "n": 20
+   },
+   "meanTransferSeconds": {
+    "max": 24.813333333343383,
+    "median": 22.084065934081927,
+    "min": 19.636666666683414,
+    "n": 20
+   },
+   "minMovingAfter10s": {
+    "max": 1.0,
+    "median": 0.0,
+    "min": 0.0,
+    "n": 20
+   },
+   "peakSpeedMax": 1.9961140747553077,
+   "refusalsTotal": {
+    "battery-charge-required": 140,
+    "carrying-or-assigned": 1290,
+    "destination-not-clear": 6,
+    "loaded-drive-incompatible": 8,
+    "loaded-static-or-sensed-path-unavailable": 15,
+    "loading-dock-not-clear": 115,
+    "recovery-cooldown": 3,
+    "role-mismatch": 235,
+    "sensed-path-unavailable": 28,
+    "vehicle-phase": 248
+   },
+   "shareAtLeast3Moving": {
+    "max": 0.6830985915492958,
+    "median": 0.6232394366197183,
+    "min": 0.5422535211267606,
+    "n": 20
+   }
+  },
+  "lookahead": {
+   "completed": {
+    "max": 17.0,
+    "median": 15.5,
+    "min": 13.0,
+    "n": 20
+   },
+   "completedIn60s": {
+    "max": 7.0,
+    "median": 6.0,
+    "min": 4.0,
+    "n": 20
+   },
+   "emptyPerTransfer": {
+    "max": 16.674205696389958,
+    "median": 14.62653472954133,
+    "min": 13.8336445988092,
+    "n": 20
+   },
+   "emptyTravelMeters": {
+    "max": 249.96902233198924,
+    "median": 233.17136952667445,
+    "min": 203.6865350768424,
+    "n": 20
+   },
+   "meanTransferSeconds": {
+    "max": 25.37500000000991,
+    "median": 20.14246323531015,
+    "min": 16.565625000020074,
+    "n": 20
+   },
+   "minMovingAfter10s": {
+    "max": 1.0,
+    "median": 1.0,
+    "min": 0.0,
+    "n": 20
+   },
+   "peakSpeedMax": 1.9964075331816837,
+   "refusalsTotal": {
+    "carrying-or-assigned": 1469,
+    "destination-not-clear": 9,
+    "loaded-drive-incompatible": 12,
+    "loaded-static-or-sensed-path-unavailable": 16,
+    "loading-dock-not-clear": 146,
+    "recovery-cooldown": 6,
+    "role-mismatch": 232,
+    "sensed-path-unavailable": 10,
+    "vehicle-phase": 277
+   },
+   "shareAtLeast3Moving": {
+    "max": 0.7323943661971831,
+    "median": 0.6408450704225352,
+    "min": 0.5915492957746479,
+    "n": 20
+   }
+  },
+  "predictive": {
+   "completed": {
+    "max": 17.0,
+    "median": 15.0,
+    "min": 13.0,
+    "n": 20
+   },
+   "completedIn60s": {
+    "max": 7.0,
+    "median": 6.0,
+    "min": 4.0,
+    "n": 20
+   },
+   "emptyPerTransfer": {
+    "max": 16.674205696389958,
+    "median": 14.967567723813222,
+    "min": 13.8336445988092,
+    "n": 20
+   },
+   "emptyTravelMeters": {
+    "max": 249.96902233198924,
+    "median": 225.95668695645878,
+    "min": 203.6865350768424,
+    "n": 20
+   },
+   "meanTransferSeconds": {
+    "max": 25.37500000000991,
+    "median": 20.630357142869613,
+    "min": 18.952941176483314,
+    "n": 20
+   },
+   "minMovingAfter10s": {
+    "max": 1.0,
+    "median": 1.0,
+    "min": 0.0,
+    "n": 20
+   },
+   "peakSpeedMax": 1.9964075331816837,
+   "refusalsTotal": {
+    "carrying-or-assigned": 1429,
+    "destination-not-clear": 6,
+    "loaded-drive-incompatible": 23,
+    "loaded-static-or-sensed-path-unavailable": 19,
+    "loading-dock-not-clear": 152,
+    "role-mismatch": 218,
+    "sensed-path-unavailable": 12,
+    "vehicle-phase": 255
+   },
+   "shareAtLeast3Moving": {
+    "max": 0.6971830985915493,
+    "median": 0.6408450704225352,
+    "min": 0.5915492957746479,
+    "n": 20
+   }
+  },
+  "return": {
+   "completed": {
+    "max": 16.0,
+    "median": 14.5,
+    "min": 13.0,
+    "n": 20
+   },
+   "completedIn60s": {
+    "max": 6.0,
+    "median": 6.0,
+    "min": 6.0,
+    "n": 20
+   },
+   "emptyPerTransfer": {
+    "max": 18.69622671814684,
+    "median": 17.187912488762798,
+    "min": 15.77919377888467,
+    "n": 20
+   },
+   "emptyTravelMeters": {
+    "max": 266.25609776490205,
+    "median": 246.59603572032904,
+    "min": 223.2861673070188,
+    "n": 20
+   },
+   "meanTransferSeconds": {
+    "max": 23.23333333335431,
+    "median": 20.400000000011012,
+    "min": 18.6115384615473,
+    "n": 20
+   },
+   "minMovingAfter10s": {
+    "max": 1.0,
+    "median": 1.0,
+    "min": 0.0,
+    "n": 20
+   },
+   "peakSpeedMax": 1.9969477863300948,
+   "refusalsTotal": {
+    "loaded-drive-incompatible": 40,
+    "role-mismatch": 601
+   },
+   "shareAtLeast3Moving": {
+    "max": 0.7394366197183099,
+    "median": 0.6654929577464789,
+    "min": 0.5774647887323944,
+    "n": 20
+   }
+  }
+ },
+ "determinismAuthoring": 1,
+ "exploratory": {
+  "E1_identical_completion_times": "13/20",
+  "E1_lookahead_over_predictive_median": 1.0
+ },
+ "falsifiers": {
+  "F1": {
+   "text": "median r_k >= 1.00",
+   "triggered": false
+  },
+  "F2": {
+   "text": "predictive completed fewer transfers than return in more than half of valid authorings (2x > n)",
+   "triggered": false,
+   "value": "4/20"
+  }
+ },
+ "invalidAuthorings": [],
+ "perAuthoring": {
+  "1": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 187.1030715125899,
+    "meanTransferSeconds": 23.31153846155379
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 208.06235112456451,
+    "meanTransferSeconds": 20.73461538462856
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 208.06235112456451,
+    "meanTransferSeconds": 20.73461538462856
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 266.25609776490205,
+    "meanTransferSeconds": 20.600000000012038
+   }
+  },
+  "10": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 211.9568173043775,
+    "meanTransferSeconds": 22.203846153858763
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 233.43887974945943,
+    "meanTransferSeconds": 20.639285714291415
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 233.43887974945943,
+    "meanTransferSeconds": 20.639285714291415
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 240.8404033184656,
+    "meanTransferSeconds": 19.364285714304458
+   }
+  },
+  "11": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 222.49561170469113,
+    "meanTransferSeconds": 24.467857142871583
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 209.6167709354484,
+    "meanTransferSeconds": 23.206666666682214
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 209.6167709354484,
+    "meanTransferSeconds": 23.206666666682214
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 257.9017725316501,
+    "meanTransferSeconds": 21.79666666668533
+   }
+  },
+  "12": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 233.91128254777462,
+    "meanTransferSeconds": 19.935714285722693
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 235.1719581797564,
+    "meanTransferSeconds": 20.09117647061205
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 235.1719581797564,
+    "meanTransferSeconds": 20.09117647061205
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 223.2861673070188,
+    "meanTransferSeconds": 18.988461538475875
+   }
+  },
+  "13": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 218.42112587757512,
+    "meanTransferSeconds": 19.93750000002905
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 238.86255895675862,
+    "meanTransferSeconds": 17.867647058840678
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 231.4203582983067,
+    "meanTransferSeconds": 20.14333333334572
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 257.73560213123386,
+    "meanTransferSeconds": 20.230000000017064
+   }
+  },
+  "14": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 208.52956333317744,
+    "meanTransferSeconds": 20.315384615404223
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 220.4486737888435,
+    "meanTransferSeconds": 21.930000000023416
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 220.4486737888435,
+    "meanTransferSeconds": 21.930000000023416
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 236.38111980494114,
+    "meanTransferSeconds": 21.934615384619427
+   }
+  },
+  "15": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 227.93912743345444,
+    "meanTransferSeconds": 20.826666666690986
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 218.79139680598468,
+    "meanTransferSeconds": 20.621428571447815
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 218.79139680598468,
+    "meanTransferSeconds": 20.621428571447815
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 247.6254720874006,
+    "meanTransferSeconds": 21.173333333349827
+   }
+  },
+  "16": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 223.28418462510092,
+    "meanTransferSeconds": 24.017857142874146
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 203.6865350768424,
+    "meanTransferSeconds": 25.37500000000991
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 203.6865350768424,
+    "meanTransferSeconds": 25.37500000000991
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 252.46710046215472,
+    "meanTransferSeconds": 22.206250000024802
+   }
+  },
+  "17": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 218.42112587757512,
+    "meanTransferSeconds": 19.93750000002905
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 238.86255895675862,
+    "meanTransferSeconds": 17.867647058840678
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 231.4203582983067,
+    "meanTransferSeconds": 20.14333333334572
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 257.73560213123386,
+    "meanTransferSeconds": 20.230000000017064
+   }
+  },
+  "18": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 216.88594059300578,
+    "meanTransferSeconds": 24.257692307703167
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 212.85233452556056,
+    "meanTransferSeconds": 21.203571428590493
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 212.85233452556056,
+    "meanTransferSeconds": 21.203571428590493
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 245.56659935325746,
+    "meanTransferSeconds": 20.328571428580467
+   }
+  },
+  "19": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 235.01516473317812,
+    "meanTransferSeconds": 21.896875000013043
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 249.96902233198924,
+    "meanTransferSeconds": 18.952941176483314
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 249.96902233198924,
+    "meanTransferSeconds": 18.952941176483314
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 250.0975846749798,
+    "meanTransferSeconds": 20.47142857144156
+   }
+  },
+  "2": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 192.56124163665007,
+    "meanTransferSeconds": 24.37500000002342
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 212.85233452556056,
+    "meanTransferSeconds": 21.203571428590493
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 212.85233452556056,
+    "meanTransferSeconds": 21.203571428590493
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 245.56659935325746,
+    "meanTransferSeconds": 20.328571428580467
+   }
+  },
+  "20": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 232.78872853749888,
+    "meanTransferSeconds": 19.70000000001628
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 238.53337079447695,
+    "meanTransferSeconds": 16.76470588237815
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 228.71949633795427,
+    "meanTransferSeconds": 20.090000000014427
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 243.05094733590892,
+    "meanTransferSeconds": 18.6115384615473
+   }
+  },
+  "3": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 230.7360509775077,
+    "meanTransferSeconds": 19.636666666683414
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 240.391944893034,
+    "meanTransferSeconds": 20.193750000008247
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 240.391944893034,
+    "meanTransferSeconds": 20.193750000008247
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 257.83765759341196,
+    "meanTransferSeconds": 22.0937500000132
+   }
+  },
+  "4": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 227.14701323690753,
+    "meanTransferSeconds": 20.926666666689123
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 235.1719581797564,
+    "meanTransferSeconds": 20.09117647061205
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 235.1719581797564,
+    "meanTransferSeconds": 20.09117647061205
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 223.2861673070188,
+    "meanTransferSeconds": 18.988461538475875
+   }
+  },
+  "5": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 227.53354578764427,
+    "meanTransferSeconds": 24.813333333343383
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 227.34703326004617,
+    "meanTransferSeconds": 19.043333333342797
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 208.10517599237207,
+    "meanTransferSeconds": 21.942857142866647
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 13,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 223.95424889428196,
+    "meanTransferSeconds": 22.307692307709864
+   }
+  },
+  "6": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 224.47776630855182,
+    "meanTransferSeconds": 24.30666666667718
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 238.41366861743597,
+    "meanTransferSeconds": 16.565625000020074
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 228.25379053574028,
+    "meanTransferSeconds": 21.381250000015974
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 263.67813761918325,
+    "meanTransferSeconds": 19.40937500002284
+   }
+  },
+  "7": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 214.10791925449243,
+    "meanTransferSeconds": 21.964285714305095
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 232.90385930388948,
+    "meanTransferSeconds": 19.26875000001545
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 223.65958337717728,
+    "meanTransferSeconds": 19.863333333345334
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 240.8404033184656,
+    "meanTransferSeconds": 19.364285714304458
+   }
+  },
+  "8": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 3,
+    "emptyTravelMeters": 209.51817731635276,
+    "meanTransferSeconds": 24.56071428574261
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 203.6865350768424,
+    "meanTransferSeconds": 25.37500000000991
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 5,
+    "emptyTravelMeters": 203.6865350768424,
+    "meanTransferSeconds": 25.37500000000991
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 16,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 252.56482922310903,
+    "meanTransferSeconds": 22.193750000024803
+   }
+  },
+  "9": {
+   "charge": {
+    "amrPeerContactCount": 0,
+    "completed": 14,
+    "completedIn60s": 4,
+    "emptyTravelMeters": 213.77770116976143,
+    "meanTransferSeconds": 23.900000000013847
+   },
+   "lookahead": {
+    "amrPeerContactCount": 0,
+    "completed": 17,
+    "completedIn60s": 7,
+    "emptyTravelMeters": 244.9618165462944,
+    "meanTransferSeconds": 19.35000000001535
+   },
+   "predictive": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 234.84420947886366,
+    "meanTransferSeconds": 20.006666666676185
+   },
+   "return": {
+    "amrPeerContactCount": 0,
+    "completed": 15,
+    "completedIn60s": 6,
+    "emptyTravelMeters": 238.59591744104156,
+    "meanTransferSeconds": 23.23333333335431
+   }
+  }
+ },
+ "predictions": {
+  "P1": {
+   "text": "median r_k <= 0.95",
+   "value": 0.8667804786405984,
+   "verdict": "held"
+  },
+  "P2": {
+   "text": "r_k < 1 in at least 80 % of valid authorings (5x >= 4n)",
+   "value": "20/20",
+   "verdict": "held"
+  },
+  "P3": {
+   "text": "predictive completed >= return completed in at least 70 % of valid authorings (10x >= 7n)",
+   "value": "16/20",
+   "verdict": "held"
+  },
+  "P4": {
+   "text": "no AMR-to-AMR contact in any counted run of a valid authoring (including the determinism repeats)",
+   "value": "0/84",
+   "verdict": "held"
+  },
+  "P5": {
+   "text": "charge rule: the low-battery vehicle docks and no charger is double-reserved, in every valid authoring",
+   "value": "20/20",
+   "verdict": "held"
+  }
+ },
+ "ratios": {
+  "1": 0.9016580112927393,
+  "10": 0.9692679323443124,
+  "11": 0.8127775504517863,
+  "12": 0.8054120949518693,
+  "13": 0.8978982972653969,
+  "14": 0.8082520187793386,
+  "15": 0.9466689825752596,
+  "16": 0.9220393908365346,
+  "17": 0.8978982972653969,
+  "18": 0.8667804786405984,
+  "19": 0.8231060775256499,
+  "2": 0.8667804786405984,
+  "20": 0.815563838222521,
+  "3": 0.9323383835270163,
+  "4": 0.8054120949518693,
+  "5": 0.8628571305006366,
+  "6": 0.8656530746033844,
+  "7": 0.8667521794893139,
+  "8": 0.9216826120740493,
+  "9": 0.9842758920503953
+ },
+ "roundValid": true,
+ "schema": "tr07.tables.v2",
+ "validAuthorings": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20
+ ]
+}

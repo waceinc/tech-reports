@@ -1,0 +1,163 @@
+{
+ "schema": "tr07.run.v2",
+ "started": "2026-10-06T22:00:40+0900",
+ "productCommit": "af2d3ef2e811c48a55c56cfd2b0312e8367765d4",
+ "appSha256": "ebe80bd802653ab5320fd881675411802782aa1992cc381c6528528a3f9493e2",
+ "fixedSha256": {
+  "layout": "ef43a727439d2e3c1daa871f90213699ae36638e3be119b658f21040690b9ac6",
+  "TR-07_run.py": "94e576f0d210109a00ecbf14372e80a2f0ebe6fd7c97fcb9ff3e0a5981e8b0f7",
+  "TR-07_tables.py": "836fd1d72c7c64d3bf3104d2f617dc8279fa2989fafbf1018754f4a556a4e362",
+  "TR-07_recompute.py": "bb99b3069046dc85d108f194cfeb1f825132a695f4e77abc381ccf3bcd8caf1a",
+  "TR-07_public.py": "1269bbea9ce8d5f77beadddb4f6b2136c162a2903ccf99589f8ed9d4c45dc3f6"
+ },
+ "authorings": 20,
+ "horizonSeconds": 150,
+ "parallel": 4,
+ "host": "Linux-7.0.0-1019-nvidia-aarch64-with-glibc2.39",
+ "events": [
+  {
+   "authoring": 1,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "b4e63e0b75ffe61f13ea8118042802d0b41211ac0b9e4d80fd4bf7027902cd6f",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 2,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "825630cd8a83b26c5bf37ad412a1d3b0d14d36f37c8192e3d2faed35a0b335b7",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 3,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "a72e09df443f67cf21c14d93fcde0c7b8fdea83f8ce882398ca6b7a27505a2b3",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 4,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "4b0cd275e086af907f6151eaeb6c4db2211a5615116c26d93509a0de6724fbc9",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 5,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "361032b5ecf8224ad793a97d6e37c935d10dd57c3f2625fe4e30041ac69dfde2",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 6,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "685df71e0e4acaae6bfbc0eccc133f73f57db6dee1555506a3c22a755ba5288b",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 7,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "d6b0a6ff6749bf02a341caed8ad733ec1d7c7290cb58dc91e0c5d9d8ab75d88d",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 8,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "4d0b53bb802b1dacaa7f50f4e39769252e6021b24b22585ffcb6b2061beadcd7",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 9,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "db23b33ef9ee11fbfcafc131fa0c504a893e083fd205f065e5b017c33806fa8f",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 10,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "7e1c9f5c75a533d460c3361ab416fc378019aacc21d5829a2cf051ff76bd5ae6",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 11,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "6ff24af0e72ff77aea6df2ae920eba150ccbb9ad35143efb42a0bda2d4a88dd0",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 12,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "b092ccc18a62577c41343d861d98b9f85104cc11082ab18e0c98aaecb98276e4",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 13,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "b7af33dfaf7969b000e3e9cbd80ecdef533807d64456d159acbf51a94f46b68c",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 14,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "ec511c2281927cbf8d80e8b42318772b42024bb03666a4816fe2a7dcf03129d7",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 15,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "6108bd370aa87988fed2779bf41f980d72f6945b60b54f9f3c90a09df6888618",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 16,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "02891870a3829dcbb59284e43cfbe760891e7eb52a90679f871f19f97748408e",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 17,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "d16edd656f38e618b7bd81e2b8bd3666028ab6d327535edb2bebf4e507503cb6",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 18,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "5b29216d4a59a9a90077c3195d6d04f0ec5fe75220493f2822af8c74ece49786",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 19,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "e0eda980f93bad9beb92ccdeaedb19f95e2de3f8ba8ea4ab85c1b2b627e7fd65",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  },
+  {
+   "authoring": 20,
+   "authorExit": 0,
+   "authorStatus": "PASS",
+   "projectSha256": "77bcf1d17b1bac3864654148e56304ae4f22c94a5a02e09eb9748baec8075078",
+   "canonicalSha256": "3fb2525c543c532f5eed11bd7dee6f0d9216e5f4031b45a6b956fe2dfcc67d96"
+  }
+ ],
+ "determinismAuthoring": 1,
+ "finished": "2026-10-06T23:05:17+0900",
+ "runs": 84,
+ "expectedRuns": 84
+}

@@ -1,0 +1,9 @@
+{
+ "layout": "ef43a727439d2e3c1daa871f90213699ae36638e3be119b658f21040690b9ac6",
+ "scripts": {
+  "TR-07_run.py": "94e576f0d210109a00ecbf14372e80a2f0ebe6fd7c97fcb9ff3e0a5981e8b0f7",
+  "TR-07_tables.py": "836fd1d72c7c64d3bf3104d2f617dc8279fa2989fafbf1018754f4a556a4e362",
+  "TR-07_recompute.py": "bb99b3069046dc85d108f194cfeb1f825132a695f4e77abc381ccf3bcd8caf1a",
+  "TR-07_public.py": "1269bbea9ce8d5f77beadddb4f6b2136c162a2903ccf99589f8ed9d4c45dc3f6"
+ }
+}
