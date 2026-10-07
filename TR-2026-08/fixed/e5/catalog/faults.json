@@ -1,0 +1,638 @@
+{
+ "excluded": [
+  {
+   "cell": "B",
+   "reason": "음성 대조용 변형(정답 인터록 끄기) — 고장이 아니라 시험 장치 설정",
+   "stimulus": "pusher.disable_run_interlock"
+  },
+  {
+   "cell": "B",
+   "reason": "음성 대조용 변형(안전 릴레이 무시)",
+   "stimulus": "disable_safety_relay"
+  },
+  {
+   "cell": "B",
+   "reason": "PLC 출력 반향(Y 출력) — 자극이 아니다",
+   "stimulus": "pusher.sol"
+  },
+  {
+   "cell": "B",
+   "reason": "PLC 출력 반향",
+   "stimulus": "conveyor.fwd"
+  },
+  {
+   "cell": "B",
+   "reason": "PLC 출력 반향(경광등)",
+   "stimulus": "tower.*"
+  },
+  {
+   "cell": "B",
+   "reason": "PLC 워드 반향",
+   "stimulus": "hmi.*"
+  },
+  {
+   "cell": "B",
+   "reason": "PLC 출력 반향",
+   "stimulus": "feed.hold"
+  },
+  {
+   "cell": "B",
+   "reason": "복귀 출력 반향",
+   "stimulus": "pusher.home"
+  },
+  {
+   "cell": "B",
+   "reason": "복귀 출력 반향",
+   "stimulus": "pusher.recovery_extend"
+  },
+  {
+   "cell": "B",
+   "reason": "작업자 수거 조작(3e b-collection) — 고장이 아니다",
+   "stimulus": "collector.chute"
+  },
+  {
+   "cell": "B",
+   "reason": "작업자 수거 위치",
+   "stimulus": "collector.target_x"
+  },
+  {
+   "cell": "B",
+   "reason": "포장 쪽 준비 신호(포장 통합 실행이 넣는다) — 사이클 정지 사유, 잠김 고장 아님",
+   "stimulus": "pack.ready"
+  },
+  {
+   "cell": "B",
+   "reason": "포장 통합 실행 상태",
+   "stimulus": "pack.good_ready"
+  },
+  {
+   "cell": "B",
+   "reason": "포장 통합 실행 상태",
+   "stimulus": "pack.reject_ready"
+  },
+  {
+   "cell": "B",
+   "reason": "비상정지 누름 시각 세분(3i) — 비상정지 고장의 매개변수",
+   "stimulus": "panel.pb2.press_after_ms"
+  },
+  {
+   "cell": "B",
+   "reason": "기동·정지·리셋 — 사람 조작(복귀 조작 시나리오가 넣는다)",
+   "stimulus": "panel.pb0/1/3.press"
+  },
+  {
+   "cell": "B",
+   "reason": "복귀·배치 확인 조작 — 사람 조작",
+   "stimulus": "recovery.*·batch.ack"
+  },
+  {
+   "cell": "P",
+   "reason": "PLC 출력 반향",
+   "stimulus": "r{i}.request/ack/row/mask/job_count/id*/part_id/reset"
+  },
+  {
+   "cell": "P",
+   "reason": "PLC 출력·실행기 상태",
+   "stimulus": "c{i}.request/ack/reset/deposit·reject_id"
+  },
+  {
+   "cell": "P",
+   "reason": "포장 드라이버 안전 입력 — 3k 실행기는 안전 허가 태그(P.Safety.permit)로 넣는다(P.safety)",
+   "stimulus": "enable·estop·curtain"
+  },
+  {
+   "cell": "P",
+   "reason": "셀 B 원천 상자 도착(실행기)",
+   "stimulus": "arrival_count·a{n}.*"
+  },
+  {
+   "cell": "A",
+   "reason": "PLC 출력 반향",
+   "stimulus": "conveyor.fwd/rev·tower.*·pusher.sol·stopper.sol"
+  },
+  {
+   "cell": "A",
+   "reason": "셀 A(셔틀) 설비에 없는 장치 — 같은 실행 파일의 옛 셀 B(3b) 경로",
+   "stimulus": "pusher.*·stopper.*_disabled·chute.jam·collector.*"
+  }
+ ],
+ "faults": [
+  {
+   "cell": "B",
+   "channel": "pusher.pressure",
+   "class": "공급압 저하",
+   "device": "pusher",
+   "fault_id": "B.pressure_loss",
+   "onset": "step",
+   "provenance": "[가정] 0.999 = 3e b-air-loss 값. 0.5 = 압력 스위치 off 아래로 떨어지는지 5a 단일 고장 실측(reports/phase5a.md)",
+   "source": "tests/phase3g_plant.cpp get(u,\"pusher.pressure_loss\") — 공급압 = 정격 × (1 − 값), 압력 스위치·실린더 힘에 반영",
+   "stimulus": "pusher.pressure_loss",
+   "values": [
+    0.5,
+    0.999
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "pusher.flow",
+   "class": "유량 저하",
+   "device": "pusher",
+   "fault_id": "B.flow_coefficient",
+   "onset": "step",
+   "provenance": "[실측] 3k flow-50·flow-70 시나리오 값",
+   "source": "tests/phase3g_plant.cpp u.contains(\"pusher.flow_coefficient\") — 있으면 flow_restriction 대신 1 − 값",
+   "stimulus": "pusher.flow_coefficient",
+   "values": [
+    0.5,
+    0.7
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "pusher.flow",
+   "class": "유량 저하",
+   "device": "pusher",
+   "fault_id": "B.flow_restriction",
+   "onset": "step",
+   "provenance": "[가정] 0.6 = 3e b-timeout · 0.95 = 3e b-flow-restriction 값",
+   "source": "tests/phase3g_plant.cpp get(u,\"pusher.flow_restriction\") (flow_coefficient 가 없을 때만)",
+   "stimulus": "pusher.flow_restriction",
+   "values": [
+    0.6,
+    0.95
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "pusher.rod",
+   "class": "기계 걸림",
+   "device": "pusher",
+   "fault_id": "B.rod_jam",
+   "onset": "step",
+   "provenance": "[가정] 3e b-rod-jam 과 같은 참 값",
+   "source": "tests/phase3g_plant.cpp get(u,\"pusher.rod_jam\")",
+   "stimulus": "pusher.rod_jam",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "chute.jam",
+   "class": "기계 걸림",
+   "device": "chute",
+   "fault_id": "B.chute_jam",
+   "injectable": false,
+   "not_injectable_reason": "[실측] 5a 단일 주입(셀 B 3k 정답, 시작 스캔 801)에서 설비 모형이 예외 「transition contact lost」로 끝남 — 3k 경로에서는 슈트 걸림을 낼 수 없다. 카탈로그에는 남기고 생성에서 뺀다",
+   "onset": "step",
+   "provenance": "[가정] 3e b-jam 과 같은 참 값",
+   "source": "tests/phase3g_plant.cpp get(u,\"chute.jam\") — 슈트 안 상자가 멈춤 + 밀판 걸림",
+   "stimulus": "chute.jam",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "pusher.brake",
+   "class": "브레이크",
+   "device": "pusher",
+   "fault_id": "B.brake_missing",
+   "onset": "step",
+   "provenance": "[가정] 3i b-curtain-brake-missing 과 같은 참 값",
+   "source": "tests/phase3g_plant.cpp get(u,\"pusher.brake_missing\")",
+   "stimulus": "pusher.brake_missing",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "conveyor.overload",
+   "class": "벨트 구동",
+   "device": "conveyor",
+   "fault_id": "B.conveyor_overload",
+   "onset": "step",
+   "provenance": "[실측] 3k overload 시나리오 값",
+   "source": "tests/phase3g_plant.cpp get(u,\"conveyor.overload\")",
+   "stimulus": "conveyor.overload",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "conveyor.speed",
+   "class": "벨트 구동",
+   "device": "conveyor",
+   "fault_id": "B.belt_speed",
+   "onset": "step",
+   "provenance": "[가정] ±10 % 계단. 3i 속도 허용 5 %(belt_speed_tolerance)의 두 배",
+   "source": "tests/phase3g_plant.cpp u.contains(\"conveyor.speed_scale\") — 5a 새 자극(없으면 옛 동작과 바이트 동일)",
+   "stimulus": "conveyor.speed_scale",
+   "values": [
+    0.9,
+    1.1
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "inspection.ready",
+   "class": "검사 장치",
+   "device": "inspection",
+   "fault_id": "B.inspection_not_ready",
+   "onset": "step",
+   "provenance": "[가정] 3i b-inspection-disconnect 와 같은 참 값",
+   "source": "tests/phase3g_plant.cpp get(u,\"inspection.not_ready\")",
+   "stimulus": "inspection.not_ready",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "inspection.stuck",
+   "class": "센서",
+   "device": "inspection",
+   "fault_id": "B.sensor.inspection.on",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 켜짐 고착(값 1)",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=inspection, core/src/phase2a.cpp output(): 1=켜짐 고착",
+   "stimulus": "inspection.stuck",
+   "values": [
+    1
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "inspection.stuck",
+   "class": "센서",
+   "device": "inspection",
+   "fault_id": "B.sensor.inspection.off",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 꺼짐 고착(값 2) — 3e b-out-stuck 형태",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=inspection, 2=꺼짐 고착",
+   "stimulus": "inspection.stuck",
+   "values": [
+    2
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "atStopper.stuck",
+   "class": "센서",
+   "device": "atStopper",
+   "fault_id": "B.sensor.atStopper.on",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 켜짐 고착(값 1)",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=atStopper, core/src/phase2a.cpp output(): 1=켜짐 고착",
+   "stimulus": "atStopper.stuck",
+   "values": [
+    1
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "atStopper.stuck",
+   "class": "센서",
+   "device": "atStopper",
+   "fault_id": "B.sensor.atStopper.off",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 꺼짐 고착(값 2) — 3e b-out-stuck 형태",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=atStopper, 2=꺼짐 고착",
+   "stimulus": "atStopper.stuck",
+   "values": [
+    2
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "out.stuck",
+   "class": "센서",
+   "device": "out",
+   "fault_id": "B.sensor.out.on",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 켜짐 고착(값 1)",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=out, core/src/phase2a.cpp output(): 1=켜짐 고착",
+   "stimulus": "out.stuck",
+   "values": [
+    1
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "out.stuck",
+   "class": "센서",
+   "device": "out",
+   "fault_id": "B.sensor.out.off",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 꺼짐 고착(값 2) — 3e b-out-stuck 형태",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=out, 2=꺼짐 고착",
+   "stimulus": "out.stuck",
+   "values": [
+    2
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "chuteSensor.stuck",
+   "class": "센서",
+   "device": "chuteSensor",
+   "fault_id": "B.sensor.chuteSensor.on",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 켜짐 고착(값 1)",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=chuteSensor, core/src/phase2a.cpp output(): 1=켜짐 고착",
+   "stimulus": "chuteSensor.stuck",
+   "values": [
+    1
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "chuteSensor.stuck",
+   "class": "센서",
+   "device": "chuteSensor",
+   "fault_id": "B.sensor.chuteSensor.off",
+   "onset": "step",
+   "provenance": "[가정] 광전 센서 꺼짐 고착(값 2) — 3e b-out-stuck 형태",
+   "source": "tests/phase3g_plant.cpp si.stuck=int(get(u,id+\".stuck\")) — id=chuteSensor, 2=꺼짐 고착",
+   "stimulus": "chuteSensor.stuck",
+   "values": [
+    2
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "safety",
+   "class": "안전 개입",
+   "device": "panel",
+   "fault_id": "B.estop",
+   "onset": "step",
+   "provenance": "[가정] 작업자가 비상정지를 누름(1 스캔). 복귀 때 돌려 풂",
+   "source": "tests/phase3g_plant.cpp get(u,\"panel.pb\"+i+\".press\") i=2(비상정지) · 풀기 panel.pb2.twist",
+   "special": "estop",
+   "stimulus": "panel.pb2.press",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "B",
+   "channel": "safety",
+   "class": "안전 개입",
+   "device": "operator",
+   "fault_id": "B.curtain",
+   "onset": "step",
+   "provenance": "[가정] 접근 0.4 s·머무름 1.0 s·후퇴 0.35 s = asm-pusher 1.6.0 cell_design curtain_* 값",
+   "source": "tests/phase3g_plant.cpp get(u,\"path_count\")·path{i}.t/x/z — 작업자 경로가 라이트 커튼 면을 넘음",
+   "special": "curtain",
+   "stimulus": "path*",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r0.fault",
+   "class": "포장 장치",
+   "device": "robot0",
+   "fault_id": "P.r0.drive_failure",
+   "onset": "step",
+   "provenance": "[실측] 3k fault-restart(-r1) 과 같은 참 값",
+   "source": "tests/phase3j_pack_driver.cpp b(\"drive_failure\") → core/src/phase3j.cpp trip(\"ROBOT_FAULT\")",
+   "stimulus": "r0.drive_failure",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r0.fault",
+   "class": "포장 장치",
+   "device": "robot0",
+   "fault_id": "P.r0.grip_failure",
+   "onset": "step",
+   "provenance": "[가정] 3j pick-failure 와 같은 참 값",
+   "source": "tests/phase3j_pack_driver.cpp b(\"grip_failure\") → trip(\"PICK_FAILED\")",
+   "stimulus": "r0.grip_failure",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r0.fault",
+   "class": "포장 장치",
+   "device": "robot0",
+   "fault_id": "P.r0.collision",
+   "onset": "step",
+   "provenance": "[가정] 참 값(현 모형은 물체 충돌)",
+   "source": "tests/phase3j_pack_driver.cpp b(\"collision\") → trip(\"ROBOT_COLLISION\")",
+   "stimulus": "r0.collision",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r0.load",
+   "class": "포장 장치",
+   "device": "robot0",
+   "fault_id": "P.r0.overload",
+   "onset": "step",
+   "provenance": "[가정] 30 kg > TX90 가반 20 kg(rob-pick-place 1.2.0 payload_kg)",
+   "source": "tests/phase3j_pack_driver.cpp get(u,prefix+\"load\",6) — 가반 하중 초과면 faultCause",
+   "stimulus": "r0.load",
+   "values": [
+    30.0
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r1.fault",
+   "class": "포장 장치",
+   "device": "robot1",
+   "fault_id": "P.r1.drive_failure",
+   "onset": "step",
+   "provenance": "[실측] 3k fault-restart(-r1) 과 같은 참 값",
+   "source": "tests/phase3j_pack_driver.cpp b(\"drive_failure\") → core/src/phase3j.cpp trip(\"ROBOT_FAULT\")",
+   "stimulus": "r1.drive_failure",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r1.fault",
+   "class": "포장 장치",
+   "device": "robot1",
+   "fault_id": "P.r1.grip_failure",
+   "onset": "step",
+   "provenance": "[가정] 3j pick-failure 와 같은 참 값",
+   "source": "tests/phase3j_pack_driver.cpp b(\"grip_failure\") → trip(\"PICK_FAILED\")",
+   "stimulus": "r1.grip_failure",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r1.fault",
+   "class": "포장 장치",
+   "device": "robot1",
+   "fault_id": "P.r1.collision",
+   "onset": "step",
+   "provenance": "[가정] 참 값(현 모형은 물체 충돌)",
+   "source": "tests/phase3j_pack_driver.cpp b(\"collision\") → trip(\"ROBOT_COLLISION\")",
+   "stimulus": "r1.collision",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "r1.load",
+   "class": "포장 장치",
+   "device": "robot1",
+   "fault_id": "P.r1.overload",
+   "onset": "step",
+   "provenance": "[가정] 30 kg > TX90 가반 20 kg(rob-pick-place 1.2.0 payload_kg)",
+   "source": "tests/phase3j_pack_driver.cpp get(u,prefix+\"load\",6) — 가반 하중 초과면 faultCause",
+   "stimulus": "r1.load",
+   "values": [
+    30.0
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "c0.failure",
+   "class": "포장 장치",
+   "device": "container0",
+   "fault_id": "P.c0.failure",
+   "onset": "step",
+   "provenance": "[실측] 3k fault-restart-c0/c1/tote 와 같은 참 값",
+   "source": "tests/phase3j_pack_driver.cpp get(u,k+\"failure\") k=c0. → core/src/phase3j.cpp event(\"EXCHANGE_FAULT\")",
+   "stimulus": "c0.failure",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "c1.failure",
+   "class": "포장 장치",
+   "device": "container1",
+   "fault_id": "P.c1.failure",
+   "onset": "step",
+   "provenance": "[실측] 3k fault-restart-c0/c1/tote 와 같은 참 값",
+   "source": "tests/phase3j_pack_driver.cpp get(u,k+\"failure\") k=c1. → core/src/phase3j.cpp event(\"EXCHANGE_FAULT\")",
+   "stimulus": "c1.failure",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "c2.failure",
+   "class": "포장 장치",
+   "device": "tote",
+   "fault_id": "P.c2.failure",
+   "onset": "step",
+   "provenance": "[실측] 3k fault-restart-c0/c1/tote 와 같은 참 값",
+   "source": "tests/phase3j_pack_driver.cpp get(u,k+\"failure\") k=c2. → core/src/phase3j.cpp event(\"EXCHANGE_FAULT\")",
+   "stimulus": "c2.failure",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "P",
+   "channel": "safety",
+   "class": "안전 개입",
+   "device": "pack-safety",
+   "fault_id": "P.safety",
+   "hold_scans": 50,
+   "onset": "step",
+   "provenance": "[실측] 3k curtain-restart 과 같은 50 스캔 해제",
+   "source": "tests/run_phase3k_pack.py tags[\"P.Safety.permit\"] — 3k curtain-restart 의 안전 허가 해제(0.5 s)",
+   "special": "pack_safety",
+   "stimulus": "P.Safety.permit",
+   "values": [
+    false
+   ]
+  },
+  {
+   "cell": "A",
+   "channel": "safety",
+   "class": "안전 개입",
+   "device": "panel",
+   "fault_id": "A.estop",
+   "onset": "step",
+   "provenance": "[가정] 3b a-estop 과 같은 누름·풀기",
+   "source": "tests/cell_plant.cpp get(u,\"panel.pb\"+i+\".press\") i=2",
+   "special": "estop",
+   "stimulus": "panel.pb2.press",
+   "values": [
+    true
+   ]
+  },
+  {
+   "cell": "A",
+   "channel": "left.stuck",
+   "class": "센서",
+   "device": "left",
+   "fault_id": "A.sensor.left.on",
+   "onset": "step",
+   "provenance": "[가정] 켜짐 고착",
+   "source": "tests/cell_plant.cpp get(u,id+\".stuck\") id=left",
+   "stimulus": "left.stuck",
+   "values": [
+    1
+   ]
+  },
+  {
+   "cell": "A",
+   "channel": "left.stuck",
+   "class": "센서",
+   "device": "left",
+   "fault_id": "A.sensor.left.off",
+   "onset": "step",
+   "provenance": "[가정] 꺼짐 고착",
+   "source": "tests/cell_plant.cpp get(u,id+\".stuck\") id=left",
+   "stimulus": "left.stuck",
+   "values": [
+    2
+   ]
+  },
+  {
+   "cell": "A",
+   "channel": "right.stuck",
+   "class": "센서",
+   "device": "right",
+   "fault_id": "A.sensor.right.on",
+   "onset": "step",
+   "provenance": "[가정] 켜짐 고착",
+   "source": "tests/cell_plant.cpp get(u,id+\".stuck\") id=right",
+   "stimulus": "right.stuck",
+   "values": [
+    1
+   ]
+  },
+  {
+   "cell": "A",
+   "channel": "right.stuck",
+   "class": "센서",
+   "device": "right",
+   "fault_id": "A.sensor.right.off",
+   "onset": "step",
+   "provenance": "[가정] 꺼짐 고착",
+   "source": "tests/cell_plant.cpp get(u,id+\".stuck\") id=right",
+   "stimulus": "right.stuck",
+   "values": [
+    2
+   ]
+  }
+ ],
+ "note": "이 파일이 정본이다. e5/README.md 의 표는 tools/e5_docs.py 가 생성한다. 자극 이름은 설비 모형·실행기가 실제로 읽는 것만(tests/check_phase5a_catalog.py 가 코드와 대조).",
+ "schema": "e5-faults.v1"
+}

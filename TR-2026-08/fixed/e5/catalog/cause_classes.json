@@ -1,0 +1,144 @@
+{
+ "classes": [
+  {
+   "cells": "B",
+   "description": "공급 공기압이 떨어져 실린더 힘·압력 스위치에 드러남",
+   "expected_plc_codes": [
+    7,
+    15,
+    16,
+    17
+   ],
+   "name": "공급압 저하",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "B",
+   "description": "배기·급기 유량이 줄어 행정이 느려짐(행정 시간·도착 시각 이상으로 드러남)",
+   "expected_plc_codes": [
+    16,
+    17,
+    19,
+    20,
+    21,
+    26,
+    27
+   ],
+   "name": "유량 저하",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "B",
+   "description": "실린더 로드·슈트 안 상자가 물리적으로 걸림",
+   "expected_plc_codes": [
+    15,
+    16,
+    17,
+    19,
+    22
+   ],
+   "name": "기계 걸림",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "B",
+   "description": "브레이크가 정지 중 체결되지 않음",
+   "expected_plc_codes": [
+    11,
+    23
+   ],
+   "name": "브레이크",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "B",
+   "description": "벨트 모터 과부하·속도 이상",
+   "expected_plc_codes": [
+    24,
+    25,
+    20,
+    21,
+    29
+   ],
+   "name": "벨트 구동",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "A,B",
+   "description": "광전·도착 센서 고착·끊김",
+   "expected_plc_codes": [
+    9,
+    13,
+    19,
+    20,
+    21,
+    22,
+    27,
+    "none"
+   ],
+   "name": "센서",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "B",
+   "description": "검사기 준비 신호 해제",
+   "expected_plc_codes": [
+    6
+   ],
+   "name": "검사 장치",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "A,B,P",
+   "description": "비상정지·라이트 커튼·포장 안전 허가 해제",
+   "expected_plc_codes": [
+    18,
+    "safety"
+   ],
+   "name": "안전 개입",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "P",
+   "description": "포장 로봇·용기 교환기 고장(구동·집기·충돌·하중·교환기)",
+   "expected_plc_codes": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    111,
+    112,
+    113,
+    114,
+    115,
+    121,
+    122,
+    123,
+    124,
+    125,
+    131,
+    132,
+    133,
+    134,
+    135,
+    141,
+    142,
+    143,
+    144,
+    145
+   ],
+   "name": "포장 장치",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  },
+  {
+   "cells": "A,B,P",
+   "description": "주입 고장 없이 잠기거나 출제 지점이 생김(배치·조작 순서 등)",
+   "expected_plc_codes": [],
+   "name": "주입 없음",
+   "provenance": "[가정] 예상 코드는 정답 로직(tests/phase3j_logic.py·phase3k_logic.py·phase3j_pack_logic.py)의 fault() 조건을 읽어 고른 후보. 실제 일치율은 reports/phase5a.md code_matches_root 표"
+  }
+ ],
+ "grouping": "고장 자극이 닿는 장치·물리 경로로 묶었다(공기 계통 2 · 기계 1 · 브레이크 1 · 벨트 1 · 센서 1 · 검사 1 · 안전 1 · 포장 1 · 없음 1 = 10). 「불량 과다」·「추적 용량」은 주입 자극이 아니라 실행 매개변수(defect_rate·상자 간격)라 5a 범주에 넣지 않았다.",
+ "schema": "e5-cause-classes.v1"
+}

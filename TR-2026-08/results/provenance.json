@@ -1,0 +1,143 @@
+{
+ "schema": "tr08-provenance.v1",
+ "note": "공식 결과 원본 파일의 sha256·크기. rules_pred.jsonl·truncation.jsonl·score.json·score.md 는 바이트 그대로 공개(rules_pred 는 gzip). items.jsonl·m1.jsonl 은 공개판으로 다시 썼다(모델 입력 본문 없음 — 원본 items.jsonl 에도 본문은 없고, 원본에서 뺀 필드는 input·rule_input·t4_items). 절대 경로는 「<home>」·「<repo>」로 바꿨다.",
+ "original_files": {
+  "items.jsonl": {
+   "sha256": "fbfc2f522af5e42783c2078d5957ae531d74c7d599d8c253c8e478054d55eea0",
+   "bytes": 21587872
+  },
+  "rules_pred.jsonl": {
+   "sha256": "58fe9f7871d447841c63c82df31ae31bb40766913fcf9856b02325d6808528d2",
+   "bytes": 6161359
+  },
+  "rules_pred.jsonl.meta.json": {
+   "sha256": "eab4383a48258fd382db3b258a4cd1192fc36ef5bcef5914c784df1b3be34807",
+   "bytes": 959
+  },
+  "m1.jsonl": {
+   "sha256": "caa31bcbff7205f477e9085b015b82824815e4f1fbea8d723b2a17dbc3bdc0fe",
+   "bytes": 60130631
+  },
+  "truncation.jsonl": {
+   "sha256": "489355353aad0a0b2d8cd705e85c43a1f2a37916c64ce0c87a393676de0fa6a3",
+   "bytes": 109436
+  },
+  "score.json": {
+   "sha256": "de6e4e0d3d288604771e67d1b1cb091fc59c9d91d58057e62d4623ee3583c1da",
+   "bytes": 2410912
+  },
+  "score.md": {
+   "sha256": "584c3e3d65d7eb87f7dd23ea6ec0a396ef38b855d64fe0bcf62c230e50766932",
+   "bytes": 3436
+  },
+  "rules_record.json": {
+   "sha256": "c47a2387ea107b1590064680c45faa82083b8e69324c138f6bed45dd90595c75",
+   "bytes": 900
+  }
+ },
+ "m1_header": {
+  "type": "header",
+  "schema": "e5-m1-results.v2",
+  "model": {
+   "gguf": "<home>/models/Qwen3.5-4B-BF16.gguf",
+   "gguf_sha256": "7d9e8d79a81a004e9f5c6725c4f97038b02a80622718d0df647c9afbc79ccc00",
+   "model_json_sha256": "09067c8f9073ba92849e76fc22e11afb3cfaedd260a919b5404f223371ed48e4"
+  },
+  "llama_cpp_commit": "7049ff0cbeb1f5ead231de4522af6b75d8d773c0",
+  "server_bin": "<home>/src/llama.cpp/build/bin/llama-server",
+  "server_args": [
+   "-m",
+   "<home>/models/Qwen3.5-4B-BF16.gguf",
+   "-c",
+   "131072",
+   "-ngl",
+   "99",
+   "-fa",
+   "on",
+   "--parallel",
+   "1",
+   "--host",
+   "127.0.0.1",
+   "--port",
+   "8091"
+  ],
+  "request": {
+   "n_predict": 1,
+   "n_probs": 100,
+   "temperature": 0,
+   "cache_prompt": true
+  },
+  "server_started_by_runner": true,
+  "server_cmdline": [
+   "<home>/src/llama.cpp/build/bin/llama-server",
+   "-m",
+   "<home>/models/Qwen3.5-4B-BF16.gguf",
+   "-c",
+   "131072",
+   "-ngl",
+   "99",
+   "-fa",
+   "on",
+   "--parallel",
+   "1",
+   "--host",
+   "127.0.0.1",
+   "--port",
+   "8091"
+  ],
+  "server_props": {
+   "model_path": "<home>/models/Qwen3.5-4B-BF16.gguf",
+   "n_ctx": 131072,
+   "total_slots": 1,
+   "build_info": "b1-7049ff0"
+  },
+  "server_n_ctx": 131072,
+  "prompts_sha256": "747feecb36b512e02a2aefc4771ae2cff1d1a004388f31d172114e6a6d0ac559",
+  "e5_prompt_sha256": "87621087cd1860b29e11ea1adbb274bc29b51ec35bb1f360e4934942a226ec68",
+  "e5_m1_sha256": "47ab5a55232a249acc830a30fe24b8c55c4bbfcdeeb48b981269f8977d443a0b",
+  "items_sha256": "fbfc2f522af5e42783c2078d5957ae531d74c7d599d8c253c8e478054d55eea0",
+  "judge_sha256": "9d092fcbae5ab7996afdfa27e3f65b9baa0f9cfb0fe0e3aeb263c923f6c30d64",
+  "token_limit": 120000
+ },
+ "rules_pred_meta": {
+  "e5_rules_sha256": "061e6740ea858b1b591e0b0373caa40453010e3d506dfacc4fc78a1135204208",
+  "items_sha256": "fbfc2f522af5e42783c2078d5957ae531d74c7d599d8c253c8e478054d55eea0",
+  "judge_sha256": "9d092fcbae5ab7996afdfa27e3f65b9baa0f9cfb0fe0e3aeb263c923f6c30d64",
+  "set_root": "<repo>/build/e5/official",
+  "splits": [
+   "train",
+   "val",
+   "test_seen",
+   "test_unseen"
+  ],
+  "tables": {
+   "rules_r1.json": "e49982292aee74aa8b217273a2c4b60d01891f4323b6b5ae5aafcbe5eeeab6e0",
+   "rules_t1_full.json": "785ca015ab0e2d556de01d4fcd97ebe179d83e5e57f3e0180a912f0772446f74",
+   "rules_t1_masked.json": "f8d3ce73c45e13ff42e1739592fa47a90d74ad63db8a95877e9c7f1810feb0f7",
+   "rules_t3.json": "2d69df57e15a2d47ed6d7b1374a4772866c2772261352718cb6c56df89208538"
+  },
+  "truncation": "<repo>/build/e5-m1/official/truncation.jsonl",
+  "truncation_sha256": "489355353aad0a0b2d8cd705e85c43a1f2a37916c64ce0c87a393676de0fa6a3"
+ },
+ "rules_record": {
+  "built_from": [
+   "train"
+  ],
+  "e5_rules_sha256": "061e6740ea858b1b591e0b0373caa40453010e3d506dfacc4fc78a1135204208",
+  "order": "1 build(train 만) → 2 이 기록 → 3 test 를 여는 명령(items·truncate·apply·run·score)은 이 기록을 확인한 뒤에만 연다",
+  "recorded_at": "2026-10-06T06:54:39+00:00",
+  "schema": "e5-m1-rules-record.v1",
+  "set_root": "<repo>/build/e5/official",
+  "tables": {
+   "rules_r1.json": "e49982292aee74aa8b217273a2c4b60d01891f4323b6b5ae5aafcbe5eeeab6e0",
+   "rules_t1_full.json": "785ca015ab0e2d556de01d4fcd97ebe179d83e5e57f3e0180a912f0772446f74",
+   "rules_t1_masked.json": "f8d3ce73c45e13ff42e1739592fa47a90d74ad63db8a95877e9c7f1810feb0f7",
+   "rules_t3.json": "2d69df57e15a2d47ed6d7b1374a4772866c2772261352718cb6c56df89208538"
+  },
+  "train_labels_sha256": "df10d2dbc063f652cb13c6f627faff14c922e766d0a8265ac992ecd5814135f5"
+ },
+ "public_derivation": {
+  "items": "items.jsonl 의 문항 필드 + input_sha256(= M1 결과의 record_sha256, 문항의 모든 순열에서 같음을 확인) + dropped_lines(M1 순열 중 최대) + truncated + body_lines(T3, truncation.jsonl)",
+  "m1_perms": "m1.jsonl 의 (문항, 순열) 줄 — probs 는 원래 선택지 순서(실행기가 저장한 그대로), valid = 오류 없음 · 선택지 글자 있음 · probs 있음"
+ }
+}

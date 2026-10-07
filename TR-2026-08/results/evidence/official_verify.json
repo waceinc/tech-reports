@@ -1,0 +1,4981 @@
+{
+ "available_runs_per_class": {
+  "A|안전 개입": 195,
+  "B|검사 장치": 290,
+  "B|공급압 저하": 326,
+  "B|기계 걸림": 111,
+  "B|벨트 구동": 277,
+  "B|브레이크": 21,
+  "B|센서": 254,
+  "B|안전 개입": 400,
+  "B|유량 저하": 173,
+  "B|주입 없음": 3,
+  "P|안전 개입": 2,
+  "P|포장 장치": 455
+ },
+ "mismatched_windows": 0,
+ "mismatches": [],
+ "positive_control": {
+  "detected": {
+   "plc_first_code": {
+    "label": "tampered",
+    "rerun": 24
+   }
+  },
+  "status": "[PASS]",
+  "window_id": "r22598d76fe29__lock__0"
+ },
+ "results": [
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T1",
+   "window_id": "r22598d76fe29__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T2",
+   "window_id": "r22598d76fe29__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T2",
+   "window_id": "r22598d76fe29__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T2",
+   "window_id": "r22598d76fe29__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T2",
+   "window_id": "r22598d76fe29__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T2",
+   "window_id": "r22598d76fe29__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T2",
+   "window_id": "r22598d76fe29__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r22598d76fe29",
+   "task": "T2",
+   "window_id": "r22598d76fe29__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T1",
+   "window_id": "r416cdd8999b7__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T2",
+   "window_id": "r416cdd8999b7__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T2",
+   "window_id": "r416cdd8999b7__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T2",
+   "window_id": "r416cdd8999b7__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T2",
+   "window_id": "r416cdd8999b7__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T2",
+   "window_id": "r416cdd8999b7__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T2",
+   "window_id": "r416cdd8999b7__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "r416cdd8999b7",
+   "task": "T2",
+   "window_id": "r416cdd8999b7__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T1",
+   "window_id": "r4184bdfcda61__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T2",
+   "window_id": "r4184bdfcda61__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T2",
+   "window_id": "r4184bdfcda61__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T2",
+   "window_id": "r4184bdfcda61__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T2",
+   "window_id": "r4184bdfcda61__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T2",
+   "window_id": "r4184bdfcda61__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T2",
+   "window_id": "r4184bdfcda61__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r4184bdfcda61",
+   "task": "T2",
+   "window_id": "r4184bdfcda61__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T1",
+   "window_id": "r5c787517903e__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r5c787517903e",
+   "task": "T2",
+   "window_id": "r5c787517903e__recovery__7"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r5e4e4517cd7e",
+   "task": "T1",
+   "window_id": "r5e4e4517cd7e__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r5e4e4517cd7e",
+   "task": "T2",
+   "window_id": "r5e4e4517cd7e__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r5e4e4517cd7e",
+   "task": "T2",
+   "window_id": "r5e4e4517cd7e__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r5e4e4517cd7e",
+   "task": "T2",
+   "window_id": "r5e4e4517cd7e__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r5e4e4517cd7e",
+   "task": "T2",
+   "window_id": "r5e4e4517cd7e__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r5e4e4517cd7e",
+   "task": "T2",
+   "window_id": "r5e4e4517cd7e__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T1",
+   "window_id": "r609097ba7837__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T2",
+   "window_id": "r609097ba7837__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T2",
+   "window_id": "r609097ba7837__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T2",
+   "window_id": "r609097ba7837__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T2",
+   "window_id": "r609097ba7837__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T2",
+   "window_id": "r609097ba7837__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T2",
+   "window_id": "r609097ba7837__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r609097ba7837",
+   "task": "T2",
+   "window_id": "r609097ba7837__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T1",
+   "window_id": "r6355e81bb60c__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r6355e81bb60c",
+   "task": "T2",
+   "window_id": "r6355e81bb60c__recovery__7"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T1",
+   "window_id": "r64df374ae41e__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T2",
+   "window_id": "r64df374ae41e__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T2",
+   "window_id": "r64df374ae41e__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T2",
+   "window_id": "r64df374ae41e__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T2",
+   "window_id": "r64df374ae41e__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T2",
+   "window_id": "r64df374ae41e__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T2",
+   "window_id": "r64df374ae41e__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r64df374ae41e",
+   "task": "T2",
+   "window_id": "r64df374ae41e__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r87c54deb0358",
+   "task": "T1",
+   "window_id": "r87c54deb0358__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r87c54deb0358",
+   "task": "T2",
+   "window_id": "r87c54deb0358__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r87c54deb0358",
+   "task": "T2",
+   "window_id": "r87c54deb0358__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r87c54deb0358",
+   "task": "T2",
+   "window_id": "r87c54deb0358__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r87c54deb0358",
+   "task": "T2",
+   "window_id": "r87c54deb0358__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r87c54deb0358",
+   "task": "T2",
+   "window_id": "r87c54deb0358__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "r87c54deb0358",
+   "task": "T2",
+   "window_id": "r87c54deb0358__recovery__5"
+  },
+  {
+   "cell": "A",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6f5c682fb81",
+   "task": "T1",
+   "window_id": "ra6f5c682fb81__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T1",
+   "window_id": "raf763af732a2__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": null,
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__10"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": null,
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__11"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": null,
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__7"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": null,
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__8"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": null,
+   "run_id": "raf763af732a2",
+   "task": "T2",
+   "window_id": "raf763af732a2__recovery__9"
+  },
+  {
+   "cell": "A",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rb82bdb4f43f1",
+   "task": "T1",
+   "window_id": "rb82bdb4f43f1__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T1",
+   "window_id": "rc8a8b5b93edc__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T2",
+   "window_id": "rc8a8b5b93edc__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T2",
+   "window_id": "rc8a8b5b93edc__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T2",
+   "window_id": "rc8a8b5b93edc__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T2",
+   "window_id": "rc8a8b5b93edc__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T2",
+   "window_id": "rc8a8b5b93edc__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T2",
+   "window_id": "rc8a8b5b93edc__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rc8a8b5b93edc",
+   "task": "T2",
+   "window_id": "rc8a8b5b93edc__recovery__6"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "rd0078c93c3b3",
+   "task": "T1",
+   "window_id": "rd0078c93c3b3__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T1",
+   "window_id": "re8dc7e3a9796__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T2",
+   "window_id": "re8dc7e3a9796__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T2",
+   "window_id": "re8dc7e3a9796__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T2",
+   "window_id": "re8dc7e3a9796__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T2",
+   "window_id": "re8dc7e3a9796__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T2",
+   "window_id": "re8dc7e3a9796__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T2",
+   "window_id": "re8dc7e3a9796__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "re8dc7e3a9796",
+   "task": "T2",
+   "window_id": "re8dc7e3a9796__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "r13b30a63da68",
+   "task": "T1",
+   "window_id": "r13b30a63da68__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "r13b30a63da68",
+   "task": "T2",
+   "window_id": "r13b30a63da68__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "r13b30a63da68",
+   "task": "T2",
+   "window_id": "r13b30a63da68__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "r13b30a63da68",
+   "task": "T2",
+   "window_id": "r13b30a63da68__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "r13b30a63da68",
+   "task": "T2",
+   "window_id": "r13b30a63da68__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "r13b30a63da68",
+   "task": "T2",
+   "window_id": "r13b30a63da68__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "r13b30a63da68",
+   "task": "T2",
+   "window_id": "r13b30a63da68__recovery__5"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "r26a6a174c443",
+   "task": "T1",
+   "window_id": "r26a6a174c443__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T1",
+   "window_id": "r39daef6d5805__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T2",
+   "window_id": "r39daef6d5805__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T2",
+   "window_id": "r39daef6d5805__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T2",
+   "window_id": "r39daef6d5805__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T2",
+   "window_id": "r39daef6d5805__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T2",
+   "window_id": "r39daef6d5805__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T2",
+   "window_id": "r39daef6d5805__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r39daef6d5805",
+   "task": "T2",
+   "window_id": "r39daef6d5805__recovery__6"
+  },
+  {
+   "cell": "A",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r5808bfa17cb4",
+   "task": "T1",
+   "window_id": "r5808bfa17cb4__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T1",
+   "window_id": "r7cfb755f765f__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T2",
+   "window_id": "r7cfb755f765f__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T2",
+   "window_id": "r7cfb755f765f__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T2",
+   "window_id": "r7cfb755f765f__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T2",
+   "window_id": "r7cfb755f765f__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T2",
+   "window_id": "r7cfb755f765f__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T2",
+   "window_id": "r7cfb755f765f__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r7cfb755f765f",
+   "task": "T2",
+   "window_id": "r7cfb755f765f__recovery__6"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "r966c59cfaa3c",
+   "task": "T1",
+   "window_id": "r966c59cfaa3c__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "ra047d935791b",
+   "task": "T1",
+   "window_id": "ra047d935791b__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "ra047d935791b",
+   "task": "T2",
+   "window_id": "ra047d935791b__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "ra047d935791b",
+   "task": "T2",
+   "window_id": "ra047d935791b__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "ra047d935791b",
+   "task": "T2",
+   "window_id": "ra047d935791b__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "ra047d935791b",
+   "task": "T2",
+   "window_id": "ra047d935791b__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "ra047d935791b",
+   "task": "T2",
+   "window_id": "ra047d935791b__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "ra047d935791b",
+   "task": "T2",
+   "window_id": "ra047d935791b__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T1",
+   "window_id": "ra6330cc88ea9__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T2",
+   "window_id": "ra6330cc88ea9__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T2",
+   "window_id": "ra6330cc88ea9__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T2",
+   "window_id": "ra6330cc88ea9__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T2",
+   "window_id": "ra6330cc88ea9__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T2",
+   "window_id": "ra6330cc88ea9__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T2",
+   "window_id": "ra6330cc88ea9__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "ra6330cc88ea9",
+   "task": "T2",
+   "window_id": "ra6330cc88ea9__recovery__6"
+  },
+  {
+   "cell": "A",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rc3597580c71a",
+   "task": "T1",
+   "window_id": "rc3597580c71a__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T1",
+   "window_id": "rc6e2bb0267e9__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T2",
+   "window_id": "rc6e2bb0267e9__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T2",
+   "window_id": "rc6e2bb0267e9__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T2",
+   "window_id": "rc6e2bb0267e9__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T2",
+   "window_id": "rc6e2bb0267e9__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T2",
+   "window_id": "rc6e2bb0267e9__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T2",
+   "window_id": "rc6e2bb0267e9__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc6e2bb0267e9",
+   "task": "T2",
+   "window_id": "rc6e2bb0267e9__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T1",
+   "window_id": "rccba7798ff78__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T2",
+   "window_id": "rccba7798ff78__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T2",
+   "window_id": "rccba7798ff78__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T2",
+   "window_id": "rccba7798ff78__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T2",
+   "window_id": "rccba7798ff78__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T2",
+   "window_id": "rccba7798ff78__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T2",
+   "window_id": "rccba7798ff78__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rccba7798ff78",
+   "task": "T2",
+   "window_id": "rccba7798ff78__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "re9257c8f4938",
+   "task": "T1",
+   "window_id": "re9257c8f4938__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "re9257c8f4938",
+   "task": "T2",
+   "window_id": "re9257c8f4938__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "re9257c8f4938",
+   "task": "T2",
+   "window_id": "re9257c8f4938__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "re9257c8f4938",
+   "task": "T2",
+   "window_id": "re9257c8f4938__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "re9257c8f4938",
+   "task": "T2",
+   "window_id": "re9257c8f4938__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "re9257c8f4938",
+   "task": "T2",
+   "window_id": "re9257c8f4938__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "re9257c8f4938",
+   "task": "T2",
+   "window_id": "re9257c8f4938__recovery__5"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "rea664f8bea02",
+   "task": "T1",
+   "window_id": "rea664f8bea02__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T1",
+   "window_id": "rfc283adf04d8__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T2",
+   "window_id": "rfc283adf04d8__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T2",
+   "window_id": "rfc283adf04d8__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T2",
+   "window_id": "rfc283adf04d8__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T2",
+   "window_id": "rfc283adf04d8__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T2",
+   "window_id": "rfc283adf04d8__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T2",
+   "window_id": "rfc283adf04d8__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "rfc283adf04d8",
+   "task": "T2",
+   "window_id": "rfc283adf04d8__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T1",
+   "window_id": "r0eeb77c2207a__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T2",
+   "window_id": "r0eeb77c2207a__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T2",
+   "window_id": "r0eeb77c2207a__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T2",
+   "window_id": "r0eeb77c2207a__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T2",
+   "window_id": "r0eeb77c2207a__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T2",
+   "window_id": "r0eeb77c2207a__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T2",
+   "window_id": "r0eeb77c2207a__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r0eeb77c2207a",
+   "task": "T2",
+   "window_id": "r0eeb77c2207a__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T1",
+   "window_id": "r1698a843681f__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T2",
+   "window_id": "r1698a843681f__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T2",
+   "window_id": "r1698a843681f__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T2",
+   "window_id": "r1698a843681f__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T2",
+   "window_id": "r1698a843681f__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T2",
+   "window_id": "r1698a843681f__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T2",
+   "window_id": "r1698a843681f__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "센서",
+   "run_id": "r1698a843681f",
+   "task": "T2",
+   "window_id": "r1698a843681f__recovery__6"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "r2452aa81ac94",
+   "task": "T1",
+   "window_id": "r2452aa81ac94__lock__0"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "r424f44097c74",
+   "task": "T1",
+   "window_id": "r424f44097c74__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r485570f08f83",
+   "task": "T1",
+   "window_id": "r485570f08f83__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r485570f08f83",
+   "task": "T2",
+   "window_id": "r485570f08f83__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r485570f08f83",
+   "task": "T2",
+   "window_id": "r485570f08f83__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r485570f08f83",
+   "task": "T2",
+   "window_id": "r485570f08f83__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r485570f08f83",
+   "task": "T2",
+   "window_id": "r485570f08f83__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r485570f08f83",
+   "task": "T2",
+   "window_id": "r485570f08f83__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T1",
+   "window_id": "r588dc7da924e__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T2",
+   "window_id": "r588dc7da924e__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T2",
+   "window_id": "r588dc7da924e__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T2",
+   "window_id": "r588dc7da924e__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T2",
+   "window_id": "r588dc7da924e__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T2",
+   "window_id": "r588dc7da924e__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T2",
+   "window_id": "r588dc7da924e__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r588dc7da924e",
+   "task": "T2",
+   "window_id": "r588dc7da924e__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T1",
+   "window_id": "r754bcddd3d1a__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T2",
+   "window_id": "r754bcddd3d1a__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T2",
+   "window_id": "r754bcddd3d1a__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T2",
+   "window_id": "r754bcddd3d1a__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T2",
+   "window_id": "r754bcddd3d1a__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T2",
+   "window_id": "r754bcddd3d1a__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T2",
+   "window_id": "r754bcddd3d1a__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r754bcddd3d1a",
+   "task": "T2",
+   "window_id": "r754bcddd3d1a__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T1",
+   "window_id": "r8266fb50799e__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T2",
+   "window_id": "r8266fb50799e__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T2",
+   "window_id": "r8266fb50799e__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T2",
+   "window_id": "r8266fb50799e__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T2",
+   "window_id": "r8266fb50799e__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T2",
+   "window_id": "r8266fb50799e__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T2",
+   "window_id": "r8266fb50799e__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r8266fb50799e",
+   "task": "T2",
+   "window_id": "r8266fb50799e__recovery__6"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r847031bf0662",
+   "task": "T1",
+   "window_id": "r847031bf0662__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T1",
+   "window_id": "ra35a06d456c1__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T2",
+   "window_id": "ra35a06d456c1__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T2",
+   "window_id": "ra35a06d456c1__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T2",
+   "window_id": "ra35a06d456c1__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T2",
+   "window_id": "ra35a06d456c1__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T2",
+   "window_id": "ra35a06d456c1__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T2",
+   "window_id": "ra35a06d456c1__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "ra35a06d456c1",
+   "task": "T2",
+   "window_id": "ra35a06d456c1__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T1",
+   "window_id": "rcef7ce9f4264__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "기계 걸림",
+   "run_id": "rcef7ce9f4264",
+   "task": "T2",
+   "window_id": "rcef7ce9f4264__recovery__7"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "rd8b8581ffee8",
+   "task": "T1",
+   "window_id": "rd8b8581ffee8__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T1",
+   "window_id": "rdecc898db219__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T2",
+   "window_id": "rdecc898db219__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T2",
+   "window_id": "rdecc898db219__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T2",
+   "window_id": "rdecc898db219__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T2",
+   "window_id": "rdecc898db219__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T2",
+   "window_id": "rdecc898db219__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T2",
+   "window_id": "rdecc898db219__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rdecc898db219",
+   "task": "T2",
+   "window_id": "rdecc898db219__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T1",
+   "window_id": "rf94f9de80066__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T2",
+   "window_id": "rf94f9de80066__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T2",
+   "window_id": "rf94f9de80066__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T2",
+   "window_id": "rf94f9de80066__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T2",
+   "window_id": "rf94f9de80066__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T2",
+   "window_id": "rf94f9de80066__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T2",
+   "window_id": "rf94f9de80066__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rf94f9de80066",
+   "task": "T2",
+   "window_id": "rf94f9de80066__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T1",
+   "window_id": "r0926e3107c8c__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T2",
+   "window_id": "r0926e3107c8c__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T2",
+   "window_id": "r0926e3107c8c__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T2",
+   "window_id": "r0926e3107c8c__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T2",
+   "window_id": "r0926e3107c8c__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T2",
+   "window_id": "r0926e3107c8c__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T2",
+   "window_id": "r0926e3107c8c__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r0926e3107c8c",
+   "task": "T2",
+   "window_id": "r0926e3107c8c__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T1",
+   "window_id": "r1a2d818b9def__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T2",
+   "window_id": "r1a2d818b9def__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T2",
+   "window_id": "r1a2d818b9def__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T2",
+   "window_id": "r1a2d818b9def__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T2",
+   "window_id": "r1a2d818b9def__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T2",
+   "window_id": "r1a2d818b9def__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T2",
+   "window_id": "r1a2d818b9def__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r1a2d818b9def",
+   "task": "T2",
+   "window_id": "r1a2d818b9def__recovery__6"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r2e6fdb08e0b4",
+   "task": "T1",
+   "window_id": "r2e6fdb08e0b4__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T1",
+   "window_id": "r537f2ffb46e4__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T2",
+   "window_id": "r537f2ffb46e4__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T2",
+   "window_id": "r537f2ffb46e4__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T2",
+   "window_id": "r537f2ffb46e4__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T2",
+   "window_id": "r537f2ffb46e4__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T2",
+   "window_id": "r537f2ffb46e4__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T2",
+   "window_id": "r537f2ffb46e4__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "r537f2ffb46e4",
+   "task": "T2",
+   "window_id": "r537f2ffb46e4__recovery__6"
+  },
+  {
+   "cell": "A",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r5bab0d851316",
+   "task": "T1",
+   "window_id": "r5bab0d851316__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T1",
+   "window_id": "r6538645adad6__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T2",
+   "window_id": "r6538645adad6__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T2",
+   "window_id": "r6538645adad6__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T2",
+   "window_id": "r6538645adad6__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T2",
+   "window_id": "r6538645adad6__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T2",
+   "window_id": "r6538645adad6__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T2",
+   "window_id": "r6538645adad6__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r6538645adad6",
+   "task": "T2",
+   "window_id": "r6538645adad6__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r79bec4410bcf",
+   "task": "T1",
+   "window_id": "r79bec4410bcf__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r79bec4410bcf",
+   "task": "T2",
+   "window_id": "r79bec4410bcf__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r79bec4410bcf",
+   "task": "T2",
+   "window_id": "r79bec4410bcf__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r79bec4410bcf",
+   "task": "T2",
+   "window_id": "r79bec4410bcf__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r79bec4410bcf",
+   "task": "T2",
+   "window_id": "r79bec4410bcf__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "주입 없음",
+   "run_id": "r79bec4410bcf",
+   "task": "T2",
+   "window_id": "r79bec4410bcf__recovery__4"
+  },
+  {
+   "cell": "P",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "포장 장치",
+   "run_id": "r79f418143814",
+   "task": "T1",
+   "window_id": "r79f418143814__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r815d0874667a",
+   "task": "T1",
+   "window_id": "r815d0874667a__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r815d0874667a",
+   "task": "T2",
+   "window_id": "r815d0874667a__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r815d0874667a",
+   "task": "T2",
+   "window_id": "r815d0874667a__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r815d0874667a",
+   "task": "T2",
+   "window_id": "r815d0874667a__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r815d0874667a",
+   "task": "T2",
+   "window_id": "r815d0874667a__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r815d0874667a",
+   "task": "T2",
+   "window_id": "r815d0874667a__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "r815d0874667a",
+   "task": "T2",
+   "window_id": "r815d0874667a__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T1",
+   "window_id": "r90974535e097__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T2",
+   "window_id": "r90974535e097__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T2",
+   "window_id": "r90974535e097__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T2",
+   "window_id": "r90974535e097__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T2",
+   "window_id": "r90974535e097__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T2",
+   "window_id": "r90974535e097__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T2",
+   "window_id": "r90974535e097__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "검사 장치",
+   "run_id": "r90974535e097",
+   "task": "T2",
+   "window_id": "r90974535e097__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T1",
+   "window_id": "r99cd0ede103c__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T2",
+   "window_id": "r99cd0ede103c__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T2",
+   "window_id": "r99cd0ede103c__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T2",
+   "window_id": "r99cd0ede103c__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T2",
+   "window_id": "r99cd0ede103c__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T2",
+   "window_id": "r99cd0ede103c__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T2",
+   "window_id": "r99cd0ede103c__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "r99cd0ede103c",
+   "task": "T2",
+   "window_id": "r99cd0ede103c__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "rb60bd2a794a8",
+   "task": "T1",
+   "window_id": "rb60bd2a794a8__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "rb60bd2a794a8",
+   "task": "T2",
+   "window_id": "rb60bd2a794a8__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "rb60bd2a794a8",
+   "task": "T2",
+   "window_id": "rb60bd2a794a8__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "rb60bd2a794a8",
+   "task": "T2",
+   "window_id": "rb60bd2a794a8__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "rb60bd2a794a8",
+   "task": "T2",
+   "window_id": "rb60bd2a794a8__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "브레이크",
+   "run_id": "rb60bd2a794a8",
+   "task": "T2",
+   "window_id": "rb60bd2a794a8__recovery__4"
+  },
+  {
+   "cell": "A",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "rb79faa06f7eb",
+   "task": "T1",
+   "window_id": "rb79faa06f7eb__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T1",
+   "window_id": "rb9715fa911bd__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T2",
+   "window_id": "rb9715fa911bd__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T2",
+   "window_id": "rb9715fa911bd__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T2",
+   "window_id": "rb9715fa911bd__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T2",
+   "window_id": "rb9715fa911bd__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T2",
+   "window_id": "rb9715fa911bd__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T2",
+   "window_id": "rb9715fa911bd__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "공급압 저하",
+   "run_id": "rb9715fa911bd",
+   "task": "T2",
+   "window_id": "rb9715fa911bd__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T1",
+   "window_id": "rc57a58128727__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T2",
+   "window_id": "rc57a58128727__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T2",
+   "window_id": "rc57a58128727__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T2",
+   "window_id": "rc57a58128727__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T2",
+   "window_id": "rc57a58128727__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T2",
+   "window_id": "rc57a58128727__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T2",
+   "window_id": "rc57a58128727__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "유량 저하",
+   "run_id": "rc57a58128727",
+   "task": "T2",
+   "window_id": "rc57a58128727__recovery__6"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "re0d1400e7208",
+   "task": "T1",
+   "window_id": "re0d1400e7208__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "re0d1400e7208",
+   "task": "T2",
+   "window_id": "re0d1400e7208__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "re0d1400e7208",
+   "task": "T2",
+   "window_id": "re0d1400e7208__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "re0d1400e7208",
+   "task": "T2",
+   "window_id": "re0d1400e7208__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "re0d1400e7208",
+   "task": "T2",
+   "window_id": "re0d1400e7208__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "안전 개입",
+   "run_id": "re0d1400e7208",
+   "task": "T2",
+   "window_id": "re0d1400e7208__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T1",
+   "window_id": "rfa4b5569add9__lock__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T2",
+   "window_id": "rfa4b5569add9__recovery__0"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T2",
+   "window_id": "rfa4b5569add9__recovery__1"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T2",
+   "window_id": "rfa4b5569add9__recovery__2"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T2",
+   "window_id": "rfa4b5569add9__recovery__3"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T2",
+   "window_id": "rfa4b5569add9__recovery__4"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T2",
+   "window_id": "rfa4b5569add9__recovery__5"
+  },
+  {
+   "cell": "B",
+   "compared": [
+    "core_events",
+    "plc_first_code",
+    "t2_current",
+    "t2_next"
+   ],
+   "mismatch": {},
+   "root_class": "벨트 구동",
+   "run_id": "rfa4b5569add9",
+   "task": "T2",
+   "window_id": "rfa4b5569add9__recovery__6"
+  }
+ ],
+ "runs": 60,
+ "runs_per_class": {
+  "A|안전 개입": 6,
+  "B|검사 장치": 6,
+  "B|공급압 저하": 5,
+  "B|기계 걸림": 4,
+  "B|벨트 구동": 8,
+  "B|브레이크": 3,
+  "B|센서": 4,
+  "B|안전 개입": 7,
+  "B|유량 저하": 4,
+  "B|주입 없음": 3,
+  "P|안전 개입": 2,
+  "P|포장 장치": 8
+ },
+ "status": "[PASS]",
+ "windows": 361
+}

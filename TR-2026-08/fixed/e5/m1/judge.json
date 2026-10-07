@@ -1,0 +1,19 @@
+{
+ "bootstrap": {
+  "cluster_T1_T2_T4": "combo_key",
+  "cluster_T3": "run_id",
+  "n": 10000,
+  "percentiles": [2.5, 97.5],
+  "seed": "e5-score-boot-v1"
+ },
+ "confident_wrong_prob": "0.9",
+ "consistency_T2_T4": {"acc": "0.99", "dangerous_max": 0, "min_items": 300},
+ "fail_rate_max": "0.05",
+ "min_items_for_rate": 20,
+ "note": "판정 상수 정본(사전 등록 v0.3 §6·§7·§8). 비율은 문자열(정확한 분수로 읽는다). e5_score.py 는 이 파일만 읽고, tests/check_e5_m1.py 가 사전 등록 값과 대조한다. 바꾸면 새 판",
+ "risk4": ["안전 개입", "브레이크", "공급압 저하", "기계 걸림"],
+ "schema": "e5-m1-judge.v1",
+ "T1": {"gain": "0.10", "min_items": 100, "min_keys": 30, "rule_ok": "0.90"},
+ "T3": {"channels": ["belt_speed_dev", "chatter"], "fpr": "0.10", "lead_s": "5", "min_channel_runs": 20, "min_pos_runs": 45, "recall": "0.90"},
+ "val_recall": "0.97"
+}

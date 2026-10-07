@@ -1,0 +1,11 @@
+{
+ "date": "2026-10-06",
+ "files": 127453,
+ "git_head_of_outputs": "0e0e3f6",
+ "method": "같은 기계(우분투 GB10) 2회 생성 — build/e5 · build/e5-b, manifest file_list sha256 전수 대조 + manifest 바이트 동일",
+ "note": "1차 대조에서 124,428 파일이 머리말 tool_version 의 git 커밋 값만 달랐다(2회차 생성 중 규칙 표 커밋 0e0e3f6). 대체하면 전부 같고 raw 2,997 은 처음부터 같았다. 1회차 창을 같은 커밋에서 e5_build 로 다시 만들어(시뮬레이션 다시 안 함) 바이트 동일을 확인했다",
+ "result": "SAME",
+ "runs": 2997,
+ "schema": "e5-official-determinism.v1",
+ "set": "official"
+}

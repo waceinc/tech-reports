@@ -1,0 +1,66 @@
+{
+ "counts": {
+  "T1|A": {
+   "안전 개입": 38
+  },
+  "T1|B": {
+   "검사 장치": 79,
+   "공급압 저하": 88,
+   "기계 걸림": 32,
+   "벨트 구동": 66,
+   "브레이크": 2,
+   "센서": 68,
+   "안전 개입": 99,
+   "유량 저하": 45
+  },
+  "T1|P": {
+   "안전 개입": 1,
+   "포장 장치": 116
+  },
+  "T2|B": {
+   "0 — 복귀 절차 없음": 482,
+   "2 — 리셋 확인 — 배치 격리 버튼을 누르세요. 벨트 위 미확인 상자는 재검으로 셉니다": 518,
+   "3 — 마무리 밀기 — 전진 중 정지였습니다. 마무리 밀기 버튼을 누르고 유지하세요": 41,
+   "4 — 원점 복귀 — 원점 복귀 버튼을 누르고 유지하세요": 518,
+   "5 — 격리 배출 준비 — 기동을 누르면 3초 예고 뒤 벨트가 돕니다": 517,
+   "6 — 격리 배출 예고 — 설비에서 떨어지세요": 517,
+   "7 — 격리 배출 중 — 벨트가 비면 추적 초기화 버튼을 누르세요": 517,
+   "8 — 추적 초기화 완료 — 재검 상자는 따로 두고, 벨트 정지를 확인한 뒤 기동하세요": 482
+  },
+  "T3|B": {
+   "관찰": 8,
+   "정비 필요": 2,
+   "정상": 14
+  },
+  "T4|A": {
+   "safety": 38
+  },
+  "T4|B": {
+   "AIR_NO_MOTION": 33,
+   "AIR_PRESSURE_LOW": 88,
+   "ARRIVAL_OVERLAP": 8,
+   "ARRIVAL_SPACING": 26,
+   "BRAKE_NOT_ENGAGED": 5,
+   "CHUTE_CONFIRM_MISSING": 32,
+   "CHUTE_CONFIRM_TIMING": 13,
+   "CONVEYOR_OVERLOAD": 53,
+   "INSPECTION_NOT_READY": 79,
+   "OUT_CONFIRM_MISSING": 16,
+   "OUT_CONFIRM_TIMING": 19,
+   "RETURN_PREDICTED_LATE": 43,
+   "SAFETY_STOP": 98,
+   "STROKE_TREND_STOP": 8
+  },
+  "T4|P": {
+   "P.C0_DEVICE_FAULT": 10,
+   "P.C1_DEVICE_FAULT": 8,
+   "P.R0_DEVICE_FAULT": 34,
+   "P.R0_WORK_TIMEOUT": 1,
+   "P.R1_DEVICE_FAULT": 25,
+   "P.Tote_DEVICE_FAULT": 7,
+   "PACK_SAFETY_STOP": 40
+  }
+ },
+ "rule": "train 최빈 답(과제|셀), 문항 선택지 안에서, 동률 사전순",
+ "schema": "e5-m1-rules-r1.v1"
+}

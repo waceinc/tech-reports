@@ -1,0 +1,57 @@
+{
+ "cells": {
+  "A": {},
+  "B": {},
+  "P": {}
+ },
+ "drift": {
+  "batch_parts": 20,
+  "normals_per_split": 1,
+  "pairs": {
+   "test_seen": 1,
+   "train": 2,
+   "val": 1
+  },
+  "pitch_m": 2.2,
+  "plant_parts": 80,
+  "single_reps": {
+   "test_seen": 26,
+   "train": 2,
+   "val": 1
+  },
+  "ticks": 18000,
+  "unseen_runs": 80
+ },
+ "master_seed": "e5-official-2026-10-06",
+ "name": "official",
+ "normals_per_split": 5,
+ "operator_mix": {
+  "delay": 0.2,
+  "normal": 0.6,
+  "order": 0.2
+ },
+ "pack_parts": 60,
+ "per_class_per_split": 60,
+ "provenance": "E5 사전 등록 v0.3(대표 2026-10-06 승인): 파일럿 설정에서 셀·분리·원인 범주마다 주입 실행 60건(E1) · 열화 single_reps.test_seen 26 · unseen_runs 80(E2) · 마스터 시드는 파일럿과 다른 새 값(파일럿 실행이 공식 세트에 다시 생기지 않게). 그 밖의 값은 파일럿과 같다. 파일럿 근거: [가정] 파일럿 크기: 셀·분리·원인 범주마다 5건(지시서 B-3-5). 셀 B 실행 6000 스캔(60 s) = 잠김 + 복귀 절차 + 재기동. 열화 실행 18000 스캔(180 s) — 설비 모형 한 줄 값 2000개 상한(tests/core_driver.cpp)으로 상자 80개, 간격 2.2 m 로 3분 연속 투입 · 포장 실행 상자 60개 = 사양 TR-04 포장 셀 PB-01 분류 배치 수량(3회차, 24 → 60)",
+ "schema": "e5-set.v1",
+ "start_scans": {
+  "A": [
+   100,
+   500
+  ],
+  "B": [
+   400,
+   1600
+  ],
+  "P": [
+   1000,
+   2500
+  ]
+ },
+ "ticks": {
+  "A": 1000,
+  "B": 6000,
+  "P": 4500
+ },
+ "train_extra_combos": 2
+}

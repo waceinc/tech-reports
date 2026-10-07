@@ -1,0 +1,1784 @@
+{
+ "schema": "tr08-check.v1",
+ "mode": "repository (m1_perms.jsonl.gz absent)",
+ "inputs": {
+  "items.jsonl.gz": "02edbaf6a62f212d863484a9f1127f85fe515bde8d7e898c887672d5827ee185",
+  "rules_pred.jsonl.gz": "1e31d33585e547570aaf4f7d5662c0f5320a9fa2c685dde8690661887d3c551d",
+  "m1_perms.jsonl.gz": "[NOT_RUN(m1_perms 없음)]",
+  "score.json": "de6e4e0d3d288604771e67d1b1cb091fc59c9d91d58057e62d4623ee3583c1da"
+ },
+ "fixed_hash_check": {
+  "preregistration": {
+   "sha256": "35b4e315a3e0f6f2279df408fd58905884722d002899a32236c0b5b446d2fe91",
+   "expected": "35b4e315a3e0f6f2279df408fd58905884722d002899a32236c0b5b446d2fe91",
+   "ok": true
+  },
+  "rules_record": {
+   "built_from": [
+    "train"
+   ],
+   "recorded_at": "2026-10-06T06:54:39+00:00",
+   "tables": {
+    "rules_r1.json": "e49982292aee74aa8b217273a2c4b60d01891f4323b6b5ae5aafcbe5eeeab6e0",
+    "rules_t1_full.json": "785ca015ab0e2d556de01d4fcd97ebe179d83e5e57f3e0180a912f0772446f74",
+    "rules_t1_masked.json": "f8d3ce73c45e13ff42e1739592fa47a90d74ad63db8a95877e9c7f1810feb0f7",
+    "rules_t3.json": "2d69df57e15a2d47ed6d7b1374a4772866c2772261352718cb6c56df89208538"
+   }
+  },
+  "files": [
+   {
+    "file": "e5/catalog/calibration.json",
+    "sha256": "bbf700d10c15bf02d28bbaa1eec31d681449bfbb2ac57b501b89d8c30a1222cb",
+    "preregistered": "bbf700d10c15bf02d28bbaa1eec31d681449bfbb2ac57b501b89d8c30a1222cb",
+    "ok": true
+   },
+   {
+    "file": "e5/catalog/cause_classes.json",
+    "sha256": "1e0779642ecc1becb875f91d9c437d15f6e6071cf799a8fbaeefde0d61639650",
+    "preregistered": "1e0779642ecc1becb875f91d9c437d15f6e6071cf799a8fbaeefde0d61639650",
+    "ok": true
+   },
+   {
+    "file": "e5/catalog/degradation.json",
+    "sha256": "44e002a66a5375596cb90600b3514714c1c9e37da07c6b6d4e270d47a5bbe4b4",
+    "preregistered": "44e002a66a5375596cb90600b3514714c1c9e37da07c6b6d4e270d47a5bbe4b4",
+    "ok": true
+   },
+   {
+    "file": "e5/catalog/faults.json",
+    "sha256": "7a3202d501c52715cdb71aebcbe1437771d70e9741d04b36b3917fe2f1f06a15",
+    "preregistered": "7a3202d501c52715cdb71aebcbe1437771d70e9741d04b36b3917fe2f1f06a15",
+    "ok": true
+   },
+   {
+    "file": "e5/catalog/holdout.json",
+    "sha256": "a0717ca126b7e30df65ef56756c881703be36e1978309cc9b140c804779b1c2c",
+    "preregistered": "a0717ca126b7e30df65ef56756c881703be36e1978309cc9b140c804779b1c2c",
+    "ok": true
+   },
+   {
+    "file": "e5/catalog/sets/official.json",
+    "sha256": "5373e8d61201aa267f139205121c635c774117070d09b967c4e668a2a1955c09",
+    "preregistered": "5373e8d61201aa267f139205121c635c774117070d09b967c4e668a2a1955c09",
+    "ok": true
+   },
+   {
+    "file": "e5/m1/judge.json",
+    "sha256": "9d092fcbae5ab7996afdfa27e3f65b9baa0f9cfb0fe0e3aeb263c923f6c30d64",
+    "preregistered": "9d092fcbae5ab7996afdfa27e3f65b9baa0f9cfb0fe0e3aeb263c923f6c30d64",
+    "ok": true
+   },
+   {
+    "file": "e5/m1/model.json",
+    "sha256": "09067c8f9073ba92849e76fc22e11afb3cfaedd260a919b5404f223371ed48e4",
+    "preregistered": "09067c8f9073ba92849e76fc22e11afb3cfaedd260a919b5404f223371ed48e4",
+    "ok": true
+   },
+   {
+    "file": "e5/m1/prompts.json",
+    "sha256": "747feecb36b512e02a2aefc4771ae2cff1d1a004388f31d172114e6a6d0ac559",
+    "preregistered": "747feecb36b512e02a2aefc4771ae2cff1d1a004388f31d172114e6a6d0ac559",
+    "ok": true
+   },
+   {
+    "file": "e5/m1/rules_r1.json",
+    "sha256": "e49982292aee74aa8b217273a2c4b60d01891f4323b6b5ae5aafcbe5eeeab6e0",
+    "preregistered": "aabea85d64f2fce6f6937b23c155135021ceb7996bb9a99ff3a5170acb849dc1",
+    "ok": true,
+    "rules_record": "e49982292aee74aa8b217273a2c4b60d01891f4323b6b5ae5aafcbe5eeeab6e0",
+    "basis": "12-③ official-train rebuild (rules_record)",
+    "equals_section12_value": false
+   },
+   {
+    "file": "e5/m1/rules_t1_full.json",
+    "sha256": "785ca015ab0e2d556de01d4fcd97ebe179d83e5e57f3e0180a912f0772446f74",
+    "preregistered": "97d84c580998f07eb0d7f4b8fa79d0c2578ed488b233c5ada63e17e5cff8f3d9",
+    "ok": true,
+    "rules_record": "785ca015ab0e2d556de01d4fcd97ebe179d83e5e57f3e0180a912f0772446f74",
+    "basis": "12-③ official-train rebuild (rules_record)",
+    "equals_section12_value": false
+   },
+   {
+    "file": "e5/m1/rules_t1_masked.json",
+    "sha256": "f8d3ce73c45e13ff42e1739592fa47a90d74ad63db8a95877e9c7f1810feb0f7",
+    "preregistered": "dd4f1152340f4d830b6273615c9c69e28a3942fc88114bfb0f28f52ad02591aa",
+    "ok": true,
+    "rules_record": "f8d3ce73c45e13ff42e1739592fa47a90d74ad63db8a95877e9c7f1810feb0f7",
+    "basis": "12-③ official-train rebuild (rules_record)",
+    "equals_section12_value": false
+   },
+   {
+    "file": "e5/m1/rules_t3.json",
+    "sha256": "2d69df57e15a2d47ed6d7b1374a4772866c2772261352718cb6c56df89208538",
+    "preregistered": "2d69df57e15a2d47ed6d7b1374a4772866c2772261352718cb6c56df89208538",
+    "ok": true,
+    "rules_record": "2d69df57e15a2d47ed6d7b1374a4772866c2772261352718cb6c56df89208538",
+    "basis": "12-③ official-train rebuild (rules_record)",
+    "equals_section12_value": true
+   },
+   {
+    "file": "e5/t4/priority_table.json",
+    "sha256": "eb4c5af3bb70e0a2e1cbe400f8a8438e01da310171683171c9dbf1ca5891e6fd",
+    "preregistered": "eb4c5af3bb70e0a2e1cbe400f8a8438e01da310171683171c9dbf1ca5891e6fd",
+    "ok": true
+   },
+   {
+    "file": "history/E5_사전등록_v0.1_2026-10-02.md",
+    "sha256": "258c147fe03db3b86ea2b6dc7dee19c064ca7dff9be395076709a95f262e16d4",
+    "preregistered": null,
+    "ok": null,
+    "basis": "earlier pre-registration version (design history only; not a fixed input of v0.3)"
+   },
+   {
+    "file": "history/E5_사전등록_v0.2_2026-10-06.md",
+    "sha256": "d96cfb2c41a4997d13c9eebcdb7b5cd41f71c4d8b9cb2273b4e5c96cc3e06f0a",
+    "preregistered": null,
+    "ok": null,
+    "basis": "earlier pre-registration version (design history only; not a fixed input of v0.3)"
+   },
+   {
+    "file": "tools/e5_score.py",
+    "sha256": "f7544721cb990604da32eb018bfe5f718962588de9929a99fa413cdb5e0e1ca2",
+    "preregistered": "f7544721cb990604da32eb018bfe5f718962588de9929a99fa413cdb5e0e1ca2",
+    "ok": true
+   }
+  ],
+  "all_listed_match": true,
+  "rule_tables_rebuilt": [
+   "e5/m1/rules_r1.json",
+   "e5/m1/rules_t1_full.json",
+   "e5/m1/rules_t1_masked.json"
+  ],
+  "not_listed": [],
+  "history": [
+   "history/E5_사전등록_v0.1_2026-10-02.md",
+   "history/E5_사전등록_v0.2_2026-10-06.md"
+  ]
+ },
+ "result": {
+  "eval_splits": [
+   "test_seen",
+   "test_unseen"
+  ],
+  "val_split": "val",
+  "n_items": 10387,
+  "t2_successors_from_data": {
+   "1": [
+    2
+   ],
+   "2": [
+    3,
+    4
+   ],
+   "3": [
+    4
+   ],
+   "4": [
+    5
+   ],
+   "5": [
+    6
+   ],
+   "6": [
+    7
+   ],
+   "7": [
+    8
+   ],
+   "8": [
+    0
+   ]
+  },
+  "m1_status": {
+   "items_with_m1": "[NOT_RUN(m1_perms 없음)]",
+   "judged_failed": "[NOT_RUN(m1_perms 없음)]",
+   "run_invalid": "[NOT_RUN(m1_perms 없음)]",
+   "all_sent_failed": "[NOT_RUN(m1_perms 없음)]",
+   "partial_failed": "[NOT_RUN(m1_perms 없음)]",
+   "missing_perms": "[NOT_RUN(m1_perms 없음)]",
+   "missing_items": "[NOT_RUN(m1_perms 없음)]",
+   "human_check": "[NOT_RUN(m1_perms 없음)]",
+   "ties": "[NOT_RUN(m1_perms 없음)]",
+   "confident_wrong": "[NOT_RUN(m1_perms 없음)]",
+   "spread_quantiles": "[NOT_RUN(m1_perms 없음)]",
+   "prob_quantiles": "[NOT_RUN(m1_perms 없음)]",
+   "judged_items": 577,
+   "all_sent": 10387,
+   "truncated_items": 254
+  },
+  "T1": {
+   "n_cell_b": 906,
+   "n_undetermined": 165,
+   "n_determined": 741,
+   "undetermined_keys": 141,
+   "undetermined_acc": {
+    "R0": {
+     "x": 90,
+     "n": 165,
+     "p": 0.5454545454545454,
+     "lo": 0.4186014914054601,
+     "hi": 0.6690155728587313,
+     "method": "bootstrap",
+     "clusters": 141
+    },
+    "R1": {
+     "x": 1,
+     "n": 165,
+     "p": 0.006060606060606061,
+     "lo": 0.0,
+     "hi": 0.02040816326530612,
+     "method": "bootstrap",
+     "clusters": 141
+    },
+    "M1": "[NOT_RUN(m1_perms 없음)]",
+    "C": "[NOT_RUN(m1_perms 없음)]",
+    "R0-가림": {
+     "x": 1,
+     "n": 165,
+     "p": 0.006060606060606061,
+     "lo": 0.0,
+     "hi": 0.02040816326530612,
+     "method": "bootstrap",
+     "clusters": 141
+    }
+   },
+   "diff_C_minus_R0": "[NOT_RUN(m1_perms 없음)]",
+   "determined_acc_R0": {
+    "x": 700,
+    "n": 741,
+    "p": 0.9446693657219973,
+    "lo": 0.9279994459833796,
+    "hi": 0.9602766861292013,
+    "method": "bootstrap",
+    "clusters": 652
+   },
+   "all_acc": {
+    "R0": {
+     "x": 790,
+     "n": 906,
+     "p": 0.8719646799116998,
+     "lo": 0.8313602762593472,
+     "hi": 0.9043381535038932,
+     "method": "bootstrap",
+     "clusters": 766
+    },
+    "R1": {
+     "x": 192,
+     "n": 906,
+     "p": 0.2119205298013245,
+     "lo": 0.18233897435247604,
+     "hi": 0.24164810690423164,
+     "method": "bootstrap",
+     "clusters": 766
+    },
+    "M1": "[NOT_RUN(m1_perms 없음)]",
+    "C": "[NOT_RUN(m1_perms 없음)]",
+    "R0-가림": {
+     "x": 255,
+     "n": 906,
+     "p": 0.2814569536423841,
+     "lo": 0.25,
+     "hi": 0.31381335712884384,
+     "method": "bootstrap",
+     "clusters": 766
+    }
+   },
+   "human_check": "[NOT_RUN(m1_perms 없음)]",
+   "risk4": {
+    "안전 개입": {
+     "n_pos": 192,
+     "n_neg": 714,
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "tp": 191,
+      "fn": 1,
+      "fp": 0,
+      "tn": 714,
+      "recall": {
+       "x": 191,
+       "n": 192,
+       "p": 0.9947916666666666,
+       "lo": 0.9841269841269841,
+       "hi": 1.0,
+       "method": "bootstrap",
+       "clusters": 176
+      },
+      "missed": [
+       "r972d5ab4561e__lock__1"
+      ]
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]"
+    },
+    "브레이크": {
+     "n_pos": 12,
+     "n_neg": 894,
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "tp": 12,
+      "fn": 0,
+      "fp": 0,
+      "tn": 894,
+      "missed": []
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]"
+    },
+    "공급압 저하": {
+     "n_pos": 158,
+     "n_neg": 748,
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "tp": 158,
+      "fn": 0,
+      "fp": 41,
+      "tn": 707,
+      "recall": {
+       "x": 158,
+       "n": 158,
+       "p": 1.0,
+       "lo": 0.9769231020102804,
+       "hi": 1.0,
+       "method": "clopper-pearson",
+       "clusters": 138
+      },
+      "missed": []
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]"
+    },
+    "기계 걸림": {
+     "n_pos": 54,
+     "n_neg": 852,
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "tp": 0,
+      "fn": 54,
+      "fp": 0,
+      "tn": 852,
+      "recall": {
+       "x": 0,
+       "n": 54,
+       "p": 0.0,
+       "lo": 0.0,
+       "hi": 0.06603151424442177,
+       "method": "clopper-pearson",
+       "clusters": 53
+      },
+      "missed": [
+       "rdd7adac58eb4__lock__0",
+       "r603663746d87__lock__0",
+       "rb0082a2ca422__lock__0",
+       "r7095d2dfbc08__lock__0",
+       "rb8f4277c4401__lock__0",
+       "r60a724d2bf35__lock__0",
+       "r7ead04005ffd__lock__0",
+       "r4a2bb6f87a73__lock__0",
+       "ra798b5f563f1__lock__0",
+       "rf07868142a00__lock__0",
+       "re368eb662321__lock__0",
+       "r2b3176930eff__lock__0",
+       "ra4e5c453d544__lock__0",
+       "r7f23006debf8__lock__0",
+       "rdd81b39132b4__lock__0",
+       "r87c54deb0358__lock__0",
+       "rbdc57ceda352__lock__0",
+       "r64c5e2200bde__lock__0",
+       "r376f1ca660fb__lock__0",
+       "rb90c56681ef6__lock__0",
+       "r6989f9068227__lock__0",
+       "r57a15cede5be__lock__0",
+       "r6c4d6b1d2ab5__lock__0",
+       "raa7158e90a9d__lock__0",
+       "r6355e81bb60c__lock__0",
+       "rc4d8c4db83d0__lock__0",
+       "r80df839c7154__lock__0",
+       "r5c787517903e__lock__0",
+       "r14a5f480c74d__lock__0",
+       "r8c87d7f0b69e__lock__0",
+       "r255b4ea56c5e__lock__0",
+       "r765ac92e505d__lock__0",
+       "r6150749e8158__lock__0",
+       "rd1fe9e92dad9__lock__0",
+       "rfbba19bbbbc9__lock__0",
+       "rf13984de0329__lock__0",
+       "rf492d143ccff__lock__0",
+       "r930b919e8a76__lock__0",
+       "r55147197bd5a__lock__0",
+       "r1dc1ae9d1c36__lock__0",
+       "racd4e4c3c7c7__lock__0",
+       "rff7ad375d733__lock__0",
+       "r61ce490634ce__lock__0",
+       "rb71a7cfbee83__lock__0",
+       "r94119bef40f7__lock__0",
+       "rd173aff8a779__lock__0",
+       "re7e11793b43b__lock__0",
+       "rbdd2f6a82f3d__lock__0",
+       "r5e196f7008e4__lock__0",
+       "rd76209a782c4__lock__0",
+       "r7806fb5753dc__lock__0",
+       "r14d4dc36c995__lock__0",
+       "r0514dd9dfe5b__lock__0",
+       "rf987dbc7f5d1__lock__0"
+      ]
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]"
+    }
+   },
+   "confusion": {
+    "C": "[NOT_RUN(m1_perms 없음)]",
+    "M1": "[NOT_RUN(m1_perms 없음)]",
+    "R0": {
+     "검사 장치": {
+      "n": 143,
+      "counts": {
+       "검사 장치": 139,
+       "센서": 4
+      },
+      "recall": {
+       "x": 139,
+       "n": 143,
+       "p": 0.972027972027972,
+       "lo": 0.9448275862068966,
+       "hi": 0.9930555555555556,
+       "method": "bootstrap",
+       "clusters": 131
+      }
+     },
+     "공급압 저하": {
+      "n": 158,
+      "counts": {
+       "공급압 저하": 158
+      },
+      "recall": {
+       "x": 158,
+       "n": 158,
+       "p": 1.0,
+       "lo": 0.9769231020102804,
+       "hi": 1.0,
+       "method": "clopper-pearson",
+       "clusters": 138
+      }
+     },
+     "기계 걸림": {
+      "n": 54,
+      "counts": {
+       "공급압 저하": 41,
+       "유량 저하": 13
+      },
+      "recall": {
+       "x": 0,
+       "n": 54,
+       "p": 0.0,
+       "lo": 0.0,
+       "hi": 0.06603151424442177,
+       "method": "clopper-pearson",
+       "clusters": 53
+      }
+     },
+     "벨트 구동": {
+      "n": 133,
+      "counts": {
+       "벨트 구동": 105,
+       "센서": 28
+      },
+      "recall": {
+       "x": 105,
+       "n": 133,
+       "p": 0.7894736842105263,
+       "lo": 0.7153284671532847,
+       "hi": 0.8571428571428571,
+       "method": "bootstrap",
+       "clusters": 122
+      }
+     },
+     "브레이크": {
+      "n": 12,
+      "counts": {
+       "브레이크": 12
+      }
+     },
+     "센서": {
+      "n": 119,
+      "counts": {
+       "센서": 119
+      },
+      "recall": {
+       "x": 119,
+       "n": 119,
+       "p": 1.0,
+       "lo": 0.9694765551462038,
+       "hi": 1.0,
+       "method": "clopper-pearson",
+       "clusters": 114
+      }
+     },
+     "안전 개입": {
+      "n": 192,
+      "counts": {
+       "센서": 1,
+       "안전 개입": 191
+      },
+      "recall": {
+       "x": 191,
+       "n": 192,
+       "p": 0.9947916666666666,
+       "lo": 0.9841269841269841,
+       "hi": 1.0,
+       "method": "bootstrap",
+       "clusters": 176
+      }
+     },
+     "유량 저하": {
+      "n": 95,
+      "counts": {
+       "센서": 29,
+       "유량 저하": 66
+      },
+      "recall": {
+       "x": 66,
+       "n": 95,
+       "p": 0.6947368421052632,
+       "lo": 0.48854961832061067,
+       "hi": 0.9054054054054054,
+       "method": "bootstrap",
+       "clusters": 67
+      }
+     }
+    }
+   },
+   "confusion_by_split": {
+    "test_seen": {
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "검사 장치": {
+       "n": 72,
+       "counts": {
+        "검사 장치": 71,
+        "센서": 1
+       },
+       "recall": {
+        "x": 71,
+        "n": 72,
+        "p": 0.9861111111111112,
+        "lo": 0.9583333333333334,
+        "hi": 1.0,
+        "method": "bootstrap",
+        "clusters": 68
+       }
+      },
+      "공급압 저하": {
+       "n": 80,
+       "counts": {
+        "공급압 저하": 80
+       },
+       "recall": {
+        "x": 80,
+        "n": 80,
+        "p": 1.0,
+        "lo": 0.9549359649323077,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 73
+       }
+      },
+      "기계 걸림": {
+       "n": 33,
+       "counts": {
+        "공급압 저하": 25,
+        "유량 저하": 8
+       },
+       "recall": {
+        "x": 0,
+        "n": 33,
+        "p": 0.0,
+        "lo": 0.0,
+        "hi": 0.10576281007457933,
+        "method": "clopper-pearson",
+        "clusters": 33
+       }
+      },
+      "벨트 구동": {
+       "n": 64,
+       "counts": {
+        "벨트 구동": 49,
+        "센서": 15
+       },
+       "recall": {
+        "x": 49,
+        "n": 64,
+        "p": 0.765625,
+        "lo": 0.6507936507936508,
+        "hi": 0.8656716417910447,
+        "method": "bootstrap",
+        "clusters": 59
+       }
+      },
+      "브레이크": {
+       "n": 4,
+       "counts": {
+        "브레이크": 4
+       }
+      },
+      "센서": {
+       "n": 55,
+       "counts": {
+        "센서": 55
+       },
+       "recall": {
+        "x": 55,
+        "n": 55,
+        "p": 1.0,
+        "lo": 0.9351292391745754,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 54
+       }
+      },
+      "안전 개입": {
+       "n": 96,
+       "counts": {
+        "센서": 1,
+        "안전 개입": 95
+       },
+       "recall": {
+        "x": 95,
+        "n": 96,
+        "p": 0.9895833333333334,
+        "lo": 0.96875,
+        "hi": 1.0,
+        "method": "bootstrap",
+        "clusters": 92
+       }
+      },
+      "유량 저하": {
+       "n": 60,
+       "counts": {
+        "센서": 25,
+        "유량 저하": 35
+       },
+       "recall": {
+        "x": 35,
+        "n": 60,
+        "p": 0.5833333333333334,
+        "lo": 0.3473684210526316,
+        "hi": 0.9,
+        "method": "bootstrap",
+        "clusters": 36
+       }
+      }
+     }
+    },
+    "test_unseen": {
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "검사 장치": {
+       "n": 71,
+       "counts": {
+        "검사 장치": 68,
+        "센서": 3
+       },
+       "recall": {
+        "x": 68,
+        "n": 71,
+        "p": 0.9577464788732394,
+        "lo": 0.909061004784689,
+        "hi": 1.0,
+        "method": "bootstrap",
+        "clusters": 63
+       }
+      },
+      "공급압 저하": {
+       "n": 78,
+       "counts": {
+        "공급압 저하": 78
+       },
+       "recall": {
+        "x": 78,
+        "n": 78,
+        "p": 1.0,
+        "lo": 0.9538075796719513,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 65
+       }
+      },
+      "기계 걸림": {
+       "n": 21,
+       "counts": {
+        "공급압 저하": 16,
+        "유량 저하": 5
+       },
+       "recall": {
+        "x": 0,
+        "n": 21,
+        "p": 0.0,
+        "lo": 0.0,
+        "hi": 0.16109761521907962,
+        "method": "clopper-pearson",
+        "clusters": 20
+       }
+      },
+      "벨트 구동": {
+       "n": 69,
+       "counts": {
+        "벨트 구동": 56,
+        "센서": 13
+       },
+       "recall": {
+        "x": 56,
+        "n": 69,
+        "p": 0.8115942028985508,
+        "lo": 0.7121212121212122,
+        "hi": 0.9,
+        "method": "bootstrap",
+        "clusters": 63
+       }
+      },
+      "브레이크": {
+       "n": 8,
+       "counts": {
+        "브레이크": 8
+       }
+      },
+      "센서": {
+       "n": 64,
+       "counts": {
+        "센서": 64
+       },
+       "recall": {
+        "x": 64,
+        "n": 64,
+        "p": 1.0,
+        "lo": 0.9439909106133634,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 60
+       }
+      },
+      "안전 개입": {
+       "n": 96,
+       "counts": {
+        "안전 개입": 96
+       },
+       "recall": {
+        "x": 96,
+        "n": 96,
+        "p": 1.0,
+        "lo": 0.9623030783764125,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 84
+       }
+      },
+      "유량 저하": {
+       "n": 35,
+       "counts": {
+        "센서": 4,
+        "유량 저하": 31
+       },
+       "recall": {
+        "x": 31,
+        "n": 35,
+        "p": 0.8857142857142857,
+        "lo": 0.7948717948717948,
+        "hi": 0.96875,
+        "method": "bootstrap",
+        "clusters": 31
+       }
+      }
+     }
+    }
+   },
+   "test_seen_by_faults": {
+    "2faults": {
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "x": 47,
+      "n": 59,
+      "p": 0.7966101694915254,
+      "lo": 0.6896551724137931,
+      "hi": 0.896551724137931,
+      "method": "bootstrap",
+      "clusters": 52
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "n": 59
+    },
+    "3faults": {
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "x": 325,
+      "n": 369,
+      "p": 0.8807588075880759,
+      "lo": 0.847995652173913,
+      "hi": 0.9130434782608695,
+      "method": "bootstrap",
+      "clusters": 337
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "n": 369
+    },
+    "single": {
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "x": 17,
+      "n": 36,
+      "p": 0.4722222222222222,
+      "lo": 0.20588235294117646,
+      "hi": 1.0,
+      "method": "bootstrap",
+      "clusters": 18
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "n": 36
+    }
+   },
+   "verdict": "[NOT_RUN(m1_perms 없음)]"
+  },
+  "T1_counts_AP": {
+   "A": {
+    "n": 132,
+    "r0_correct": 132,
+    "m1_correct": "[NOT_RUN(m1_perms 없음)]",
+    "m1_answered": "[NOT_RUN(m1_perms 없음)]"
+   },
+   "P": {
+    "n": 228,
+    "r0_correct": 228,
+    "m1_correct": "[NOT_RUN(m1_perms 없음)]",
+    "m1_answered": "[NOT_RUN(m1_perms 없음)]"
+   }
+  },
+  "T2": {
+   "n": 7323,
+   "r0": {
+    "x": 7323,
+    "n": 7323,
+    "p": 1.0,
+    "lo": 0.9994963880248267,
+    "hi": 1.0,
+    "method": "clopper-pearson",
+    "clusters": 824
+   },
+   "r0_dangerous": 0,
+   "r0_dangerous_windows": [],
+   "r0_fallback": 0,
+   "r0_by_cell": {
+    "B": "7323/7323"
+   },
+   "m1": "[NOT_RUN(m1_perms 없음)]",
+   "m1_dangerous": "[NOT_RUN(m1_perms 없음)]",
+   "m1_answered": "[NOT_RUN(m1_perms 없음)]",
+   "verdict": "[PASS]"
+  },
+  "T4": {
+   "n": 1383,
+   "r0": {
+    "x": 1374,
+    "n": 1383,
+    "p": 0.9934924078091106,
+    "lo": 0.988962358146061,
+    "hi": 0.9971831976387155,
+    "method": "bootstrap",
+    "clusters": 1042
+   },
+   "r0_dangerous": 0,
+   "r0_dangerous_windows": [],
+   "r0_fallback": 132,
+   "r0_by_cell": {
+    "A": "132/132",
+    "B": "1001/1010",
+    "P": "241/241"
+   },
+   "m1": "[NOT_RUN(m1_perms 없음)]",
+   "m1_dangerous": "[NOT_RUN(m1_perms 없음)]",
+   "m1_answered": "[NOT_RUN(m1_perms 없음)]",
+   "verdict": "[PASS]"
+  },
+  "T3": {
+   "n_windows": 412,
+   "excluded_short_lead": 3,
+   "threshold": "[NOT_RUN(m1_perms 없음)]",
+   "threshold_val_pos_runs": "[NOT_RUN(m1_perms 없음)]",
+   "n_pos_runs": 53,
+   "n_neg_runs": 108,
+   "mixed_runs": 53,
+   "early_alarms": {
+    "r0": 0,
+    "m1": "[NOT_RUN(m1_perms 없음)]"
+   },
+   "channel_pos_runs": {
+    "belt_speed_dev": 38,
+    "chatter": 21,
+    "stroke_ratio": 0
+   },
+   "r0": {
+    "recall": {
+     "x": 51,
+     "n": 53,
+     "p": 0.9622641509433962,
+     "lo": 0.9056603773584906,
+     "hi": 1.0,
+     "method": "bootstrap",
+     "clusters": 53
+    },
+    "fpr": {
+     "x": 0,
+     "n": 108,
+     "p": 0.0,
+     "lo": 0.0,
+     "hi": 0.03357955021865444,
+     "method": "clopper-pearson",
+     "clusters": 108
+    },
+    "unknown": 0
+   },
+   "m1": {
+    "recall": "[NOT_RUN(m1_perms 없음)]",
+    "fpr": "[NOT_RUN(m1_perms 없음)]"
+   },
+   "lead_s_maint": [
+    21.24,
+    21.83,
+    24.77,
+    28.61,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "m1_level_acc": "[NOT_RUN(m1_perms 없음)]",
+   "r0_level_acc": {
+    "x": 391,
+    "n": 412,
+    "p": 0.9490291262135923,
+    "lo": 0.9271844660194175,
+    "hi": 0.9684466019417476,
+    "method": "bootstrap",
+    "clusters": 412
+   },
+   "r0_recall_belt_speed_dev": {
+    "x": 37,
+    "n": 38,
+    "p": 0.9736842105263158,
+    "lo": 0.9210526315789473,
+    "hi": 1.0,
+    "method": "bootstrap",
+    "clusters": 38
+   },
+   "m1_recall_belt_speed_dev": "[NOT_RUN(m1_perms 없음)]",
+   "r0_recall_chatter": {
+    "x": 20,
+    "n": 21,
+    "p": 0.9523809523809523,
+    "lo": 0.8571428571428571,
+    "hi": 1.0,
+    "method": "bootstrap",
+    "clusters": 21
+   },
+   "m1_recall_chatter": "[NOT_RUN(m1_perms 없음)]",
+   "belt_solo_plc_unaware": {
+    "n": 19,
+    "r0_tp": 19,
+    "m1_tp": "[NOT_RUN(m1_perms 없음)]"
+   },
+   "fpr_diff_R0_minus_M1": "[NOT_RUN(m1_perms 없음)]",
+   "truncation_mismatch": [],
+   "truncated_windows": 251,
+   "verdict": "규칙으로 충분"
+  },
+  "test_unseen": {
+   "T1": {
+    "n_cell_b": 442,
+    "n_undetermined": 71,
+    "n_determined": 371,
+    "undetermined_keys": 64,
+    "undetermined_acc": {
+     "R0": {
+      "x": 48,
+      "n": 71,
+      "p": 0.676056338028169,
+      "lo": 0.5571428571428572,
+      "hi": 0.7910447761194029,
+      "method": "bootstrap",
+      "clusters": 64
+     },
+     "R1": {
+      "x": 0,
+      "n": 71,
+      "p": 0.0,
+      "lo": 0.0,
+      "hi": 0.05062940795440374,
+      "method": "clopper-pearson",
+      "clusters": 64
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0-가림": {
+      "x": 0,
+      "n": 71,
+      "p": 0.0,
+      "lo": 0.0,
+      "hi": 0.05062940795440374,
+      "method": "clopper-pearson",
+      "clusters": 64
+     }
+    },
+    "diff_C_minus_R0": "[NOT_RUN(m1_perms 없음)]",
+    "determined_acc_R0": {
+     "x": 353,
+     "n": 371,
+     "p": 0.9514824797843666,
+     "lo": 0.9285714285714286,
+     "hi": 0.9726775956284153,
+     "method": "bootstrap",
+     "clusters": 310
+    },
+    "all_acc": {
+     "R0": {
+      "x": 401,
+      "n": 442,
+      "p": 0.9072398190045249,
+      "lo": 0.8793850744901698,
+      "hi": 0.9339407744874715,
+      "method": "bootstrap",
+      "clusters": 359
+     },
+     "R1": {
+      "x": 96,
+      "n": 442,
+      "p": 0.2171945701357466,
+      "lo": 0.17471264367816092,
+      "hi": 0.2608695652173913,
+      "method": "bootstrap",
+      "clusters": 359
+     },
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "R0-가림": {
+      "x": 127,
+      "n": 442,
+      "p": 0.2873303167420814,
+      "lo": 0.24318025437864887,
+      "hi": 0.33181869139828785,
+      "method": "bootstrap",
+      "clusters": 359
+     }
+    },
+    "human_check": "[NOT_RUN(m1_perms 없음)]",
+    "risk4": {
+     "안전 개입": {
+      "n_pos": 96,
+      "n_neg": 346,
+      "C": "[NOT_RUN(m1_perms 없음)]",
+      "R0": {
+       "tp": 96,
+       "fn": 0,
+       "fp": 0,
+       "tn": 346,
+       "recall": {
+        "x": 96,
+        "n": 96,
+        "p": 1.0,
+        "lo": 0.9623030783764125,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 84
+       },
+       "missed": []
+      },
+      "M1": "[NOT_RUN(m1_perms 없음)]"
+     },
+     "브레이크": {
+      "n_pos": 8,
+      "n_neg": 434,
+      "C": "[NOT_RUN(m1_perms 없음)]",
+      "R0": {
+       "tp": 8,
+       "fn": 0,
+       "fp": 0,
+       "tn": 434,
+       "missed": []
+      },
+      "M1": "[NOT_RUN(m1_perms 없음)]"
+     },
+     "공급압 저하": {
+      "n_pos": 78,
+      "n_neg": 364,
+      "C": "[NOT_RUN(m1_perms 없음)]",
+      "R0": {
+       "tp": 78,
+       "fn": 0,
+       "fp": 16,
+       "tn": 348,
+       "recall": {
+        "x": 78,
+        "n": 78,
+        "p": 1.0,
+        "lo": 0.9538075796719513,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 65
+       },
+       "missed": []
+      },
+      "M1": "[NOT_RUN(m1_perms 없음)]"
+     },
+     "기계 걸림": {
+      "n_pos": 21,
+      "n_neg": 421,
+      "C": "[NOT_RUN(m1_perms 없음)]",
+      "R0": {
+       "tp": 0,
+       "fn": 21,
+       "fp": 0,
+       "tn": 421,
+       "recall": {
+        "x": 0,
+        "n": 21,
+        "p": 0.0,
+        "lo": 0.0,
+        "hi": 0.16109761521907962,
+        "method": "clopper-pearson",
+        "clusters": 20
+       },
+       "missed": [
+        "rd1fe9e92dad9__lock__0",
+        "rfbba19bbbbc9__lock__0",
+        "rf13984de0329__lock__0",
+        "rf492d143ccff__lock__0",
+        "r930b919e8a76__lock__0",
+        "r55147197bd5a__lock__0",
+        "r1dc1ae9d1c36__lock__0",
+        "racd4e4c3c7c7__lock__0",
+        "rff7ad375d733__lock__0",
+        "r61ce490634ce__lock__0",
+        "rb71a7cfbee83__lock__0",
+        "r94119bef40f7__lock__0",
+        "rd173aff8a779__lock__0",
+        "re7e11793b43b__lock__0",
+        "rbdd2f6a82f3d__lock__0",
+        "r5e196f7008e4__lock__0",
+        "rd76209a782c4__lock__0",
+        "r7806fb5753dc__lock__0",
+        "r14d4dc36c995__lock__0",
+        "r0514dd9dfe5b__lock__0",
+        "rf987dbc7f5d1__lock__0"
+       ]
+      },
+      "M1": "[NOT_RUN(m1_perms 없음)]"
+     }
+    },
+    "confusion": {
+     "C": "[NOT_RUN(m1_perms 없음)]",
+     "M1": "[NOT_RUN(m1_perms 없음)]",
+     "R0": {
+      "검사 장치": {
+       "n": 71,
+       "counts": {
+        "검사 장치": 68,
+        "센서": 3
+       },
+       "recall": {
+        "x": 68,
+        "n": 71,
+        "p": 0.9577464788732394,
+        "lo": 0.9078947368421053,
+        "hi": 1.0,
+        "method": "bootstrap",
+        "clusters": 63
+       }
+      },
+      "공급압 저하": {
+       "n": 78,
+       "counts": {
+        "공급압 저하": 78
+       },
+       "recall": {
+        "x": 78,
+        "n": 78,
+        "p": 1.0,
+        "lo": 0.9538075796719513,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 65
+       }
+      },
+      "기계 걸림": {
+       "n": 21,
+       "counts": {
+        "공급압 저하": 16,
+        "유량 저하": 5
+       },
+       "recall": {
+        "x": 0,
+        "n": 21,
+        "p": 0.0,
+        "lo": 0.0,
+        "hi": 0.16109761521907962,
+        "method": "clopper-pearson",
+        "clusters": 20
+       }
+      },
+      "벨트 구동": {
+       "n": 69,
+       "counts": {
+        "벨트 구동": 56,
+        "센서": 13
+       },
+       "recall": {
+        "x": 56,
+        "n": 69,
+        "p": 0.8115942028985508,
+        "lo": 0.7123287671232876,
+        "hi": 0.9014084507042254,
+        "method": "bootstrap",
+        "clusters": 63
+       }
+      },
+      "브레이크": {
+       "n": 8,
+       "counts": {
+        "브레이크": 8
+       }
+      },
+      "센서": {
+       "n": 64,
+       "counts": {
+        "센서": 64
+       },
+       "recall": {
+        "x": 64,
+        "n": 64,
+        "p": 1.0,
+        "lo": 0.9439909106133634,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 60
+       }
+      },
+      "안전 개입": {
+       "n": 96,
+       "counts": {
+        "안전 개입": 96
+       },
+       "recall": {
+        "x": 96,
+        "n": 96,
+        "p": 1.0,
+        "lo": 0.9623030783764125,
+        "hi": 1.0,
+        "method": "clopper-pearson",
+        "clusters": 84
+       }
+      },
+      "유량 저하": {
+       "n": 35,
+       "counts": {
+        "센서": 4,
+        "유량 저하": 31
+       },
+       "recall": {
+        "x": 31,
+        "n": 35,
+        "p": 0.8857142857142857,
+        "lo": 0.7948717948717948,
+        "hi": 0.96875,
+        "method": "bootstrap",
+        "clusters": 31
+       }
+      }
+     }
+    },
+    "confusion_by_split": {
+     "test_unseen": {
+      "C": "[NOT_RUN(m1_perms 없음)]",
+      "M1": "[NOT_RUN(m1_perms 없음)]",
+      "R0": {
+       "검사 장치": {
+        "n": 71,
+        "counts": {
+         "검사 장치": 68,
+         "센서": 3
+        },
+        "recall": {
+         "x": 68,
+         "n": 71,
+         "p": 0.9577464788732394,
+         "lo": 0.9078947368421053,
+         "hi": 1.0,
+         "method": "bootstrap",
+         "clusters": 63
+        }
+       },
+       "공급압 저하": {
+        "n": 78,
+        "counts": {
+         "공급압 저하": 78
+        },
+        "recall": {
+         "x": 78,
+         "n": 78,
+         "p": 1.0,
+         "lo": 0.9538075796719513,
+         "hi": 1.0,
+         "method": "clopper-pearson",
+         "clusters": 65
+        }
+       },
+       "기계 걸림": {
+        "n": 21,
+        "counts": {
+         "공급압 저하": 16,
+         "유량 저하": 5
+        },
+        "recall": {
+         "x": 0,
+         "n": 21,
+         "p": 0.0,
+         "lo": 0.0,
+         "hi": 0.16109761521907962,
+         "method": "clopper-pearson",
+         "clusters": 20
+        }
+       },
+       "벨트 구동": {
+        "n": 69,
+        "counts": {
+         "벨트 구동": 56,
+         "센서": 13
+        },
+        "recall": {
+         "x": 56,
+         "n": 69,
+         "p": 0.8115942028985508,
+         "lo": 0.7142857142857143,
+         "hi": 0.9014084507042254,
+         "method": "bootstrap",
+         "clusters": 63
+        }
+       },
+       "브레이크": {
+        "n": 8,
+        "counts": {
+         "브레이크": 8
+        }
+       },
+       "센서": {
+        "n": 64,
+        "counts": {
+         "센서": 64
+        },
+        "recall": {
+         "x": 64,
+         "n": 64,
+         "p": 1.0,
+         "lo": 0.9439909106133634,
+         "hi": 1.0,
+         "method": "clopper-pearson",
+         "clusters": 60
+        }
+       },
+       "안전 개입": {
+        "n": 96,
+        "counts": {
+         "안전 개입": 96
+        },
+        "recall": {
+         "x": 96,
+         "n": 96,
+         "p": 1.0,
+         "lo": 0.9623030783764125,
+         "hi": 1.0,
+         "method": "clopper-pearson",
+         "clusters": 84
+        }
+       },
+       "유량 저하": {
+        "n": 35,
+        "counts": {
+         "센서": 4,
+         "유량 저하": 31
+        },
+        "recall": {
+         "x": 31,
+         "n": 35,
+         "p": 0.8857142857142857,
+         "lo": 0.7948717948717948,
+         "hi": 0.96875,
+         "method": "bootstrap",
+         "clusters": 31
+        }
+       }
+      }
+     }
+    },
+    "test_seen_by_faults": {},
+    "verdict": "판정 보류"
+   },
+   "T2": {
+    "n": 3639,
+    "r0": {
+     "x": 3639,
+     "n": 3639,
+     "p": 1.0,
+     "lo": 0.9989868067149117,
+     "hi": 1.0,
+     "method": "clopper-pearson",
+     "clusters": 386
+    },
+    "r0_dangerous": 0,
+    "r0_dangerous_windows": [],
+    "r0_fallback": 0,
+    "r0_by_cell": {
+     "B": "3639/3639"
+    },
+    "m1": "[NOT_RUN(m1_perms 없음)]",
+    "m1_dangerous": "[NOT_RUN(m1_perms 없음)]",
+    "m1_answered": "[NOT_RUN(m1_perms 없음)]",
+    "verdict": "[PASS]"
+   },
+   "T4": {
+    "n": 684,
+    "r0": {
+     "x": 682,
+     "n": 684,
+     "p": 0.9970760233918129,
+     "lo": 0.992366120409926,
+     "hi": 1.0,
+     "method": "bootstrap",
+     "clusters": 477
+    },
+    "r0_dangerous": 0,
+    "r0_dangerous_windows": [],
+    "r0_fallback": 65,
+    "r0_by_cell": {
+     "A": "65/65",
+     "B": "496/498",
+     "P": "121/121"
+    },
+    "m1": "[NOT_RUN(m1_perms 없음)]",
+    "m1_dangerous": "[NOT_RUN(m1_perms 없음)]",
+    "m1_answered": "[NOT_RUN(m1_perms 없음)]",
+    "verdict": "[PASS]"
+   },
+   "T3": {
+    "n_windows": 205,
+    "excluded_short_lead": 1,
+    "threshold": "[NOT_RUN(m1_perms 없음)]",
+    "threshold_val_pos_runs": "[NOT_RUN(m1_perms 없음)]",
+    "n_pos_runs": 32,
+    "n_neg_runs": 49,
+    "mixed_runs": 32,
+    "early_alarms": {
+     "r0": 0,
+     "m1": "[NOT_RUN(m1_perms 없음)]"
+    },
+    "channel_pos_runs": {
+     "belt_speed_dev": 19,
+     "chatter": 19,
+     "stroke_ratio": 0
+    },
+    "r0": {
+     "recall": {
+      "x": 30,
+      "n": 32,
+      "p": 0.9375,
+      "lo": 0.84375,
+      "hi": 1.0,
+      "method": "bootstrap",
+      "clusters": 32
+     },
+     "fpr": {
+      "x": 0,
+      "n": 49,
+      "p": 0.0,
+      "lo": 0.0,
+      "hi": 0.07251926366427741,
+      "method": "clopper-pearson",
+      "clusters": 49
+     },
+     "unknown": 0
+    },
+    "m1": {
+     "recall": "[NOT_RUN(m1_perms 없음)]",
+     "fpr": "[NOT_RUN(m1_perms 없음)]"
+    },
+    "lead_s_maint": [
+     21.24,
+     24.77,
+     28.61,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "m1_level_acc": "[NOT_RUN(m1_perms 없음)]",
+    "r0_level_acc": {
+     "x": 195,
+     "n": 205,
+     "p": 0.9512195121951219,
+     "lo": 0.9170731707317074,
+     "hi": 0.9804878048780488,
+     "method": "bootstrap",
+     "clusters": 205
+    },
+    "r0_recall_belt_speed_dev": {
+     "x": 18,
+     "n": 19,
+     "p": 0.9473684210526315,
+     "lo": 0.8421052631578947,
+     "hi": 1.0,
+     "method": "bootstrap",
+     "clusters": 19
+    },
+    "m1_recall_belt_speed_dev": "[NOT_RUN(m1_perms 없음)]",
+    "r0_recall_chatter": {
+     "x": 18,
+     "n": 19,
+     "p": 0.9473684210526315,
+     "lo": 0.8421052631578947,
+     "hi": 1.0,
+     "method": "bootstrap",
+     "clusters": 19
+    },
+    "m1_recall_chatter": "[NOT_RUN(m1_perms 없음)]",
+    "belt_solo_plc_unaware": {
+     "n": 0,
+     "r0_tp": 0,
+     "m1_tp": "[NOT_RUN(m1_perms 없음)]"
+    },
+    "fpr_diff_R0_minus_M1": "[NOT_RUN(m1_perms 없음)]",
+    "truncation_mismatch": [],
+    "truncated_windows": 124,
+    "verdict": "판정 보류"
+   }
+  },
+  "verdicts": {
+   "T1": "[NOT_RUN(m1_perms 없음)]",
+   "T2": "[PASS]",
+   "T4": "[PASS]",
+   "T3": "규칙으로 충분"
+  },
+  "missed_or_wrong_m1_count": "[NOT_RUN(m1_perms 없음)]"
+ },
+ "comparison_with_score_json": {
+  "not_run": 92,
+  "not_run_paths": [
+   "m1_status.items_with_m1",
+   "m1_status.judged_failed",
+   "m1_status.run_invalid",
+   "m1_status.all_sent_failed",
+   "m1_status.partial_failed",
+   "m1_status.missing_perms",
+   "m1_status.missing_items",
+   "m1_status.human_check",
+   "m1_status.ties",
+   "m1_status.confident_wrong",
+   "m1_status.spread_quantiles",
+   "m1_status.prob_quantiles",
+   "T1.undetermined_acc.M1",
+   "T1.undetermined_acc.C",
+   "T1.diff_C_minus_R0",
+   "T1.all_acc.M1",
+   "T1.all_acc.C",
+   "T1.human_check",
+   "T1.risk4.안전 개입.C",
+   "T1.risk4.안전 개입.M1",
+   "T1.risk4.브레이크.C",
+   "T1.risk4.브레이크.M1",
+   "T1.risk4.공급압 저하.C",
+   "T1.risk4.공급압 저하.M1",
+   "T1.risk4.기계 걸림.C",
+   "T1.risk4.기계 걸림.M1",
+   "T1.confusion.C",
+   "T1.confusion.M1",
+   "T1.confusion_by_split.test_seen.C",
+   "T1.confusion_by_split.test_seen.M1",
+   "T1.confusion_by_split.test_unseen.C",
+   "T1.confusion_by_split.test_unseen.M1",
+   "T1.test_seen_by_faults.2faults.C",
+   "T1.test_seen_by_faults.2faults.M1",
+   "T1.test_seen_by_faults.3faults.C",
+   "T1.test_seen_by_faults.3faults.M1",
+   "T1.test_seen_by_faults.single.C",
+   "T1.test_seen_by_faults.single.M1",
+   "T1.verdict",
+   "T1_counts_AP.A.m1_correct",
+   "T1_counts_AP.A.m1_answered",
+   "T1_counts_AP.P.m1_correct",
+   "T1_counts_AP.P.m1_answered",
+   "T2.m1",
+   "T2.m1_dangerous",
+   "T2.m1_answered",
+   "T4.m1",
+   "T4.m1_dangerous",
+   "T4.m1_answered",
+   "T3.threshold",
+   "T3.early_alarms.m1",
+   "T3.m1.recall",
+   "T3.m1.fpr",
+   "T3.m1_level_acc",
+   "T3.m1_recall_belt_speed_dev",
+   "T3.m1_recall_chatter",
+   "T3.belt_solo_plc_unaware.m1_tp",
+   "T3.fpr_diff_R0_minus_M1",
+   "test_unseen.T1.undetermined_acc.M1",
+   "test_unseen.T1.undetermined_acc.C",
+   "test_unseen.T1.diff_C_minus_R0",
+   "test_unseen.T1.all_acc.M1",
+   "test_unseen.T1.all_acc.C",
+   "test_unseen.T1.human_check",
+   "test_unseen.T1.risk4.안전 개입.C",
+   "test_unseen.T1.risk4.안전 개입.M1",
+   "test_unseen.T1.risk4.브레이크.C",
+   "test_unseen.T1.risk4.브레이크.M1",
+   "test_unseen.T1.risk4.공급압 저하.C",
+   "test_unseen.T1.risk4.공급압 저하.M1",
+   "test_unseen.T1.risk4.기계 걸림.C",
+   "test_unseen.T1.risk4.기계 걸림.M1",
+   "test_unseen.T1.confusion.C",
+   "test_unseen.T1.confusion.M1",
+   "test_unseen.T1.confusion_by_split.test_unseen.C",
+   "test_unseen.T1.confusion_by_split.test_unseen.M1",
+   "test_unseen.T2.m1",
+   "test_unseen.T2.m1_dangerous",
+   "test_unseen.T2.m1_answered",
+   "test_unseen.T4.m1",
+   "test_unseen.T4.m1_dangerous",
+   "test_unseen.T4.m1_answered",
+   "test_unseen.T3.threshold",
+   "test_unseen.T3.early_alarms.m1",
+   "test_unseen.T3.m1.recall",
+   "test_unseen.T3.m1.fpr",
+   "test_unseen.T3.m1_level_acc",
+   "test_unseen.T3.m1_recall_belt_speed_dev",
+   "test_unseen.T3.m1_recall_chatter",
+   "test_unseen.T3.belt_solo_plc_unaware.m1_tp",
+   "test_unseen.T3.fpr_diff_R0_minus_M1",
+   "verdicts.T1"
+  ],
+  "exact_compared": 531,
+  "exact_mismatches": [],
+  "interval_compared": 216,
+  "interval_identical": 216,
+  "interval_max_abs_diff": 0.0,
+  "interval_differences": [],
+  "missed_or_wrong_m1": "[NOT_RUN(m1_perms 없음)]"
+ },
+ "summary": {
+  "verdicts": {
+   "T1": "[NOT_RUN(m1_perms 없음)]",
+   "T2": "[PASS]",
+   "T4": "[PASS]",
+   "T3": "규칙으로 충분"
+  },
+  "score_json_verdicts": {
+   "T1": "둘 다 미달",
+   "T2": "[PASS]",
+   "T4": "[PASS]",
+   "T3": "규칙으로 충분"
+  },
+  "mode": "repository (m1_perms.jsonl.gz absent)",
+  "not_run_fields": 92,
+  "all_counts_and_verdicts_equal": true,
+  "intervals_identical": true,
+  "interval_max_abs_diff": 0.0,
+  "fixed_inputs_match_preregistration": true
+ }
+}

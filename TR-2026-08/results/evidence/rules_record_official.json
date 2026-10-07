@@ -1,0 +1,17 @@
+{
+ "built_from": [
+  "train"
+ ],
+ "e5_rules_sha256": "061e6740ea858b1b591e0b0373caa40453010e3d506dfacc4fc78a1135204208",
+ "order": "1 build(train 만) → 2 이 기록 → 3 test 를 여는 명령(items·truncate·apply·run·score)은 이 기록을 확인한 뒤에만 연다",
+ "recorded_at": "2026-10-06T06:54:39+00:00",
+ "schema": "e5-m1-rules-record.v1",
+ "set_root": "build/e5/official",
+ "tables": {
+  "rules_r1.json": "e49982292aee74aa8b217273a2c4b60d01891f4323b6b5ae5aafcbe5eeeab6e0",
+  "rules_t1_full.json": "785ca015ab0e2d556de01d4fcd97ebe179d83e5e57f3e0180a912f0772446f74",
+  "rules_t1_masked.json": "f8d3ce73c45e13ff42e1739592fa47a90d74ad63db8a95877e9c7f1810feb0f7",
+  "rules_t3.json": "2d69df57e15a2d47ed6d7b1374a4772866c2772261352718cb6c56df89208538"
+ },
+ "train_labels_sha256": "df10d2dbc063f652cb13c6f627faff14c922e766d0a8265ac992ecd5814135f5"
+}

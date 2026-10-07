@@ -1,0 +1,283 @@
+{
+ "chatter": {
+  "filter_scans": 2,
+  "filter_source": "library/asm-pusher/versions/1.6.0/device.json cell_design.filter_ticks — tests/phase3j_logic.py SortLogic.filter()",
+  "provenance": "[실측] tools/e5_calibrate.py",
+  "response": [
+   {
+    "plc_fault": null,
+    "pulses": 1,
+    "raw_rises": 8,
+    "width_scans": 1
+   },
+   {
+    "plc_fault": null,
+    "pulses": 2,
+    "raw_rises": 9,
+    "width_scans": 1
+   },
+   {
+    "plc_fault": null,
+    "pulses": 3,
+    "raw_rises": 10,
+    "width_scans": 1
+   },
+   {
+    "plc_fault": [
+     "ARRIVAL_SPACING",
+     9
+    ],
+    "pulses": 1,
+    "raw_rises": 2,
+    "width_scans": 2
+   },
+   {
+    "plc_fault": [
+     "ARRIVAL_SPACING",
+     9
+    ],
+    "pulses": 1,
+    "raw_rises": 2,
+    "width_scans": 3
+   }
+  ]
+ },
+ "flow_to_stroke": {
+  "baseline_s": 0.29,
+  "method": "상자 1개(불량)·1000 스캔·유량 계수 고정, 정답 STROKE_MEASURED ratio (3k flow-50/70 과 같은 방식)",
+  "provenance": "[실측] tools/e5_calibrate.py",
+  "table": [
+   {
+    "flow_coefficient": 1.0,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.034483
+   },
+   {
+    "flow_coefficient": 0.98,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.034483
+   },
+   {
+    "flow_coefficient": 0.96,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.034483
+   },
+   {
+    "flow_coefficient": 0.94,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.068966
+   },
+   {
+    "flow_coefficient": 0.92,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.068966
+   },
+   {
+    "flow_coefficient": 0.9,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.103448
+   },
+   {
+    "flow_coefficient": 0.88,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.103448
+   },
+   {
+    "flow_coefficient": 0.86,
+    "plc_events": [
+     "CHUTE_CONFIRMED",
+     "CYCLE_STOPPED",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.137931
+   },
+   {
+    "flow_coefficient": 0.84,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.137931
+   },
+   {
+    "flow_coefficient": 0.82,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.137931
+   },
+   {
+    "flow_coefficient": 0.8,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN"
+    ],
+    "stroke_ratio": 1.172414
+   },
+   {
+    "flow_coefficient": 0.78,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.206897
+   },
+   {
+    "flow_coefficient": 0.76,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.206897
+   },
+   {
+    "flow_coefficient": 0.74,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.241379
+   },
+   {
+    "flow_coefficient": 0.72,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.275862
+   },
+   {
+    "flow_coefficient": 0.7,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.275862
+   },
+   {
+    "flow_coefficient": 0.68,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.310345
+   },
+   {
+    "flow_coefficient": 0.66,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.344828
+   },
+   {
+    "flow_coefficient": 0.64,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.37931
+   },
+   {
+    "flow_coefficient": 0.62,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_STOP",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.413793
+   },
+   {
+    "flow_coefficient": 0.6,
+    "plc_events": [
+     "CHUTE_CONFIRM_MISSING",
+     "CYCLE_STOP_REQUESTED",
+     "RUN_STARTED",
+     "START_WARNING_BEGIN",
+     "STROKE_TREND_STOP",
+     "STROKE_TREND_WARNING"
+    ],
+    "stroke_ratio": 1.448276
+   }
+  ]
+ },
+ "schema": "e5-calibration.v1"
+}

@@ -1,0 +1,32 @@
+{
+ "filter_scans": 2,
+ "glitch_max_scans": 10,
+ "levels": {
+  "belt_speed_dev": {
+   "maintenance": 0.05,
+   "observe": 0.02,
+   "provenance": "대표 확정 2026-10-02 · 5 % = 3i belt_speed_tolerance",
+   "unit": "|속도 비율 − 1|"
+  },
+  "chatter": {
+   "filter_scans_source": "library/asm-pusher/versions/1.6.0/device.json cell_design.filter_ticks (tests/phase3j_logic.py SortLogic.filter 가 읽는다)",
+   "provenance": "대표 확정 2026-10-02 「채터링은 PLC 필터 통과 여부」",
+   "rule": "정상 = 끊김 0 · 관찰 = 펄스 폭 < 필터 시간이고 도착당 3회 미만 · 정비 필요 = 펄스 폭 ≥ 필터 시간 또는 도착당 3회 이상"
+  },
+  "stroke_ratio": {
+   "maintenance": 1.15,
+   "observe": 1.08,
+   "plc_stop": 1.4,
+   "plc_warn": 1.2,
+   "provenance": "대표 확정 2026-10-02(실험계획 §6-3) · PLC 경고 1.20·정지 1.40 = asm-pusher 1.6.0 stroke_warn_ratio·stroke_stop_ratio",
+   "unit": "행정 시간 ÷ 기준 0.29 s"
+  }
+ },
+ "lookback_s": 10.0,
+ "min_belt_samples": 100,
+ "nominal_count_per_scan": 12.0,
+ "nominal_source": "train T3 벨트 열화 없는 창 15개 평균 증가량의 중앙값",
+ "rule": "행정 = 마지막 STROKE_MEASURED ratio ≥ 1.15 정비 · ≥ 1.08 관찰 · 벨트 |평균 증가량 ÷ 기준 − 1| ≥ 0.05 정비 · ≥ 0.02 관찰 · 채터링 폭 ≥ 필터(2 스캔) 또는 도착당 3회 이상 정비, 그 밖 꺼짐 있으면 관찰. 답 = 계산된 채널 수준의 최댓값, 다 모름이면 모름",
+ "schema": "e5-m1-rules-t3.v1",
+ "steady_scans": 100
+}
