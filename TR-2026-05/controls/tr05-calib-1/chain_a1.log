@@ -1,0 +1,35 @@
+run.py exit 0 :: [PASS] selftest run: 15/15
+tr05.py exit 0 :: [PASS] selftest tr05: 4/4
+refcheck.py exit 0 :: [PASS] selftest refcheck: 12/12
+seed_table.py exit 0 :: [PASS] selftest seed_table: 11/11
+round.py exit 0 :: [PASS] selftest round: 6/6
+replay.py exit 0 :: [PASS] selftest replay: 4/4
+calibrate.py exit 0 :: [PASS] selftest calibrate: 10/10
+regenerate_m1.py exit 0 :: [PASS] selftest regenerate_m1: 7/7
+classify.py exit 0 :: [PASS] selftest classify: 8/8
+tables.py exit 0 :: [PASS] selftest tables: 4/4
+recompute.py exit 0 :: [PASS] selftest recompute: 3/3
+public.py exit 0 :: [PASS] selftest public: 3/3
+patent_check.py exit 0 :: [PASS] selftest patent_check: 2/2
+scan exit 0 :: [PASS] string scan 14 files 0 hits
+DONE
+SWEEP-DONE
+refcheck-case exit 0 :: [PASS] selftest refcheck: 9/9
+gate exit 1 :: 48 pass lines; fails: [FAIL] valid cell-a swapped-sensors normal fast seed 1 belt 1.0 ticks 1000 ref-diffs 0 hash 5f16b4864df6de79125c6c195a832e7e8873a5826b3f4f7be57aab20ba66a677 1.0s;[FAIL] valid cell-a late-reverse normal fast seed 1 belt 1.0 ticks 1000 ref-diffs 0 hash b8f8ec93c4b54839e923fdf69d4b326ff10212ff80df0a55558dd4f2ea5bbaad 1.1s;[FAIL] valid cell-b push-timing-off normal fast seed 1 belt 1.0 ticks 1800 ref-diffs 0 hash 214bb38edc7233b781f1c99bbf332636129e9adec288be131cd8abf202abe7b1 3.3s;[FAIL] valid cell-b ignore-curtain curtain fast seed 1 belt 1.0 ticks 500 ref-diffs 0 hash cfcacddb665bea829fcce232562edd967a6c3922ebd58763fefd45d378dc72a9 1.1s;[FAIL] valid cell-b no-sort-check flow fast seed 1 belt 1.0 ticks 800 ref-diffs 0 hash 57251f72867cdb840b9c4b3c6f286311cd878f9cb486956e0f0b49fbc0abf174 1.5s;[FAIL] no-sort-check 음성 검출;[FAIL] gate;
+[PASS] 62 files 1768 vendor files
+[PASS] fixed fixed.json 532167ac1078b01ea5b4b9a42dd3ca2879a3d23e707dccab9c89b8024eae4442
+pc2 exit 0 :: [PASS] round {'main': 9, 'repeat': 0, 'gate': 0, 'openloop': 0, 'p8': 0, 'model': 0, 'e4': 0} short []
+[PASS] tables {'P1': '[틀림]', 'P2': '[맞음]', 'P3': '[판정 불가]', 'P4': '[판정 불가]', 'P5': '[판정 불가]', 'P6': '[틀림]', 'P7': '[판정 불가]', 'P8': '[판정 불가]', 'F1': '[틀림]', 'F2': '[틀림]', 'F3': '[맞음]'}
+[PASS] public bundle <runs>/calib-1/pc2-a1/public hits 0 {'P1': '[틀림]', 'P2': '[맞음]', 'P3': '[판정 불가]', 'P4': '[판정 불가]', 'P5': '[판정 불가]', 'P6': '[틀림]', 'P7': '[판정 불가]', 'P8': '[판정 불가]', 'F1': '[틀림]', 'F2': '[틀림]', 'F3': '[맞음]'}
+[PASS] recompute {'P1': '[틀림]', 'P2': '[맞음]', 'P3': '[판정 불가]', 'P4': '[판정 불가]', 'P5': '[판정 불가]', 'P6': '[틀림]', 'P7': '[판정 불가]', 'P8': '[판정 불가]', 'F1': '[틀림]', 'F2': '[틀림]', 'F3': '[맞음]'} differences 0
+[PASS] recompute {'P1': '[틀림]', 'P2': '[맞음]', 'P3': '[판정 불가]', 'P4': '[판정 불가]', 'P5': '[판정 불가]', 'P6': '[틀림]', 'P7': '[판정 불가]', 'P8': '[판정 불가]', 'F1': '[틀림]', 'F2': '[틀림]', 'F3': '[맞음]'} differences 0
+[PASS] patent scan positive 16 targets 22 hits 5 word-level 5 missing 0
+   TR-2026-05_사전등록_v0.6.md 10-3003470 검색 증강 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 SHACL 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 변화율 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 동적 속성 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 선제 차단 2 word 2
+[PASS] patent scan positive 16 targets 17 hits 0 word-level 0 missing 0
+[PASS] fixed <runs>/calib-1/fixed-final-check.json 532167ac1078b01ea5b4b9a42dd3ca2879a3d23e707dccab9c89b8024eae4442
+532167ac1078b01ea5b4b9a42dd3ca2879a3d23e707dccab9c89b8024eae4442  fixed.json
+CHAIN-DONE

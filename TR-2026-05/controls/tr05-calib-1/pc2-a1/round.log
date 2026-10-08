@@ -1,0 +1,10 @@
+[PASS] valid cell-b correct normal fast seed 18032821 belt 1.0 ticks 5000 ref-diffs 1 hash b6c21e3ff7e510f511ddaa097d7b595462e7a95068690a10d80cb94bc9bb6be1 10.8s
+[PASS] valid cell-b correct normal fast seed 2981378262 belt 1.0 ticks 5000 ref-diffs 1 hash 33e2e4a54d719a5a8ac37305e298e6ec09bc70b7570f7d23ca9746ff9cef88fb 10.1s
+[PASS] valid cell-b correct normal fast seed 2617252722 belt 1.0 ticks 5000 ref-diffs 1 hash fce1788e9a406f1a9158a3c75e2c7c54a6a503f7a6d00f681fd8642f9938f362 9.5s
+[PASS] valid cell-b correct normal mujoco seed 18032821 belt 1.0 ticks 5000 ref-diffs 1 hash 72b30ef4d7fcd7c8ecc0301f9f89f4d7d3a1d7a54b253b75dbd7ef1d2744b7a6 48.6s
+[PASS] valid cell-b correct normal mujoco seed 2981378262 belt 1.0 ticks 5000 ref-diffs 1 hash ce30d9af32afc424b12d8ec7f139dab89477ca6fc9dcab2975db55127827daf6 50.6s
+[FAIL] valid cell-b correct normal mujoco seed 2617252722 belt 1.0 ticks 5000 ref-diffs 0 hash cffa0859c89ef9199c32fb29daa48adf1ef230943fafec3030721373fa7b562d 29.2s
+[PASS] valid cell-b correct normal mujoco seed 18032821 belt 1.0 ticks 5000 ref-diffs 1 hash 297fbfe0cbf1c1308e53eddb9386c438a6d0f16a24db2f366f9d019aa78f2335 51.0s
+[PASS] valid cell-b correct normal mujoco seed 2981378262 belt 1.0 ticks 5000 ref-diffs 1 hash 325ea0e02ae446cc967c526a9721335a7e94c31d51b1a3a6395433a3de56fecf 49.7s
+[PASS] valid cell-b correct normal mujoco seed 2617252722 belt 1.0 ticks 5000 ref-diffs 1 hash 7ff4f97e4eec3bed8847f3b60017e4c2990c17534803a09ba03716b5e7b7a5fe 51.1s
+[PASS] round {'main': 9, 'repeat': 0, 'gate': 0, 'openloop': 0, 'p8': 0, 'model': 0, 'e4': 0} short []

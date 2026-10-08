@@ -1,0 +1,221 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "correct",
+  "scenario": "normal",
+  "seed": 692445127,
+  "physics": "fast",
+  "belt_factor": 0.95,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 5000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": 0,
+  "arrivals": 20,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 910,
+      "x": 7.385
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 961,
+      "x": 7.165
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1012,
+      "x": 6.945
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1063,
+      "x": 6.725
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1114,
+      "x": 6.505
+    },
+    {
+      "id": "part6",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1165,
+      "x": 6.285
+    },
+    {
+      "id": "part7",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 688,
+      "x": 0.133389650001
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1286,
+      "x": 6.065
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1337,
+      "x": 5.845
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1388,
+      "x": 5.625
+    },
+    {
+      "id": "part11",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 968,
+      "x": 0.12538965
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1509,
+      "x": 5.405
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1560,
+      "x": 5.185
+    },
+    {
+      "id": "part14",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1610,
+      "x": 4.965
+    },
+    {
+      "id": "part15",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1661,
+      "x": 4.745
+    },
+    {
+      "id": "part16",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 1319,
+      "x": 0.126789649998
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1782,
+      "x": 4.525
+    },
+    {
+      "id": "part18",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 1460,
+      "x": 0.134189649997
+    },
+    {
+      "id": "part19",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 1530,
+      "x": 0.132189649997
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1974,
+      "x": 4.305
+    }
+  ],
+  "ledger_free": "[PASS]",
+  "reference": {
+    "first_lock": null,
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": {
+      "tick": 4535,
+      "scan": 4535,
+      "tags": [
+        "B.Conv.run",
+        "B.Lamp.green",
+        "B.Lamp.yellow"
+      ],
+      "last_arrive_scan": 1535,
+      "arrivals20_scan": 1535
+    },
+    "exception_shape_scans": [
+      4535
+    ],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 1,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [
+      [
+        4535,
+        [
+          "B.Conv.run",
+          "B.Lamp.green",
+          "B.Lamp.yellow"
+        ],
+        false,
+        true
+      ]
+    ],
+    "after_by_tag": {},
+    "last_arrive_scan": 1535,
+    "arrivals20_scan": 1535
+  },
+  "run": {
+    "group": "p8",
+    "condition": "F",
+    "cell": "cell-b",
+    "variant": "correct",
+    "scenario": "normal",
+    "seed": 692445127,
+    "bin": 5,
+    "setting": "belt_0.95",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "dd63e35d480139f49f45d6bb9e227ecd518f9270ae93ae2fc96874d1a297f035",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

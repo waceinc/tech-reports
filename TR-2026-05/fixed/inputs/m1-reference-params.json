@@ -1,0 +1,18 @@
+{
+  "schema": "tr05-m1-reference-params/1",
+  "constants": {
+    "chute_window": [
+      167,
+      273
+    ],
+    "chute_full_scans": 50,
+    "fire_delay_sub": 6
+  },
+  "q_overrides": {
+    "chute_confirm_delay_s": 2.2,
+    "chute_confirm_tolerance_s": 0.5325,
+    "full_hold_s": 0.495,
+    "fall_delay_s": 0.162,
+    "fire_lag_s": 0.07
+  }
+}

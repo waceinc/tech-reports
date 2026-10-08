@@ -1,0 +1,50 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "e4:cell-a-0008",
+  "scenario": "normal",
+  "seed": 1,
+  "physics": "fast",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 1000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.57
+    }
+  ],
+  "ledger_free": null,
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "e4",
+    "condition": "F",
+    "cell": "cell-a",
+    "variant": "e4:cell-a-0008",
+    "scenario": "normal",
+    "seed": 1,
+    "bin": null,
+    "setting": null,
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "3ec6b7603e0f1947d053a8c4dcf1765422a0bbb69a278f239afd42faa728f1bf",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

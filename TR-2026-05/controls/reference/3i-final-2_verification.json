@@ -1,0 +1,796 @@
+{
+  "status": "[FAIL]",
+  "checks": [
+    {
+      "name": "자체 시험",
+      "status": "[PASS]",
+      "exit_code": 0
+    },
+    {
+      "name": "cell-a-seed1 정상",
+      "status": "[PASS]",
+      "first": "[PASS]",
+      "second": "[PASS]"
+    },
+    {
+      "name": "cell-a-seed1 결정성",
+      "status": "[PASS]",
+      "trace_hash": "3e5e6be4b5c1103999f6e2278d1a4dee05487cba25cd0953ac9f759c850e42b4"
+    },
+    {
+      "name": "cell-a-seed1 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 0,
+      "differences": [],
+      "reason": "전 스캔 일치"
+    },
+    {
+      "name": "cell-a-seed1 A 왕복·주소",
+      "status": "[PASS]"
+    },
+    {
+      "name": "cell-a-seed1 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 55
+    },
+    {
+      "name": "cell-b-seed1 정상",
+      "status": "[PASS]",
+      "first": "[PASS]",
+      "second": "[PASS]"
+    },
+    {
+      "name": "cell-b-seed1 결정성",
+      "status": "[PASS]",
+      "trace_hash": "c25947ab66528c6d358e796bf60cacf81049842ebf91d9b2fdbc150ab0b56e8d"
+    },
+    {
+      "name": "cell-b-seed1 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 1,
+      "differences": [
+        {
+          "tick": 4461,
+          "scan": 4461,
+          "expected": {
+            "B.Conv.run": true,
+            "B.Stp.sol": false,
+            "B.Psh.sol": false,
+            "B.Lamp.green": true,
+            "B.Lamp.yellow": false,
+            "B.Lamp.red": false,
+            "B.Recovery.retract": false,
+            "B.Recovery.finishPush": false
+          },
+          "actual": {
+            "B.Conv.run": false,
+            "B.Stp.sol": false,
+            "B.Psh.sol": false,
+            "B.Lamp.green": false,
+            "B.Lamp.yellow": true,
+            "B.Lamp.red": false,
+            "B.Recovery.retract": false,
+            "B.Recovery.finishPush": false
+          }
+        }
+      ],
+      "reason": "B 무투입 계수는 도착 스캔부터 1, 참조는 경과 차이 0부터 시작: 생산 완료 뒤 1스캔 빠른 정지"
+    },
+    {
+      "name": "cell-b-seed1 시드 ID 분류",
+      "status": "[PASS]",
+      "parts": 20
+    },
+    {
+      "name": "cell-b-seed1 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 2
+    },
+    {
+      "name": "cell-b-seed2 정상",
+      "status": "[PASS]",
+      "first": "[PASS]",
+      "second": "[PASS]"
+    },
+    {
+      "name": "cell-b-seed2 결정성",
+      "status": "[PASS]",
+      "trace_hash": "5386aac501ed29b24141aca4f1d0291d583882d58589ab2e1a270280a5705f6c"
+    },
+    {
+      "name": "cell-b-seed2 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 1,
+      "differences": [
+        {
+          "tick": 4461,
+          "scan": 4461,
+          "expected": {
+            "B.Conv.run": true,
+            "B.Stp.sol": false,
+            "B.Psh.sol": false,
+            "B.Lamp.green": true,
+            "B.Lamp.yellow": false,
+            "B.Lamp.red": false,
+            "B.Recovery.retract": false,
+            "B.Recovery.finishPush": false
+          },
+          "actual": {
+            "B.Conv.run": false,
+            "B.Stp.sol": false,
+            "B.Psh.sol": false,
+            "B.Lamp.green": false,
+            "B.Lamp.yellow": true,
+            "B.Lamp.red": false,
+            "B.Recovery.retract": false,
+            "B.Recovery.finishPush": false
+          }
+        }
+      ],
+      "reason": "B 무투입 계수는 도착 스캔부터 1, 참조는 경과 차이 0부터 시작: 생산 완료 뒤 1스캔 빠른 정지"
+    },
+    {
+      "name": "cell-b-seed2 시드 ID 분류",
+      "status": "[PASS]",
+      "parts": 20
+    },
+    {
+      "name": "cell-b-seed2 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 2
+    },
+    {
+      "name": "cell-b-seed3 정상",
+      "status": "[PASS]",
+      "first": "[PASS]",
+      "second": "[PASS]"
+    },
+    {
+      "name": "cell-b-seed3 결정성",
+      "status": "[PASS]",
+      "trace_hash": "8ccc05a443397681aaba8a18f5935ad22b38dc7f18ea491f640c1655415eb7b7"
+    },
+    {
+      "name": "cell-b-seed3 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 1,
+      "differences": [
+        {
+          "tick": 4461,
+          "scan": 4461,
+          "expected": {
+            "B.Conv.run": true,
+            "B.Stp.sol": false,
+            "B.Psh.sol": false,
+            "B.Lamp.green": true,
+            "B.Lamp.yellow": false,
+            "B.Lamp.red": false,
+            "B.Recovery.retract": false,
+            "B.Recovery.finishPush": false
+          },
+          "actual": {
+            "B.Conv.run": false,
+            "B.Stp.sol": false,
+            "B.Psh.sol": false,
+            "B.Lamp.green": false,
+            "B.Lamp.yellow": true,
+            "B.Lamp.red": false,
+            "B.Recovery.retract": false,
+            "B.Recovery.finishPush": false
+          }
+        }
+      ],
+      "reason": "B 무투입 계수는 도착 스캔부터 1, 참조는 경과 차이 0부터 시작: 생산 완료 뒤 1스캔 빠른 정지"
+    },
+    {
+      "name": "cell-b-seed3 시드 ID 분류",
+      "status": "[PASS]",
+      "parts": 20
+    },
+    {
+      "name": "cell-b-seed3 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 2
+    },
+    {
+      "name": "cell-b-pack-seed1 정상",
+      "status": "[PASS]",
+      "first": "[PASS]",
+      "second": "[PASS]"
+    },
+    {
+      "name": "cell-b-pack-seed1 결정성",
+      "status": "[PASS]",
+      "trace_hash": "b2b7608fec0c27d3864709eb81ecf23ba4ab9c9fa79b116c42291f1a100ab0cc"
+    },
+    {
+      "name": "cell-b-pack-seed1 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 0,
+      "differences": [],
+      "reason": "전 스캔 일치"
+    },
+    {
+      "name": "cell-b-pack-seed1 시드 ID 분류",
+      "status": "[PASS]",
+      "parts": 60
+    },
+    {
+      "name": "cell-b-pack-seed1 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 1
+    },
+    {
+      "name": "cell-b-pack-seed2 정상",
+      "status": "[PASS]",
+      "first": "[PASS]",
+      "second": "[PASS]"
+    },
+    {
+      "name": "cell-b-pack-seed2 결정성",
+      "status": "[PASS]",
+      "trace_hash": "162915cf0b111102205965c1d907f440604958973fe8f0b07f83871b32beeade"
+    },
+    {
+      "name": "cell-b-pack-seed2 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 0,
+      "differences": [],
+      "reason": "전 스캔 일치"
+    },
+    {
+      "name": "cell-b-pack-seed2 시드 ID 분류",
+      "status": "[PASS]",
+      "parts": 60
+    },
+    {
+      "name": "cell-b-pack-seed2 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 1
+    },
+    {
+      "name": "cell-b-pack-seed3 정상",
+      "status": "[PASS]",
+      "first": "[PASS]",
+      "second": "[PASS]"
+    },
+    {
+      "name": "cell-b-pack-seed3 결정성",
+      "status": "[PASS]",
+      "trace_hash": "98d48a6176ca90cdc97c46f65c1df3bdb276adee792c9391add03358efbeb1d2"
+    },
+    {
+      "name": "cell-b-pack-seed3 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 0,
+      "differences": [],
+      "reason": "전 스캔 일치"
+    },
+    {
+      "name": "cell-b-pack-seed3 시드 ID 분류",
+      "status": "[PASS]",
+      "parts": 60
+    },
+    {
+      "name": "cell-b-pack-seed3 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 1
+    },
+    {
+      "name": "swapped-sensors 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "PART_DROP"
+      ],
+      "judgments": [],
+      "fault_code": null
+    },
+    {
+      "name": "late-reverse 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "PART_DROP"
+      ],
+      "judgments": [],
+      "fault_code": null
+    },
+    {
+      "name": "push-timing-off 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "JAM",
+        "PUSH_MISSED",
+        "PUSH_TOO_EARLY"
+      ],
+      "judgments": [],
+      "fault_code": 13
+    },
+    {
+      "name": "ignore-curtain 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [],
+      "judgments": [
+        "PLC_CURTAIN_IGNORED"
+      ],
+      "fault_code": 11
+    },
+    {
+      "name": "no-sort-check 음성 검출",
+      "status": "[FAIL]",
+      "process_status": "[FAIL]",
+      "events": [],
+      "judgments": [],
+      "fault_code": 15
+    },
+    {
+      "name": "no-handshake 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "HANDSHAKE_TIMEOUT"
+      ],
+      "judgments": [
+        "PLC_HANDSHAKE_MISSING"
+      ],
+      "fault_code": 11
+    },
+    {
+      "name": "ignore-box-full 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "CONTAINER_FULL_IGNORED",
+        "ROBOT_ZONE"
+      ],
+      "judgments": [
+        "PLC_BOX_FULL_IGNORED"
+      ],
+      "fault_code": 11
+    },
+    {
+      "name": "ignore-reject-full 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [],
+      "judgments": [
+        "PLC_REJECT_FULL_IGNORED"
+      ],
+      "fault_code": 0
+    },
+    {
+      "name": "운전 중 커튼 정지",
+      "status": "[PASS]",
+      "safety": {
+        "status": "[PASS]",
+        "detected_tick": 237,
+        "stopped_tick": 257,
+        "stop_after_detection_s": 0.2,
+        "before_belt_v": 1.2,
+        "all_commands_off": true
+      }
+    },
+    {
+      "name": "격리·복귀·추적 초기화",
+      "status": "[PASS]",
+      "recovery": {
+        "status": "[PASS]",
+        "checks": {
+          "all_stages": true,
+          "locked_start_refused": true,
+          "early_clear_refused": true,
+          "tracking_cleared": true,
+          "clear_alone_stopped": true,
+          "separate_start": true
+        },
+        "stages": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "events": [
+        {
+          "instance": "pusher",
+          "name": "PUSH_TOO_EARLY",
+          "part_id": "part2",
+          "rule": "FLY-01",
+          "tick": 659
+        }
+      ]
+    },
+    {
+      "name": "HMI 위젯→I→래더 Q",
+      "status": "[PASS]",
+      "hmi": {
+        "status": "[PASS]",
+        "checks": {
+          "start_contact": true,
+          "start_ladder": true,
+          "stop_contact": true,
+          "stop_ladder": true,
+          "restart_before_tracking": true,
+          "estop_contact": true,
+          "estop_ladder": true,
+          "estop_latch": true,
+          "reset_start_preserves_tracking": true,
+          "curtain_detected": true,
+          "all_widget_actions": true,
+          "widget_held": true,
+          "external_mode": true
+        }
+      }
+    },
+    {
+      "name": "--no-ladder 전틱 해시",
+      "status": "[PASS]",
+      "enabled": "a603d1dea8163cc5fa1c5915237f947f6184cadc91f17a0da4b0b8f6d5b34fef",
+      "disabled": "a603d1dea8163cc5fa1c5915237f947f6184cadc91f17a0da4b0b8f6d5b34fef"
+    },
+    {
+      "name": "래더 스캔/DOM 대조",
+      "status": "[PASS]",
+      "monitor": {
+        "errors": [],
+        "position": {
+          "ladder": {
+            "height": 850,
+            "width": 480,
+            "x": 0,
+            "y": 159
+          },
+          "screen": {
+            "height": 1122,
+            "width": 1920,
+            "x": 0,
+            "y": 30
+          },
+          "status": "[PASS]",
+          "vision": {
+            "Height": 882,
+            "Width": 1100,
+            "X": 480,
+            "Y": 159
+          }
+        },
+        "scans_verified": 700,
+        "status": "[PASS]",
+        "ticks_sent": 700,
+        "ticks_verified": 700
+      }
+    },
+    {
+      "name": "독립 창 나란히 배치",
+      "status": "[PASS]",
+      "position": {
+        "ladder": {
+          "height": 850,
+          "width": 480,
+          "x": 0,
+          "y": 159
+        },
+        "screen": {
+          "height": 1122,
+          "width": 1920,
+          "x": 0,
+          "y": 30
+        },
+        "status": "[PASS]",
+        "vision": {
+          "Height": 882,
+          "Width": 1100,
+          "X": 480,
+          "Y": 159
+        }
+      }
+    },
+    {
+      "name": "래더↔3D 양방향",
+      "status": "[PASS]",
+      "sync": {
+        "3d_to_ladder": {
+          "expected": 10,
+          "focused_rung": 10,
+          "selection": {
+            "object": "cell-b-sort-pb0",
+            "sequence": 1,
+            "source": "viewport",
+            "tags": [
+              "B.PB.start"
+            ],
+            "tick": 81
+          },
+          "status": "[PASS]"
+        },
+        "ladder_to_3d": {
+          "camera_after": [
+            0,
+            1.0322500050067902,
+            -0.4360000099508624,
+            0.72,
+            1.1
+          ],
+          "camera_before": [
+            0,
+            0.7,
+            0,
+            0.72,
+            1.1
+          ],
+          "highlight": {
+            "cmd": "highlight",
+            "focus": true,
+            "rung": 762,
+            "source": "ladder",
+            "tags": [
+              "B.Psh.sol"
+            ],
+            "tick": 81
+          },
+          "status": "[PASS]"
+        }
+      }
+    },
+    {
+      "name": "복귀 캡처 실행",
+      "status": "[PASS]"
+    },
+    {
+      "name": "cell-a GUI 관찰",
+      "status": "[PASS]",
+      "scans": 5000
+    },
+    {
+      "name": "cell-b-pack GUI 관찰",
+      "status": "[PASS]",
+      "scans": 1800
+    },
+    {
+      "name": "원시 해시·held-Q·자식 회수",
+      "status": "[PASS]",
+      "runs": 36
+    },
+    {
+      "name": "실행 소스 동결",
+      "status": "[PASS]"
+    },
+    {
+      "name": "vendor 읽기 전용",
+      "status": "[PASS]",
+      "status_short": ""
+    }
+  ],
+  "runs": [
+    {
+      "name": "cell-a-seed1-1",
+      "status": "[PASS]",
+      "trace_hash": "3e5e6be4b5c1103999f6e2278d1a4dee05487cba25cd0953ac9f759c850e42b4",
+      "ticks": 1000
+    },
+    {
+      "name": "cell-a-seed1-2",
+      "status": "[PASS]",
+      "trace_hash": "3e5e6be4b5c1103999f6e2278d1a4dee05487cba25cd0953ac9f759c850e42b4",
+      "ticks": 1000
+    },
+    {
+      "name": "cell-a-seed1-reference",
+      "status": "[PASS]",
+      "trace_hash": "3c4479a392333166d07d3a62945e66fc88b4682bb72b8532f10d232ceccfc7a0",
+      "ticks": 1000
+    },
+    {
+      "name": "cell-b-seed1-1",
+      "status": "[PASS]",
+      "trace_hash": "c25947ab66528c6d358e796bf60cacf81049842ebf91d9b2fdbc150ab0b56e8d",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed1-2",
+      "status": "[PASS]",
+      "trace_hash": "c25947ab66528c6d358e796bf60cacf81049842ebf91d9b2fdbc150ab0b56e8d",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed1-reference",
+      "status": "[PASS]",
+      "trace_hash": "808022b9a2b239e362ac2c06e997da755e75ea432a70312434c0ce4d6174c737",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed2-1",
+      "status": "[PASS]",
+      "trace_hash": "5386aac501ed29b24141aca4f1d0291d583882d58589ab2e1a270280a5705f6c",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed2-2",
+      "status": "[PASS]",
+      "trace_hash": "5386aac501ed29b24141aca4f1d0291d583882d58589ab2e1a270280a5705f6c",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed2-reference",
+      "status": "[PASS]",
+      "trace_hash": "737772a86eecdf7d43318ff726550b58de103720a27ed8f3aa82432802e16c51",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed3-1",
+      "status": "[PASS]",
+      "trace_hash": "8ccc05a443397681aaba8a18f5935ad22b38dc7f18ea491f640c1655415eb7b7",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed3-2",
+      "status": "[PASS]",
+      "trace_hash": "8ccc05a443397681aaba8a18f5935ad22b38dc7f18ea491f640c1655415eb7b7",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-seed3-reference",
+      "status": "[PASS]",
+      "trace_hash": "e5dccac384011366a035d108118d4241f85563542c4a6c9f52e60838e22ac2be",
+      "ticks": 5000
+    },
+    {
+      "name": "cell-b-pack-seed1-1",
+      "status": "[PASS]",
+      "trace_hash": "b2b7608fec0c27d3864709eb81ecf23ba4ab9c9fa79b116c42291f1a100ab0cc",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed1-2",
+      "status": "[PASS]",
+      "trace_hash": "b2b7608fec0c27d3864709eb81ecf23ba4ab9c9fa79b116c42291f1a100ab0cc",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed1-reference",
+      "status": "[PASS]",
+      "trace_hash": "e752adf8e40ec055d36207a223218e6919adc4a22c84492b62b48e877e92f023",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed2-1",
+      "status": "[PASS]",
+      "trace_hash": "162915cf0b111102205965c1d907f440604958973fe8f0b07f83871b32beeade",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed2-2",
+      "status": "[PASS]",
+      "trace_hash": "162915cf0b111102205965c1d907f440604958973fe8f0b07f83871b32beeade",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed2-reference",
+      "status": "[PASS]",
+      "trace_hash": "86681b3ddacfc431088cb388fc4a22435214e8555733d9f6d24c4cab725e10c5",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed3-1",
+      "status": "[PASS]",
+      "trace_hash": "98d48a6176ca90cdc97c46f65c1df3bdb276adee792c9391add03358efbeb1d2",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed3-2",
+      "status": "[PASS]",
+      "trace_hash": "98d48a6176ca90cdc97c46f65c1df3bdb276adee792c9391add03358efbeb1d2",
+      "ticks": 6000
+    },
+    {
+      "name": "cell-b-pack-seed3-reference",
+      "status": "[PASS]",
+      "trace_hash": "6fa4910e7c56ce73f212f0464016ed60c567b811b72a6d2eec6be55d121f37e1",
+      "ticks": 6000
+    },
+    {
+      "name": "negative-swapped-sensors",
+      "status": "[FAIL]",
+      "trace_hash": "83e2af37fe1660b53a70a123323e90eda652835916a17d86cc418402ae89459a",
+      "ticks": 1000
+    },
+    {
+      "name": "negative-late-reverse",
+      "status": "[FAIL]",
+      "trace_hash": "b3238e1209f4808e75c5a4b4a0cd0c65e7348c8ef4653ce0b9f99b8b037db819",
+      "ticks": 1000
+    },
+    {
+      "name": "negative-push-timing-off",
+      "status": "[FAIL]",
+      "trace_hash": "6c65f54fc35a9369f4548ce8d96164111eb2cea7f9f207817459f7bfaef8e042",
+      "ticks": 1800
+    },
+    {
+      "name": "negative-ignore-curtain",
+      "status": "[FAIL]",
+      "trace_hash": "97a3f06cd0491bb3fbb61cdc7e0c925237778dfafd3214d34e2a272f22237835",
+      "ticks": 500
+    },
+    {
+      "name": "negative-no-sort-check",
+      "status": "[FAIL]",
+      "trace_hash": "e69b889822251c3b32b8d75815e62c5bdc3567a68598324c0737c779769d3f8c",
+      "ticks": 800
+    },
+    {
+      "name": "negative-no-handshake",
+      "status": "[FAIL]",
+      "trace_hash": "b53d3b0efc3895e09e2f07ef08fd6368481e5f80494bf1b794c02c8df3f4e9b4",
+      "ticks": 2400
+    },
+    {
+      "name": "negative-ignore-box-full",
+      "status": "[FAIL]",
+      "trace_hash": "934789fc48a8ed951cadda52e7859f41d38e66b4c2ba3bd320f33b45a58a6be2",
+      "ticks": 3000
+    },
+    {
+      "name": "negative-ignore-reject-full",
+      "status": "[FAIL]",
+      "trace_hash": "856881f9562c6531d07e762b4c8d7f3f6838ae921a387c58945772001d002c5e",
+      "ticks": 2400
+    },
+    {
+      "name": "curtain",
+      "status": "[PASS]",
+      "trace_hash": "16def55386ca0f8fed3c57f6c0e5be2a05a862fb775b1ecf7d1fec37ec10624b",
+      "ticks": 500
+    },
+    {
+      "name": "recovery",
+      "status": "[PASS]",
+      "trace_hash": "b9b9d19b0b143f48ea130ab06512a841bf1f8d609f472073d0d631852900ed0d",
+      "ticks": 2800
+    },
+    {
+      "name": "gui-hmi",
+      "status": "[PASS]",
+      "trace_hash": "a603d1dea8163cc5fa1c5915237f947f6184cadc91f17a0da4b0b8f6d5b34fef",
+      "ticks": 700
+    },
+    {
+      "name": "gui-no-ladder",
+      "status": "[PASS]",
+      "trace_hash": "a603d1dea8163cc5fa1c5915237f947f6184cadc91f17a0da4b0b8f6d5b34fef",
+      "ticks": 700
+    },
+    {
+      "name": "gui-recovery",
+      "status": "[PASS]",
+      "trace_hash": "b9b9d19b0b143f48ea130ab06512a841bf1f8d609f472073d0d631852900ed0d",
+      "ticks": 2800
+    },
+    {
+      "name": "gui-cell-a",
+      "status": "[PASS]",
+      "trace_hash": "3e5e6be4b5c1103999f6e2278d1a4dee05487cba25cd0953ac9f759c850e42b4",
+      "ticks": 1000
+    },
+    {
+      "name": "gui-cell-b-pack",
+      "status": "[FAIL]",
+      "trace_hash": "91c132dfb39a4800886bbbfc3a37a263b50496ef69809025b060d24eff21e28b",
+      "ticks": 1800
+    }
+  ],
+  "elapsed_seconds": 562.6083387090002,
+  "captures_direct_review": "[PASS]",
+  "visual_review": {
+    "path": "experiments/S2/visual-review-3i.json",
+    "sha256": "e3754646f382ae7500d93efe7f274717b97d4a65ac87fcce016f91af980679fb"
+  }
+}

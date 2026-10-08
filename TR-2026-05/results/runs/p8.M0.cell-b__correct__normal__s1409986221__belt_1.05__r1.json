@@ -1,0 +1,246 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "correct",
+  "scenario": "normal",
+  "seed": 1409986221,
+  "physics": "mujoco",
+  "belt_factor": 1.05,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 5000,
+  "verdict_kind": "process",
+  "first_lock": {
+    "tick": 1122,
+    "scan": 1122,
+    "fault_code": 13
+  },
+  "lock_window": "chute",
+  "chute_on_at_lock": false,
+  "end_fault_code": 13,
+  "arrivals": 15,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 829,
+      "x": 7.384977012231029,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 875,
+      "x": 7.164820824382909,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 921,
+      "x": 6.944805619121932,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 967,
+      "x": 6.724786585105189,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1013,
+      "x": 6.504711270590167,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part6",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 567,
+      "x": 0.1123407272239491,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part7",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1123,
+      "x": 6.284619573387794,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 5.607615583013819,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.807614597175588,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.007614597165625,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.207614597164688,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part12",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 948,
+      "x": 0.11824836323464086,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 1.6076145979426206,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part14",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.8076324804122388,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part15",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.007614597118007899,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part16",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.7923854027652295,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -1.592385402775194,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part18",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -2.3923994894813614,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part19",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -3.192385401890625,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -3.9923854128046568,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": "[FAIL]",
+  "reference": {
+    "first_lock": {
+      "tick": 1122,
+      "scan": 1122,
+      "fault_code": 13
+    },
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": null,
+    "exception_shape_scans": [],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 0,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [],
+    "after_by_tag": {},
+    "last_arrive_scan": 1077,
+    "arrivals20_scan": null
+  },
+  "run": {
+    "group": "p8",
+    "condition": "M0",
+    "cell": "cell-b",
+    "variant": "correct",
+    "scenario": "normal",
+    "seed": 1409986221,
+    "bin": 3,
+    "setting": "belt_1.05",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "559f8504ea707964e77501ba8551a0917f16692e947eddbad169534202f8e6f8",
+  "physics_hashes": {
+    "values_sha256": "edca7021edaf1df1982dcf73cfff81acff696c1b94e81442abd9945385988bc1",
+    "setup_sha256": "f2f70763e25b2cdc5480c3f4491aa18b2cb97ea190b9d6b5f5b055f8eef2111d"
+  }
+}

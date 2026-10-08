@@ -1,0 +1,221 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "correct",
+  "scenario": "normal",
+  "seed": 3570567229,
+  "physics": "fast",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 5000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": 0,
+  "arrivals": 20,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 258,
+      "x": 0.16104575
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 934,
+      "x": 7.385
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 983,
+      "x": 7.165
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1031,
+      "x": 6.945
+    },
+    {
+      "id": "part5",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 524,
+      "x": 0.15304575
+    },
+    {
+      "id": "part6",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1146,
+      "x": 6.725
+    },
+    {
+      "id": "part7",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 658,
+      "x": 0.161045749999
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1261,
+      "x": 6.505
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1309,
+      "x": 6.285
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1358,
+      "x": 6.065
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1406,
+      "x": 5.845
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1454,
+      "x": 5.625
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1503,
+      "x": 5.405
+    },
+    {
+      "id": "part14",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1551,
+      "x": 5.185
+    },
+    {
+      "id": "part15",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1599,
+      "x": 4.965
+    },
+    {
+      "id": "part16",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1648,
+      "x": 4.745
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1696,
+      "x": 4.525
+    },
+    {
+      "id": "part18",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 1391,
+      "x": 0.157045750004
+    },
+    {
+      "id": "part19",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 1458,
+      "x": 0.161045750005
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1878,
+      "x": 4.305
+    }
+  ],
+  "ledger_free": "[PASS]",
+  "reference": {
+    "first_lock": null,
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": {
+      "tick": 4461,
+      "scan": 4461,
+      "tags": [
+        "B.Conv.run",
+        "B.Lamp.green",
+        "B.Lamp.yellow"
+      ],
+      "last_arrive_scan": 1461,
+      "arrivals20_scan": 1461
+    },
+    "exception_shape_scans": [
+      4461
+    ],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 1,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [
+      [
+        4461,
+        [
+          "B.Conv.run",
+          "B.Lamp.green",
+          "B.Lamp.yellow"
+        ],
+        false,
+        true
+      ]
+    ],
+    "after_by_tag": {},
+    "last_arrive_scan": 1461,
+    "arrivals20_scan": 1461
+  },
+  "run": {
+    "group": "model",
+    "condition": "F",
+    "cell": "cell-b",
+    "variant": "correct",
+    "scenario": "normal",
+    "seed": 3570567229,
+    "bin": 5,
+    "setting": "z_-0.005",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "021822f31c918a891bc56c1934eaa05a46b373db06b305f64f98f70ec21700d0",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

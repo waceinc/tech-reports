@@ -1,0 +1,263 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "correct",
+  "scenario": "normal",
+  "seed": 352593554,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {
+    "chute_x_force": 0
+  },
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 5000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": 0,
+  "arrivals": 20,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 868,
+      "x": 7.385000117004039,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 916,
+      "x": 7.163061147472816,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part3",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 391,
+      "x": 0.3435093778122168,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1031,
+      "x": 6.946023726672307,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1080,
+      "x": 6.727217234470561,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part6",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 591,
+      "x": 0.42999075643061113,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part7",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 658,
+      "x": 0.3555275259473074,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1261,
+      "x": 6.5076335033170265,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1309,
+      "x": 6.28995482900214,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1358,
+      "x": 6.07216605541599,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1406,
+      "x": 5.8518294102917485,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1455,
+      "x": 5.631547996530645,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part13",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 1058,
+      "x": 0.39790074736256603,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part14",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1570,
+      "x": 5.4112337810949365,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part15",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1618,
+      "x": 5.423661855930578,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part16",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1666,
+      "x": 5.220995835821381,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part17",
+      "cls": 1,
+      "route": 1,
+      "route_tick": 1325,
+      "x": 0.3747958533487396,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part18",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1781,
+      "x": 4.9926371105340355,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part19",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1830,
+      "x": 4.770987823272594,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1878,
+      "x": 4.545989558727512,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": "[PASS]",
+  "reference": {
+    "first_lock": null,
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": {
+      "tick": 4461,
+      "scan": 4461,
+      "tags": [
+        "B.Conv.run",
+        "B.Lamp.green",
+        "B.Lamp.yellow"
+      ],
+      "last_arrive_scan": 1461,
+      "arrivals20_scan": 1461
+    },
+    "exception_shape_scans": [
+      4461
+    ],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 1,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [
+      [
+        4461,
+        [
+          "B.Conv.run",
+          "B.Lamp.green",
+          "B.Lamp.yellow"
+        ],
+        false,
+        true
+      ]
+    ],
+    "after_by_tag": {},
+    "last_arrive_scan": 1461,
+    "arrivals20_scan": 1461
+  },
+  "run": {
+    "group": "p8",
+    "condition": "M0",
+    "cell": "cell-b",
+    "variant": "correct",
+    "scenario": "normal",
+    "seed": 352593554,
+    "bin": 5,
+    "setting": "chute_x_force_off",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "7f3bcd913acbf7c7d1944f0463e7948cb4695c6f5e2d7274c8954bfc9ebab93f",
+  "physics_hashes": {
+    "values_sha256": "2870e4b2fd5e12a9967f1ae899d0dc3fd061b700339c7db72e95aed9a15fed23",
+    "setup_sha256": "15b9874de41360c2a11640e6eef2aaf3530bf7c35348ee1505abd46a08299661"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "correct",
+  "scenario": "curtain",
+  "seed": 1584772094,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1000,
+  "verdict_kind": "safety",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": 0,
+  "arrivals": 13,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 868,
+      "x": 7.3851476508518745,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 916,
+      "x": 7.165108270639875,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 965,
+      "x": 6.945106512044636,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 6.573781863775265,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 5.773781863694813,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part6",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.973781863670397,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part7",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.173781863649089,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.3737819911572484,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 2.5737826742453906,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 1.7737818636484277,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.9737818636312616,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.173781863606602,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.6262181364773246,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part14",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -1.426200714996681,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part15",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -2.2262181373747927,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part16",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -3.0262181363510203,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -3.826218136369346,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part18",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -4.626218136132378,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part19",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -5.42621813635131,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -6.226218147326917,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": null,
+  "reference": {
+    "first_lock": null,
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": null,
+    "exception_shape_scans": [],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 0,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [],
+    "after_by_tag": {},
+    "last_arrive_scan": 994,
+    "arrivals20_scan": null
+  },
+  "run": {
+    "group": "main",
+    "condition": "M0",
+    "cell": "cell-b",
+    "variant": "correct",
+    "scenario": "curtain",
+    "seed": 1584772094,
+    "bin": 3,
+    "setting": null,
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "e88dcc9f2294d3954a9d04059fd1dbb36af82f552603a0774a9a1480b765fcaf",
+  "physics_hashes": {
+    "values_sha256": "9f1da266ddb90bdcc8f8f94dc928def3ea8d75437f8f8c675954642f7919fa27",
+    "setup_sha256": "f2f70763e25b2cdc5480c3f4491aa18b2cb97ea190b9d6b5f5b055f8eef2111d"
+  }
+}

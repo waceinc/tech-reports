@@ -1,0 +1,206 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "push-timing-off",
+  "scenario": "normal",
+  "seed": 1409986221,
+  "physics": "fast",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1800,
+  "verdict_kind": "process",
+  "first_lock": {
+    "tick": 761,
+    "scan": 761,
+    "fault_code": 13
+  },
+  "lock_window": "out",
+  "chute_on_at_lock": false,
+  "end_fault_code": 13,
+  "arrivals": 9,
+  "events": [
+    [
+      628,
+      "PUSH_TOO_EARLY",
+      "FLY-SIDE",
+      "part7"
+    ],
+    [
+      642,
+      "PUSH_MISSED",
+      "FLY-02",
+      "none"
+    ],
+    [
+      643,
+      "JAM",
+      "PUSH-RETURN",
+      "part7"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 6.23
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 5.43
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.63
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.83
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.03
+    },
+    {
+      "id": "part6",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": 2.23
+    },
+    {
+      "id": "part7",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 1.43
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.63
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.17
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.97
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -1.77
+    },
+    {
+      "id": "part12",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -2.57
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -3.37
+    },
+    {
+      "id": "part14",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -4.17
+    },
+    {
+      "id": "part15",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -4.97
+    },
+    {
+      "id": "part16",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -5.77
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -6.57
+    },
+    {
+      "id": "part18",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -7.37
+    },
+    {
+      "id": "part19",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -8.17
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -8.97
+    }
+  ],
+  "ledger_free": "[FAIL]",
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "main",
+    "condition": "F",
+    "cell": "cell-b",
+    "variant": "push-timing-off",
+    "scenario": "normal",
+    "seed": 1409986221,
+    "bin": 3,
+    "setting": null,
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "86f4d04861c23cd2a5058132c7fa35dc87200cdc112b4bc644963539e29e59fe",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

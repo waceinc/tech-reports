@@ -1,0 +1,61 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "swapped-sensors",
+  "scenario": "normal",
+  "seed": 1,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {
+    "friction_scale": 0.7
+  },
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [
+    [
+      37,
+      "PART_DROP",
+      "CONV-02",
+      "part1"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.9499238328697249,
+      "on_floor": true,
+      "stacked": false
+    }
+  ],
+  "ledger_free": null,
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "p8",
+    "condition": "M0",
+    "cell": "cell-a",
+    "variant": "swapped-sensors",
+    "scenario": "normal",
+    "seed": 1,
+    "bin": null,
+    "setting": "friction_0.7",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "de43c780a417234d31c73c566547328ec3b954510255bf47223751c1ef8643fa",
+  "physics_hashes": {
+    "values_sha256": "bf82b6afa606bd1ad24cf4e0b60c06eb8c82a1d006b90f346861370345681ad3",
+    "setup_sha256": "5b3c5ccc0dbc1854d5b597e0f1324bda9914a3d33f31d2a911df314144423519"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "tool": "patent_scan.py",
+  "positive_control_hits": 16,
+  "targets": [
+    "run.py",
+    "tr05.py",
+    "transport.py",
+    "round.py",
+    "seed_table.py",
+    "calibrate.py",
+    "tables.py",
+    "recompute.py",
+    "public.py",
+    "common.py",
+    "refcheck.py",
+    "classify.py",
+    "replay.py",
+    "probe_engine.mjs",
+    "program.ldprog.json",
+    "program.ldprog.json",
+    "TR-2026-05_사전등록_v1.0.md",
+    "tables.json",
+    "cell-a__correct.program.ldprog.json",
+    "cell-b-m1__correct.program.ldprog.json",
+    "cell-b__correct.program.ldprog.json",
+    "ladders-sha256.json"
+  ],
+  "missing": [],
+  "hits": [
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "10-3003470",
+      "keyword": "검색 증강",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "SHACL",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "변화율",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "동적 속성",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "선제 차단",
+      "count": 2,
+      "word_matches": 2
+    }
+  ],
+  "word_level_hits": [
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "10-3003470",
+      "keyword": "검색 증강",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "SHACL",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "변화율",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "동적 속성",
+      "count": 2,
+      "word_matches": 2
+    },
+    {
+      "file": "TR-2026-05_사전등록_v1.0.md",
+      "patent": "KP26038",
+      "keyword": "선제 차단",
+      "count": 2,
+      "word_matches": 2
+    }
+  ],
+  "composition": "플랜트 모형 두 개(빠른 이송 · MuJoCo)에 같은 래더를 붙여 사건 · 판정을 비교한다. 그래프 저장소 · 검색 증강 · 변화율 동적 속성 · SHACL 제약 · 명령 선제 차단은 없다"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "correct",
+  "scenario": "normal",
+  "seed": 1,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {
+    "friction_scale": 1.3
+  },
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 1000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.5700000016398022,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": null,
+  "reference": {
+    "first_lock": null,
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": null,
+    "exception_shape_scans": [],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 0,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [],
+    "after_by_tag": {},
+    "last_arrive_scan": null,
+    "arrivals20_scan": null
+  },
+  "run": {
+    "group": "p8",
+    "condition": "M0",
+    "cell": "cell-a",
+    "variant": "correct",
+    "scenario": "normal",
+    "seed": 1,
+    "bin": null,
+    "setting": "friction_1.3",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "13a73f0891c936495fff73ad87eefde8d86fe430fdde8fec42e7df32ab184083",
+  "physics_hashes": {
+    "values_sha256": "bfc4836a75c0449bea9cf2cd56c44f6549c6a04faa72cb07a18effc8a3c8ea15",
+    "setup_sha256": "5948faf7f9862f04913af10965b7f44ae3a6560498c979971e576a7e65ec8984"
+  }
+}

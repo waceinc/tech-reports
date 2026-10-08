@@ -1,0 +1,57 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "late-reverse",
+  "scenario": "normal",
+  "seed": 1,
+  "physics": "fast",
+  "belt_factor": 1.05,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [
+    [
+      36,
+      "PART_DROP",
+      "CONV-02",
+      "part1"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 31.185315
+    }
+  ],
+  "ledger_free": null,
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "p8",
+    "condition": "F",
+    "cell": "cell-a",
+    "variant": "late-reverse",
+    "scenario": "normal",
+    "seed": 1,
+    "bin": null,
+    "setting": "belt_1.05",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "3d05ed1481322b366fae1f049f980fb48d8470f568b839710d3780bd163ad9d1",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

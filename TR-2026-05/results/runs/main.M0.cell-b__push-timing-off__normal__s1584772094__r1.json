@@ -1,0 +1,270 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "push-timing-off",
+  "scenario": "normal",
+  "seed": 1584772094,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1800,
+  "verdict_kind": "process",
+  "first_lock": {
+    "tick": 1294,
+    "scan": 1294,
+    "fault_code": 13
+  },
+  "lock_window": "out",
+  "chute_on_at_lock": false,
+  "end_fault_code": 13,
+  "arrivals": 17,
+  "events": [
+    [
+      1162,
+      "PUSH_TOO_EARLY",
+      "FLY-SIDE",
+      "part15"
+    ],
+    [
+      1176,
+      "PUSH_MISSED",
+      "FLY-02",
+      "none"
+    ],
+    [
+      1177,
+      "JAM",
+      "PUSH-RETURN",
+      "part15"
+    ],
+    [
+      1229,
+      "PUSH_TOO_EARLY",
+      "FLY-SIDE",
+      "part16"
+    ],
+    [
+      1242,
+      "PUSH_MISSED",
+      "FLY-02",
+      "none"
+    ],
+    [
+      1243,
+      "JAM",
+      "PUSH-RETURN",
+      "part16"
+    ],
+    [
+      1295,
+      "JAM",
+      "PUSH-RETURN",
+      "part17"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 868,
+      "x": 7.3850003198172685,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 916,
+      "x": 7.164987233976803,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 965,
+      "x": 6.944976958408202,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1013,
+      "x": 6.724972991797301,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1061,
+      "x": 6.504977010689069,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part6",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1110,
+      "x": 6.284979162408883,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part7",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1158,
+      "x": 6.0649775779013915,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1206,
+      "x": 5.844986729489263,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1255,
+      "x": 5.624985646696752,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1306,
+      "x": 5.404959322262054,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.626009267926092,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.826009267888044,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.0260092678246875,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part14",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": 2.2260266902239563,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part15",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.4180618689288483,
+      "on_floor": true,
+      "stacked": false
+    },
+    {
+      "id": "part16",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.06714471645943301,
+      "on_floor": true,
+      "stacked": false
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.2753599972333954,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part18",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.9739907318507214,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part19",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -1.773990732048228,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -2.5740150736235377,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": "[FAIL]",
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "main",
+    "condition": "M0",
+    "cell": "cell-b",
+    "variant": "push-timing-off",
+    "scenario": "normal",
+    "seed": 1584772094,
+    "bin": 3,
+    "setting": null,
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "4f06d55381cdbae7b87531d0c0a0e6dd65d2039834bf8a313862532d84d984da",
+  "physics_hashes": {
+    "values_sha256": "9f1da266ddb90bdcc8f8f94dc928def3ea8d75437f8f8c675954642f7919fa27",
+    "setup_sha256": "f2f70763e25b2cdc5480c3f4491aa18b2cb97ea190b9d6b5f5b055f8eef2111d"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "physics_mode": "mujoco",
+  "ticks": 1200,
+  "identical_to_source": false,
+  "p7": {
+    "n": 0,
+    "within": 0,
+    "chute_rise_diffs": []
+  },
+  "routes": {
+    "match": 1,
+    "total": 1,
+    "F": {
+      "part1": 0
+    },
+    "M": {
+      "part1": 0
+    }
+  },
+  "part_drop": {
+    "F": [],
+    "M": []
+  },
+  "edge_table": {
+    "A.PB.start:rise": {
+      "f_edges": 3,
+      "m_edges": 3,
+      "pairs": 3,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 0,
+      "median": 0,
+      "max_abs": 0,
+      "diffs": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A.PB.start:fall": {
+      "f_edges": 3,
+      "m_edges": 3,
+      "pairs": 3,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 0,
+      "median": 0,
+      "max_abs": 0,
+      "diffs": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A.PB.stop_nc:rise": {
+      "f_edges": 3,
+      "m_edges": 3,
+      "pairs": 3,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 0,
+      "median": 0,
+      "max_abs": 0,
+      "diffs": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A.PB.stop_nc:fall": {
+      "f_edges": 3,
+      "m_edges": 3,
+      "pairs": 3,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 0,
+      "median": 0,
+      "max_abs": 0,
+      "diffs": [
+        0,
+        0,
+        0
+      ]
+    },
+    "A.Sen.left:rise": {
+      "f_edges": 3,
+      "m_edges": 3,
+      "pairs": 3,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 4,
+      "median": 4,
+      "max_abs": 4,
+      "diffs": [
+        4,
+        4,
+        4
+      ]
+    },
+    "A.Sen.left:fall": {
+      "f_edges": 2,
+      "m_edges": 2,
+      "pairs": 2,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 4,
+      "median": 4.0,
+      "max_abs": 4,
+      "diffs": [
+        4,
+        4
+      ]
+    },
+    "A.Sen.right:rise": {
+      "f_edges": 3,
+      "m_edges": 3,
+      "pairs": 3,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 4,
+      "median": 4,
+      "max_abs": 4,
+      "diffs": [
+        4,
+        4,
+        4
+      ]
+    },
+    "A.Sen.right:fall": {
+      "f_edges": 3,
+      "m_edges": 3,
+      "pairs": 3,
+      "unpaired_f": 0,
+      "unpaired_m": 0,
+      "mean": 4,
+      "median": 4,
+      "max_abs": 4,
+      "diffs": [
+        4,
+        4,
+        4
+      ]
+    }
+  }
+}

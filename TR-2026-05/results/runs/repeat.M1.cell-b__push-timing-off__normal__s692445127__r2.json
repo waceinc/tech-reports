@@ -1,0 +1,246 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "push-timing-off",
+  "scenario": "normal",
+  "seed": 692445127,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1800,
+  "verdict_kind": "process",
+  "first_lock": {
+    "tick": 828,
+    "scan": 828,
+    "fault_code": 13
+  },
+  "lock_window": "out",
+  "chute_on_at_lock": false,
+  "end_fault_code": 13,
+  "arrivals": 10,
+  "events": [
+    [
+      695,
+      "PUSH_TOO_EARLY",
+      "FLY-SIDE",
+      "part8"
+    ],
+    [
+      710,
+      "PUSH_MISSED",
+      "FLY-02",
+      "none"
+    ],
+    [
+      711,
+      "JAM",
+      "PUSH-RETURN",
+      "part8"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 7.03400927018736,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 6.234009269220437,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 5.4340092691947675,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.634009269363701,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.8340092692838152,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part6",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.0340092692593355,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part7",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": 2.2340092701551963,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.5683801501290194,
+      "on_floor": true,
+      "stacked": false
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.6340092691955423,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.16599073076270413,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part11",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.9659907307799159,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -1.7659907308052212,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -2.566018132982541,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part14",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -3.3659733084801258,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part15",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -4.165990730804498,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part16",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -4.965990730762521,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -5.7659907307805645,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part18",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -6.5659907305438905,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part19",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": -7.365993184354687,
+      "on_floor": false,
+      "stacked": false
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -8.165990740811353,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": "[FAIL]",
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "repeat",
+    "condition": "M1",
+    "cell": "cell-b",
+    "variant": "push-timing-off",
+    "scenario": "normal",
+    "seed": 692445127,
+    "bin": 5,
+    "setting": null,
+    "rep": 2,
+    "attempt": 1
+  },
+  "trace_hash": "d7e0ed7e188468061ddf471983359b26abb9d4c25bbd5058feb9b76990395ca7",
+  "physics_hashes": {
+    "values_sha256": "2fcaa70ee8cd6985578c0a6568a78d629ad53deacb4d6a337039b5c5a1a5128f",
+    "setup_sha256": "f2f70763e25b2cdc5480c3f4491aa18b2cb97ea190b9d6b5f5b055f8eef2111d"
+  }
+}

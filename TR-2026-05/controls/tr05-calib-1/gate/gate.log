@@ -1,0 +1,55 @@
+[PASS] valid cell-a correct normal fast seed 1 belt 1.0 ticks 1000 ref-diffs 0 hash d753e4ab6fcfeac553af4a16a86280ab56f0720ab8238adaee11fdadd87eabbd 0.9s
+[PASS] valid cell-a correct normal fast seed 1 belt 1.0 ticks 1000 ref-diffs 0 hash d753e4ab6fcfeac553af4a16a86280ab56f0720ab8238adaee11fdadd87eabbd 0.8s
+[PASS] determinism cell-a correct normal fast runs 2 decided [PASS]
+[PASS] cell-a-seed1 정상
+[PASS] cell-a-seed1 결정성
+[PASS] cell-a-seed1 동일입력 참조 분석
+[PASS] cell-a-seed1 첫 잠금 없음
+[PASS] cell-a-seed1 A 왕복·주소
+[PASS] valid cell-a correct normal fast seed 1 belt 1.0 ticks 1000 ref-diffs 0 hash 3c4479a392333166d07d3a62945e66fc88b4682bb72b8532f10d232ceccfc7a0 0.2s
+[PASS] cell-a-seed1 폐루프 참조 기록
+[PASS] valid cell-b correct normal fast seed 1 belt 1.0 ticks 5000 ref-diffs 1 hash f9aab67c57dcc42c394277876729c52109b0726f97ad4dbf77934bfc4e4587ab 8.8s
+[PASS] valid cell-b correct normal fast seed 1 belt 1.0 ticks 5000 ref-diffs 1 hash f9aab67c57dcc42c394277876729c52109b0726f97ad4dbf77934bfc4e4587ab 7.5s
+[PASS] determinism cell-b correct normal fast runs 2 decided [PASS]
+[PASS] cell-b-seed1 정상
+[PASS] cell-b-seed1 결정성
+[PASS] cell-b-seed1 동일입력 참조 분석
+[PASS] cell-b-seed1 첫 잠금 없음
+[PASS] cell-b-seed1 시드 ID 분류
+[PASS] valid cell-b correct normal fast seed 1 belt 1.0 ticks 5000 ref-diffs 0 hash 6a8724936fdd9ff6800c51e4b1be53f48ed97ae05a1a3be33b4bb7d37c4e9a77 5.4s
+[PASS] cell-b-seed1 폐루프 참조 기록
+[PASS] valid cell-b correct normal fast seed 2 belt 1.0 ticks 5000 ref-diffs 1 hash d97114c076b0d2417f0c42c7bdbffed222fab36b5ae04dfa83e0fafad20cd53c 9.3s
+[PASS] valid cell-b correct normal fast seed 2 belt 1.0 ticks 5000 ref-diffs 1 hash d97114c076b0d2417f0c42c7bdbffed222fab36b5ae04dfa83e0fafad20cd53c 10.5s
+[PASS] determinism cell-b correct normal fast runs 2 decided [PASS]
+[PASS] cell-b-seed2 정상
+[PASS] cell-b-seed2 결정성
+[PASS] cell-b-seed2 동일입력 참조 분석
+[PASS] cell-b-seed2 첫 잠금 없음
+[PASS] cell-b-seed2 시드 ID 분류
+[PASS] valid cell-b correct normal fast seed 2 belt 1.0 ticks 5000 ref-diffs 0 hash 8502e8283e1dff8b4bbe13d59dc572b31c47c337ea5d62b9107bc8130ac6149b 8.4s
+[PASS] cell-b-seed2 폐루프 참조 기록
+[PASS] valid cell-b correct normal fast seed 3 belt 1.0 ticks 5000 ref-diffs 1 hash 4c105404495f2a4fa7407381218e87f9259a50d745318be541e0104491ff6b33 7.3s
+[PASS] valid cell-b correct normal fast seed 3 belt 1.0 ticks 5000 ref-diffs 1 hash 4c105404495f2a4fa7407381218e87f9259a50d745318be541e0104491ff6b33 10.3s
+[PASS] determinism cell-b correct normal fast runs 2 decided [PASS]
+[PASS] cell-b-seed3 정상
+[PASS] cell-b-seed3 결정성
+[PASS] cell-b-seed3 동일입력 참조 분석
+[PASS] cell-b-seed3 첫 잠금 없음
+[PASS] cell-b-seed3 시드 ID 분류
+[PASS] valid cell-b correct normal fast seed 3 belt 1.0 ticks 5000 ref-diffs 0 hash f7346d214bca7fea4063b9fb233f86f366a0659fc4977faa9bdbcfb4b5f16ec0 5.4s
+[PASS] cell-b-seed3 폐루프 참조 기록
+[FAIL] valid cell-a swapped-sensors normal fast seed 1 belt 1.0 ticks 1000 ref-diffs 0 hash 5f16b4864df6de79125c6c195a832e7e8873a5826b3f4f7be57aab20ba66a677 1.0s
+[PASS] swapped-sensors 음성 검출
+[FAIL] valid cell-a late-reverse normal fast seed 1 belt 1.0 ticks 1000 ref-diffs 0 hash b8f8ec93c4b54839e923fdf69d4b326ff10212ff80df0a55558dd4f2ea5bbaad 0.8s
+[PASS] late-reverse 음성 검출
+[FAIL] valid cell-b push-timing-off normal fast seed 1 belt 1.0 ticks 1800 ref-diffs 0 hash 214bb38edc7233b781f1c99bbf332636129e9adec288be131cd8abf202abe7b1 3.7s
+[PASS] push-timing-off 음성 검출
+[FAIL] valid cell-b ignore-curtain curtain fast seed 1 belt 1.0 ticks 500 ref-diffs 0 hash cfcacddb665bea829fcce232562edd967a6c3922ebd58763fefd45d378dc72a9 1.0s
+[PASS] ignore-curtain 음성 검출
+[FAIL] valid cell-b no-sort-check flow fast seed 1 belt 1.0 ticks 800 ref-diffs 0 hash 57251f72867cdb840b9c4b3c6f286311cd878f9cb486956e0f0b49fbc0abf174 1.7s
+[FAIL] no-sort-check 음성 검출
+[PASS] valid cell-b correct curtain fast seed 1 belt 1.0 ticks 500 ref-diffs 0 hash a384d371e8a3baf1b93a1201a0999b56b18863cf8e1884f992c59cc0a31d421c 1.2s
+[PASS] 운전 중 커튼 정지
+[PASS] valid cell-b correct recovery fast seed 1 belt 1.0 ticks 2800 ref-diffs 0 hash 3d97ff55de7500e0faa957c7ec316797f34246124ea381b2d8a6030762f5efd3 5.1s
+[PASS] 격리·복귀·추적 초기화
+[FAIL] gate

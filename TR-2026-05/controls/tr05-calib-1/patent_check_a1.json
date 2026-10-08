@@ -1,0 +1,27 @@
+{
+  "tool": "patent_scan.py",
+  "positive_control_hits": 16,
+  "targets": [
+    "run.py",
+    "tr05.py",
+    "transport.py",
+    "round.py",
+    "seed_table.py",
+    "calibrate.py",
+    "tables.py",
+    "recompute.py",
+    "public.py",
+    "common.py",
+    "refcheck.py",
+    "classify.py",
+    "replay.py",
+    "probe_engine.mjs",
+    "program.ldprog.json",
+    "program.ldprog.json",
+    "TR-2026-05_사전등록_개정1_2026-10-08.md"
+  ],
+  "missing": [],
+  "hits": [],
+  "word_level_hits": [],
+  "composition": "플랜트 모형 두 개(빠른 이송 · MuJoCo)에 같은 래더를 붙여 사건 · 판정을 비교한다. 그래프 저장소 · 검색 증강 · 변화율 동적 속성 · SHACL 제약 · 명령 선제 차단은 없다"
+}

@@ -1,0 +1,171 @@
+{
+  "status": "[PASS]",
+  "ladders": {
+    "correct": {
+      "sha256": "06db7026ff35e3a705578200f73318948ac9e5006fafcfbcbf5cb0bfd80a59de",
+      "original_sha256": "eb44ce59b386e175ab22255f684dbd277b27e00906fb0b92d81703e7f389209f",
+      "diff": {
+        "ok": true,
+        "changed_lines": 36,
+        "bad": [],
+        "examples": [
+          {
+            "line": 3439,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3456,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 3851,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3868,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 4263,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 4280,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          }
+        ]
+      }
+    },
+    "push-timing-off": {
+      "sha256": "55fb9267a1a1a695be266e762656b7e890d73845c1487e2ee84dd56ab31cdae7",
+      "original_sha256": "78951c5517af831727f5518d5d31b0ad9a702ff0feb605b45a590afe829f4010",
+      "diff": {
+        "ok": true,
+        "changed_lines": 36,
+        "bad": [],
+        "examples": [
+          {
+            "line": 3439,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3456,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 3851,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3868,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 4263,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 4280,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          }
+        ]
+      }
+    },
+    "ignore-curtain": {
+      "sha256": "e83a8a206378585517571be4c1a8c2116d4f38efcbe88bb5e0f8212f14ac5592",
+      "original_sha256": "396aa80ffa273e6d0374ffd8a99c1eb619a5224a7ef7d8338c70961cd98e2d7d",
+      "diff": {
+        "ok": true,
+        "changed_lines": 36,
+        "bad": [],
+        "examples": [
+          {
+            "line": 3421,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3438,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 3833,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3850,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 4245,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 4262,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          }
+        ]
+      }
+    },
+    "no-sort-check": {
+      "sha256": "e5cfa34d52676093184fb5bb39f42a256e221a8b04b7d1ec253bc7ee64093bb3",
+      "original_sha256": "22ccda36321cdbd4b9bd1c651deab467157ecfe88347d0ed9a3e515b035724dc",
+      "diff": {
+        "ok": true,
+        "changed_lines": 33,
+        "bad": [],
+        "examples": [
+          {
+            "line": 3409,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3426,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 3821,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 3838,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          },
+          {
+            "line": 4233,
+            "old": "\"comment\": \"Delay = CalcDelay SUB 7\",",
+            "new": "\"comment\": \"Delay = CalcDelay SUB 6\","
+          },
+          {
+            "line": 4250,
+            "old": "\"IN2\": \"INT#7\"",
+            "new": "\"IN2\": \"INT#6\""
+          }
+        ]
+      }
+    }
+  },
+  "constants_sha256": "6006ae805bce462fb8c066577da9435693368ad4eb57554411806735beee6321",
+  "params_sha256": "2be815a93906550482f962c44fd62150d0b14308e652c6265df29654c98f30a0"
+}

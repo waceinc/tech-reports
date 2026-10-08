@@ -1,0 +1,230 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "push-timing-off",
+  "scenario": "normal",
+  "seed": 1584772094,
+  "physics": "fast",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1800,
+  "verdict_kind": "process",
+  "first_lock": {
+    "tick": 1294,
+    "scan": 1294,
+    "fault_code": 13
+  },
+  "lock_window": "out",
+  "chute_on_at_lock": false,
+  "end_fault_code": 13,
+  "arrivals": 17,
+  "events": [
+    [
+      1161,
+      "PUSH_TOO_EARLY",
+      "FLY-SIDE",
+      "part15"
+    ],
+    [
+      1175,
+      "PUSH_MISSED",
+      "FLY-02",
+      "none"
+    ],
+    [
+      1176,
+      "JAM",
+      "PUSH-RETURN",
+      "part15"
+    ],
+    [
+      1228,
+      "PUSH_TOO_EARLY",
+      "FLY-SIDE",
+      "part16"
+    ],
+    [
+      1242,
+      "PUSH_MISSED",
+      "FLY-02",
+      "none"
+    ],
+    [
+      1243,
+      "JAM",
+      "PUSH-RETURN",
+      "part16"
+    ],
+    [
+      1295,
+      "JAM",
+      "PUSH-RETURN",
+      "part17"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 868,
+      "x": 7.385
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 916,
+      "x": 7.165
+    },
+    {
+      "id": "part3",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 964,
+      "x": 6.945
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1013,
+      "x": 6.725
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1061,
+      "x": 6.505
+    },
+    {
+      "id": "part6",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1109,
+      "x": 6.285
+    },
+    {
+      "id": "part7",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1158,
+      "x": 6.065
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1206,
+      "x": 5.845
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1254,
+      "x": 5.625
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1306,
+      "x": 5.405
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 4.626
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.826
+    },
+    {
+      "id": "part13",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 3.026
+    },
+    {
+      "id": "part14",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": 2.226
+    },
+    {
+      "id": "part15",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": 1.426
+    },
+    {
+      "id": "part16",
+      "cls": 1,
+      "route": 0,
+      "route_tick": 1,
+      "x": 0.626000000004
+    },
+    {
+      "id": "part17",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.173999999996
+    },
+    {
+      "id": "part18",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.973999999996
+    },
+    {
+      "id": "part19",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -1.774
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -2.574
+    }
+  ],
+  "ledger_free": "[FAIL]",
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "main",
+    "condition": "F",
+    "cell": "cell-b",
+    "variant": "push-timing-off",
+    "scenario": "normal",
+    "seed": 1584772094,
+    "bin": 3,
+    "setting": null,
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "fb45a509272c987488b24aaae9e89a42fdae0b6fa6bd252c06fe9d75b17fc886",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

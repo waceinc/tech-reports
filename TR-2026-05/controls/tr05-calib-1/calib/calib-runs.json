@@ -1,0 +1,91 @@
+{
+ "table_sha256": "d02d62f3975411e3d01b3a58d0c50eb740ffe2b46375c04928788b4bdee3c320",
+ "runs": [
+  {
+   "bin": 3,
+   "seed": 1865575037,
+   "F_status": "[PASS]",
+   "F_category": "valid",
+   "F_trace_hash": "bbc5020d0facea6993ce4bfa058e12d4c49fca7f42e37411b172dc3df58de151",
+   "M_routes": 20,
+   "M_ticks": 5000
+  },
+  {
+   "bin": 3,
+   "seed": 4002380191,
+   "F_status": "[PASS]",
+   "F_category": "valid",
+   "F_trace_hash": "b500ae7ac97dce164cc11cdf6a53acca97e4613eaeccfd62220d2556fffc4e05",
+   "M_routes": 20,
+   "M_ticks": 5000
+  },
+  {
+   "bin": 4,
+   "seed": 2948004803,
+   "F_status": "[PASS]",
+   "F_category": "valid",
+   "F_trace_hash": "9343cce47b5410d2f74d14e6ac1e13aefddd2bcdf3b5be51e5920c457d65e8e8",
+   "M_routes": 20,
+   "M_ticks": 5000
+  },
+  {
+   "bin": 4,
+   "seed": 3127217929,
+   "F_status": "[PASS]",
+   "F_category": "valid",
+   "F_trace_hash": "f362fadcd31fe8a8f72ec46d74b5d74ae4aee8729a2f46ce5787214cd9cdf15e",
+   "M_routes": 20,
+   "M_ticks": 5000
+  },
+  {
+   "bin": 5,
+   "seed": 1050778556,
+   "F_status": "[PASS]",
+   "F_category": "valid",
+   "F_trace_hash": "82c143c9cd421c141c4d7d09050c01c8f2f6d6d0fd712dace608c2cabe2c9a05",
+   "M_routes": 20,
+   "M_ticks": 5000
+  },
+  {
+   "bin": 5,
+   "seed": 983796061,
+   "F_status": "[PASS]",
+   "F_category": "valid",
+   "F_trace_hash": "c48e867b1a6d1ea4684bd53c9e573036c83a223820e8fd2a4f2545309b22d233",
+   "M_routes": 20,
+   "M_ticks": 5000
+  }
+ ],
+ "pairs": [
+  [
+   1865575037,
+   "<runs>/calib-1/calib/F_s1865575037",
+   "<runs>/calib-1/calib/M0replay_s1865575037"
+  ],
+  [
+   4002380191,
+   "<runs>/calib-1/calib/F_s4002380191",
+   "<runs>/calib-1/calib/M0replay_s4002380191"
+  ],
+  [
+   2948004803,
+   "<runs>/calib-1/calib/F_s2948004803",
+   "<runs>/calib-1/calib/M0replay_s2948004803"
+  ],
+  [
+   3127217929,
+   "<runs>/calib-1/calib/F_s3127217929",
+   "<runs>/calib-1/calib/M0replay_s3127217929"
+  ],
+  [
+   1050778556,
+   "<runs>/calib-1/calib/F_s1050778556",
+   "<runs>/calib-1/calib/M0replay_s1050778556"
+  ],
+  [
+   983796061,
+   "<runs>/calib-1/calib/F_s983796061",
+   "<runs>/calib-1/calib/M0replay_s983796061"
+  ]
+ ]
+}

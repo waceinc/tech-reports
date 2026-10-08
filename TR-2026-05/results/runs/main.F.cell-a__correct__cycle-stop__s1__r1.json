@@ -1,0 +1,65 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "correct",
+  "scenario": "cycle-stop",
+  "seed": 1,
+  "physics": "fast",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 1200,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.57
+    }
+  ],
+  "ledger_free": null,
+  "reference": {
+    "first_lock": null,
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": null,
+    "exception_shape_scans": [],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 0,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [],
+    "after_by_tag": {},
+    "last_arrive_scan": null,
+    "arrivals20_scan": null
+  },
+  "run": {
+    "group": "main",
+    "condition": "F",
+    "cell": "cell-a",
+    "variant": "correct",
+    "scenario": "cycle-stop",
+    "seed": 1,
+    "bin": null,
+    "setting": null,
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "70868ae1cd4c5e3d5fdc1e923d64b53990d43918c227ef95f6d14f6426c80fcd",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

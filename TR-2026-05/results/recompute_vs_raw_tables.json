@@ -1,0 +1,686 @@
+{
+  "predictions": {
+    "P1": "[맞음]",
+    "P2": "[맞음]",
+    "P3": "[맞음]",
+    "P4": "[맞음]",
+    "P5": "[맞음]",
+    "P6": "[맞음]",
+    "P7": "[맞음]",
+    "P8": "[맞음]",
+    "F1": "[틀림]",
+    "F2": "[틀림]",
+    "F3": "[틀림]"
+  },
+  "counts": {
+    "main_detected": {
+      "F": 21,
+      "M0": 21,
+      "M1": 17
+    },
+    "aux13": {
+      "F": 13,
+      "M0": 13,
+      "M1": 13
+    },
+    "aux16": {
+      "F": 16,
+      "M0": 16,
+      "M1": 12
+    }
+  },
+  "reference_invalid": [],
+  "verdicts": {
+    "cell-a|correct|normal|1|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-a|correct|cycle-stop|1|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-a|late-reverse|normal|1|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-a|late-reverse|cycle-stop|1|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-a|swapped-sensors|normal|1|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-a|swapped-sensors|cycle-stop|1|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-a|correct|normal|1|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-a|correct|cycle-stop|1|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-a|late-reverse|normal|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-a|late-reverse|cycle-stop|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-a|swapped-sensors|normal|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-a|swapped-sensors|cycle-stop|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|682508701|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|682508701|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|682508701|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|682508701|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|2701952951|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|2701952951|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|2701952951|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|2701952951|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|1584772094|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|1584772094|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|1584772094|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|1584772094|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|1409986221|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|1409986221|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|1409986221|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|1409986221|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|3162308072|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|3162308072|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|3162308072|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|3162308072|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|3637394171|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|3637394171|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|3637394171|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|3637394171|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|2033289244|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|2033289244|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|2033289244|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|2033289244|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|3814400361|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|3814400361|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|3814400361|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|3814400361|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|352593554|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|352593554|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|352593554|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|352593554|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|1829005345|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|1829005345|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|1829005345|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|1829005345|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|692445127|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|692445127|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|692445127|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|692445127|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|3570567229|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|curtain|3570567229|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|push-timing-off|normal|3570567229|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|ignore-curtain|curtain|3570567229|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|recovery|352593554|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|no-sort-check|flow|352593554|F": {
+      "v": "[FAIL]",
+      "cat": null
+    },
+    "cell-b|correct|normal|682508701|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|682508701|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|682508701|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|682508701|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2701952951|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|2701952951|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|2701952951|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|2701952951|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|1584772094|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|1584772094|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|1584772094|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|1584772094|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|1409986221|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|1409986221|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|1409986221|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|1409986221|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3162308072|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|3162308072|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3162308072|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3162308072|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3637394171|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|3637394171|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3637394171|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3637394171|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2033289244|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|2033289244|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|2033289244|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|2033289244|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3814400361|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|3814400361|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3814400361|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3814400361|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|352593554|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|1829005345|M0": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|1829005345|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|1829005345|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|1829005345|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|692445127|M0": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|692445127|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|692445127|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|692445127|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3570567229|M0": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|3570567229|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3570567229|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3570567229|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|recovery|352593554|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|no-sort-check|flow|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|682508701|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|682508701|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|682508701|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|682508701|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2701952951|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|2701952951|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|2701952951|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|2701952951|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|1584772094|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|1584772094|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|1584772094|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|1584772094|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|1409986221|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|1409986221|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|1409986221|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|1409986221|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3162308072|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|3162308072|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3162308072|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3162308072|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3637394171|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|3637394171|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3637394171|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3637394171|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2033289244|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|2033289244|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|2033289244|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|2033289244|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3814400361|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|curtain|3814400361|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3814400361|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3814400361|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|352593554|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|1829005345|M1": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|1829005345|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|1829005345|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|1829005345|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|692445127|M1": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|692445127|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|692445127|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|692445127|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|3570567229|M1": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|curtain|3570567229|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|push-timing-off|normal|3570567229|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|ignore-curtain|curtain|3570567229|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    },
+    "cell-b|correct|recovery|352593554|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|no-sort-check|flow|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "same"
+    }
+  },
+  "valid_runs": 593,
+  "runs": 593,
+  "differences": []
+}

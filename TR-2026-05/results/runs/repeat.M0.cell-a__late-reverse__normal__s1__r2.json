@@ -1,0 +1,59 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "late-reverse",
+  "scenario": "normal",
+  "seed": 1,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [
+    [
+      37,
+      "PART_DROP",
+      "CONV-02",
+      "part1"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 1.1267968656116814,
+      "on_floor": true,
+      "stacked": false
+    }
+  ],
+  "ledger_free": null,
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "repeat",
+    "condition": "M0",
+    "cell": "cell-a",
+    "variant": "late-reverse",
+    "scenario": "normal",
+    "seed": 1,
+    "bin": null,
+    "setting": null,
+    "rep": 2,
+    "attempt": 1
+  },
+  "trace_hash": "14ce4d77f12468f12de305de65c8443a4f43e7a13622903f49998b0456888ec0",
+  "physics_hashes": {
+    "values_sha256": "5703c07092178d7068d71338df3e1e663f957f4576571ba9d4cb09ce273ec883",
+    "setup_sha256": "1405abba91c61d3d86ec41943aa45acc3fcbc955f62034e80224027beef31111"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "type": "metadata",
+  "schema": "tr05-run/3i",
+  "commits": {
+    "vexplor-vision-2": "ac78d02fbc84b35f041f4fcca2047a0c80c67930",
+    "tracked_changes": false,
+    "plc-simulator": "b415c25 (vendor copy, sha256 in SOURCES.json)"
+  },
+  "files": {
+    "<tr-public>/고정입력_TR-05/ladders/cell-b/correct/program.ldprog.json": "eb44ce59b386e175ab22255f684dbd277b27e00906fb0b92d81703e7f389209f",
+    "<scratch>/e2/native/third_party/plc-devices/cells/cell-b-sort.plccell.json": "38e9b8c3d556feaa904dfc89c9f25eaf9d17d6fdafa711aabcfaa0b94fdbe9c7",
+    "<scratch>/e2/native/third_party/plc-devices/cells/cell-b-sort.io-map.json": "10dd4faab284eddb0e0a5cd949f0788c438174ca2fd58e145850a98503163fc4",
+    "<scratch>/e2/native/tests/external_control/logic.py": "67811ac4609918f466e604e1462b9b8019a19febcbede5ad7e2ac23c6cf52de0",
+    "<scratch>/e2/native/third_party/plc-devices/tests/phase3c-control.json": "bd85b51f0633969afdaaf54fc76c9e1a36883fc2ccd995531236091df41a7f25",
+    "<tr-public>/고정입력_TR-05/experiments/S2/criteria-3i.md": "51fda55597a4ea15e54398ead9973ce6f0c8b7f66b69be0cdccd18a5e1a49900",
+    "<tr-public>/고정입력_TR-05/cells/3i-parameters.json": "0ba3f2c9ccb41efb0777931cd2b2462aff87e7e54059304937743a00e73763e3",
+    "<tr-public>/고정입력_TR-05/cells/cell-b.tagmap.json": "e26b853a5cd368861d0d2322cc783d7fe44a33730de779c96c439ec1bf1e6ba8"
+  },
+  "app": "<scratch>/e2/native/build-linux/vexplor_studio_native",
+  "exe_sha256": "d58c3928beb94958f6128d1579bdb1dc521f14b7edda8e4ca04bff7d29d6a25a",
+  "node": "v24.21.0",
+  "plc_scan_ms": 10,
+  "factory_tick_ms": 10,
+  "physical_comparison": 0,
+  "bridge_files": {
+    "bridge/calibrate.py": "bc6d42b8eb3b3a6742cdc2e2613ef71a1e7e46def353942ad9a37081808d5532",
+    "bridge/classify.py": "ca6c354e0d7f6465d29076767814139b7533f9331a1a82ee4be18a47d3008a07",
+    "bridge/common.py": "83bde9628dc477bc4280e93d851f8f32a1d96017892097b61d705f7e369c5955",
+    "bridge/design_3f.py": "07513c651264506fdf1c6da420cddd10baddfe38b7db84eb6ad5f853cbf960a6",
+    "bridge/engine.mjs": "bd147cc2f5d1ff3fd8683706e6d8b3f077ee16610ebf71c3d6a90915bf2021f2",
+    "bridge/generate.py": "06e7855848f0e40f1423cec733aace5b1a89bd2272af65791eb8822718868ec1",
+    "bridge/generate_3i.py": "114fbff8fadd4b8c114717b6aabb6d78f1c0dac76623b81580d2469462e429d6",
+    "bridge/ladder_dsl.py": "990fa05a325a8a8805c40983d4890e4e1353ceab4076ebbaedf45be4e59d437e",
+    "bridge/patent_check.py": "2be02791209e20215ebef1111df51ba63e584eeecfb366512f749374a18cddc0",
+    "bridge/probe_engine.mjs": "529219e2d2200ad51cd180cdb94dffe544ea16e84c47d82952bc0a991ab9e76e",
+    "bridge/public.py": "43e8fe9f92abe84d3623589d139cb9754a7de64293046781738cee8f318744fc",
+    "bridge/recompute.py": "a5e694044937926ddf87bd7fb633b738ca50b0ec9d7d3a4d5c73e40de70a856b",
+    "bridge/refcheck.py": "6030bd65c9abe896dad8a1e7b7d7b81b13eeeb60fa2858a0ca6b1fdd9ad3022a",
+    "bridge/regenerate_m1.py": "323179f87bc655dc2614ebadde29b686e115ff26c1c6116c877fd1277882b5cb",
+    "bridge/replay.py": "ccc9fb659708742e1778b8f226271cebef8f9a4306ceb1d4c1660ec7480c979e",
+    "bridge/round.py": "90cfe55c46c04732c1407148f8c689af7cf119e2938ee5b98de940f93b95cd03",
+    "bridge/run.py": "289f0dc762e303c8ea6699d56f50fc0ee35e1765a655f0076fa0468f26cb763d",
+    "bridge/scenarios_3i.py": "0292e2a13c5b130dac0d6593517dfec0646cf42da562d7f7c8836a3ff7066cf1",
+    "bridge/seed_table.py": "6a9f50fc318a074d40303706e904db02fff42adc3b7e1caacf9ae649c4031e18",
+    "bridge/sources.py": "4a7ee454648bb3eb9e09b9d12229cd6e927efa1a628896aa26df7fec274f4ad9",
+    "bridge/tables.py": "cb82aedca5687505532c98a02639ff1181a5bf646c27966fb69b616fd0874d1d",
+    "bridge/tr05.py": "d6eb905f8a1c79c7684591cd1c5f96d0c54e84291c845c9a37bd1a17bb5ce2a1",
+    "bridge/transport.py": "fdfc60eec541f8b29eae6cb4a4279faae279cbae09f29ecefd8a37d9152e4c6d"
+  },
+  "controller": "ladder",
+  "scenario": "normal",
+  "seed": 2,
+  "defect_rate": 0.2,
+  "ticks": 5000,
+  "ticks_table": 5000,
+  "physics_mode": "fast",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "initial_z_offset": 0.0,
+  "variant": "correct",
+  "reference_params": null,
+  "debug_perturb": null,
+  "initial_Q": "all false",
+  "reference_logic": {
+    "logic_sha256": "67811ac4609918f466e604e1462b9b8019a19febcbede5ad7e2ac23c6cf52de0",
+    "params_sha256": null,
+    "margin_amendment1": {
+      "chute_confirm_delay_s": 2.0,
+      "chute_confirm_tolerance_s": 0.3525,
+      "out_confirm_delay_s": 2.335,
+      "out_confirm_tolerance_s": 0.3575,
+      "full_hold_s": 0.445
+    }
+  },
+  "app_flags": [
+    "--report-first-contact"
+  ],
+  "mode_check": {
+    "status": "[PASS]",
+    "stderr_line": "EXTCTL_PHYSICS mode=fast source=cli",
+    "expected": "EXTCTL_PHYSICS mode=fast source=cli",
+    "state_physics": false
+  },
+  "physics": null
+}

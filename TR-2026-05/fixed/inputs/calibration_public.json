@@ -1,0 +1,1285 @@
+{
+  "schema": "tr05-calibration/1",
+  "constants": {
+    "chute_window": [
+      167,
+      273
+    ],
+    "chute_full_scans": 50,
+    "fire_delay_sub": 6
+  },
+  "rules": {
+    "chute_window": {
+      "value": [
+        167,
+        273
+      ],
+      "changed": true,
+      "F": [
+        195,
+        196
+      ],
+      "M": [
+        197,
+        234
+      ],
+      "m_lo": 30,
+      "m_hi": 39,
+      "median_delta": 38.0,
+      "width_change": 36,
+      "outside_original": 0
+    },
+    "chute_full_scans": {
+      "value": 50,
+      "changed": true,
+      "F": 11,
+      "M": 12
+    },
+    "fire_delay_sub": {
+      "value": 6,
+      "changed": true,
+      "dx": -0.004818135762949871,
+      "median_F": -0.20420000000014182,
+      "median_M": -0.2090181357630917,
+      "n_F": 24,
+      "n_M": 24
+    }
+  },
+  "report_only": {
+    "out_window": {
+      "limit": [
+        198,
+        269
+      ],
+      "F": [
+        233,
+        234
+      ],
+      "M": [
+        233,
+        234
+      ],
+      "near_limit": false
+    },
+    "arrival_on": {
+      "limit": 29,
+      "F": 19,
+      "M": 19,
+      "near_limit": false
+    },
+    "output_full": {
+      "limit": 100,
+      "F": 19,
+      "M": 19
+    }
+  },
+  "used": [
+    {
+      "seed": 1865575037,
+      "F": {
+        "run": "calib/F_s1865575037",
+        "chute": {
+          "ages": [
+            196,
+            196,
+            196
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            233,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 5211,
+            "fall_ms": 5321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part3",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 522
+          },
+          {
+            "rise_ms": 7881,
+            "fall_ms": 7991,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part7",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 789
+          },
+          {
+            "rise_ms": 9211,
+            "fall_ms": 9321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 922
+          }
+        ],
+        "passed": [
+          11,
+          11,
+          11
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20420000000014182,
+          -0.20020000000053262,
+          -0.2042000000002684
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.parts.vz/cos20"
+        ],
+        "summary_status": "[PASS]"
+      },
+      "M": {
+        "run": "calib/M0replay_s1865575037",
+        "chute": {
+          "ages": [
+            234,
+            197,
+            234
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            234,
+            233,
+            234,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 5601,
+            "fall_ms": 5721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part3",
+            "v_slope": 1.3223268878986432,
+            "start_tick": 561
+          },
+          {
+            "rise_ms": 7891,
+            "fall_ms": 8001,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part7",
+            "v_slope": 1.4413714143540026,
+            "start_tick": 790
+          },
+          {
+            "rise_ms": 9601,
+            "fall_ms": 9721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.3223269980783026,
+            "start_tick": 961
+          }
+        ],
+        "passed": [
+          12,
+          11,
+          12
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20901813520763754,
+          -0.20501813529168517,
+          -0.2090181363036698
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.physics.parts"
+        ],
+        "summary_status": null
+      }
+    },
+    {
+      "seed": 4002380191,
+      "F": {
+        "run": "calib/F_s4002380191",
+        "chute": {
+          "ages": [
+            196,
+            196,
+            196
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            233,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 3881,
+            "fall_ms": 3991,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part1",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 389
+          },
+          {
+            "rise_ms": 9211,
+            "fall_ms": 9321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 922
+          },
+          {
+            "rise_ms": 15211,
+            "fall_ms": 15321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part18",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 1522
+          }
+        ],
+        "passed": [
+          11,
+          11,
+          11
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.2001999999999533,
+          -0.2042000000002684,
+          -0.2041999999957156
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.parts.vz/cos20"
+        ],
+        "summary_status": "[PASS]"
+      },
+      "M": {
+        "run": "calib/M0replay_s4002380191",
+        "chute": {
+          "ages": [
+            197,
+            234,
+            234
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 3891,
+            "fall_ms": 4001,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part1",
+            "v_slope": 1.441371417725068,
+            "start_tick": 390
+          },
+          {
+            "rise_ms": 9601,
+            "fall_ms": 9721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.3223270737878285,
+            "start_tick": 961
+          },
+          {
+            "rise_ms": 15601,
+            "fall_ms": 15721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part18",
+            "v_slope": 1.3223215577177774,
+            "start_tick": 1561
+          }
+        ],
+        "passed": [
+          11,
+          12,
+          12
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20501813418392595,
+          -0.20901813630431798,
+          -0.20901813721136211
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.physics.parts"
+        ],
+        "summary_status": null
+      }
+    },
+    {
+      "seed": 2948004803,
+      "F": {
+        "run": "calib/F_s2948004803",
+        "chute": {
+          "ages": [
+            196,
+            196,
+            196,
+            195
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            233,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 5211,
+            "fall_ms": 5321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part3",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 522
+          },
+          {
+            "rise_ms": 5881,
+            "fall_ms": 5991,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part4",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 589
+          },
+          {
+            "rise_ms": 7211,
+            "fall_ms": 7321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part6",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 722
+          },
+          {
+            "rise_ms": 8541,
+            "fall_ms": 8651,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part8",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 855
+          }
+        ],
+        "passed": [
+          11,
+          11,
+          11,
+          11
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20420000000014182,
+          -0.20020000000023197,
+          -0.20420000000044336,
+          -0.20820000000062056
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.parts.vz/cos20"
+        ],
+        "summary_status": "[PASS]"
+      },
+      "M": {
+        "run": "calib/M0replay_s2948004803",
+        "chute": {
+          "ages": [
+            234,
+            197,
+            234,
+            213
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            234,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 5601,
+            "fall_ms": 5721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part3",
+            "v_slope": 1.322326841601796,
+            "start_tick": 561
+          },
+          {
+            "rise_ms": 5891,
+            "fall_ms": 6001,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part4",
+            "v_slope": 1.4413714158115198,
+            "start_tick": 590
+          },
+          {
+            "rise_ms": 7601,
+            "fall_ms": 7721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part6",
+            "v_slope": 1.322326928708668,
+            "start_tick": 761
+          },
+          {
+            "rise_ms": 8721,
+            "fall_ms": 8841,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part8",
+            "v_slope": 1.3609974969041714,
+            "start_tick": 873
+          }
+        ],
+        "passed": [
+          12,
+          11,
+          12,
+          12
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20901813520763754,
+          -0.20501813508635935,
+          -0.2090181352220826,
+          -0.21301800780049854
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.physics.parts"
+        ],
+        "summary_status": null
+      }
+    },
+    {
+      "seed": 3127217929,
+      "F": {
+        "run": "calib/F_s3127217929",
+        "chute": {
+          "ages": [
+            196,
+            196,
+            196,
+            195
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            233,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 5211,
+            "fall_ms": 5321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part3",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 522
+          },
+          {
+            "rise_ms": 9211,
+            "fall_ms": 9321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 922
+          },
+          {
+            "rise_ms": 13881,
+            "fall_ms": 13991,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part16",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 1389
+          },
+          {
+            "rise_ms": 16541,
+            "fall_ms": 16651,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part20",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 1655
+          }
+        ],
+        "passed": [
+          11,
+          11,
+          11,
+          11
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20420000000014182,
+          -0.2042000000002684,
+          -0.20019999999671967,
+          -0.20819999999471328
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.parts.vz/cos20"
+        ],
+        "summary_status": "[PASS]"
+      },
+      "M": {
+        "run": "calib/M0replay_s3127217929",
+        "chute": {
+          "ages": [
+            234,
+            234,
+            197,
+            212
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            234,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            233,
+            233,
+            234
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 5601,
+            "fall_ms": 5721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part3",
+            "v_slope": 1.3223268878986432,
+            "start_tick": 561
+          },
+          {
+            "rise_ms": 9601,
+            "fall_ms": 9721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.3223271181831702,
+            "start_tick": 961
+          },
+          {
+            "rise_ms": 13891,
+            "fall_ms": 14001,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part16",
+            "v_slope": 1.4413675464326932,
+            "start_tick": 1390
+          },
+          {
+            "rise_ms": 16711,
+            "fall_ms": 16831,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part20",
+            "v_slope": 1.3805712554708023,
+            "start_tick": 1672
+          }
+        ],
+        "passed": [
+          12,
+          12,
+          11,
+          12
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20901813520763754,
+          -0.20901813630400937,
+          -0.2050181373586816,
+          -0.21301814844316055
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.physics.parts"
+        ],
+        "summary_status": null
+      }
+    },
+    {
+      "seed": 1050778556,
+      "F": {
+        "run": "calib/F_s1050778556",
+        "chute": {
+          "ages": [
+            196,
+            196,
+            196,
+            196,
+            196
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            233,
+            233,
+            234,
+            233,
+            233,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233,
+            233,
+            233,
+            233,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 7211,
+            "fall_ms": 7321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part6",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 722
+          },
+          {
+            "rise_ms": 9881,
+            "fall_ms": 9991,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part10",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 989
+          },
+          {
+            "rise_ms": 13211,
+            "fall_ms": 13321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part15",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 1322
+          },
+          {
+            "rise_ms": 15211,
+            "fall_ms": 15321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part18",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 1522
+          },
+          {
+            "rise_ms": 15881,
+            "fall_ms": 15991,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part19",
+            "v_slope": 1.2323519358079924,
+            "start_tick": 1589
+          }
+        ],
+        "passed": [
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20420000000044336,
+          -0.2001999999997448,
+          -0.20419999999722727,
+          -0.2041999999957156,
+          -0.20019999999521154
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.parts.vz/cos20"
+        ],
+        "summary_status": "[PASS]"
+      },
+      "M": {
+        "run": "calib/M0replay_s1050778556",
+        "chute": {
+          "ages": [
+            234,
+            197,
+            234,
+            234,
+            197
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            234,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233,
+            233,
+            233,
+            233,
+            234,
+            233,
+            234,
+            233,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 7601,
+            "fall_ms": 7721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part6",
+            "v_slope": 1.322327088407249,
+            "start_tick": 761
+          },
+          {
+            "rise_ms": 9891,
+            "fall_ms": 10001,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part10",
+            "v_slope": 1.4413715074725146,
+            "start_tick": 990
+          },
+          {
+            "rise_ms": 13601,
+            "fall_ms": 13721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part15",
+            "v_slope": 1.3149944167973857,
+            "start_tick": 1361
+          },
+          {
+            "rise_ms": 15601,
+            "fall_ms": 15721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part18",
+            "v_slope": 1.3224276722653017,
+            "start_tick": 1561
+          },
+          {
+            "rise_ms": 15891,
+            "fall_ms": 16001,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part19",
+            "v_slope": 1.4413716847032854,
+            "start_tick": 1590
+          }
+        ],
+        "passed": [
+          12,
+          11,
+          12,
+          12,
+          11
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.20901813522251358,
+          -0.20501813628808355,
+          -0.20901813739646294,
+          -0.20901813721187334,
+          -0.20501813743373376
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.physics.parts"
+        ],
+        "summary_status": null
+      }
+    },
+    {
+      "seed": 983796061,
+      "F": {
+        "run": "calib/F_s983796061",
+        "chute": {
+          "ages": [
+            195,
+            196,
+            196,
+            196,
+            195
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            233,
+            233,
+            234,
+            233,
+            234,
+            233,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            233
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 6541,
+            "fall_ms": 6651,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part5",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 655
+          },
+          {
+            "rise_ms": 7881,
+            "fall_ms": 7991,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part7",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 789
+          },
+          {
+            "rise_ms": 9211,
+            "fall_ms": 9321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 922
+          },
+          {
+            "rise_ms": 15211,
+            "fall_ms": 15321,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part18",
+            "v_slope": 1.4901300978812562,
+            "start_tick": 1522
+          },
+          {
+            "rise_ms": 16541,
+            "fall_ms": 16651,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part20",
+            "v_slope": 1.2323519358079924,
+            "start_tick": 1655
+          }
+        ],
+        "passed": [
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.2082000000003399,
+          -0.20020000000053262,
+          -0.2042000000002684,
+          -0.2041999999957156,
+          -0.20819999999471328
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.parts.vz/cos20"
+        ],
+        "summary_status": "[PASS]"
+      },
+      "M": {
+        "run": "calib/M0replay_s983796061",
+        "chute": {
+          "ages": [
+            212,
+            197,
+            234,
+            234,
+            212
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "out": {
+          "ages": [
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            233,
+            234,
+            233,
+            234
+          ],
+          "unpaired_arrivals": 0,
+          "unmatched_rises": 0,
+          "ladder_first_lock_scan": null,
+          "measured_until_scan": 5000,
+          "unmeasured_after_lock": 0
+        },
+        "chute_on": [
+          {
+            "rise_ms": 6711,
+            "fall_ms": 6831,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part5",
+            "v_slope": 1.3788075965715527,
+            "start_tick": 672
+          },
+          {
+            "rise_ms": 7891,
+            "fall_ms": 8001,
+            "scans": 11,
+            "kind": "passed",
+            "part": "part7",
+            "v_slope": 1.4413716616814292,
+            "start_tick": 790
+          },
+          {
+            "rise_ms": 9601,
+            "fall_ms": 9721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part9",
+            "v_slope": 1.32232703178383,
+            "start_tick": 961
+          },
+          {
+            "rise_ms": 15601,
+            "fall_ms": 15721,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part18",
+            "v_slope": 1.3223263924169635,
+            "start_tick": 1561
+          },
+          {
+            "rise_ms": 16711,
+            "fall_ms": 16831,
+            "scans": 12,
+            "kind": "passed",
+            "part": "part20",
+            "v_slope": 1.3805797232153305,
+            "start_tick": 1672
+          }
+        ],
+        "passed": [
+          12,
+          11,
+          12,
+          12,
+          12
+        ],
+        "excluded": [],
+        "at_on_max": 19,
+        "out_on_max": 19,
+        "contact_x": [
+          -0.2130181351839681,
+          -0.20501813529178253,
+          -0.2090181363038375,
+          -0.20901813721006504,
+          -0.21301814844323674
+        ],
+        "contact_error": null,
+        "velocity_source": [
+          "state.physics.parts"
+        ],
+        "summary_status": null
+      }
+    }
+  ],
+  "skipped": []
+}

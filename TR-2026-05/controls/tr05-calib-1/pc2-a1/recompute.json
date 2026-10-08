@@ -1,0 +1,74 @@
+{
+  "predictions": {
+    "P1": "[틀림]",
+    "P2": "[맞음]",
+    "P3": "[판정 불가]",
+    "P4": "[판정 불가]",
+    "P5": "[판정 불가]",
+    "P6": "[틀림]",
+    "P7": "[판정 불가]",
+    "P8": "[판정 불가]",
+    "F1": "[틀림]",
+    "F2": "[틀림]",
+    "F3": "[맞음]"
+  },
+  "counts": {
+    "main_detected": {
+      "F": 0,
+      "M0": 0,
+      "M1": 0
+    },
+    "aux13": {
+      "F": 0,
+      "M0": 0,
+      "M1": 0
+    },
+    "aux16": {
+      "F": 0,
+      "M0": 0,
+      "M1": 0
+    }
+  },
+  "reference_invalid": [],
+  "verdicts": {
+    "cell-b|correct|normal|18032821|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|normal|2981378262|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|normal|2617252722|F": {
+      "v": "[PASS]",
+      "cat": null
+    },
+    "cell-b|correct|normal|18032821|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2981378262|M0": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2617252722|M0": {
+      "v": "[FAIL]",
+      "cat": "가"
+    },
+    "cell-b|correct|normal|18032821|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2981378262|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    },
+    "cell-b|correct|normal|2617252722|M1": {
+      "v": "[PASS]",
+      "cat": "same"
+    }
+  },
+  "valid_runs": 9,
+  "runs": 9,
+  "differences": []
+}

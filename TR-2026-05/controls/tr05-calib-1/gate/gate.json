@@ -1,0 +1,374 @@
+{
+  "status": "[FAIL]",
+  "checks": [
+    {
+      "name": "cell-a-seed1 정상",
+      "status": "[PASS]",
+      "votes": {
+        "[PASS]": 2
+      }
+    },
+    {
+      "name": "cell-a-seed1 결정성",
+      "status": "[PASS]",
+      "trace_hash": "d753e4ab6fcfeac553af4a16a86280ab56f0720ab8238adaee11fdadd87eabbd"
+    },
+    {
+      "name": "cell-a-seed1 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 0,
+      "exception": null,
+      "before_lock": 0
+    },
+    {
+      "name": "cell-a-seed1 첫 잠금 없음",
+      "status": "[PASS]",
+      "first_lock": null
+    },
+    {
+      "name": "cell-a-seed1 A 왕복·주소",
+      "status": "[PASS]"
+    },
+    {
+      "name": "cell-a-seed1 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 55
+    },
+    {
+      "name": "cell-b-seed1 정상",
+      "status": "[PASS]",
+      "votes": {
+        "[PASS]": 2
+      }
+    },
+    {
+      "name": "cell-b-seed1 결정성",
+      "status": "[PASS]",
+      "trace_hash": "f9aab67c57dcc42c394277876729c52109b0726f97ad4dbf77934bfc4e4587ab"
+    },
+    {
+      "name": "cell-b-seed1 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 1,
+      "exception": {
+        "tick": 4461,
+        "scan": 4461,
+        "tags": [
+          "B.Conv.run",
+          "B.Lamp.green",
+          "B.Lamp.yellow"
+        ],
+        "last_arrive_scan": 1461,
+        "arrivals20_scan": 1461
+      },
+      "before_lock": 0
+    },
+    {
+      "name": "cell-b-seed1 첫 잠금 없음",
+      "status": "[PASS]",
+      "first_lock": null
+    },
+    {
+      "name": "cell-b-seed1 시드 ID 분류",
+      "status": "[PASS]",
+      "routes": {
+        "part1": 1,
+        "part2": 2,
+        "part3": 2,
+        "part4": 2,
+        "part5": 2,
+        "part6": 2,
+        "part7": 2,
+        "part8": 2,
+        "part9": 1,
+        "part10": 1,
+        "part11": 2,
+        "part12": 2,
+        "part13": 2,
+        "part14": 1,
+        "part15": 2,
+        "part16": 2,
+        "part17": 2,
+        "part18": 2,
+        "part19": 2,
+        "part20": 1
+      },
+      "confirmed": {
+        "out": 15,
+        "chute": 5
+      },
+      "expected_confirmed": {
+        "out": 15,
+        "chute": 5
+      }
+    },
+    {
+      "name": "cell-b-seed1 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 2
+    },
+    {
+      "name": "cell-b-seed2 정상",
+      "status": "[PASS]",
+      "votes": {
+        "[PASS]": 2
+      }
+    },
+    {
+      "name": "cell-b-seed2 결정성",
+      "status": "[PASS]",
+      "trace_hash": "d97114c076b0d2417f0c42c7bdbffed222fab36b5ae04dfa83e0fafad20cd53c"
+    },
+    {
+      "name": "cell-b-seed2 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 1,
+      "exception": {
+        "tick": 4461,
+        "scan": 4461,
+        "tags": [
+          "B.Conv.run",
+          "B.Lamp.green",
+          "B.Lamp.yellow"
+        ],
+        "last_arrive_scan": 1461,
+        "arrivals20_scan": 1461
+      },
+      "before_lock": 0
+    },
+    {
+      "name": "cell-b-seed2 첫 잠금 없음",
+      "status": "[PASS]",
+      "first_lock": null
+    },
+    {
+      "name": "cell-b-seed2 시드 ID 분류",
+      "status": "[PASS]",
+      "routes": {
+        "part1": 2,
+        "part2": 2,
+        "part3": 1,
+        "part4": 1,
+        "part5": 2,
+        "part6": 2,
+        "part7": 2,
+        "part8": 2,
+        "part9": 2,
+        "part10": 2,
+        "part11": 2,
+        "part12": 1,
+        "part13": 2,
+        "part14": 2,
+        "part15": 2,
+        "part16": 2,
+        "part17": 2,
+        "part18": 2,
+        "part19": 2,
+        "part20": 2
+      },
+      "confirmed": {
+        "out": 17,
+        "chute": 3
+      },
+      "expected_confirmed": {
+        "out": 17,
+        "chute": 3
+      }
+    },
+    {
+      "name": "cell-b-seed2 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 2
+    },
+    {
+      "name": "cell-b-seed3 정상",
+      "status": "[PASS]",
+      "votes": {
+        "[PASS]": 2
+      }
+    },
+    {
+      "name": "cell-b-seed3 결정성",
+      "status": "[PASS]",
+      "trace_hash": "4c105404495f2a4fa7407381218e87f9259a50d745318be541e0104491ff6b33"
+    },
+    {
+      "name": "cell-b-seed3 동일입력 참조 분석",
+      "status": "[PASS]",
+      "different_scans": 1,
+      "exception": {
+        "tick": 4461,
+        "scan": 4461,
+        "tags": [
+          "B.Conv.run",
+          "B.Lamp.green",
+          "B.Lamp.yellow"
+        ],
+        "last_arrive_scan": 1461,
+        "arrivals20_scan": 1461
+      },
+      "before_lock": 0
+    },
+    {
+      "name": "cell-b-seed3 첫 잠금 없음",
+      "status": "[PASS]",
+      "first_lock": null
+    },
+    {
+      "name": "cell-b-seed3 시드 ID 분류",
+      "status": "[PASS]",
+      "routes": {
+        "part1": 2,
+        "part2": 2,
+        "part3": 2,
+        "part4": 2,
+        "part5": 2,
+        "part6": 1,
+        "part7": 1,
+        "part8": 2,
+        "part9": 2,
+        "part10": 2,
+        "part11": 2,
+        "part12": 2,
+        "part13": 2,
+        "part14": 2,
+        "part15": 2,
+        "part16": 1,
+        "part17": 2,
+        "part18": 2,
+        "part19": 2,
+        "part20": 2
+      },
+      "confirmed": {
+        "out": 17,
+        "chute": 3
+      },
+      "expected_confirmed": {
+        "out": 17,
+        "chute": 3
+      }
+    },
+    {
+      "name": "cell-b-seed3 폐루프 참조 기록",
+      "status": "[PASS]",
+      "different_ticks": 2
+    },
+    {
+      "name": "swapped-sensors 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "PART_DROP"
+      ],
+      "judgments": [],
+      "fault_code": null,
+      "first_lock": null
+    },
+    {
+      "name": "late-reverse 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "PART_DROP"
+      ],
+      "judgments": [],
+      "fault_code": null,
+      "first_lock": null
+    },
+    {
+      "name": "push-timing-off 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [
+        "JAM",
+        "PUSH_MISSED",
+        "PUSH_TOO_EARLY"
+      ],
+      "judgments": [],
+      "fault_code": 13,
+      "first_lock": {
+        "tick": 427,
+        "scan": 427,
+        "fault_code": 13
+      }
+    },
+    {
+      "name": "ignore-curtain 음성 검출",
+      "status": "[PASS]",
+      "process_status": "[FAIL]",
+      "events": [],
+      "judgments": [
+        "PLC_CURTAIN_IGNORED"
+      ],
+      "fault_code": 11,
+      "first_lock": {
+        "tick": 239,
+        "scan": 239,
+        "fault_code": 11
+      }
+    },
+    {
+      "name": "no-sort-check 음성 검출",
+      "status": "[FAIL]",
+      "process_status": "[FAIL]",
+      "events": [],
+      "judgments": [],
+      "fault_code": 15,
+      "first_lock": {
+        "tick": 241,
+        "scan": 241,
+        "fault_code": 15
+      }
+    },
+    {
+      "name": "운전 중 커튼 정지",
+      "status": "[PASS]",
+      "safety": {
+        "status": "[PASS]",
+        "detected_tick": 237,
+        "stopped_tick": 257,
+        "stop_after_detection_s": 0.2,
+        "before_belt_v": 1.2,
+        "all_commands_off": true
+      }
+    },
+    {
+      "name": "격리·복귀·추적 초기화",
+      "status": "[PASS]",
+      "recovery": {
+        "status": "[PASS]",
+        "checks": {
+          "all_stages": true,
+          "locked_start_refused": true,
+          "early_clear_refused": true,
+          "tracking_cleared": true,
+          "clear_alone_stopped": true,
+          "separate_start": true
+        },
+        "stages": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "events": [
+        {
+          "instance": "pusher",
+          "name": "PUSH_TOO_EARLY",
+          "part_id": "part2",
+          "rule": "FLY-01",
+          "tick": 659
+        }
+      ]
+    }
+  ],
+  "elapsed_s": 91.27926711697364,
+  "app": "<scratch>/e2/native/build-linux/vexplor_studio_native",
+  "exe_sha256": "d58c3928beb94958f6128d1579bdb1dc521f14b7edda8e4ca04bff7d29d6a25a"
+}

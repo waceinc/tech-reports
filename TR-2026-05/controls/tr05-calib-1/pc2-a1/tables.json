@@ -1,0 +1,506 @@
+{
+  "schema": "tr05-tables/1",
+  "categories": {
+    "valid": 9
+  },
+  "whole_run_invalid_reference": [],
+  "predictions": {
+    "P1": {
+      "result": "[틀림]",
+      "count": 0,
+      "of": 1,
+      "undecided": 0
+    },
+    "P2": {
+      "result": "[맞음]",
+      "count": 0,
+      "of": 2,
+      "undecided": 0
+    },
+    "P3": {
+      "result": "[판정 불가]",
+      "undecided": [],
+      "decided_only": {
+        "x": 0,
+        "n0": 0
+      },
+      "reason": "대상 0"
+    },
+    "P4": {
+      "result": "[판정 불가]",
+      "undecided": [],
+      "decided_only": {
+        "discordant": 0,
+        "of": 0
+      },
+      "reason": "대상 0"
+    },
+    "P5": {
+      "result": "[판정 불가]",
+      "undecided": [],
+      "decided_only": {
+        "of": 0
+      },
+      "reason": "대상 0"
+    },
+    "P6": {
+      "result": "[틀림]",
+      "gate_pairs": 0,
+      "gate_same": true,
+      "m_deterministic": true
+    },
+    "P7": {
+      "result": "[판정 불가]",
+      "n": 0,
+      "within": 0,
+      "chute_median": null,
+      "batches": 0
+    },
+    "P8": {
+      "result": "[판정 불가]",
+      "n": 0,
+      "holding": 0,
+      "detail": {}
+    },
+    "F1": {
+      "result": "[틀림]",
+      "count": 1,
+      "of": 3,
+      "undecided": 0,
+      "meaning": "반증 조건 불성립"
+    },
+    "F2": {
+      "result": "[틀림]",
+      "discordant": 0,
+      "undecided": 0,
+      "meaning": "반증 조건 불성립"
+    },
+    "F3": {
+      "result": "[맞음]",
+      "count": 0,
+      "of": 3,
+      "undecided": 0,
+      "meaning": "반증 조건 성립(주장을 틀린 것으로 적음)"
+    }
+  },
+  "tables": {
+    "table1": [
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          18032821
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2617252722
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2981378262
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          18032821
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2617252722
+        ],
+        "condition": "M0",
+        "verdict": "[FAIL]",
+        "state": "single",
+        "category": "가",
+        "first_lock": 13,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2981378262
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          18032821
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2617252722
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2981378262
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      }
+    ],
+    "table2": {
+      "rows": [],
+      "main_detected": {
+        "F": 0,
+        "M0": 0,
+        "M1": 0
+      },
+      "aux13": {
+        "F": 0,
+        "M0": 0,
+        "M1": 0
+      },
+      "aux16": {
+        "F": 0,
+        "M0": 0,
+        "M1": 0
+      }
+    },
+    "table3": [],
+    "table4": {},
+    "table5": [],
+    "table6": [
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2617252722
+        ],
+        "condition": "M0",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1697,
+          "kind": "lock",
+          "fault_code": 13,
+          "side": "M",
+          "window": "chute"
+        },
+        "e1_row": "r3",
+        "e1_class": "접촉 계산으로 바꿈"
+      }
+    ],
+    "table7": [
+      {
+        "run_id": "main.F.cell-b__correct__normal__s18032821__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s2981378262__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s2617252722__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s18032821__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s2981378262__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s2617252722__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s18032821__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s2981378262__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s2617252722__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      }
+    ],
+    "table8": null
+  },
+  "outcomes": {
+    "cell-b|correct|normal|18032821|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2981378262|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2617252722|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|18032821|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2981378262|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2617252722|M0": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 13,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|18032821|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2981378262|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2617252722|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    }
+  }
+}

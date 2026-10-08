@@ -1,0 +1,22 @@
+{
+  "schema": "tr05-m1-constants/1",
+  "constants": {
+    "chute_window": [
+      167,
+      273
+    ],
+    "chute_full_scans": 50,
+    "fire_delay_sub": 6
+  },
+  "unchanged": {
+    "coefficient_232": 232,
+    "initial_delay": 16,
+    "out_window": [
+      198,
+      269
+    ],
+    "arrival_on_limit": 29,
+    "output_full": 100,
+    "pusher_timeout": 31
+  }
+}

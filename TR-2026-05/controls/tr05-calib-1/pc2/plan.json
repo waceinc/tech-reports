@@ -1,0 +1,129 @@
+{
+  "batches": [
+    [
+      18032821,
+      3
+    ],
+    [
+      2981378262,
+      4
+    ],
+    [
+      2617252722,
+      5
+    ]
+  ],
+  "m1": true,
+  "stages": [
+    "main"
+  ],
+  "expected": {
+    "main": 54,
+    "repeat": 34,
+    "gate": 9,
+    "openloop": 5,
+    "p8": 66,
+    "model": 0,
+    "e4": 100
+  },
+  "dev": true,
+  "only": [
+    "cell-b:correct:normal"
+  ],
+  "settings": {
+    "p8_cell_b": {
+      "transition_mu_0.5": {
+        "physics_values": {
+          "transition_mu_scale": 0.5
+        }
+      },
+      "transition_mu_1.5": {
+        "physics_values": {
+          "transition_mu_scale": 1.5
+        }
+      },
+      "wall_friction_0.3": {
+        "physics_values": {
+          "wall_friction": 0.3
+        }
+      },
+      "chute_x_force_off": {
+        "physics_values": {
+          "chute_x_force": 0
+        }
+      },
+      "friction_0.7": {
+        "physics_values": {
+          "friction_scale": 0.7
+        }
+      },
+      "friction_1.3": {
+        "physics_values": {
+          "friction_scale": 1.3
+        }
+      },
+      "belt_0.95": {
+        "belt_factor": 0.95
+      },
+      "belt_1.05": {
+        "belt_factor": 1.05
+      }
+    },
+    "p8_cell_a": {
+      "friction_0.7": {
+        "physics_values": {
+          "friction_scale": 0.7
+        }
+      },
+      "friction_1.3": {
+        "physics_values": {
+          "friction_scale": 1.3
+        }
+      },
+      "belt_0.95": {
+        "belt_factor": 0.95
+      },
+      "belt_1.05": {
+        "belt_factor": 1.05
+      }
+    },
+    "model": {
+      "sensor_rotated": {
+        "physics_values": {
+          "sensor_footprint_rotated": 1
+        }
+      },
+      "step_0.0005": {
+        "physics_values": {
+          "fixed_step_s": 0.0005
+        }
+      },
+      "facets_20": {
+        "physics_values": {
+          "transition_facets": 20
+        }
+      },
+      "deck_static_0": {
+        "physics_values": {
+          "deck_friction_static_weight": 0
+        }
+      },
+      "torsion_0": {
+        "physics_values": {
+          "torsional_friction_m": 0
+        }
+      },
+      "torsion_0.02": {
+        "physics_values": {
+          "torsional_friction_m": 0.02
+        }
+      },
+      "z_+0.005": {
+        "initial_z_offset": 0.005
+      },
+      "z_-0.005": {
+        "initial_z_offset": -0.005
+      }
+    }
+  }
+}

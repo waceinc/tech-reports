@@ -1,0 +1,492 @@
+{
+ "plc_twin_lab_head": "a362610548527a7a0958df0062ab08d4798df345",
+ "plc_twin_lab_3i": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+ "plc_simulator": {
+  "commit": "b415c2510b47e022645489e3c29c34429ed84705",
+  "note": "fe605e1 과 HEAD 의 vendor/plc-simulator gitlink 가 같은 커밋. packages/{scenario,runtime,types} 의 dist · package.json 과 런타임 의존 모듈만 pnpm 저장소에서 펼쳐 복사",
+  "files": 1768,
+  "tree_sha256": "7b384a14ffdafb9411d3cdde6be00fb7e1d0f6e279fd71e9634e8dbccb82c198"
+ },
+ "files": [
+  {
+   "path": "README.md",
+   "sha256": "ca2657048f1731aedc8f3df38ead3bef1bec9d5bf25739bd7238f4a1239cb55d",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "_upstream/engine.mjs.head",
+   "sha256": "c5da3348b01396787962930a2ad43cc3b182b05c5fa9fb992a382f251b92ae7a",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "bridge/engine.mjs",
+   "source_sha256": "c5da3348b01396787962930a2ad43cc3b182b05c5fa9fb992a382f251b92ae7a",
+   "modified": false
+  },
+  {
+   "path": "_upstream/run.py.fe605e1",
+   "sha256": "f1b826663cf6aec526e278c50187b8f0605816866ec0034e81d348e111987ac2",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "bridge/run.py",
+   "source_sha256": "f1b826663cf6aec526e278c50187b8f0605816866ec0034e81d348e111987ac2",
+   "modified": false
+  },
+  {
+   "path": "_upstream/run.py.head",
+   "sha256": "4bbcfaf8e48cda6c14f6b0480c3b1907c9199bb2f5ae293e62af1cfc29547a42",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "bridge/run.py",
+   "source_sha256": "4bbcfaf8e48cda6c14f6b0480c3b1907c9199bb2f5ae293e62af1cfc29547a42",
+   "modified": false
+  },
+  {
+   "path": "_upstream/transport.py.head",
+   "sha256": "14c37e37e084e4c362c21f695e6a3ef911b94be781229c8fee0e01d1264cf461",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "bridge/transport.py",
+   "source_sha256": "14c37e37e084e4c362c21f695e6a3ef911b94be781229c8fee0e01d1264cf461",
+   "modified": false
+  },
+  {
+   "path": "_upstream/verify_3i.py.fe605e1",
+   "sha256": "91cfb5f2a31b2fa99b4b892c1e76298286a4a2a3e37ff06bc3c794607bef0a98",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "bridge/verify_3i.py",
+   "source_sha256": "91cfb5f2a31b2fa99b4b892c1e76298286a4a2a3e37ff06bc3c794607bef0a98",
+   "modified": false
+  },
+  {
+   "path": "bridge/calibrate.py",
+   "sha256": "bc6d42b8eb3b3a6742cdc2e2613ef71a1e7e46def353942ad9a37081808d5532",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/classify.py",
+   "sha256": "ca6c354e0d7f6465d29076767814139b7533f9331a1a82ee4be18a47d3008a07",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/common.py",
+   "sha256": "83bde9628dc477bc4280e93d851f8f32a1d96017892097b61d705f7e369c5955",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/design_3f.py",
+   "sha256": "07513c651264506fdf1c6da420cddd10baddfe38b7db84eb6ad5f853cbf960a6",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "bridge/design_3f.py",
+   "source_sha256": "07513c651264506fdf1c6da420cddd10baddfe38b7db84eb6ad5f853cbf960a6",
+   "modified": false
+  },
+  {
+   "path": "bridge/engine.mjs",
+   "sha256": "bd147cc2f5d1ff3fd8683706e6d8b3f077ee16610ebf71c3d6a90915bf2021f2",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "bridge/engine.mjs",
+   "source_sha256": "c5da3348b01396787962930a2ad43cc3b182b05c5fa9fb992a382f251b92ae7a",
+   "modified": true
+  },
+  {
+   "path": "bridge/generate.py",
+   "sha256": "06e7855848f0e40f1423cec733aace5b1a89bd2272af65791eb8822718868ec1",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "bridge/generate.py",
+   "source_sha256": "06e7855848f0e40f1423cec733aace5b1a89bd2272af65791eb8822718868ec1",
+   "modified": false
+  },
+  {
+   "path": "bridge/generate_3i.py",
+   "sha256": "114fbff8fadd4b8c114717b6aabb6d78f1c0dac76623b81580d2469462e429d6",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "bridge/generate_3i.py",
+   "source_sha256": "779a13dbcc850a01529f82241b363a5dc2370617a248962b75b2cd362bc54da5",
+   "modified": true
+  },
+  {
+   "path": "bridge/ladder_dsl.py",
+   "sha256": "990fa05a325a8a8805c40983d4890e4e1353ceab4076ebbaedf45be4e59d437e",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "bridge/ladder_dsl.py",
+   "source_sha256": "990fa05a325a8a8805c40983d4890e4e1353ceab4076ebbaedf45be4e59d437e",
+   "modified": false
+  },
+  {
+   "path": "bridge/patent_check.py",
+   "sha256": "2be02791209e20215ebef1111df51ba63e584eeecfb366512f749374a18cddc0",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/probe_engine.mjs",
+   "sha256": "529219e2d2200ad51cd180cdb94dffe544ea16e84c47d82952bc0a991ab9e76e",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/public.py",
+   "sha256": "43e8fe9f92abe84d3623589d139cb9754a7de64293046781738cee8f318744fc",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/recompute.py",
+   "sha256": "a5e694044937926ddf87bd7fb633b738ca50b0ec9d7d3a4d5c73e40de70a856b",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/refcheck.py",
+   "sha256": "6030bd65c9abe896dad8a1e7b7d7b81b13eeeb60fa2858a0ca6b1fdd9ad3022a",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/regenerate_m1.py",
+   "sha256": "323179f87bc655dc2614ebadde29b686e115ff26c1c6116c877fd1277882b5cb",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/replay.py",
+   "sha256": "ccc9fb659708742e1778b8f226271cebef8f9a4306ceb1d4c1660ec7480c979e",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/round.py",
+   "sha256": "0649b9fd47b7680b3a48155917707c7a4a2488a86a0197846f8555b827f6c34b",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/run.py",
+   "sha256": "289f0dc762e303c8ea6699d56f50fc0ee35e1765a655f0076fa0468f26cb763d",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "bridge/run.py",
+   "source_sha256": "4bbcfaf8e48cda6c14f6b0480c3b1907c9199bb2f5ae293e62af1cfc29547a42",
+   "modified": true
+  },
+  {
+   "path": "bridge/scenarios_3i.py",
+   "sha256": "0292e2a13c5b130dac0d6593517dfec0646cf42da562d7f7c8836a3ff7066cf1",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "bridge/scenarios_3i.py",
+   "source_sha256": "0292e2a13c5b130dac0d6593517dfec0646cf42da562d7f7c8836a3ff7066cf1",
+   "modified": false
+  },
+  {
+   "path": "bridge/seed_table.py",
+   "sha256": "6a9f50fc318a074d40303706e904db02fff42adc3b7e1caacf9ae649c4031e18",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/sources.py",
+   "sha256": "4a7ee454648bb3eb9e09b9d12229cd6e927efa1a628896aa26df7fec274f4ad9",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/tables.py",
+   "sha256": "cb82aedca5687505532c98a02639ff1181a5bf646c27966fb69b616fd0874d1d",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/tr05.py",
+   "sha256": "d6eb905f8a1c79c7684591cd1c5f96d0c54e84291c845c9a37bd1a17bb5ce2a1",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "bridge/transport.py",
+   "sha256": "fdfc60eec541f8b29eae6cb4a4279faae279cbae09f29ecefd8a37d9152e4c6d",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "bridge/transport.py",
+   "source_sha256": "14c37e37e084e4c362c21f695e6a3ef911b94be781229c8fee0e01d1264cf461",
+   "modified": true
+  },
+  {
+   "path": "calibration.json",
+   "sha256": "dfcf77bd86f7841a62eb781777951b7a720a6dfdbf2bac6c21b2097e34cbdd46",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "cells/3i-manifest.json",
+   "sha256": "7be67194bc6beb5f63de0f1b722d5a5b5d4b777f99c403574ef7403b71bb87b7",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "cells/3i-manifest.json",
+   "source_sha256": "7be67194bc6beb5f63de0f1b722d5a5b5d4b777f99c403574ef7403b71bb87b7",
+   "modified": false
+  },
+  {
+   "path": "cells/3i-parameters.json",
+   "sha256": "0ba3f2c9ccb41efb0777931cd2b2462aff87e7e54059304937743a00e73763e3",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "cells/3i-parameters.json",
+   "source_sha256": "0ba3f2c9ccb41efb0777931cd2b2462aff87e7e54059304937743a00e73763e3",
+   "modified": false
+  },
+  {
+   "path": "cells/cell-a.tagmap.json",
+   "sha256": "7d1fd2f3de05cbc22669a4c0ba5a40159a996466fbcc6f4192cd155df355d8de",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "cells/cell-a.tagmap.json",
+   "source_sha256": "7d1fd2f3de05cbc22669a4c0ba5a40159a996466fbcc6f4192cd155df355d8de",
+   "modified": false
+  },
+  {
+   "path": "cells/cell-a.tagmap.md",
+   "sha256": "e3fbd235f597cfef575351872fb27a9fcbe3c3589dc9a00746edf405872924e7",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "cells/cell-a.tagmap.md",
+   "source_sha256": "e3fbd235f597cfef575351872fb27a9fcbe3c3589dc9a00746edf405872924e7",
+   "modified": false
+  },
+  {
+   "path": "cells/cell-b.tagmap.json",
+   "sha256": "e26b853a5cd368861d0d2322cc783d7fe44a33730de779c96c439ec1bf1e6ba8",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "cells/cell-b.tagmap.json",
+   "source_sha256": "e26b853a5cd368861d0d2322cc783d7fe44a33730de779c96c439ec1bf1e6ba8",
+   "modified": false
+  },
+  {
+   "path": "cells/cell-b.tagmap.md",
+   "sha256": "b2844d6779eb773727168cba21c47ce756040d82deca84a53c1230dc6bd07304",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "cells/cell-b.tagmap.md",
+   "source_sha256": "b2844d6779eb773727168cba21c47ce756040d82deca84a53c1230dc6bd07304",
+   "modified": false
+  },
+  {
+   "path": "experiments/S2/criteria-3i.md",
+   "sha256": "51fda55597a4ea15e54398ead9973ce6f0c8b7f66b69be0cdccd18a5e1a49900",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "experiments/S2/criteria-3i.md",
+   "source_sha256": "51fda55597a4ea15e54398ead9973ce6f0c8b7f66b69be0cdccd18a5e1a49900",
+   "modified": false
+  },
+  {
+   "path": "fixed.json",
+   "sha256": "532167ac1078b01ea5b4b9a42dd3ca2879a3d23e707dccab9c89b8024eae4442",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "ladders/cell-a/correct/README.md",
+   "sha256": "41702bcd2d18fa4a13d2e8f3da94db5f7bedb7304d74ab1ab1822959aee5d227",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/correct/README.md",
+   "source_sha256": "41702bcd2d18fa4a13d2e8f3da94db5f7bedb7304d74ab1ab1822959aee5d227",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/correct/monitor-map.json",
+   "sha256": "49de907b31a776b4b6fcd82e7de428a8f84460ab19e452796a97862c13ab6133",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/correct/monitor-map.json",
+   "source_sha256": "49de907b31a776b4b6fcd82e7de428a8f84460ab19e452796a97862c13ab6133",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/correct/program.ldprog.json",
+   "sha256": "5058bd0b97644e66c0310a540a0403931bf6bd8195445576430d6dd1cabf8ef1",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/correct/program.ldprog.json",
+   "source_sha256": "5058bd0b97644e66c0310a540a0403931bf6bd8195445576430d6dd1cabf8ef1",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/late-reverse/README.md",
+   "sha256": "f6528757245bce488dedee757026f2b357976afcdfe9e95c4bab19f69ca68b34",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/late-reverse/README.md",
+   "source_sha256": "f6528757245bce488dedee757026f2b357976afcdfe9e95c4bab19f69ca68b34",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/late-reverse/monitor-map.json",
+   "sha256": "49de907b31a776b4b6fcd82e7de428a8f84460ab19e452796a97862c13ab6133",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/late-reverse/monitor-map.json",
+   "source_sha256": "49de907b31a776b4b6fcd82e7de428a8f84460ab19e452796a97862c13ab6133",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/late-reverse/program.ldprog.json",
+   "sha256": "76018c387dddc09aa5411da241897c1ba20a4629844c301ccd3200140f1b7aa1",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/late-reverse/program.ldprog.json",
+   "source_sha256": "76018c387dddc09aa5411da241897c1ba20a4629844c301ccd3200140f1b7aa1",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/swapped-sensors/README.md",
+   "sha256": "20e28fb0a7c276aa6e210497c93af051d38b5c63007a853a92d88396503e19a7",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/swapped-sensors/README.md",
+   "source_sha256": "20e28fb0a7c276aa6e210497c93af051d38b5c63007a853a92d88396503e19a7",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/swapped-sensors/monitor-map.json",
+   "sha256": "49de907b31a776b4b6fcd82e7de428a8f84460ab19e452796a97862c13ab6133",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/swapped-sensors/monitor-map.json",
+   "source_sha256": "49de907b31a776b4b6fcd82e7de428a8f84460ab19e452796a97862c13ab6133",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-a/swapped-sensors/program.ldprog.json",
+   "sha256": "7fd10917b31949e24528fbc5398501cdd9852cda18537af07671c0d308e8c6e5",
+   "source": "plc-twin-lab",
+   "commit": "a362610548527a7a0958df0062ab08d4798df345",
+   "source_path": "ladders/cell-a/swapped-sensors/program.ldprog.json",
+   "source_sha256": "7fd10917b31949e24528fbc5398501cdd9852cda18537af07671c0d308e8c6e5",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b/correct/README.md",
+   "sha256": "4275f78ee82993ecca458f45699b3648ca01d94dd5d3a6a123acf4d86b3c9916",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "ladders/cell-b/correct/README.md",
+   "source_sha256": "4275f78ee82993ecca458f45699b3648ca01d94dd5d3a6a123acf4d86b3c9916",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b/correct/program.ldprog.json",
+   "sha256": "eb44ce59b386e175ab22255f684dbd277b27e00906fb0b92d81703e7f389209f",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "ladders/cell-b/correct/program.ldprog.json",
+   "source_sha256": "eb44ce59b386e175ab22255f684dbd277b27e00906fb0b92d81703e7f389209f",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b/ignore-curtain/README.md",
+   "sha256": "2e29222c45b088ed6aeffc91b6273a2ac54fca6cca653f2e761bc1bb7a90522d",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "ladders/cell-b/ignore-curtain/README.md",
+   "source_sha256": "2e29222c45b088ed6aeffc91b6273a2ac54fca6cca653f2e761bc1bb7a90522d",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b/ignore-curtain/program.ldprog.json",
+   "sha256": "396aa80ffa273e6d0374ffd8a99c1eb619a5224a7ef7d8338c70961cd98e2d7d",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "ladders/cell-b/ignore-curtain/program.ldprog.json",
+   "source_sha256": "396aa80ffa273e6d0374ffd8a99c1eb619a5224a7ef7d8338c70961cd98e2d7d",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b/no-sort-check/program.ldprog.json",
+   "sha256": "22ccda36321cdbd4b9bd1c651deab467157ecfe88347d0ed9a3e515b035724dc",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "ladders/cell-b/no-sort-check/program.ldprog.json",
+   "source_sha256": "22ccda36321cdbd4b9bd1c651deab467157ecfe88347d0ed9a3e515b035724dc",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b/push-timing-off/README.md",
+   "sha256": "5de45b6f69c779702e7fa6da07bf210477fe2d75243ebb4b3aa887bcc0dbe2ac",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "ladders/cell-b/push-timing-off/README.md",
+   "source_sha256": "5de45b6f69c779702e7fa6da07bf210477fe2d75243ebb4b3aa887bcc0dbe2ac",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b/push-timing-off/program.ldprog.json",
+   "sha256": "78951c5517af831727f5518d5d31b0ad9a702ff0feb605b45a590afe829f4010",
+   "source": "plc-twin-lab",
+   "commit": "fe605e1b3721ed21418fe2d445150fcae300db2c",
+   "source_path": "ladders/cell-b/push-timing-off/program.ldprog.json",
+   "source_sha256": "78951c5517af831727f5518d5d31b0ad9a702ff0feb605b45a590afe829f4010",
+   "modified": false
+  },
+  {
+   "path": "ladders/cell-b-m1/correct/program.ldprog.json",
+   "sha256": "06db7026ff35e3a705578200f73318948ac9e5006fafcfbcbf5cb0bfd80a59de",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "ladders/cell-b-m1/ignore-curtain/program.ldprog.json",
+   "sha256": "e83a8a206378585517571be4c1a8c2116d4f38efcbe88bb5e0f8212f14ac5592",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "ladders/cell-b-m1/m1-constants.json",
+   "sha256": "6006ae805bce462fb8c066577da9435693368ad4eb57554411806735beee6321",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "ladders/cell-b-m1/m1-reference-params.json",
+   "sha256": "2be815a93906550482f962c44fd62150d0b14308e652c6265df29654c98f30a0",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "ladders/cell-b-m1/no-sort-check/program.ldprog.json",
+   "sha256": "e5cfa34d52676093184fb5bb39f42a256e221a8b04b7d1ec253bc7ee64093bb3",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "ladders/cell-b-m1/push-timing-off/program.ldprog.json",
+   "sha256": "55fb9267a1a1a695be266e762656b7e890d73845c1487e2ee84dd56ab31cdae7",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "ladders/cell-b-m1/regenerate-report.json",
+   "sha256": "98585a4cf7dee8d728cd1661c0433e37fcdb961e2db3a758d97b6e9d3d6e8330",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  },
+  {
+   "path": "seed-table.json",
+   "sha256": "d02d62f3975411e3d01b3a58d0c50eb740ffe2b46375c04928788b4bdee3c320",
+   "source": "TR-05 사본에서 새로 씀",
+   "modified": null
+  }
+ ]
+}

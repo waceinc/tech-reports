@@ -1,0 +1,52 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "e4:cell-a-0004",
+  "scenario": "normal",
+  "seed": 1,
+  "physics": "mujoco",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[FAIL]",
+  "ticks": 1000,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": 1.99285733690861e-09,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": null,
+  "reference": null,
+  "reference_raw": null,
+  "run": {
+    "group": "e4",
+    "condition": "M0",
+    "cell": "cell-a",
+    "variant": "e4:cell-a-0004",
+    "scenario": "normal",
+    "seed": 1,
+    "bin": null,
+    "setting": null,
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "8143bc0dcf8ab81c1607067468186e6128799f2e353eb3daf8501aa518632c01",
+  "physics_hashes": {
+    "values_sha256": "5703c07092178d7068d71338df3e1e663f957f4576571ba9d4cb09ce273ec883",
+    "setup_sha256": "1405abba91c61d3d86ec41943aa45acc3fcbc955f62034e80224027beef31111"
+  }
+}

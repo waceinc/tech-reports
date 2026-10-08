@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "main": 162,
+    "repeat": 106,
+    "gate": 9,
+    "openloop": 14,
+    "p8": 156,
+    "e4": 100,
+    "model": 60
+  },
+  "got": {
+    "main": 162,
+    "repeat": 106,
+    "gate": 9,
+    "openloop": 14,
+    "p8": 156,
+    "e4": 100,
+    "model": 60
+  },
+  "short": [],
+  "stages": [
+    "e4",
+    "gate",
+    "main",
+    "model",
+    "openloop",
+    "p8",
+    "repeat"
+  ]
+}

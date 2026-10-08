@@ -1,0 +1,67 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-a",
+  "variant": "correct",
+  "scenario": "cycle-stop",
+  "seed": 1,
+  "physics": "mujoco",
+  "belt_factor": 1.05,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 1200,
+  "verdict_kind": "process",
+  "first_lock": null,
+  "lock_window": null,
+  "chute_on_at_lock": null,
+  "end_fault_code": null,
+  "arrivals": null,
+  "events": [],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 0,
+      "route_tick": 1,
+      "x": -0.5670000020891063,
+      "on_floor": false,
+      "stacked": false
+    }
+  ],
+  "ledger_free": null,
+  "reference": {
+    "first_lock": null,
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": null,
+    "exception_shape_scans": [],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 0,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [],
+    "after_by_tag": {},
+    "last_arrive_scan": null,
+    "arrivals20_scan": null
+  },
+  "run": {
+    "group": "p8",
+    "condition": "M0",
+    "cell": "cell-a",
+    "variant": "correct",
+    "scenario": "cycle-stop",
+    "seed": 1,
+    "bin": null,
+    "setting": "belt_1.05",
+    "rep": 1,
+    "attempt": 1
+  },
+  "trace_hash": "e726abb5163152bfecc0bf552f91f519e7501a432bac04fe0df2fc88dc72ec17",
+  "physics_hashes": {
+    "values_sha256": "5703c07092178d7068d71338df3e1e663f957f4576571ba9d4cb09ce273ec883",
+    "setup_sha256": "1405abba91c61d3d86ec41943aa45acc3fcbc955f62034e80224027beef31111"
+  }
+}

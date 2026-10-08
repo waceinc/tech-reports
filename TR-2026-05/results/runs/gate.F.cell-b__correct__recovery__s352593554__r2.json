@@ -1,0 +1,213 @@
+{
+  "schema": "tr05-run-digest/1",
+  "cell": "cell-b",
+  "variant": "correct",
+  "scenario": "recovery",
+  "seed": 352593554,
+  "physics": "fast",
+  "belt_factor": 1.0,
+  "physics_values": {},
+  "category": "valid",
+  "status": "[PASS]",
+  "ticks": 2800,
+  "verdict_kind": "recovery",
+  "first_lock": {
+    "tick": 288,
+    "scan": 288,
+    "fault_code": 18
+  },
+  "lock_window": null,
+  "chute_on_at_lock": false,
+  "end_fault_code": 0,
+  "arrivals": 0,
+  "events": [
+    [
+      659,
+      "PUSH_TOO_EARLY",
+      "FLY-01",
+      "part2"
+    ]
+  ],
+  "judgments": [],
+  "parts": [
+    {
+      "id": "part1",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1496,
+      "x": 7.385
+    },
+    {
+      "id": "part2",
+      "cls": 0,
+      "route": 3,
+      "route_tick": 1064,
+      "x": 0.9
+    },
+    {
+      "id": "part3",
+      "cls": 1,
+      "route": 2,
+      "route_tick": 1611,
+      "x": 7.165
+    },
+    {
+      "id": "part4",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1659,
+      "x": 6.945
+    },
+    {
+      "id": "part5",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1707,
+      "x": 6.725
+    },
+    {
+      "id": "part6",
+      "cls": 1,
+      "route": 2,
+      "route_tick": 1756,
+      "x": 6.505
+    },
+    {
+      "id": "part7",
+      "cls": 1,
+      "route": 2,
+      "route_tick": 1804,
+      "x": 6.285
+    },
+    {
+      "id": "part8",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1852,
+      "x": 6.065
+    },
+    {
+      "id": "part9",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1901,
+      "x": 5.845
+    },
+    {
+      "id": "part10",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1949,
+      "x": 5.625
+    },
+    {
+      "id": "part11",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 1997,
+      "x": 5.405
+    },
+    {
+      "id": "part12",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 2046,
+      "x": 5.185
+    },
+    {
+      "id": "part13",
+      "cls": 1,
+      "route": 2,
+      "route_tick": 2094,
+      "x": 4.965
+    },
+    {
+      "id": "part14",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 2142,
+      "x": 4.745
+    },
+    {
+      "id": "part15",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 2191,
+      "x": 4.525
+    },
+    {
+      "id": "part16",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 2239,
+      "x": 4.305
+    },
+    {
+      "id": "part17",
+      "cls": 1,
+      "route": 2,
+      "route_tick": 2287,
+      "x": 4.085
+    },
+    {
+      "id": "part18",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 2336,
+      "x": 3.865
+    },
+    {
+      "id": "part19",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 2384,
+      "x": 3.645
+    },
+    {
+      "id": "part20",
+      "cls": 0,
+      "route": 2,
+      "route_tick": 2432,
+      "x": 3.425
+    }
+  ],
+  "ledger_free": null,
+  "reference": {
+    "first_lock": {
+      "tick": 288,
+      "scan": 288,
+      "fault_code": 18
+    },
+    "before_lock": 0,
+    "before_lock_first": [],
+    "exception": null,
+    "exception_shape_scans": [],
+    "after_lock": 0,
+    "after_lock_by_tag": {},
+    "total": 0,
+    "invalid": false
+  },
+  "reference_raw": {
+    "before": [],
+    "after_by_tag": {},
+    "last_arrive_scan": 261,
+    "arrivals20_scan": null
+  },
+  "run": {
+    "group": "gate",
+    "condition": "F",
+    "cell": "cell-b",
+    "variant": "correct",
+    "scenario": "recovery",
+    "seed": 352593554,
+    "bin": 5,
+    "setting": null,
+    "rep": 2,
+    "attempt": 1
+  },
+  "trace_hash": "9b77a1d1d9d672871e52815597ee6ba7fb0b7af47b61104b922a1c9e2e898dfa",
+  "physics_hashes": {
+    "values_sha256": null,
+    "setup_sha256": null
+  }
+}

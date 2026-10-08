@@ -1,0 +1,26 @@
+[
+  {
+    "tick": 4461,
+    "scan": 4461,
+    "expected": {
+      "B.Conv.run": true,
+      "B.Stp.sol": false,
+      "B.Psh.sol": false,
+      "B.Lamp.green": true,
+      "B.Lamp.yellow": false,
+      "B.Lamp.red": false,
+      "B.Recovery.retract": false,
+      "B.Recovery.finishPush": false
+    },
+    "actual": {
+      "B.Conv.run": false,
+      "B.Stp.sol": false,
+      "B.Psh.sol": false,
+      "B.Lamp.green": false,
+      "B.Lamp.yellow": true,
+      "B.Lamp.red": false,
+      "B.Recovery.retract": false,
+      "B.Recovery.finishPush": false
+    }
+  }
+]

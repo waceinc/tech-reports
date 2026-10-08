@@ -1,0 +1,6355 @@
+{
+  "schema": "tr05-tables/1",
+  "categories": {
+    "valid": 607
+  },
+  "whole_run_invalid_reference": [],
+  "predictions": {
+    "P1": {
+      "result": "[맞음]",
+      "count": 3,
+      "of": 4,
+      "undecided": 0
+    },
+    "P2": {
+      "result": "[맞음]",
+      "count": 0,
+      "of": 8,
+      "undecided": 0
+    },
+    "P3": {
+      "result": "[맞음]",
+      "x": 3,
+      "n0": 3,
+      "undecided": 0
+    },
+    "P4": {
+      "result": "[맞음]",
+      "discordant": 0,
+      "of": 28,
+      "undecided": 0
+    },
+    "P5": {
+      "result": "[맞음]",
+      "of": 4,
+      "undecided": 0
+    },
+    "P6": {
+      "result": "[맞음]",
+      "gate_pairs": 9,
+      "gate_same": true,
+      "m_deterministic": true
+    },
+    "P7": {
+      "result": "[맞음]",
+      "n": 480,
+      "within": 480,
+      "chute_median": 170.0,
+      "batches": 12
+    },
+    "P8": {
+      "result": "[맞음]",
+      "n": 3,
+      "holding": 3,
+      "detail": {
+        "352593554": {
+          "h": 6,
+          "k": 8
+        },
+        "1829005345": {
+          "h": 6,
+          "k": 8
+        },
+        "3570567229": {
+          "h": 7,
+          "k": 8
+        }
+      }
+    },
+    "F1": {
+      "result": "[틀림]",
+      "count": 4,
+      "of": 25,
+      "undecided": 0,
+      "meaning": "반증 조건 불성립"
+    },
+    "F2": {
+      "result": "[틀림]",
+      "discordant": 0,
+      "undecided": 0,
+      "meaning": "반증 조건 불성립"
+    },
+    "F3": {
+      "result": "[틀림]",
+      "count": 4,
+      "of": 25,
+      "undecided": 0,
+      "meaning": "반증 조건 불성립"
+    }
+  },
+  "tables": {
+    "table1": [
+      {
+        "pair": [
+          "cell-a",
+          "correct",
+          "cycle-stop",
+          1
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-a",
+          "correct",
+          "normal",
+          1
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1409986221
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1584772094
+        ],
+        "condition": "F",
+        "verdict": "[FAIL]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1829005345
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          2033289244
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          2701952951
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3162308072
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          352593554
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3570567229
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3637394171
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3814400361
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          682508701
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          692445127
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1409986221
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1584772094
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2033289244
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2701952951
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3637394171
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3814400361
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "recovery",
+          352593554
+        ],
+        "condition": "F",
+        "verdict": "[PASS]",
+        "state": "single",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 1
+      },
+      {
+        "pair": [
+          "cell-a",
+          "correct",
+          "cycle-stop",
+          1
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-a",
+          "correct",
+          "normal",
+          1
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1409986221
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1584772094
+        ],
+        "condition": "M0",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1829005345
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          2033289244
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          2701952951
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3162308072
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          352593554
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3570567229
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3637394171
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3814400361
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          682508701
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          692445127
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1409986221
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1584772094
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "condition": "M0",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 3,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2033289244
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2701952951
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "condition": "M0",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 3,
+        "ledger_free": "[FAIL]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "condition": "M0",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 3,
+        "ledger_free": "[FAIL]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3637394171
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3814400361
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "condition": "M0",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 13,
+        "ledger_free": "[FAIL]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "recovery",
+          352593554
+        ],
+        "condition": "M0",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1409986221
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1584772094
+        ],
+        "condition": "M1",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          1829005345
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          2033289244
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          2701952951
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3162308072
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          352593554
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3570567229
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3637394171
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          3814400361
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          682508701
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "curtain",
+          692445127
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1409986221
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1584772094
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "condition": "M1",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 3,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2033289244
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2701952951
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "condition": "M1",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 3,
+        "ledger_free": "[FAIL]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "condition": "M1",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 3,
+        "ledger_free": "[FAIL]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3637394171
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3814400361
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 0,
+        "ledger_free": "[PASS]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "condition": "M1",
+        "verdict": "[FAIL]",
+        "state": "deterministic",
+        "category": "가",
+        "first_lock": 3,
+        "ledger_free": "[FAIL]",
+        "runs": 2
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "recovery",
+          352593554
+        ],
+        "condition": "M1",
+        "verdict": "[PASS]",
+        "state": "deterministic",
+        "category": "same",
+        "first_lock": 18,
+        "ledger_free": null,
+        "runs": 2
+      }
+    ],
+    "table2": {
+      "rows": [
+        {
+          "pair": [
+            "cell-a",
+            "late-reverse",
+            "cycle-stop",
+            1
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-a",
+            "late-reverse",
+            "normal",
+            1
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-a",
+            "swapped-sensors",
+            "cycle-stop",
+            1
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-a",
+            "swapped-sensors",
+            "normal",
+            1
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1409986221
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1584772094
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1829005345
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            2033289244
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            2701952951
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3162308072
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            352593554
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3570567229
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3637394171
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3814400361
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            682508701
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            692445127
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "no-sort-check",
+            "flow",
+            352593554
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1409986221
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1584772094
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1829005345
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            2033289244
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            2701952951
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3162308072
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            352593554
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3570567229
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3637394171
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3814400361
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            682508701
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            692445127
+          ],
+          "condition": "F",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-a",
+            "late-reverse",
+            "cycle-stop",
+            1
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-a",
+            "late-reverse",
+            "normal",
+            1
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-a",
+            "swapped-sensors",
+            "cycle-stop",
+            1
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-a",
+            "swapped-sensors",
+            "normal",
+            1
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1409986221
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1584772094
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1829005345
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            2033289244
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            2701952951
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3162308072
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            352593554
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3570567229
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3637394171
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3814400361
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            682508701
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            692445127
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "no-sort-check",
+            "flow",
+            352593554
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1409986221
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1584772094
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1829005345
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            2033289244
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            2701952951
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3162308072
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            352593554
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3570567229
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3637394171
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3814400361
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            682508701
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            692445127
+          ],
+          "condition": "M0",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1409986221
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1584772094
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            1829005345
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            2033289244
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            2701952951
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3162308072
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            352593554
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3570567229
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3637394171
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            3814400361
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            682508701
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "ignore-curtain",
+            "curtain",
+            692445127
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "no-sort-check",
+            "flow",
+            352593554
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": false,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1409986221
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1584772094
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            1829005345
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            2033289244
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            2701952951
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3162308072
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            352593554
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3570567229
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3637394171
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            3814400361
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            682508701
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        },
+        {
+          "pair": [
+            "cell-b",
+            "push-timing-off",
+            "normal",
+            692445127
+          ],
+          "condition": "M1",
+          "verdict": "[FAIL]",
+          "reason_detected": true,
+          "verdict_detected": true
+        }
+      ],
+      "main_detected": {
+        "F": 21,
+        "M0": 21,
+        "M1": 17
+      },
+      "aux13": {
+        "F": 13,
+        "M0": 13,
+        "M1": 13
+      },
+      "aux16": {
+        "F": 16,
+        "M0": 16,
+        "M1": 12
+      }
+    },
+    "table3": [
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            390,
+            390,
+            10
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2701952951
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            10,
+            10,
+            390
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1584772094
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            240,
+            390,
+            10
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1409986221
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            390,
+            390,
+            10
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            170,
+            10,
+            240,
+            180
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3637394171
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            170,
+            180,
+            170,
+            390
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          2033289244
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            170,
+            10,
+            240,
+            20
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3814400361
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            170,
+            10,
+            390,
+            390
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            390,
+            390,
+            10,
+            10,
+            170
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            10,
+            390,
+            10,
+            10,
+            170
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            10,
+            170,
+            10,
+            390,
+            10
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "p7": {
+          "n": 40,
+          "within": 40,
+          "chute_rise_diffs": [
+            10,
+            170,
+            10,
+            390,
+            10
+          ]
+        },
+        "routes": 20,
+        "chute": 0
+      },
+      {
+        "pair": [
+          "cell-a",
+          "correct",
+          "normal",
+          1
+        ],
+        "p7": {
+          "n": 0,
+          "within": 0,
+          "chute_rise_diffs": []
+        },
+        "routes": 1,
+        "chute": null
+      },
+      {
+        "pair": [
+          "cell-a",
+          "correct",
+          "cycle-stop",
+          1
+        ],
+        "p7": {
+          "n": 0,
+          "within": 0,
+          "chute_rise_diffs": []
+        },
+        "routes": 1,
+        "chute": null
+      }
+    ],
+    "table4": {
+      "352593554": {
+        "h": 6,
+        "k": 8
+      },
+      "1829005345": {
+        "h": 6,
+        "k": 8
+      },
+      "3570567229": {
+        "h": 7,
+        "k": 8
+      }
+    },
+    "table5": [
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "sensor_rotated",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "step_0.0005",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "facets_20",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "deck_static_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "torsion_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "torsion_0.02",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "z_+0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "z_+0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "z_-0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "setting": "z_-0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "sensor_rotated",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "step_0.0005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "facets_20",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "deck_static_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "torsion_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "torsion_0.02",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "z_+0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "z_+0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "z_-0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "setting": "z_-0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "sensor_rotated",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "step_0.0005",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "facets_20",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "deck_static_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "torsion_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "torsion_0.02",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "z_+0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "z_+0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "z_-0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "setting": "z_-0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "sensor_rotated",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "step_0.0005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "facets_20",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "deck_static_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "torsion_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "torsion_0.02",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "z_+0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "z_+0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "z_-0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "setting": "z_-0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "sensor_rotated",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "step_0.0005",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "facets_20",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "deck_static_0",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "torsion_0",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "torsion_0.02",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "z_+0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "z_+0.005",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "z_-0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          682508701
+        ],
+        "setting": "z_-0.005",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "sensor_rotated",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "step_0.0005",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "facets_20",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "deck_static_0",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "torsion_0",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "torsion_0.02",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "z_+0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "z_+0.005",
+        "condition": "M0",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "z_-0.005",
+        "condition": "F",
+        "verdict": "[PASS]"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3162308072
+        ],
+        "setting": "z_-0.005",
+        "condition": "M0",
+        "verdict": "[FAIL]"
+      }
+    ],
+    "table6": [
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "condition": "M0",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1509,
+          "kind": "lock",
+          "fault_code": 3,
+          "side": "M",
+          "window": null
+        },
+        "e1_row": "r5",
+        "e1_class": "다름"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "condition": "M0",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1709,
+          "kind": "lock",
+          "fault_code": 3,
+          "side": "M",
+          "window": null
+        },
+        "e1_row": "r5",
+        "e1_class": "다름"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "condition": "M0",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1630,
+          "kind": "lock",
+          "fault_code": 13,
+          "side": "M",
+          "window": "chute"
+        },
+        "e1_row": "r3",
+        "e1_class": "접촉 계산으로 바꿈"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "condition": "M0",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1636,
+          "kind": "lock",
+          "fault_code": 3,
+          "side": "M",
+          "window": null
+        },
+        "e1_row": "r5",
+        "e1_class": "다름"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          352593554
+        ],
+        "condition": "M1",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1528,
+          "kind": "lock",
+          "fault_code": 3,
+          "side": "M",
+          "window": null
+        },
+        "e1_row": "r5",
+        "e1_class": "다름"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          1829005345
+        ],
+        "condition": "M1",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1728,
+          "kind": "lock",
+          "fault_code": 3,
+          "side": "M",
+          "window": null
+        },
+        "e1_row": "r5",
+        "e1_class": "다름"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          692445127
+        ],
+        "condition": "M1",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1651,
+          "kind": "lock",
+          "fault_code": 3,
+          "side": "M",
+          "window": null
+        },
+        "e1_row": "r5",
+        "e1_class": "다름"
+      },
+      {
+        "pair": [
+          "cell-b",
+          "correct",
+          "normal",
+          3570567229
+        ],
+        "condition": "M1",
+        "direction": "[PASS]->[FAIL]",
+        "category": "가",
+        "first_divergence": {
+          "tick": 1651,
+          "kind": "lock",
+          "fault_code": 3,
+          "side": "M",
+          "window": null
+        },
+        "e1_row": "r5",
+        "e1_class": "다름"
+      }
+    ],
+    "table7": [
+      {
+        "run_id": "main.F.cell-a__correct__normal__s1__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-a__correct__cycle-stop__s1__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-a__correct__normal__s1__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-a__correct__cycle-stop__s1__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s682508701__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s682508701__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s2701952951__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s2701952951__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s1584772094__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s1584772094__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s1409986221__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s1409986221__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s3162308072__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s3162308072__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s3637394171__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s3637394171__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s2033289244__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s2033289244__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s3814400361__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s3814400361__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s1829005345__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s1829005345__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s692445127__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s692445127__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__normal__s3570567229__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__curtain__s3570567229__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.F.cell-b__correct__recovery__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s682508701__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s682508701__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s2701952951__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s2701952951__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s1584772094__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s1584772094__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s1409986221__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s1409986221__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s3162308072__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s3162308072__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s3637394171__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s3637394171__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s2033289244__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s2033289244__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s3814400361__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s3814400361__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s1829005345__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 3292,
+          "after_lock_by_tag": {
+            "B.Lamp.yellow": 3292,
+            "B.Lamp.red": 3292
+          },
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s1829005345__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s692445127__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s692445127__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__normal__s3570567229__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__curtain__s3570567229__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M0.cell-b__correct__recovery__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s682508701__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s682508701__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s2701952951__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s2701952951__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s1584772094__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s1584772094__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s1409986221__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s1409986221__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s3162308072__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s3162308072__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s3637394171__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s3637394171__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s2033289244__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s2033289244__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s3814400361__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s3814400361__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s1829005345__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 3273,
+          "after_lock_by_tag": {
+            "B.Lamp.yellow": 3273,
+            "B.Lamp.red": 3273
+          },
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s1829005345__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s692445127__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s692445127__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__normal__s3570567229__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__curtain__s3570567229__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "main.M1.cell-b__correct__recovery__s352593554__r1",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-a__correct__normal__s1__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-a__correct__cycle-stop__s1__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s682508701__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s682508701__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s2701952951__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s2701952951__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s1584772094__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s1584772094__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s1409986221__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s1409986221__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s3162308072__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s3162308072__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s3637394171__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s3637394171__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s2033289244__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s2033289244__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s3814400361__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s3814400361__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s352593554__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s352593554__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s1829005345__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 3292,
+          "after_lock_by_tag": {
+            "B.Lamp.yellow": 3292,
+            "B.Lamp.red": 3292
+          },
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s1829005345__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s692445127__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s692445127__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__normal__s3570567229__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__curtain__s3570567229__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M0.cell-b__correct__recovery__s352593554__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s682508701__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s682508701__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s2701952951__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s2701952951__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s1584772094__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s1584772094__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s1409986221__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s1409986221__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s3162308072__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s3162308072__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s3637394171__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s3637394171__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s2033289244__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s2033289244__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s3814400361__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s3814400361__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s352593554__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s352593554__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s1829005345__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 3273,
+          "after_lock_by_tag": {
+            "B.Lamp.yellow": 3273,
+            "B.Lamp.red": 3273
+          },
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s1829005345__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s692445127__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s692445127__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__normal__s3570567229__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__curtain__s3570567229__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "repeat.M1.cell-b__correct__recovery__s352593554__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "gate.F.cell-a__correct__normal__s1__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "gate.F.cell-b__correct__normal__s682508701__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": {
+            "tick": 4461,
+            "scan": 4461,
+            "tags": [
+              "B.Conv.run",
+              "B.Lamp.green",
+              "B.Lamp.yellow"
+            ],
+            "last_arrive_scan": 1461,
+            "arrivals20_scan": 1461
+          },
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "gate.F.cell-b__correct__curtain__s682508701__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      },
+      {
+        "run_id": "gate.F.cell-b__correct__recovery__s352593554__r2",
+        "reference": {
+          "before_lock": 0,
+          "exception": null,
+          "after_lock": 0,
+          "after_lock_by_tag": {},
+          "invalid": false
+        }
+      }
+    ],
+    "table8": null
+  },
+  "outcomes": {
+    "cell-a|correct|normal|1|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-a|correct|cycle-stop|1|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-a|late-reverse|normal|1|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "single"
+    },
+    "cell-a|late-reverse|cycle-stop|1|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "single"
+    },
+    "cell-a|swapped-sensors|normal|1|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "single"
+    },
+    "cell-a|swapped-sensors|cycle-stop|1|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "single"
+    },
+    "cell-a|correct|normal|1|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-a|correct|cycle-stop|1|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-a|late-reverse|normal|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-a|late-reverse|cycle-stop|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-a|swapped-sensors|normal|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-a|swapped-sensors|cycle-stop|1|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|682508701|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|682508701|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|682508701|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|682508701|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2701952951|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|2701952951|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|2701952951|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|2701952951|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|1584772094|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|1584772094|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|1584772094|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|1584772094|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|1409986221|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|1409986221|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|1409986221|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|1409986221|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|3162308072|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|3162308072|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|3162308072|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|3162308072|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|correct|normal|3637394171|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|3637394171|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|3637394171|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|3637394171|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|2033289244|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|2033289244|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|2033289244|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|2033289244|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|correct|normal|3814400361|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|3814400361|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|3814400361|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|3814400361|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|352593554|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|352593554|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|352593554|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|352593554|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|correct|normal|1829005345|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|1829005345|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|1829005345|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|1829005345|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|correct|normal|692445127|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|692445127|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|692445127|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|692445127|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|3570567229|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|curtain|3570567229|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|push-timing-off|normal|3570567229|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|ignore-curtain|curtain|3570567229|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "single"
+    },
+    "cell-b|correct|recovery|352593554|F": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|no-sort-check|flow|352593554|F": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 15,
+      "det": false,
+      "state": "single"
+    },
+    "cell-b|correct|normal|682508701|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|682508701|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|682508701|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|682508701|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|2701952951|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|2701952951|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|2701952951|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|2701952951|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|1584772094|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|1584772094|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|1584772094|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|1584772094|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|1409986221|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|1409986221|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|1409986221|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|1409986221|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3162308072|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3162308072|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3162308072|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3162308072|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3637394171|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3637394171|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3637394171|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3637394171|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|2033289244|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|2033289244|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|2033289244|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|2033289244|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3814400361|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3814400361|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3814400361|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3814400361|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 3,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|352593554|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|1829005345|M0": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 3,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|1829005345|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|1829005345|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|1829005345|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|692445127|M0": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 13,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|692445127|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|692445127|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|692445127|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3570567229|M0": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 3,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3570567229|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3570567229|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3570567229|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|recovery|352593554|M0": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|no-sort-check|flow|352593554|M0": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 15,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|682508701|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|682508701|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|682508701|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|682508701|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|2701952951|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|2701952951|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|2701952951|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|2701952951|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|1584772094|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|1584772094|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|1584772094|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 5,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|1584772094|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|1409986221|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|1409986221|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|1409986221|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|1409986221|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3162308072|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3162308072|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3162308072|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 5,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3162308072|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3637394171|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3637394171|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3637394171|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 5,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3637394171|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|2033289244|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|2033289244|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|2033289244|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 5,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|2033289244|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3814400361|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3814400361|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3814400361|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 5,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3814400361|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 3,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|352593554|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|1829005345|M1": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 3,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|1829005345|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|1829005345|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|1829005345|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|692445127|M1": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 3,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|692445127|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|692445127|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|692445127|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 0,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|normal|3570567229|M1": {
+      "v": "[FAIL]",
+      "cat": "가",
+      "fc": 3,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|correct|curtain|3570567229|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|push-timing-off|normal|3570567229|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 13,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|ignore-curtain|curtain|3570567229|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 11,
+      "det": true,
+      "state": "deterministic"
+    },
+    "cell-b|correct|recovery|352593554|M1": {
+      "v": "[PASS]",
+      "cat": "same",
+      "fc": 18,
+      "det": false,
+      "state": "deterministic"
+    },
+    "cell-b|no-sort-check|flow|352593554|M1": {
+      "v": "[FAIL]",
+      "cat": "same",
+      "fc": 15,
+      "det": false,
+      "state": "deterministic"
+    }
+  }
+}

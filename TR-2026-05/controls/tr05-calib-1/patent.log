@@ -1,0 +1,6 @@
+[PASS] patent scan positive 16 targets 22 hits 5 word-level 5 missing 0
+   TR-2026-05_사전등록_v0.6.md 10-3003470 검색 증강 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 SHACL 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 변화율 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 동적 속성 2 word 2
+   TR-2026-05_사전등록_v0.6.md KP26038 선제 차단 2 word 2
